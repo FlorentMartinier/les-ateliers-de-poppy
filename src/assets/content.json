@@ -9,6 +9,7 @@
             "menu_title": [
                 "Bienvenue"
             ],
+            "path": "",
             "banner_image": "assets/banners/images.jfif",
             "informations": [
                 {
@@ -34,6 +35,7 @@
             "menu_title": [
                 "Présentation"
             ],
+            "path": "présentation",
             "banner_image": "assets/banners/images.jfif",
             "informations": [
                 {
@@ -111,6 +113,7 @@
                 "Animation enfant à votre domicile",
                 "Grand coeur bois"
             ],
+            "path": "les-ateliers-enfants-chez-vous/grand-cœur-bois",
             "banner_image": "assets/banners/images.jfif",
             "informations": [
                 {
@@ -132,6 +135,7 @@
                 "Animation enfant à votre domicile",
                 "Cadre végétal"
             ],
+            "path": "les-ateliers-enfants-chez-vous/cadre-végétal",
             "banner_image": "assets/images/cadre_vegetal_7.jpg",
             "informations": [
                 {

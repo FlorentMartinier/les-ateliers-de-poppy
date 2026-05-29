@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { MenuItem, SiteConfig, SiteSection } from './models/site.models';
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, NavigationEnd, Router, RouterModule } from '@angular/router';
+import { filter } from 'rxjs';
+import { FooterComponent } from './components/footer/footer.component';
 import { InformationComponent } from './components/information/information.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { MenuItem, SiteConfig, SiteSection } from './models/site.models';
 import { SiteService } from './services/site.service';
-import { FooterComponent } from './components/footer/footer.component';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, InformationComponent, SidebarComponent, FooterComponent],
+  imports: [CommonModule, InformationComponent, SidebarComponent, FooterComponent, RouterModule],
   templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {
@@ -18,18 +21,52 @@ export class AppComponent implements OnInit {
   activeSection!: SiteSection;
   isMenuOpen = false;
 
-  constructor(private siteService: SiteService) { }
+  constructor(
+    private siteService: SiteService,
+    private route: ActivatedRoute,
+    private router: Router,
+    private titleService: Title,
+    private metaService: Meta
+  ) { }
 
   ngOnInit() {
     this.siteService.getSiteConfig().subscribe({
       next: (data) => {
         this.config = data;
         this.buildMenuTree();
-        if (this.config.sections.length > 0) {
-          this.activeSection = this.config.sections[0];
-        }
+
+        this.handleRouting();
+        this.router.events.pipe(
+          filter(event => event instanceof NavigationEnd)
+        ).subscribe(() => {
+          this.handleRouting();
+        });
       }
     });
+  }
+
+  /**
+   * Analyse l'URL capturée par le routeur d'Angular pour charger la bonne section
+   */
+  handleRouting() {
+    const rawPath = this.router.url.replace(/^\//, '').split('?')[0];
+    const currentPath = decodeURIComponent(rawPath);
+
+    // Recherche de la section correspondante dans votre JSON
+    const matchedSection = this.config.sections.find(s => s.path === currentPath);
+
+    if (matchedSection) {
+      this.activeSection = matchedSection;
+      const pageTitle = matchedSection.menu_title[matchedSection.menu_title.length - 1];
+      this.titleService.setTitle(`${pageTitle} - Ateliers de Poppy`);
+      this.metaService.updateTag({ name: 'description', content: `Découvrez nos ateliers : ${pageTitle}` });
+    } else if (this.config.sections.length > 0) {
+      // Si l'URL n'existe pas dans le JSON ou qu'elle est vide (ex: racine du site "/")
+      // On affiche la première page par défaut
+      this.activeSection = this.config.sections[0];
+      // On met à jour l'URL de manière transparente pour l'utilisateur
+      this.router.navigate([this.activeSection.path], { replaceUrl: true });
+    }
   }
 
   buildMenuTree() {
@@ -57,12 +94,17 @@ export class AppComponent implements OnInit {
     this.isMenuOpen = !this.isMenuOpen;
   }
 
-  selectSection(index: number | any) {
-    // Si jamais Angular y injecte un objet Event par erreur, on extrait la valeur, sinon on prend le nombre
-    const finalIndex = typeof index === 'number' ? index : index?.detail;
-
-    this.activeSection = this.config.sections[finalIndex];
+  /**
+   * Au clic dans le menu, on laisse le routeur officiel changer l'URL
+   */
+  selectSection(index: number) {
+    const targetSection = this.config.sections[index];
     this.isMenuOpen = false;
+
+    // On demande au routeur de naviguer vers le path défini. 
+    // L'abonnement dans le ngOnInit interceptera ce changement pour mettre à jour l'affichage.
+    this.router.navigate([targetSection.path]);
+
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }

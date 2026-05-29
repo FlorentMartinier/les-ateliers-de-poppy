@@ -15,6 +15,7 @@ export interface SiteSection {
     menu_title: string[];
     banner_image: string;
     informations: InfoBlock[];
+    path: string;
 }
 
 export interface SiteConfig {
