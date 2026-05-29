@@ -18,22 +18,22 @@
         </div>
       }
   
-      <div [ngClass]="{'md:col-span-2': info.side_images && info.side_images.length > 0}" 
-           class="text-[#595350] font-light text-base leading-relaxed tracking-wide">
+      <div class="md:col-span-2 text-[#595350] font-light text-base leading-relaxed tracking-wide">
         @if (info.description && info.description.length > 0) {
-          <div class="space-y-3">
+          
+          <div class="[&_p]:mb-6 [&_p:last-child]:mb-0 [&_a]:text-[#E23D28] [&_a]:font-medium [&_a]:no-underline hover:[&_a]:underline"> 
+            
             @for (paragraph of info.description; track $index) {
-              
               @if (isListItem(paragraph)) {
                 <div class="flex items-start pl-2 space-x-2 text-stone-800 font-semibold my-1">
                   <span class="text-[#E23D28] mt-1.5 flex-shrink-0 text-xs">●</span>
                   <span [innerHTML]="cleanListItem(paragraph)"></span>
                 </div>
               } @else {
-                <p [innerHTML]="paragraph"></p>
+                <p [innerHTML]="paragraph"></p> 
               }
-  
             }
+      
           </div>
         }
       </div>

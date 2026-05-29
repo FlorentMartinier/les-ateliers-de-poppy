@@ -14,10 +14,9 @@
             "informations": [
                 {
                     "title": "Bienvenue chez POPPY IN THE SKY !",
-                    "images": null,
-                    "carrousel": null,
                     "description": [
-                        "Ce site est dédié au plaisir de la création. Vous y trouverez des propositions d'ateliers créatifs à votre domicile (voir plus haut), des dates d'ateliers créatifs sur Fabrègues (vacances scolaires uniquement), ainsi que les liens vers mes créations personnelles à la vente (un peu plus bas sur cette page). Bonne visite !"
+                        "Ce site est dédié au plaisir de la création. Vous y trouverez des propositions d'ateliers créatifs à votre domicile (voir plus haut), des dates d'ateliers créatifs sur Fabrègues (vacances scolaires uniquement), ainsi que les liens vers mes créations personnelles à la vente (un peu plus bas sur cette page). Bonne visite !",
+                        "Je vous invite maintenant à naviguer sur mon site pour découvrir toutes les activités que je propose à domicile. A bientôt !"
                     ]
                 },
                 {
@@ -25,9 +24,15 @@
                     "images": [
                         "assets/images/atelier_metal.png",
                         "assets/images/atelier_attrape_soleil.png"
-                    ],
-                    "carrousel": null,
-                    "description": null
+                    ]
+                },
+                {
+                    "title": "Mes boutiques en ligne :",
+                    "description": [
+                        "Fournitures créatives <a href='https://www.etsy.com/shop/poppybis' target='_blank' rel='noopener'>ici</a>",
+                        "Bijoux fantaisie <a href='https://www.etsy.com/shop/poppyintheskyfrance' target='_blank' rel='noopener'>ici</a>",
+                        "Peintures sur porcelaine <a href='https://www.etsy.com/fr/shop/Poppyporcelaines' target='_blank' rel='noopener'>ici</a>"
+                    ]
                 }
             ]
         },
@@ -43,7 +48,6 @@
                     "side_images": [
                         "assets/images/presentation_image.jpg"
                     ],
-                    "carrousel": null,
                     "description": [
                         "Bienvenue sur mon site pour une pause créative et festive !",
                         "Je m'appelle Valérie et j’organise et anime depuis 20  ans des <strong>ateliers de loisirs créatifs</strong> pour enfants, adolescents et adultes, à domicile, en écoles, sur votre lieu de travail, en CE, en associations et MJC, sur les régions de Montpellier (34), Puylaurens (81) et ses environs, et Le Cailar (30) et ses environs.",
@@ -73,7 +77,6 @@
                     "side_images": [
                         "assets/images/presentation_image_map.png"
                     ],
-                    "carrousel": null,
                     "description": [
                         "Je me déplace sur les communes suivantes du 34 : ",
                         "<tr>Montpellier,</tr>",
@@ -105,6 +108,73 @@
                         "La commune de Le Cailar (30) et ses environs (à certaines dates précises).",
                         "Si votre ville n'apparait pas dans cette liste, contactez-moi afin d'avoir un devis personnalisé"
                     ]
+                },
+                {
+                    "title": "Pensez à parrainer vos ami(e)s car des cadeaux vous attendent !"
+                },
+                {
+                    "title": "Pourquoi développer sa créativité ?",
+                    "description": [
+                        "La créativité favorise le développement de l'individu de plusieurs façons :",
+                        "<tr>Tout d'abord, disons le clairement, créer en s'amusant ou s'amuser en créant, c'est bon pour le moral, ça fait du bien, ça aide à apaiser les tensions du quotidien et ça permet de s'accorder une petit pause de zénitude ! Mais si on pousse un peu plus loin, on s'aperçoit que créer est plus profond que ça :</tr>",
+                        "<tr>Identité : la créativité permet à l’enfant de renforcer son identité quand il fait preuve d’originalité dans ses jeux ou dans son quotidien.</tr>",
+                        "<tr>Ouverture : la créativité apprend à l’enfant à percevoir les choses sous différents angles et favorise ainsi son ouverture aux autres et à son environnement.</tr>",
+                        "<tr>Estime de soi : adulte ou enfant, créer a des effets sur l'estime de soi lorsqu’on réalise des activités à caractère ludique ou artistique.</tr>",
+                        "<tr>Expression : elle facilite l’expression d’émotions et d’idées, elle permet aussi aux plus timides de s'exprimer.</tr>",
+                        "<tr>Concentration : elle contribue au développement de la concentration, de l’autodiscipline et de la pensée critique.</tr>",
+                        "Bref, c'est excellent pour la santé !!! ;-) Qu'on soit grand ou petit !"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Ateliers sur Fabrègues/vacances scolaires"
+            ],
+            "path": "ateliers-sur-fabrègues-vacances-scolaires",
+            "banner_image": "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
+            "informations": [
+                {
+                    "title": "Les ateliers sur Fabrègues (adultes ou enfants ou mixtes)",
+                    "images": null,
+                    "carrousel": [
+                        "assets/images/atelier_fabregues/atelier_fabregues_1.jpg",
+                        "assets/images/atelier_fabregues/atelier_fabregues_2.jpg",
+                        "assets/images/atelier_fabregues/atelier_fabregues_3.jpg",
+                        "assets/images/atelier_fabregues/atelier_fabregues_4.jpg",
+                        "assets/images/atelier_fabregues/atelier_fabregues_5.jpg",
+                        "assets/images/atelier_fabregues/atelier_fabregues_6.jpg",
+                        "assets/images/atelier_fabregues/atelier_fabregues_7.jpg",
+                        "assets/images/atelier_fabregues/atelier_fabregues_8.jpg",
+                        "assets/images/atelier_fabregues/atelier_fabregues_9.jpg",
+                        "assets/images/atelier_fabregues/atelier_fabregues_10.jpg",
+                        "assets/images/atelier_fabregues/atelier_fabregues_11.jpg",
+                        "assets/images/atelier_fabregues/atelier_fabregues_12.jpg"
+                    ],
+                    "description": [
+                        "Voici quelques exemples des précédents ateliers.",
+                        "<tr>tarif de 35€/enfant pour 3h d'activités (goûter maison offert)</tr>"
+                    ]
+                },
+                {
+                    "title": "Ateliers enfants",
+                    "carrousel": [
+                        "assets/images/atelier_enfant/atelier_enfant_1.jpg",
+                        "assets/images/atelier_enfant/atelier_enfant_2.jpg",
+                        "assets/images/atelier_enfant/atelier_enfant_3.jpg",
+                        "assets/images/atelier_enfant/atelier_enfant_4.jpg",
+                        "assets/images/atelier_enfant/atelier_enfant_5.png",
+                        "assets/images/atelier_enfant/atelier_enfant_6.jpg",
+                        "assets/images/atelier_enfant/atelier_enfant_7.jpg",
+                        "assets/images/atelier_enfant/atelier_enfant_8.jpg",
+                        "assets/images/atelier_enfant/atelier_enfant_9.jpg",
+                        "assets/images/atelier_enfant/atelier_enfant_10.jpg",
+                        "assets/images/atelier_enfant/atelier_enfant_11.jpg",
+                        "assets/images/atelier_enfant/atelier_enfant_12.jpg"
+                    ],
+                    "description": [
+                        "Et voici des exemples de réalisations d'élèves (4 ans à 12 ans) lors de précédents ateliers, poterie, bijoux et arts plastiques :"
+                    ]
                 }
             ]
         },
@@ -118,14 +188,48 @@
             "informations": [
                 {
                     "title": "Atelier décoration cœur",
-                    "images": null,
-                    "carrousel": null,
+                    "carrousel": [
+                        "assets/images/decoration_coeur/decoration_coeur_1.jpg",
+                        "assets/images/decoration_coeur/decoration_coeur_2.jpg",
+                        "assets/images/decoration_coeur/decoration_coeur_3.jpg",
+                        "assets/images/decoration_coeur/decoration_coeur_4.jpg",
+                        "assets/images/decoration_coeur/decoration_coeur_5.jpg"
+                    ],
                     "description": [
                         "Superbe grande décoration murale (cuisine, chambre, etc) de 29cm d'envergure. Pièce en bois hyper légère.",
                         "A garder pour soi ou à offrir à papa, maman, papi, mami...",
                         "Base en bois, sur laquelle nous allons apprendre à peindre de beaux dégradés à l'éponge, puis travail d'écriture avec une pâte spéciale (molding paste) et enfin un travail de moulage avec de la pâte auto durcissante. ",
                         "Bien entendu, comme dans chacun des ateliers proposés, les couleurs, les décorations sont à volonté et aux goûts de chacun, ce qui garantit une pièce créative unique.",
-                        "Le prix indiqué est valable du lundi au samedi. Majoration de 10% les dimanche et jours fériés."
+                        "Je fournis : la base, les peintures, la pâte à modeler, les moules, la pate auto durcissante et les éventuelles décorations type strass et fleurs.",
+                        "<tr>Tarif : 25€/personne (Majoration de 10% les dimanche et jours fériés).</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation enfant à votre domicile",
+                "Porte clé initiale en résine"
+            ],
+            "path": "les-ateliers-enfants-chez-vous/porte-clé-initiale-en-résine",
+            "banner_image": "assets/images/porte_cle/porte_cle_2.jpg",
+            "informations": [
+                {
+                    "title": "Porte clé initiale en résine UV",
+                    "carrousel": [
+                        "assets/images/porte_cle/porte_cle_1.jpg",
+                        "assets/images/porte_cle/porte_cle_2.jpg",
+                        "assets/images/porte_cle/porte_cle_3.jpg"
+                    ],
+                    "description": [
+                        "Cette activité est conseillée à partir de 7 ans.",
+                        "Elle s'adresse aussi bien aux filles qu'aux garçons.",
+                        "Chaque élève aura à disposition un moule en silicone à son initiale et va pouvoir créer son propre porte-clé personnalisé grâce à la technique de la résine UV.",
+                        "Couleurs et décorations seront au choix de chacun.",
+                        "Cette initiale sera ensuite montée sur chaîne et sur fermoir porte-clés, avec un ruban et un pompon.",
+                        "Les gestes de bijoutiers sont importants pour cette activité.",
+                        "Il faut compter 1h30 de création.",
+                        "<tr>Tarif : 18€/enfant.</tr>"
                     ]
                 }
             ]
@@ -136,23 +240,22 @@
                 "Cadre végétal"
             ],
             "path": "les-ateliers-enfants-chez-vous/cadre-végétal",
-            "banner_image": "assets/images/cadre_vegetal_7.jpg",
+            "banner_image": "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
             "informations": [
                 {
                     "title": "Cadre végétal (toutes saisons)",
-                    "images": null,
                     "carrousel": [
-                        "assets/images/cadre_vegetal_1.jpg",
-                        "assets/images/cadre_vegetal_2.png",
-                        "assets/images/cadre_vegetal_3.jpg",
-                        "assets/images/cadre_vegetal_4.jpg",
-                        "assets/images/cadre_vegetal_5.jpg",
-                        "assets/images/cadre_vegetal_6.jpg",
-                        "assets/images/cadre_vegetal_7.jpg",
-                        "assets/images/cadre_vegetal_8.jpg",
-                        "assets/images/cadre_vegetal_9.jpg",
-                        "assets/images/cadre_vegetal_10.jpg",
-                        "assets/images/cadre_vegetal_11.jpg"
+                        "assets/images/cadre_vegetal/cadre_vegetal_1.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_2.png",
+                        "assets/images/cadre_vegetal/cadre_vegetal_3.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_4.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_5.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_6.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_8.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_9.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_10.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_11.jpg"
                     ],
                     "description": [
                         "Cette activité est proposée à partir de 6 ans.",
@@ -160,6 +263,114 @@
                         "Chaque enfant créera son propre jardin végétal, à base de fournitures \"en fonction de la saison\" (à votre convenance) : de la mousse, du bois, des fleurs, des citrouilles, des champignons, des végétaux factices de toutes sortes, des céramiques que je crée moi-même...",
                         "le cadre en bois fait 12cm de côtés.",
                         "<tr>Tarif : 20€/enfant (majoré de 10% le dimanche et les jours fériés)</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation enfant à votre domicile",
+                "Carnet secret"
+            ],
+            "path": "les-ateliers-enfants-chez-vous/carnet-secret",
+            "banner_image": "assets/images/carnet_secret/carnet_secret_1.jpg",
+            "informations": [
+                {
+                    "title": "Atelier carnet secret décoré",
+                    "carrousel": [
+                        "assets/images/carnet_secret/carnet_secret_1.jpg",
+                        "assets/images/carnet_secret/carnet_secret_2.jpg",
+                        "assets/images/carnet_secret/carnet_secret_3.jpg",
+                        "assets/images/carnet_secret/carnet_secret_4.jpg",
+                        "assets/images/carnet_secret/carnet_secret_5.png",
+                        "assets/images/carnet_secret/carnet_secret_6.jpg"
+                    ],
+                    "description": [
+                        "Cette activité convient aussi bien aux filles qu'aux garçons ! Je la conseille à partir de 4ans.",
+                        "A quoi va bien pouvoir servir ce carnet ?",
+                        "Un carnet type Bristol de 20 cm de hauteur, qui pourra servir aussi bien de carnet secret, de répertoire de points de matchs, de carnet de notes, de carnet de poésies, de carnet de croquis, d'herbier...",
+                        "Chaque enfant en trouvera une utilisation personnelle, soyez-en certains !",
+                        "Le prix indiqué est valable du lundi au samedi. Majoration de 10% les dimanche et jours fériés.",
+                        "Je fournis : le carnet, les tissus, les décorations diverses (mosaïques en céramique faites main, fleurs, verre, bois, etc) ainsi que les peintures en relief qui donneront la touche finale à la création.",
+                        "Je ne fournis pas le stylo visible sur les photos.",
+                        "chacun trouvera des décorations adaptées à son goût et son style (les décorations sont à volonté !).",
+                        "<tr>Tarif : 12€/enfant</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation enfant à votre domicile",
+                "Bijoux bracelet/boucles"
+            ],
+            "path": "les-ateliers-enfants-chez-vous/bijoux-bracelet-boucles",
+            "banner_image": "assets/images/bracelet_boucle/bracelet_boucle_1.jpg",
+            "informations": [
+                {
+                    "title": "Atelier bracelet/boucles (noël ou autre)",
+                    "carrousel": [
+                        "assets/images/bracelet_boucle/bracelet_boucle_1.jpg",
+                        "assets/images/bracelet_boucle/bracelet_boucle_2.jpg",
+                        "assets/images/bracelet_boucle/bracelet_boucle_3.jpg"
+                    ],
+                    "description": [
+                        "L'atelier est proposé aux enfants à partir de 9ans. Il demande un peu de dextérité.",
+                        "Les élèves auront le choix des breloques (très très diverses et de très belle qualité) et pourront composer :",
+                        "- Soit un bracelet avec boucles assorties,",
+                        "- Soit un collier avec boucles assorties.",
+                        "Nous ne sommes pas en période de noël ? Qu'importe  ;-) le même style de bijou est possible, mais sur d'autres thèmes ! J'ai de belles breloques de qualité à proposer.",
+                        "<tr>Tarif : 13€/personne</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation enfant à votre domicile",
+                "Bijoux de sac/porte clés"
+            ],
+            "path": "les-ateliers-enfants-chez-vous/bijou-de-sac-porte-clés",
+            "banner_image": "assets/images/bijou_sac/bijou_sac_1.jpg",
+            "informations": [
+                {
+                    "title": "L'atelier bijou de sac / porte-clés",
+                    "carrousel": [
+                        "assets/images/bijou_sac/bijou_sac_1.jpg",
+                        "assets/images/bijou_sac/bijou_sac_2.jpg",
+                        "assets/images/bijou_sac/bijou_sac_3.jpg",
+                        "assets/images/bijou_sac/bijou_sac_4.jpg"
+                    ],
+                    "description": [
+                        "Un porte clé (pour les garçons)... Un bijou de sac (pour les filles)... Cette activité est mixte et je la conseille à partir de 6ans.",
+                        "Mon matériel professionnel sera à disposition des enfants. Du matériel hyper varié et de grande qualité.",
+                        "Chaque bijou est unique, les photos mises en exposition sur ce site sont là uniquement pour vous donner une idée de ce qui est réalisable.",
+                        "Un résultat pro garanti !",
+                        "Je fournis : fils coton et fil d'acier, perles diverses et variées, rubans et breloques, perles céramique faites main, laine pour pompons si vous avez choisi le porte clé version 2, strass, paillettes, mousqueton, etc.",
+                        "<tr>Tarif : 14€/personne (Majoration de 10% les dimanche et jours fériés).</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation enfant à votre domicile",
+                "Activité spéciale pour grands groupes"
+            ],
+            "path": "les-ateliers-enfants-chez-vous/activité-spéciale-pour-grand-groupes",
+            "banner_image": "assets/images/grand_groupe/grand_groupe_1.jpg",
+            "informations": [
+                {
+                    "title": "Chasse au trésor et quilles finlandaises (pour + de 10 enfants) :",
+                    "side_images": [
+                        "assets/images/grand_groupe/grand_groupe_1.jpg"
+                    ],
+                    "description": [
+                        "Cette activité est réservée pour les groupes de + de 10 enfants.",
+                        "Chasse au trésor comprenant plusieurs activités : sport, culture, quizz, motricité...",
+                        "Suivie d'un jeu commun de quilles finlandaises !",
+                        "Animation assurée !!!",
+                        "<tr>Tarif : 14€/personne.</tr>"
                     ]
                 }
             ]
