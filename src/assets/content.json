@@ -374,6 +374,226 @@
                     ]
                 }
             ]
+        },
+        {
+            "menu_title": [
+                "Ehpad, centres de loisirs, écoles"
+            ],
+            "path": "ehpad-centres-de-loisirs-ecoles",
+            "banner_image": "assets/images/centre_loisir/centre_loisir_9.png",
+            "informations": [
+                {
+                    "title": "Ateliers dans les centres de loisirs et les écoles",
+                    "carrousel": [
+                        "assets/images/centre_loisir/centre_loisir_1.jpg",
+                        "assets/images/centre_loisir/centre_loisir_2.jpg",
+                        "assets/images/centre_loisir/centre_loisir_3.jpg",
+                        "assets/images/centre_loisir/centre_loisir_4.jpg",
+                        "assets/images/centre_loisir/centre_loisir_5.jpg",
+                        "assets/images/centre_loisir/centre_loisir_6.jpg",
+                        "assets/images/centre_loisir/centre_loisir_7.jpg",
+                        "assets/images/centre_loisir/centre_loisir_8.jpg",
+                        "assets/images/centre_loisir/centre_loisir_9.png",
+                        "assets/images/centre_loisir/centre_loisir_10.jpg",
+                        "assets/images/centre_loisir/centre_loisir_11.jpg",
+                        "assets/images/centre_loisir/centre_loisir_12.jpg",
+                        "assets/images/centre_loisir/centre_loisir_13.jpg",
+                        "assets/images/centre_loisir/centre_loisir_14.jpg",
+                        "assets/images/centre_loisir/centre_loisir_15.jpg",
+                        "assets/images/centre_loisir/centre_loisir_16.jpg",
+                        "assets/images/centre_loisir/centre_loisir_17.jpg",
+                        "assets/images/centre_loisir/centre_loisir_18.jpg",
+                        "assets/images/centre_loisir/centre_loisir_19.png"
+                    ],
+                    "description": [
+                        "Vous êtes représentant d'un centre de loisirs ou d'une école, et vous souhaitez que j'intervienne lors d'un atelier ?",
+                        "je suis à votre disposition pour vous envoyer un devis.",
+                        "Au choix, je propose des ateliers poterie, bijoux fantaisie, arts plastiques et cuisine.",
+                        "N'hésitez pas à me contacter au 06 60 75 34 38 ou par mail, nous choisirons ensemble une date et un thème.",
+                        "Voici quelques créations réalisées dans les écoles et le centre de loisirs de Pignan, les écoles de Fabrègues (Hérault) et St Siffret (Gard), le collège de Fabrègues, le centre de loisirs de Boirargues (34), le centre de loisirs Les Aiguerelles à Montpellier et la MJC de Mauguio",
+                        "<tr>De la poterie : vaisselle, tableaux portraits de famille, plaques façon \"peintures rupestres\", décorations de jardin (coquelicots multicolores ou hiboux)...</tr>",
+                        "<tr>De l'art plastique : résine UV, peinture sur pots de fleurs, collages sur carnets...</tr>",
+                        "<tr>Du macramé, du cadre végétal, du chant...</tr>",
+                        "N'hésitez pas demander votre devis personnalisé ! Je suis à votre disposition, que ce soit dans le 34, dans le 30 ou le 81, aux dates et heures qui vous conviennent le mieux !"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Cours particuliers"
+            ],
+            "path": "cours-particulier",
+            "banner_image": "assets/images/cours_particulier/cours_particulier_1.jpg",
+            "informations": [
+                {
+                    "title": "Cours particulier (adulte enfant)",
+                    "carrousel": [
+                        "assets/images/cours_particulier/cours_particulier_1.jpg",
+                        "assets/images/cours_particulier/cours_particulier_2.jpg",
+                        "assets/images/cours_particulier/cours_particulier_3.jpg",
+                        "assets/images/cours_particulier/cours_particulier_4.png",
+                        "assets/images/cours_particulier/cours_particulier_5.jpg",
+                        "assets/images/cours_particulier/cours_particulier_6.jpg",
+                        "assets/images/cours_particulier/cours_particulier_7.jpg",
+                        "assets/images/cours_particulier/cours_particulier_8.jpg",
+                        "assets/images/cours_particulier/cours_particulier_9.jpg",
+                        "assets/images/cours_particulier/cours_particulier_10.jpg",
+                        "assets/images/cours_particulier/cours_particulier_11.jpg",
+                        "assets/images/cours_particulier/cours_particulier_12.jpg",
+                        "assets/images/cours_particulier/cours_particulier_13.jpg",
+                        "assets/images/cours_particulier/cours_particulier_14.jpg",
+                        "assets/images/cours_particulier/cours_particulier_15.jpg",
+                        "assets/images/cours_particulier/cours_particulier_16.jpg",
+                        "assets/images/cours_particulier/cours_particulier_17.png",
+                        "assets/images/cours_particulier/cours_particulier_18.png",
+                        "assets/images/cours_particulier/cours_particulier_19.png",
+                        "assets/images/cours_particulier/cours_particulier_20.jpg",
+                        "assets/images/cours_particulier/cours_particulier_21.jpg",
+                        "assets/images/cours_particulier/cours_particulier_22.jpg",
+                        "assets/images/cours_particulier/cours_particulier_23.jpg"
+                    ],
+                    "description": [
+                        "Vous préférez apprendre en cours particulier et ne pas participer à un cours collectif .",
+                        "Que ce soit en bijoux fantaisie, en customisation d'un blouson, en peinture sur porcelaine, en peinture sur tuile, ou en poterie, en décoration maison, en peinture sur pots de fleurs... Je suis à votre disposition pour vous recevoir à mon atelier ou bien me déplacer à votre domicile.",
+                        "Mon intervention sera de 2h30.",
+                        "Je rajouterai un forfait déplacement qui sera calculé en fonction de la distance à parcourir.",
+                        "Les frais de déplacement sont offerts sur Fabrègues.",
+                        "Les photos ci-dessous sont là pour vous aider à trouver votre idée, mais je suis ouverte à vos propositions créatives aussi !",
+                        "<tr>Tarif : 100€, quelle que soit votre activité choisie.</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Enterrement Vie de Jeune Fille"
+            ],
+            "path": "enterrement-vie-de-jeune-fille",
+            "banner_image": "assets/images/evjf/evjf_1.jpg",
+            "informations": [
+                {
+                    "title": "Enterrement Vie de Jeune Fille",
+                    "carrousel": [
+                        "assets/images/evjf/evjf_1.jpg",
+                        "assets/images/evjf/evjf_2.jpg",
+                        "assets/images/evjf/evjf_3.jpg",
+                        "assets/images/evjf/evjf_4.jpg",
+                        "assets/images/evjf/evjf_5.jpg",
+                        "assets/images/evjf/evjf_6.jpg",
+                        "assets/images/evjf/evjf_7.jpg",
+                        "assets/images/evjf/evjf_8.png",
+                        "assets/images/evjf/evjf_9.jpg"
+                    ],
+                    "description": [
+                        "Je travaille en collaboration étroite avec Maguelonne (<a href='https://www.maisonmagalona.fr/' target='_blank' rel='noopener'>le plaisir des 5 sens</a>) afin de vous proposer un après midi ou une soirée inoubliable avec vos ami(e)s !",
+                        "Massages, séances SPA, loisirs créatifs (poterie, mix média, carnets de voyage, bijoux...), ateliers cuisine, piscine : nous mettrons tout en œuvre pour que cet événement vous laisse un souvenir agréable de plénitude, de zénitude et d'amitié !",
+                        "Chaque futur(e) marié(e) étant unique, nous vous proposons une étude personnalisée de votre demande.",
+                        "Plusieurs forfaits sont possibles, ils vont de 60€/personne à 150€/personne.",
+                        "Nous pouvons nous déplacer à votre domicile ou bien vous recevoir à l'institut ou à mon atelier.",
+                        "n'hésitez pas à nous contacter pour plus d'informations (en photos, quelques idées de réalisations possibles, customisation de votre blouson en jean, tableau mosaïque souvenir, collier, boucles, bracelets...).",
+                        "à bientôt !"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Les stages sur 2 jours"
+            ],
+            "path": "les-stages-sur-2-jours",
+            "banner_image": "assets/images/evjf/evjf_1.jpg",
+            "informations": [
+                {
+                    "title": "Les stages : sur 2 jours (sans couchage)",
+                    "carrousel": [
+                        "assets/images/stage_2_j/stage_2_j_1.jpg",
+                        "assets/images/stage_2_j/stage_2_j_2.jpg",
+                        "assets/images/stage_2_j/stage_2_j_3.jpg",
+                        "assets/images/stage_2_j/stage_2_j_4.jpg",
+                        "assets/images/stage_2_j/stage_2_j_5.jpg",
+                        "assets/images/stage_2_j/stage_2_j_6.jpg",
+                        "assets/images/stage_2_j/stage_2_j_7.jpg",
+                        "assets/images/stage_2_j/stage_2_j_8.jpg",
+                        "assets/images/stage_2_j/stage_2_j_9.jpg"
+                    ],
+                    "description": [
+                        "Je propose des stages d'arts plastiques, de poterie, de bijouterie fantaisie, sur 2 jours - couchage à votre charge",
+                        "Sous réserve de la participation d'un minimum de 6 personnes, et dans le cadre de l'association THAADAM, je propose à dates fixes, des stages, des séminaires bien-être, qui vous permettent de vous ressourcer et de vous retrouver, par le biais de l'art.",
+                        "De la poterie, du bijou fantaisie, du chant, de l'art plastique, jalonnent les deux jours que nous passerons ensemble.",
+                        "Le couchage n'est pas inclus dans le prix, il est à votre charge.",
+                        "Toutefois le repas du midi peut être pris en commun (repas tiré du sac ou repas préparé par mes soins - tarif de 15€).",
+                        "Les cours démarrent à 10h jusqu'à 12h30, puis reprennent à 14h jusqu'à 17h30.",
+                        "Le tarif dépend des activités qui seront définies à l'avance, mais en général il tourne autour de 400€ par personne.",
+                        "Ce stage a lieu vers Cournonterral (34) dans un lieu dédié à l'art.",
+                        "Prochaine date aux alentours de juin."
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation chantée"
+            ],
+            "path": "animation-chantée",
+            "banner_image": "assets/images/evjf/evjf_1.jpg",
+            "informations": [
+                {
+                    "title": "Animation chantée ou Karaoké",
+                    "description": [
+                        "EHPAD, entreprises, associations, particuliers.",
+                        "Je vous propose de venir animer votre soirée ou votre après-midi en chansons !",
+                        "Que vous soyez un particulier, une entreprise ou une association, je propose des animations chantées, façon thé dansant ou des karaokés.",
+                        "Tarif dégressif :",
+                        "<tr>1h : 150€</tr>",
+                        "<tr>2h : 280€</tr>",
+                        "<tr>3h : 400€</tr>",
+                        "Tous les styles de musiques et de chansons sont possibles : disco, tango, paso, slow, valses, rock...  N'hésitez pas à me faire part de vos goûts, je m'adapte à la demande !",
+                        "Nous pouvons aussi chanter à plusieurs : tarif personnalisé, devis rapide."
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Bon cadeau"
+            ],
+            "path": "bon-cadeau",
+            "banner_image": "assets/images/evjf/evjf_1.jpg",
+            "informations": [
+                {
+                    "title": "BON CADEAU à offrir",
+                    "images": [
+                        "assets/images/bon_cadeau.png"
+                    ],
+                    "description": [
+                        "Vous souhaitez faire plaisir à quelqu'un et lui offrir un chèque cadeau ?",
+                        "Pour cela il vous suffit de me contacter <a href='/contact'>ici</a> et nous définirons ensemble le cadeau que vous souhaitez.",
+                        "Cela peut être un bon pour un atelier créatif... Un bon pour un atelier cuisine... Une somme à dépenser sur mes boutiques... Ou autre si vous avez une autre idée.",
+                        "Cadeau d'anniversaire, de noël, d'amitié, EVJF, toutes les sommes sont possibles, et votre bon sera valable 1 an à partir du jour de l'achat.",
+                        "à bientôt."
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Contact"
+            ],
+            "path": "contact",
+            "banner_image": "assets/images/evjf/evjf_1.jpg",
+            "informations": [
+                {
+                    "title": "Contact",
+                    "description": [
+                        "Vous souhaitez vous inscrire sur un atelier lors d'un salon ? Vous souhaitez une une animation à votre domicile ?",
+                        "Merci de bien vouloir remplir le questionnaire ci-dessous.",
+                        "Vous pouvez aussi me contacter par téléphone au 06.60.75.34.38.",
+                        "A bientôt !",
+                        "valérie"
+                    ]
+                }
+            ]
         }
     ]
 }
