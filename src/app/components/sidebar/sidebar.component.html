@@ -1,0 +1,61 @@
+<div 
+  class="fixed inset-0 z-40 transition-opacity duration-300" 
+  [ngClass]="isMenuOpen ? 'pointer-events-auto bg-black/40' : 'pointer-events-none bg-transparent'" 
+  (click)="onClose()">
+  
+  <div 
+    class="fixed top-0 right-0 h-full w-80 bg-white shadow-2xl z-50 p-6 pt-24 overflow-y-auto transform transition-transform duration-300 ease-in-out font-sans"
+    [style.transform]="isMenuOpen ? 'translateX(0)' : 'translateX(100%)'"
+    (click)="$event.stopPropagation()">
+    
+    <nav class="space-y-3">
+      @for (menu of menuTree; track $index; let menuIdx = $index) {
+        <div class="border-b border-gray-100 pb-2 last:border-none">
+          
+          @if (menu.subItems) {
+            <button 
+              (click)="toggleSubMenu(menuIdx, $event)" 
+              class="flex items-center justify-between w-full text-left font-medium text-gray-800 py-2.5 text-base hover:text-[#E23D28] transition-colors group">
+              <span class="tracking-wide">{{ menu.title }}</span>
+              <svg 
+                class="w-4 h-4 text-gray-400 group-hover:text-[#E23D28] transition-transform duration-200"
+                [ngClass]="{'rotate-180': openSubMenus[menuIdx]}"
+                fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+
+            <div 
+              class="overflow-hidden transition-all duration-300 pl-4 space-y-1"
+              [ngClass]="openSubMenus[menuIdx] ? 'max-h-60 opacity-100 mt-1' : 'max-h-0 opacity-0 pointer-events-none'">
+              
+              @for (sub of menu.subItems; track $index) {
+                <button 
+                  (click)="selectSection(sub.sectionIndex)" 
+                  class="relative flex items-center w-full text-left font-medium py-2 text-base transition-all pl-3 rounded-md"
+                  [ngClass]="isSectionActive(sub.sectionIndex) ? 'text-[#E23D28] bg-red-50/50 font-semibold' : 'text-gray-600 hover:text-[#E23D28] hover:bg-gray-50'">
+                  @if (isSectionActive(sub.sectionIndex)) {
+                    <span class="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-5 bg-[#E23D28] rounded-r"></span>
+                  }
+                  {{ sub.title }}
+                </button>
+              }
+            </div>
+
+          } @else {
+            <button 
+              (click)="selectSection(menu.sectionIndex!)" 
+              class="relative flex items-center w-full text-left font-medium py-2.5 text-base transition-all rounded-md pl-3"
+              [ngClass]="isSectionActive(menu.sectionIndex) ? 'text-[#E23D28] bg-red-50/50 font-semibold' : 'text-gray-800 hover:text-[#E23D28] hover:bg-gray-50'">
+              @if (isSectionActive(menu.sectionIndex)) {
+                <span class="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-5 bg-[#E23D28] rounded-r"></span>
+              }
+              <span class="tracking-wide">{{ menu.title }}</span>
+            </button>
+          }
+
+        </div>
+      }
+    </nav>
+  </div>
+</div>

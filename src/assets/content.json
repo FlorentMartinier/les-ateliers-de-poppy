@@ -1,0 +1,164 @@
+{
+    "title": "Les ateliers de Poppy",
+    "footer": {
+        "instagram": "https://www.instagram.com/poppyinthesky_les_ateliers/",
+        "mail": "test@test.fr"
+    },
+    "sections": [
+        {
+            "menu_title": [
+                "Bienvenue"
+            ],
+            "banner_image": "assets/banners/images.jfif",
+            "informations": [
+                {
+                    "title": "Bienvenue chez POPPY IN THE SKY !",
+                    "images": null,
+                    "carrousel": null,
+                    "description": [
+                        "Ce site est dédié au plaisir de la création. Vous y trouverez des propositions d'ateliers créatifs à votre domicile (voir plus haut), des dates d'ateliers créatifs sur Fabrègues (vacances scolaires uniquement), ainsi que les liens vers mes créations personnelles à la vente (un peu plus bas sur cette page). Bonne visite !"
+                    ]
+                },
+                {
+                    "title": "Mon actualité :",
+                    "images": [
+                        "assets/images/atelier_metal.png",
+                        "assets/images/atelier_attrape_soleil.png"
+                    ],
+                    "carrousel": null,
+                    "description": null
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Présentation"
+            ],
+            "banner_image": "assets/banners/images.jfif",
+            "informations": [
+                {
+                    "title": "Ateliers loisirs créatifs à domicile sur  Montpellier et Agglomération - adultes et enfants",
+                    "side_images": [
+                        "assets/images/presentation_image.jpg"
+                    ],
+                    "carrousel": null,
+                    "description": [
+                        "Bienvenue sur mon site pour une pause créative et festive !",
+                        "Je m'appelle Valérie et j’organise et anime depuis 20  ans des <strong>ateliers de loisirs créatifs</strong> pour enfants, adolescents et adultes, à domicile, en écoles, sur votre lieu de travail, en CE, en associations et MJC, sur les régions de Montpellier (34), Puylaurens (81) et ses environs, et Le Cailar (30) et ses environs.",
+                        "Je vous propose mes compétences, ma bonne humeur, mon enthousiasme et mon expérience pour des animations originales à la maison !",
+                        "Vous recherchez une animation pour :",
+                        "<tr>un anniversaire d'enfants,</tr>",
+                        "<tr>une activité adultes/enfants pendant les vacances scolaires,</tr>",
+                        "<tr>un enterrement de vie de jeune fille (EVJF),</tr>",
+                        "<tr>une animation en magasin ou dans un café,</tr>",
+                        "<tr>un atelier chez vous, création de décorations de Noël, de Pâques, de printemps,</tr>",
+                        "<tr>une animation en club  (maison de retraite, association...), </tr>",
+                        "<tr>une animation en scolaire (écoles, collèges, foyers, CE, hôpitaux...).</tr>",
+                        "Je suis là pour vous aider, alors faites le choix de votre activité et je m'occupe du reste !",
+                        "Mes ateliers durent en moyenne 2 heures et doivent se dérouler en intérieur (ou au jardin en été) avec table et chaise pour chaque participant.",
+                        "Le déplacement à domicile se fait à partir de 5 participants pour les ateliers enfants et 4 participants pour les ateliers adultes, avec un maximum de 10 personnes (dans un rayon de 30km de Montpellier, de Nîmes ou de Castres).",
+                        "Les ateliers sont possibles du lundi au dimanche.",
+                        "Ils sont ouverts aux adultes et aux enfants à partir de 5ans.",
+                        "Pour les moins de 5 ans un devis personnalisé peut être fait. Je vous demanderai pour cela : de me donner l'âge des participants et de m'indiquer s'ils sont habitués à créer avec leurs mains.",
+                        "Un forfait déplacement sera facturé en plus de prix de l'activité (15€ du lundi au samedi / 20€ le dimanche et les jours fériés), toutefois, si vous habitez à plus de 30km de Montpellier, je peux aussi me déplacer et je recalcule le forfait déplacement. Sur Castres et Le Cailar, le forfait de base reste valable.",
+                        "Sachez aussi que vous pouvez parrainer des ami(e)s : 1 parrainage avec atelier daté = une remise de 10% sur un prochain atelier.",
+                        "Une avance de 30% sera réclamée à la réservation : paiement soit par virement, soit par Paypal.",
+                        "ATTENTION information importante !!! afin de me permettre de déballer le matériel nécessaire à l'atelier, j'ai besoin d'avoir une place de parking garantie à proximité. "
+                    ]
+                },
+                {
+                    "title": "Une créative qui vient à vous !",
+                    "side_images": [
+                        "assets/images/presentation_image_map.png"
+                    ],
+                    "carrousel": null,
+                    "description": [
+                        "Je me déplace sur les communes suivantes du 34 : ",
+                        "<tr>Montpellier,</tr>",
+                        "<tr>Castelnau le lez,</tr>",
+                        "<tr>Fabrègues,</tr>",
+                        "<tr>St-Jean-De-Védas,</tr>",
+                        "<tr>Saussan,</tr>",
+                        "<tr>La-Grande-Motte,</tr>",
+                        "<tr>Pérols,</tr>",
+                        "<tr>Pézenas,</tr>",
+                        "<tr>Le Crès,</tr>",
+                        "<tr>Juvignac,</tr>",
+                        "<tr>Jacou,</tr>",
+                        "<tr>Lunel,</tr>",
+                        "<tr>Pignan,</tr>",
+                        "<tr>Lavérune,</tr>",
+                        "<tr>Castries,</tr>",
+                        "<tr>Gigean,</tr>",
+                        "<tr>Mauguio,</tr>",
+                        "<tr>Cournonterral,</tr>",
+                        "<tr>St Georges d'Orques,</tr>",
+                        "<tr>St Clément de Rivière,</tr>",
+                        "<tr>Lattes,</tr>",
+                        "<tr>Palavas les Flots,</tr>",
+                        "<tr>Montbazin,</tr>",
+                        "<tr>Villeneuve-lès-Maguelone,</tr>",
+                        "<tr>Murles</tr>",
+                        "La Commune de Castres (81) et ses environs (à certaines dates précises).",
+                        "La commune de Le Cailar (30) et ses environs (à certaines dates précises).",
+                        "Si votre ville n'apparait pas dans cette liste, contactez-moi afin d'avoir un devis personnalisé"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation enfant à votre domicile",
+                "Grand coeur bois"
+            ],
+            "banner_image": "assets/banners/images.jfif",
+            "informations": [
+                {
+                    "title": "Atelier décoration cœur",
+                    "images": null,
+                    "carrousel": null,
+                    "description": [
+                        "Superbe grande décoration murale (cuisine, chambre, etc) de 29cm d'envergure. Pièce en bois hyper légère.",
+                        "A garder pour soi ou à offrir à papa, maman, papi, mami...",
+                        "Base en bois, sur laquelle nous allons apprendre à peindre de beaux dégradés à l'éponge, puis travail d'écriture avec une pâte spéciale (molding paste) et enfin un travail de moulage avec de la pâte auto durcissante. ",
+                        "Bien entendu, comme dans chacun des ateliers proposés, les couleurs, les décorations sont à volonté et aux goûts de chacun, ce qui garantit une pièce créative unique.",
+                        "Le prix indiqué est valable du lundi au samedi. Majoration de 10% les dimanche et jours fériés."
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation enfant à votre domicile",
+                "Cadre végétal"
+            ],
+            "banner_image": "assets/images/cadre_vegetal_7.jpg",
+            "informations": [
+                {
+                    "title": "Cadre végétal (toutes saisons)",
+                    "images": null,
+                    "carrousel": [
+                        "assets/images/cadre_vegetal_1.jpg",
+                        "assets/images/cadre_vegetal_2.png",
+                        "assets/images/cadre_vegetal_3.jpg",
+                        "assets/images/cadre_vegetal_4.jpg",
+                        "assets/images/cadre_vegetal_5.jpg",
+                        "assets/images/cadre_vegetal_6.jpg",
+                        "assets/images/cadre_vegetal_7.jpg",
+                        "assets/images/cadre_vegetal_8.jpg",
+                        "assets/images/cadre_vegetal_9.jpg",
+                        "assets/images/cadre_vegetal_10.jpg",
+                        "assets/images/cadre_vegetal_11.jpg"
+                    ],
+                    "description": [
+                        "Cette activité est proposée à partir de 6 ans.",
+                        "Toutefois si votre enfant et ses amis sont créatifs et font preuve de dextérité, cette activité peut être proposée dès 5 ans.",
+                        "Chaque enfant créera son propre jardin végétal, à base de fournitures \"en fonction de la saison\" (à votre convenance) : de la mousse, du bois, des fleurs, des citrouilles, des champignons, des végétaux factices de toutes sortes, des céramiques que je crée moi-même...",
+                        "le cadre en bois fait 12cm de côtés.",
+                        "<tr>Tarif : 20€/enfant (majoré de 10% le dimanche et les jours fériés)</tr>"
+                    ]
+                }
+            ]
+        }
+    ]
+}
