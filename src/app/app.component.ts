@@ -48,9 +48,7 @@ export class AppComponent implements OnInit {
   }
 
   onImageLoad() {
-    console.log("avant", this.isImageLoading)
     this.isImageLoading = false;
-    console.log("après", this.isImageLoading)
   }
 
   /**

@@ -287,10 +287,43 @@
         {
             "menu_title": [
                 "Animation enfant à votre domicile",
+                "Carnet de voyage ou photos (art journal)"
+            ],
+            "path": "les-ateliers-enfants-chez-vous/carnet-de-voyage-ou-photos-art-journal",
+            "banner_image": "assets/banners/art_journal_enfant.png",
+            "informations": [
+                {
+                    "title": "Art journal : carnet de voyage/de photos/ cahier de recettes / de scores de matchs...",
+                    "carrousel": [
+                        "assets/images/art_journal/art_journal_2.jpg",
+                        "assets/images/art_journal/art_journal_3.png",
+                        "assets/images/art_journal/art_journal_5.png",
+                        "assets/images/art_journal/art_journal_6.jpg",
+                        "assets/images/art_journal/art_journal_7.png",
+                        "assets/images/art_journal/art_journal_enfant_1.jpg",
+                        "assets/images/art_journal/art_journal_enfant_2.jpg",
+                        "assets/images/art_journal/art_journal_enfant_3.jpg"
+                    ],
+                    "description": [
+                        "Cette activité convient aussi bien aux filles qu'aux garçons ! Je la conseille à partir de 5ans.",
+                        "Quel est le travail à faire et à quoi va bien pouvoir servir ce carnet ?",
+                        "Nous ne décorerons que la 1ère de couverture (compter à peu près 2h de travail) et chaque enfant décidera de la couleur principale et du thème de son carnet. Il y a du collage et de la peinture.",
+                        "Les enfants pourront s'en servir d'album photos, de carnet de recettes ou de poésies, d'herbier... Ils y marqueront leurs scores de match, leur classement en sport, les numéros de téléphones et les adresses des copains...",
+                        "Chaque enfant en trouvera une utilisation personnelle, soyez-en certains !",
+                        "Voici en photos quelques réalisations d'enfants, allant de 5 ans à 12ans.",
+                        "Je fournis : le journal, toutes les décorations (papiers anciens et neufs, pompons, fleurs, insectes, strass...), les peintures, la colle.",
+                        "<tr>Tarif : 24€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation enfant à votre domicile",
                 "Carnet secret"
             ],
             "path": "les-ateliers-enfants-chez-vous/carnet-secret",
-            "banner_image": "assets/images/carnet_secret/carnet_secret_1.jpg",
+            "banner_image": "assets/banners/carnet_secret.jpg",
             "informations": [
                 {
                     "title": "Atelier carnet secret décoré",
@@ -375,7 +408,7 @@
                 "Activité spéciale pour grands groupes"
             ],
             "path": "les-ateliers-enfants-chez-vous/activité-spéciale-pour-grand-groupes",
-            "banner_image": "assets/images/grand_groupe/grand_groupe_1.jpg",
+            "banner_image": "assets/banners/grand_groupe.jpg",
             "informations": [
                 {
                     "title": "Chasse au trésor et quilles finlandaises (pour + de 10 enfants) :",
@@ -398,7 +431,7 @@
                 "Attrape-Soleil Suncatcher"
             ],
             "path": "animations-adultes/attrape-soleil-suncatcher",
-            "banner_image": "assets/images/suncatcher/suncatcher_2.jpg",
+            "banner_image": "assets/banners/suncatcher.jpg",
             "informations": [
                 {
                     "title": "Suncatcher attrape-soleil",
@@ -424,7 +457,7 @@
                 "Bouteille décorée"
             ],
             "path": "animations-adultes/bouteille-décorée",
-            "banner_image": "assets/images/bouteilles/bouteille_1.jpg",
+            "banner_image": "assets/banners/bouteille.jpg",
             "informations": [
                 {
                     "title": "Bouteille décorée : 2 séances sont nécessaires !",
@@ -454,7 +487,7 @@
                 "Peinture en relief"
             ],
             "path": "animations-adultes/peinture-en-relief",
-            "banner_image": "assets/images/peinture_relief/peinture_relief_1.jpg",
+            "banner_image": "assets/banners/peinture_relief.jpg",
             "informations": [
                 {
                     "title": "Peinture sculpture en relief : modeling paste",
@@ -486,7 +519,7 @@
                 "Tableau mix média rétro"
             ],
             "path": "animations-adultes/tableau-mix-média-rétro",
-            "banner_image": "assets/images/tableau_retro/tableau_retro_1.jpg",
+            "banner_image": "assets/banners/tableau_retro.jpg",
             "informations": [
                 {
                     "title": "Atelier tableau mix média rétro",
@@ -513,7 +546,7 @@
                 "Résine UV"
             ],
             "path": "animations-adultes/résine-uv",
-            "banner_image": "assets/images/resine_uv/resine_uv_5.jpg",
+            "banner_image": "assets/banners/resine_uv.jpg",
             "informations": [
                 {
                     "title": "Résine UV adultes",
@@ -542,7 +575,7 @@
                 "Pot de fleur peint"
             ],
             "path": "animations-adultes/pot-de-fleur-peint",
-            "banner_image": "assets/images/pot_fleur/pot_fleur_5.jpg",
+            "banner_image": "assets/banners/pot_fleur.jpg",
             "informations": [
                 {
                     "title": "Pot de fleur peint",
@@ -573,7 +606,7 @@
                 "Coquille St Jacques vide poche"
             ],
             "path": "animations-adultes/coquille-st-jacques-vide-poche",
-            "banner_image": "assets/images/coquille/coquille_1.jpg",
+            "banner_image": "assets/banners/coquille.jpg",
             "informations": [
                 {
                     "title": "Vide poche coquille St Jacques",
@@ -661,7 +694,7 @@
                 "Peinture sur toile (sardines)"
             ],
             "path": "animations-adultes/peinture-sur-toile-sardines",
-            "banner_image": "assets/images/peinture_toile/peinture_toile_3.png",
+            "banner_image": "assets/banners/peinture_toile.png",
             "informations": [
                 {
                     "title": "Adultes peinture sur toile",
@@ -687,7 +720,7 @@
                 "Bijoux fantaisie"
             ],
             "path": "animations-adultes/bijoux-fantaisie",
-            "banner_image": "assets/images/bijoux_fantaisie/bijoux_fantaisie_3.jpg",
+            "banner_image": "assets/banners/bijoux_fantaisie.jpg",
             "informations": [
                 {
                     "title": "Atelier bijoux pour adultes",
@@ -748,7 +781,7 @@
                 "Ehpad, centres de loisirs, écoles"
             ],
             "path": "ehpad-centres-de-loisirs-ecoles",
-            "banner_image": "assets/images/centre_loisir/centre_loisir_9.png",
+            "banner_image": "assets/banners/centre_loisir.jpg",
             "informations": [
                 {
                     "title": "Ateliers dans les centres de loisirs et les écoles",
@@ -792,7 +825,7 @@
                 "Cours particuliers"
             ],
             "path": "cours-particulier",
-            "banner_image": "assets/images/cours_particulier/cours_particulier_1.jpg",
+            "banner_image": "assets/banners/cours_particulier.jpg",
             "informations": [
                 {
                     "title": "Cours particulier (adulte enfant)",
@@ -838,7 +871,7 @@
                 "Enterrement Vie de Jeune Fille"
             ],
             "path": "enterrement-vie-de-jeune-fille",
-            "banner_image": "assets/images/evjf/evjf_1.jpg",
+            "banner_image": "assets/banners/evjf.png",
             "informations": [
                 {
                     "title": "Enterrement Vie de Jeune Fille",
@@ -870,7 +903,7 @@
                 "Les stages sur 2 jours"
             ],
             "path": "les-stages-sur-2-jours",
-            "banner_image": "assets/images/evjf/evjf_1.jpg",
+            "banner_image": "assets/banners/stage_2_j.jpg",
             "informations": [
                 {
                     "title": "Les stages : sur 2 jours (sans couchage)",
@@ -904,7 +937,7 @@
                 "Animation chantée"
             ],
             "path": "animation-chantée",
-            "banner_image": "assets/images/evjf/evjf_1.jpg",
+            "banner_image": "assets/banners/chant.jpg",
             "informations": [
                 {
                     "title": "Animation chantée ou Karaoké",
@@ -927,7 +960,7 @@
                 "Bon cadeau"
             ],
             "path": "bon-cadeau",
-            "banner_image": "assets/images/evjf/evjf_1.jpg",
+            "banner_image": "assets/banners/bon_cadeau.jpg",
             "informations": [
                 {
                     "title": "BON CADEAU à offrir",
