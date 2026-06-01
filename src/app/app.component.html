@@ -40,7 +40,7 @@
         </div>
         }
         <img [src]="activeSection.banner_image" (load)="onImageLoad()"
-          class="absolute inset-0 w-full h-full object-cover transition-opacity duration-300"
+          class="absolute inset-0 w-full h-full object-cover transition-opacity duration-300" priority
           [ngClass]="isImageLoading ? 'opacity-0' : 'opacity-100'" />
         <div class="absolute inset-0 bg-black/10"></div>
       </div>
