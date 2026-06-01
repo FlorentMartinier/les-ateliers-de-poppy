@@ -201,7 +201,7 @@
                         "Base en bois, sur laquelle nous allons apprendre à peindre de beaux dégradés à l'éponge, puis travail d'écriture avec une pâte spéciale (molding paste) et enfin un travail de moulage avec de la pâte auto durcissante. ",
                         "Bien entendu, comme dans chacun des ateliers proposés, les couleurs, les décorations sont à volonté et aux goûts de chacun, ce qui garantit une pièce créative unique.",
                         "Je fournis : la base, les peintures, la pâte à modeler, les moules, la pate auto durcissante et les éventuelles décorations type strass et fleurs.",
-                        "<tr>Tarif : 25€/personne (Majoration de 10% les dimanche et jours fériés).</tr>"
+                        "<tr>Tarif : 25€/personne (Majoration de 10% les dimanches et jours fériés).</tr>"
                     ]
                 }
             ]
@@ -290,7 +290,7 @@
                         "A quoi va bien pouvoir servir ce carnet ?",
                         "Un carnet type Bristol de 20 cm de hauteur, qui pourra servir aussi bien de carnet secret, de répertoire de points de matchs, de carnet de notes, de carnet de poésies, de carnet de croquis, d'herbier...",
                         "Chaque enfant en trouvera une utilisation personnelle, soyez-en certains !",
-                        "Le prix indiqué est valable du lundi au samedi. Majoration de 10% les dimanche et jours fériés.",
+                        "Le prix indiqué est valable du lundi au samedi. Majoration de 10% les dimanches et jours fériés.",
                         "Je fournis : le carnet, les tissus, les décorations diverses (mosaïques en céramique faites main, fleurs, verre, bois, etc) ainsi que les peintures en relief qui donneront la touche finale à la création.",
                         "Je ne fournis pas le stylo visible sur les photos.",
                         "chacun trouvera des décorations adaptées à son goût et son style (les décorations sont à volonté !).",
@@ -347,7 +347,7 @@
                         "Chaque bijou est unique, les photos mises en exposition sur ce site sont là uniquement pour vous donner une idée de ce qui est réalisable.",
                         "Un résultat pro garanti !",
                         "Je fournis : fils coton et fil d'acier, perles diverses et variées, rubans et breloques, perles céramique faites main, laine pour pompons si vous avez choisi le porte clé version 2, strass, paillettes, mousqueton, etc.",
-                        "<tr>Tarif : 14€/personne (Majoration de 10% les dimanche et jours fériés).</tr>"
+                        "<tr>Tarif : 14€/personne (Majoration de 10% les dimanches et jours fériés).</tr>"
                     ]
                 }
             ]
@@ -371,6 +371,357 @@
                         "Suivie d'un jeu commun de quilles finlandaises !",
                         "Animation assurée !!!",
                         "<tr>Tarif : 14€/personne.</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation adultes",
+                "Attrape-Soleil Suncatcher"
+            ],
+            "path": "animations-adultes/attrape-soleil-suncatcher",
+            "banner_image": "assets/images/suncatcher/suncatcher_2.jpg",
+            "informations": [
+                {
+                    "title": "Suncatcher attrape-soleil",
+                    "carrousel": [
+                        "assets/images/suncatcher/suncatcher_1.jpg",
+                        "assets/images/suncatcher/suncatcher_2.jpg",
+                        "assets/images/suncatcher/suncatcher_3.jpg"
+                    ],
+                    "description": [
+                        "A la fois décoration et source d'énergie et de vibrations, l'attrape-soleil vous permettra de créer un objet à votre image et d'apprendre la technique de montage de bijoux.",
+                        "Tout le matériel est fourni et de formes très diverses.",
+                        "Métal doré ou métal argenté, pièces irisées en verre, chaînes, crochets, papillons, lunes, lotus, gouttes, soleils...",
+                        "Cet atelier peut être proposé à partir de 10ans. Idéal en atelier parent/enfant.",
+                        "<tr>Tarif : 30€/personne (Majoration de 10% les dimanches et jours fériés).</tr>",
+                        "<tr>Minimum 5 personnes</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation adultes",
+                "Bouteille décorée"
+            ],
+            "path": "animations-adultes/bouteille-décorée",
+            "banner_image": "assets/images/bouteilles/bouteille_1.jpg",
+            "informations": [
+                {
+                    "title": "Bouteille décorée : 2 séances sont nécessaires !",
+                    "carrousel": [
+                        "assets/images/bouteilles/bouteille_1.jpg",
+                        "assets/images/bouteilles/bouteille_2.jpg",
+                        "assets/images/bouteilles/bouteille_3.jpg",
+                        "assets/images/bouteilles/bouteille_4.jpg",
+                        "assets/images/bouteilles/bouteille_5.jpg"
+                    ],
+                    "description": [
+                        "Ou l'art de recycler, de valoriser et d'embellir une banale bouteille.",
+                        "Les techniques employées : peinture, modeling paste, collage d'images, pate structurante, petites décorations diverses.",
+                        "Cet atelier doit se prendre en deux séances de 3h en fonction de la grandeur de la bouteille choisie.",
+                        "Je peux fournir la bouteille, mais vous pouvez aussi fournir votre propre bouteille si elle est originale.",
+                        "Cet atelier est proposé à partir de 14ans.",
+                        "Tout le matériel est fourni.",
+                        "<tr>Tarif : 35€ / personne X 2, soit 70€ pour avoir une pièce complètement terminée (cela signifie 2 séances à dater).</tr>",
+                        "<tr>Minimum 5 personnes</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation adultes",
+                "Peinture en relief"
+            ],
+            "path": "animations-adultes/peinture-en-relief",
+            "banner_image": "assets/images/peinture_relief/peinture_relief_1.jpg",
+            "informations": [
+                {
+                    "title": "Peinture sculpture en relief : modeling paste",
+                    "carrousel": [
+                        "assets/images/peinture_relief/peinture_relief_1.jpg",
+                        "assets/images/peinture_relief/peinture_relief_2.jpg",
+                        "assets/images/peinture_relief/peinture_relief_3.jpg",
+                        "assets/images/peinture_relief/peinture_relief_4.jpg",
+                        "assets/images/peinture_relief/peinture_relief_5.jpg",
+                        "assets/images/peinture_relief/peinture_relief_6.jpg"
+                    ],
+                    "description": [
+                        "Que vous soyez novice ou habituée, cette activité va vous inspirer pour de futures créations !",
+                        "Nous allons travailler sur une petite toile de 12cm de côtés.",
+                        "Les techniques employées : peinture acrylique, pochoirs, travail au couteau, modeling paste...",
+                        "Les photos visibles ici sont des exemples de créations possibles. Toutefois chaque élève travaillera dans son style.",
+                        "Coquelicot ou magnolia seront les 2 modèles de fleurs proposés.",
+                        "Les peinture, les pochoirs, la toile, la modeling paste, tout le matériel nécessaire : en libre service et à volonté.",
+                        "Cet atelier va durer en moyenne 3 heures.",
+                        "<tr>Tarif : 40€.</tr>",
+                        "<tr>Minimum 5 personnes</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation adultes",
+                "Tableau mix média rétro"
+            ],
+            "path": "animations-adultes/tableau-mix-média-rétro",
+            "banner_image": "assets/images/tableau_retro/tableau_retro_1.jpg",
+            "informations": [
+                {
+                    "title": "Atelier tableau mix média rétro",
+                    "side_images": [
+                        "assets/images/tableau_retro/tableau_retro_1.jpg",
+                        "assets/images/tableau_retro/tableau_retro_2.jpg"
+                    ],
+                    "description": [
+                        "2 séances sont nécessaires !",
+                        "Un magnifique atelier, à faire entre copines, entre amis, en associations...",
+                        "Comme tous mes ateliers, tout le matériel est inclus. il est à volonté : images, bijoux vintage, tissus, dentelles, strass, feuille d'or, fleurs artificielles, etc.",
+                        "Toutefois, vous pouvez aussi fournir du matériel personnel qui vous permettra de créer un tableau à votre image (un bijou de famille, un voile de mariée, une image).",
+                        "Photo de famille ? Photo d'un animal ? N'hésitez pas à l'apporter. Sinon des images seront mises à votre disposition.",
+                        "Deux séances seront nécessaires afin de repartir avec une création (presque) complètement terminée :-)",
+                        "<tr>Tarif : 40€ / personne x 2, soit 80€ en tout (Cela signifie 2 séances à dater).</tr>",
+                        "<tr>Minimum 5 personnes</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation adultes",
+                "Résine UV"
+            ],
+            "path": "animations-adultes/résine-uv",
+            "banner_image": "assets/images/resine_uv/resine_uv_5.jpg",
+            "informations": [
+                {
+                    "title": "Résine UV adultes",
+                    "carrousel": [
+                        "assets/images/resine_uv/resine_uv_1.png",
+                        "assets/images/resine_uv/resine_uv_2.png",
+                        "assets/images/resine_uv/resine_uv_3.jpg",
+                        "assets/images/resine_uv/resine_uv_4.png",
+                        "assets/images/resine_uv/resine_uv_5.jpg"
+                    ],
+                    "description": [
+                        "Je vous propose de venir créer votre propre bijou en résine UV.",
+                        "AU CHOIX : une paire de boucles d'oreilles OU un collier (pendentif + chaine).",
+                        "Une activité d'1h30, où vous apprendrez la technique et où vous pourrez faire vos propres inclusions : fleurs séchées, fleurs papier, feuilles d'or et d'argent, micro billes de verre, etc.",
+                        "Un pendentif ou des boucles à votre goût, dans votre style, et un bon moment entre copines !",
+                        "Tout le matériel est fourni.",
+                        "<tr>Tarif : 30€ / personne (Majoration de 10% les dimanches et jours fériés).</tr>",
+                        "<tr>Minimum 5 personnes</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation adultes",
+                "Pot de fleur peint"
+            ],
+            "path": "animations-adultes/pot-de-fleur-peint",
+            "banner_image": "assets/images/pot_fleur/pot_fleur_5.jpg",
+            "informations": [
+                {
+                    "title": "Pot de fleur peint",
+                    "carrousel": [
+                        "assets/images/pot_fleur/pot_fleur_1.jpg",
+                        "assets/images/pot_fleur/pot_fleur_2.jpg",
+                        "assets/images/pot_fleur/pot_fleur_3.jpg",
+                        "assets/images/pot_fleur/pot_fleur_4.jpg",
+                        "assets/images/pot_fleur/pot_fleur_5.jpg",
+                        "assets/images/pot_fleur/pot_fleur_6.jpg"
+                    ],
+                    "description": [
+                        "Peinture sur pot de fleur, avec utilisation de plusieurs techniques.",
+                        "Résultat pro !",
+                        "pot de 15cm de hauteur approx.",
+                        "Plusieurs décorations possibles, au choix de l'élève.",
+                        "Travail facilité par ma technique ouverte autant aux pros qu'aux novices ;-)",
+                        "Il faut compter 3 heures de travail.",
+                        "<tr>Tarif : 30€ / personne.</tr>",
+                        "<tr>Minimum 5 personnes</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation adultes",
+                "Coquille St Jacques vide poche"
+            ],
+            "path": "animations-adultes/coquille-st-jacques-vide-poche",
+            "banner_image": "assets/images/coquille/coquille_1.jpg",
+            "informations": [
+                {
+                    "title": "Vide poche coquille St Jacques",
+                    "carrousel": [
+                        "assets/images/coquille/coquille_1.jpg",
+                        "assets/images/coquille/coquille_2.jpg",
+                        "assets/images/coquille/coquille_3.jpg"
+                    ],
+                    "description": [
+                        "Dans cet atelier je vous propose de décorer une grande coquille St Jacques de 10 à 12cm d'envergure approx.",
+                        "Vous pourrez choisir l'illustration dans plusieurs propositions de tous styles.",
+                        "Afin de vitrifier votre travail, je vous apprendrai la technique de la résine UV.",
+                        "Puis nous décorerons à volonté.",
+                        "Cette coquille se trouve sur un trépied en laiton qui est compris dans le prix de l'atelier.",
+                        "Tout le matériel est inclus.",
+                        "<tr>Tarif : 25€ / personne.</tr>",
+                        "<tr>Minimum 5 personnes</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation adultes",
+                "Art journal"
+            ],
+            "path": "animations-adultes/art-journal",
+            "banner_image": "assets/images/art_journal/art_journal_1.jpg",
+            "informations": [
+                {
+                    "title": "Art journal : carnet de voyage/d'émotions / de photos/ de recettes / de notes...",
+                    "carrousel": [
+                        "assets/images/art_journal/art_journal_1.jpg",
+                        "assets/images/art_journal/art_journal_2.jpg",
+                        "assets/images/art_journal/art_journal_3.png",
+                        "assets/images/art_journal/art_journal_4.png",
+                        "assets/images/art_journal/art_journal_5.png",
+                        "assets/images/art_journal/art_journal_6.jpg",
+                        "assets/images/art_journal/art_journal_7.png"
+                    ],
+                    "description": [
+                        "Cette activité convient aussi bien aux adultes qu'aux enfants. Il est donc possible de faire un atelier inter-générationnel !",
+                        "Quel est le travail à faire et à quoi va bien pouvoir servir ce carnet ?",
+                        "Nous ne décorerons que la 1ère de couverture (compter à peu près 2h de travail) et chaque élève décidera de la couleur principale et du thème de son carnet. Il y a du collage et de la peinture.",
+                        "On peut utiliser ce carnet pour plein d'occasions : album photos, carnet de recettes ou de poésies, carnet d'émotions, herbier... ",
+                        "Tout le matériel est inclus : carnet de 20cm x 20cm, papiers, peintures, pochoirs, petites décorations telles que strass, rubans et dentelles..",
+                        "Voici en photos quelques exemples de réalisations.",
+                        "<tr>Tarif : 30€ / personne (Majoration de 10% les dimanches et jours fériés).</tr>",
+                        "<tr>Minimum 5 personnes</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation adultes",
+                "Peinture sur tuile"
+            ],
+            "path": "animations-adultes/peinture-sur-tuile",
+            "banner_image": "assets/images/peinture_tuile/peinture_tuile_1.jpg",
+            "informations": [
+                {
+                    "title": "Peinture sur tuile",
+                    "carrousel": [
+                        "assets/images/peinture_tuile/peinture_tuile_1.jpg",
+                        "assets/images/peinture_tuile/peinture_tuile_2.jpg",
+                        "assets/images/peinture_tuile/peinture_tuile_3.png"
+                    ],
+                    "description": [
+                        "Cet atelier est très provençal ! Il plaira autant aux ados qu'aux adultes !",
+                        "Pas besoin d'être un peintre chevronné pour participer, j'ai plein de techniques très simples pour arriver à un résultat parfait.",
+                        "Véritable tuile, elle vous servira de décoration intérieur ou extérieur.",
+                        "Plusieurs modèles sont fournis afin de vous aider à obtenir une création qui vous plaira et vous surprendra.",
+                        "Cet atelier dure en moyenne 3 heures.",
+                        "Je fournis : 1 grande tuile par élève + tout le matériel de peinture.",
+                        "<tr>Tarif : 50€ / personne.</tr>",
+                        "<tr>Minimum 5 personnes</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation adultes",
+                "Peinture sur toile (sardines)"
+            ],
+            "path": "animations-adultes/peinture-sur-toile-sardines",
+            "banner_image": "assets/images/peinture_toile/peinture_toile_3.png",
+            "informations": [
+                {
+                    "title": "Adultes peinture sur toile",
+                    "carrousel": [
+                        "assets/images/peinture_toile/peinture_toile_1.jpg",
+                        "assets/images/peinture_toile/peinture_toile_2.jpg",
+                        "assets/images/peinture_toile/peinture_toile_3.png"
+                    ],
+                    "description": [
+                        "Cet atelier s'adresse aux adultes et adolescents.",
+                        "Il faut compter 3h de travail.",
+                        "Toile et peintures sont fournies, y compris pour ceux qui le souhaitent, des petits éléments à coller tels que sequins ou paillettes ou autre.",
+                        "Plusieurs modèles seront fournis, afin d'aider les élèves à trouver plus facilement des idées.",
+                        "<tr>Tarif : 50€ / personne (Majoration de 10% les dimanches et jours fériés).</tr>",
+                        "<tr>Minimum 5 personnes, maximum 6</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation adultes",
+                "Bijoux fantaisie"
+            ],
+            "path": "animations-adultes/bijoux-fantaisie",
+            "banner_image": "assets/images/bijoux_fantaisie/bijoux_fantaisie_3.jpg",
+            "informations": [
+                {
+                    "title": "Atelier bijoux pour adultes",
+                    "carrousel": [
+                        "assets/images/bijoux_fantaisie/bijoux_fantaisie_1.jpg",
+                        "assets/images/bijoux_fantaisie/bijoux_fantaisie_2.jpg",
+                        "assets/images/bijoux_fantaisie/bijoux_fantaisie_3.jpg",
+                        "assets/images/bijoux_fantaisie/bijoux_fantaisie_4.jpg",
+                        "assets/images/bijoux_fantaisie/bijoux_fantaisie_5.jpg",
+                        "assets/images/bijoux_fantaisie/bijoux_fantaisie_6.jpg",
+                        "assets/images/bijoux_fantaisie/bijoux_fantaisie_7.jpg",
+                        "assets/images/bijoux_fantaisie/bijoux_fantaisie_8.jpg",
+                        "assets/images/bijoux_fantaisie/bijoux_fantaisie_9.jpg",
+                        "assets/images/bijoux_fantaisie/bijoux_fantaisie_10.jpg",
+                        "assets/images/bijoux_fantaisie/bijoux_fantaisie_11.jpg",
+                        "assets/images/bijoux_fantaisie/bijoux_fantaisie_12.jpg"
+                    ],
+                    "description": [
+                        "Je vous propose de créer le bijou de vos rêves ! celui que vous ne trouverez jamais en magasin !",
+                        "Collier, broche, bague, bracelet, boucles d'oreilles...",
+                        "Des milliers de perles, de pompons, de plumes, de supports, de chaînes et de crochets seront mis à votre disposition.",
+                        "Je serai là pour vous aider pas à pas, que vous soyez novice ou confirmé(e).",
+                        "Tous les styles et toutes les couleurs sont autorisés, que vous aimiez les bijoux sobres et discrets... ou les bijoux XXL...",
+                        "A la fin de l'atelier, qui durera en moyenne 2h30, vous pourrez porter un bijou unique que vous aurez plaisir et fierté à montrer.",
+                        "La totalité du matériel est fourni. Chaque élève repartira avec une parure : collier/bague OU collier/boucles OU bracelet/bague OU bracelet/boucles... broche/bague OU broche/boucles.",
+                        "vous pouvez aussi faire une demande personnalisée.",
+                        "<tr>Tarif : 35€ / personne.</tr>",
+                        "<tr>Minimum 5 personnes, maximum 10</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation adultes",
+                "Cœur sacré en argile auto-durcissante"
+            ],
+            "path": "animations-adultes/cœur-sacré-en-argile-auto-durcissante",
+            "banner_image": "assets/images/coeur_sacre/coeur_sacre_1.jpg",
+            "informations": [
+                {
+                    "title": "Cœur sacré en argile auto-durcissante",
+                    "side_images": [
+                        "assets/images/coeur_sacre/coeur_sacre_2.jpg"
+                    ],
+                    "description": [
+                        "En cours de création...",
+                        "Cet atelier sera bientôt proposé aux adultes.",
+                        "2h d'activité.",
+                        "<tr>Tarif : 30€ / personne.</tr>",
+                        "<tr>Minimum 5 personnes</tr>"
                     ]
                 }
             ]
