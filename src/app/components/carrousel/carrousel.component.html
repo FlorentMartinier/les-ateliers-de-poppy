@@ -1,46 +1,37 @@
 <div class="relative w-full max-w-4xl mx-auto my-4 group px-12">
-      
-    <button 
-      (click)="scrollLeft(); $event.stopPropagation()" 
-      class="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-black/60 hover:bg-indigo-600 text-white p-2 rounded-full shadow-lg transition-all opacity-100 md:opacity-0 md:group-hover:opacity-100 focus:outline-none">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-      </svg>
-    </button>
 
-    <div 
-      #scrollContainer
-      class="flex gap-4 overflow-x-hidden whitespace-nowrap h-64 md:h-80 py-2 items-center"
-      (mouseenter)="pauseContainerAnimation()"
-      (mouseleave)="startContainerAnimation()">
-      
-      @for (img of extendedImages; track $index) {
-        <div class="w-2/3 sm:w-1/2 md:w-1/3 flex-shrink-0 inline-block transition-all duration-300 hover:scale-105 px-1">
-          <img 
-            [src]="img" 
-            alt="Aperçu création" 
-            class="w-full h-full object-cover rounded-xl shadow-md cursor-zoom-in border border-gray-200 select-none pointer-events-auto"
-            (click)="openZoom(img); $event.stopPropagation()"
-          />
-        </div>
-      }
+  <button (click)="scrollLeft(); $event.stopPropagation()"
+    class="absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-black/60 hover:bg-indigo-600 text-white p-2 rounded-full shadow-lg transition-all opacity-100 md:opacity-0 md:group-hover:opacity-100 focus:outline-none">
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+    </svg>
+  </button>
+
+  <div #scrollContainer
+    class="flex gap-4 overflow-x-hidden whitespace-nowrap h-64 md:h-80 py-2 items-center overflow-hidden"
+    (mouseenter)="pauseContainerAnimation()" (mouseleave)="startContainerAnimation()">
+
+    @for (img of extendedImages; track $index) {
+    <div class="h-64 sm:h-64 md:h-80 shrink-0 transition-all duration-300 hover:scale-105 px-2 rounded-lg">
+      <img [src]="img" alt="Aperçu création"
+        class="h-full w-auto rounded-lg shadow-md cursor-zoom-in border border-gray-200 select-none pointer-events-auto"
+        (click)="openZoom(img); $event.stopPropagation()" />
     </div>
-
-    <button 
-      (click)="scrollRight(); $event.stopPropagation()" 
-      class="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-black/60 hover:bg-indigo-600 text-white p-2 rounded-full shadow-lg transition-all opacity-100 md:opacity-0 md:group-hover:opacity-100 focus:outline-none">
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-      </svg>
-    </button>
-
+    }
   </div>
 
-  @if (zoomedImage) {
-    <div 
-      class="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4 cursor-zoom-out"
-      (click)="closeZoom()">
-      <button class="absolute top-4 right-4 text-white text-3xl font-bold">&times;</button>
-      <img [src]="zoomedImage" alt="Zoomed" class="max-w-full max-h-full object-contain rounded-lg shadow-2xl" />
-    </div>
-  }
+  <button (click)="scrollRight(); $event.stopPropagation()"
+    class="absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-black/60 hover:bg-indigo-600 text-white p-2 rounded-full shadow-lg transition-all opacity-100 md:opacity-0 md:group-hover:opacity-100 focus:outline-none">
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+    </svg>
+  </button>
+
+</div>
+
+@if (zoomedImage) {
+<div class="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4 cursor-zoom-out" (click)="closeZoom()">
+  <button class="absolute top-4 right-4 text-white text-3xl font-bold">&times;</button>
+  <img [src]="zoomedImage" alt="Zoomed" class="max-w-full max-h-full object-contain rounded-lg shadow-2xl" />
+</div>
+}
