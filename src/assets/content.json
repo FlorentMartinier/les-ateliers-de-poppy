@@ -27,7 +27,7 @@
                 "Bienvenue"
             ],
             "path": "",
-            "banner_image": "assets/banners/images.jfif",
+            "banner_image": "assets/banners/bienvenue.jpg",
             "informations": [
                 {
                     "title": "Bienvenue chez POPPY IN THE SKY !",
@@ -58,7 +58,7 @@
                 "Présentation"
             ],
             "path": "présentation",
-            "banner_image": "assets/banners/images.jfif",
+            "banner_image": "assets/banners/presentation.jpg",
             "informations": [
                 {
                     "title": "Ateliers loisirs créatifs à domicile sur  Montpellier et Agglomération - adultes et enfants",
@@ -201,7 +201,7 @@
                 "Grand coeur bois"
             ],
             "path": "les-ateliers-enfants-chez-vous/grand-cœur-bois",
-            "banner_image": "assets/banners/images.jfif",
+            "banner_image": "assets/banners/coeur_bois.jpg",
             "informations": [
                 {
                     "title": "Atelier décoration cœur",
@@ -229,7 +229,7 @@
                 "Porte clé initiale en résine"
             ],
             "path": "les-ateliers-enfants-chez-vous/porte-clé-initiale-en-résine",
-            "banner_image": "assets/images/porte_cle/porte_cle_2.jpg",
+            "banner_image": "assets/banners/porte_cle_resine.jpg",
             "informations": [
                 {
                     "title": "Porte clé initiale en résine UV",
@@ -949,13 +949,13 @@
                 "Contact"
             ],
             "path": "contact",
-            "banner_image": "assets/images/evjf/evjf_1.jpg",
+            "banner_image": "assets/banners/contact.jpg",
             "informations": [
                 {
                     "title": "Contact",
                     "description": [
                         "Vous souhaitez vous inscrire sur un atelier lors d'un salon ? Vous souhaitez une une animation à votre domicile ?",
-                        "Merci de bien vouloir remplir le questionnaire ci-dessous.",
+                        "Merci de bien vouloir me contacter par mail : <a href='mailto:valerie.martinier@free.fr'>valerie.martinier@free.fr</a>, afin de m'indiquer la date, le lieu, et l'animation souhaitée.",
                         "Vous pouvez aussi me contacter par téléphone au 06.60.75.34.38.",
                         "A bientôt !",
                         "valérie"

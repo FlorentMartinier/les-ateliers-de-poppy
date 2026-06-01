@@ -1,12 +1,12 @@
 import { CommonModule } from '@angular/common';
-import { AfterViewInit, Component, ElementRef, Input, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, Input, OnChanges, OnDestroy, OnInit, SimpleChanges, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-carrousel',
   imports: [CommonModule],
   templateUrl: './carrousel.component.html',
 })
-export class CarrouselComponent implements OnInit, AfterViewInit, OnDestroy {
+export class CarrouselComponent implements OnInit, AfterViewInit, OnDestroy, OnChanges {
   @Input() images: string[] = [];
   @ViewChild('scrollContainer') scrollContainer!: ElementRef<HTMLDivElement>;
 
@@ -15,8 +15,19 @@ export class CarrouselComponent implements OnInit, AfterViewInit, OnDestroy {
   animationId: any;
   scrollSpeed = 1; // Vitesse de croisière (pixels par frame)
   isPaused = false;
+  currentIndex = 0;
 
   ngOnInit() {
+    this.initCarrousel();
+  }
+
+  ngOnChanges(changes: SimpleChanges) {
+    if (changes['images'] && !changes['images'].isFirstChange()) {
+      this.initCarrousel();
+    }
+  }
+
+  initCarrousel() {
     if (this.images && this.images.length > 0) {
       // On duplique de manière importante pour assurer la continuité infinie fluide
       this.extendedImages = [...this.images, ...this.images, ...this.images, ...this.images, ...this.images];
