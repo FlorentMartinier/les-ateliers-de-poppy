@@ -2,7 +2,24 @@
     "title": "Les ateliers de Poppy",
     "footer": {
         "instagram": "https://www.instagram.com/poppyinthesky_les_ateliers/",
-        "mail": "test@test.fr"
+        "etsy": "https://www.etsy.com/shop/poppyintheskyfrance",
+        "facebook": "https://www.facebook.com/poppyin.thesky.1",
+        "linkedin": "https://www.linkedin.com/in/val%C3%A9rie-martinier-2787a242",
+        "mail": "valerie.martinier@free.fr",
+        "partners": [
+            {
+                "title": "Maison Magalona",
+                "url": "https://www.facebook.com/search/top?q=maison%20magalona"
+            },
+            {
+                "title": "Solargil",
+                "url": "https://solargil.com/"
+            },
+            {
+                "title": "Tendances créatives",
+                "url": "https://www.tendances-creatives.com/ateliers-toulouse-2025"
+            }
+        ]
     },
     "sections": [
         {
