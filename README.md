@@ -1,121 +1,68 @@
-Je souhaite développer un site web pour présenter des création. le site web est développé en angular et avec tailwind css. J'ai déjà initialisé le projet et mis en place tailwind pas besoin de m'aider la dessus. J'aimerais que l'intégralité du contenu du site se fasse via un fichier JSON. Voici un exemple de fichier qui devrait couvrir tous les cas possibles : 
-{
-    "title": "Les ateliers de Poppy",
-    "footer" : {
-        "instagram": "https://www.instagram.com/poppyinthesky_les_ateliers/"
-        "mail" : "test@test.fr"
-    }
-    "sections": [
-        {
-            "menu_title": [
-                "Bienvenue"
-            ],
-            "banner_image": "assets/banners/images.jfif",
-            "informations": [
-                {
-                    "title": "Bienvenue chez POPPY IN THE SKY !",
-                    "images": null,
-                    "carrousel": null,
-                    "description": [
-                        "Ce site est dédié au plaisir de la création. Vous y trouverez des propositions d'ateliers créatifs à votre domicile (voir plus haut), des dates d'ateliers créatifs sur Fabrègues (vacances scolaires uniquement), ainsi que les liens vers mes créations personnelles à la vente (un peu plus bas sur cette page). Bonne visite !"
-                    ]
-                },
-                {
-                    "title": "Mon actualité :",
-                    "images": [
-                        "assets/images/atelier_metal.png",
-                        "assets/images/atelier_attrape_soleil.png"
-                    ],
-                    "carrousel": null,
-                    "description": null
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Présentation"
-            ],
-            "banner_image": "assets/banners/images.jfif",
-            "informations": [
-                {
-                    "title": "Ateliers loisirs créatifs à domicile sur  Montpellier et Agglomération - adultes et enfants",
-                    "images": null,
-                    "carrousel": null,
-                    "description": [
-                        "Bienvenue sur mon site pour une pause créative et festive !"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation enfant à votre domicile",
-                "Grand coeur bois"
-            ],
-            "banner_image": "assets/banners/images.jfif",
-            "informations": [
-                {
-                    "title": "Atelier décoration cœur",
-                    "images": null,
-                    "carrousel": null,
-                    "description": [
-                        "Superbe grande décoration murale (cuisine, chambre, etc) de 29cm d'envergure. Pièce en bois hyper légère.",
-                        "A garder pour soi ou à offrir à papa, maman, papi, mami...",
-                        "Base en bois, sur laquelle nous allons apprendre à peindre de beaux dégradés à l'éponge, puis travail d'écriture avec une pâte spéciale (molding paste) et enfin un travail de moulage avec de la pâte auto durcissante. ",
-                        "Bien entendu, comme dans chacun des ateliers proposés, les couleurs, les décorations sont à volonté et aux goûts de chacun, ce qui garantit une pièce créative unique.",
-                        "Le prix indiqué est valable du lundi au samedi. Majoration de 10% les dimanche et jours fériés."
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation enfant à votre domicile",
-                "Cadre végétal"
-            ],
-            "banner_image": "assets/banners/images.jfif",
-            "informations": [
-                {
-                    "title": "Cadre végétal (toutes saisons)",
-                    "images": null,
-                    "carrousel": [
-                        "assets/images/cadre_vegetal_1.jpg",
-                        "assets/images/cadre_vegetal_2.jpg",
-                        "assets/images/cadre_vegetal_2.jpg",
-                        "assets/images/cadre_vegetal_2.jpg",
-                        "assets/images/cadre_vegetal_2.jpg",
-                        "assets/images/cadre_vegetal_2.jpg",
-                        "assets/images/cadre_vegetal_2.jpg",
-                        "assets/images/cadre_vegetal_2.jpg",
-                        "assets/images/cadre_vegetal_2.jpg"
-                    ],
-                    "description": [
-                        "Cette activité est proposée à partir de 6 ans.",
-                        "Toutefois si votre enfant et ses amis sont créatifs et font preuve de dextérité, cette activité peut être proposée dès 5 ans.",
-                        "Chaque enfant créera son propre jardin végétal, à base de fournitures \"en fonction de la saison\" (à votre convenance) : de la mousse, du bois, des fleurs, des citrouilles, des champignons, des végétaux factices de toutes sortes, des céramiques que je crée moi-même...",
-                        "le cadre en bois fait 12cm de côtés.",
-                        "Le tarif proposé est majoré de 10% le dimanche et les jours fériés."
-                    ]
-                }
-            ]
-        }
-    ]
-}
+# 🌺 Poppy in the Sky - Les Ateliers
 
-Voici une explication de ce que chaque propriété est censé faire : 
-- title = le titre du site web. Il doit être visible sur toutes les pages
-- footer = les informations de footer, qui s'affichent dans tous les écrans sous forme d'icones
-- sections = corresponds à toutes les pages du site. Toutes les pages doivent être accessible par navigation via un burger menu sur le côté droit.
-  - menu_title : le libellé à afficher dans le burger menu pour un écran. A noté que c'est une liste. il y a une notion de hiérarchie (à 2 niveaux maximum). S'il y a plusieurs éléments dans la liste, cela veut dire qu'il faut afficher un menu, et un sous menu dans le burger menu. Il peut y avoir plusieurs sous menu dans un même menu (c'est le cas actuellement dans l'exemple avec "Animation enfant à votre domicile").
-  - banner_image = c'est une image de banière à afficher tout en hat d'un écran. La banière prend la totalité de la largeur de l'écran, et n'est pas totalement carré. J'aimerais qu'il soit un peu biseauté.
-  - informations : une liste de bloc d'informations à afficher dans l'écran. chaque information est constitué de : 
-    - title : le titre
-    - images : une succession d'image les unes à la suite des autres (en colonne)
-    - carrousel : une liste d'images qui défilent en mode carrousel
-    - description : une liste de texte à afficher tel quel.
+Bienvenue sur le dépôt du site vitrine **Poppy in the Sky**. Ce site est une application Single Page (SPA) moderne développée avec **Angular** et stylisée entièrement à l'aide de **Tailwind CSS**.
 
-Au niveau du carrousel : j'aimerais que les images défilent automatiquement sans besoin de cliquer. Elles possèdent toutes la même taille. Et quand on clique sur une image, elle se zoome pour s'afficher en grand sur l'écran.
+L'architecture du site est entièrement **pilotée par les données (Data-Driven)** : tout le contenu textuel, les bannières, les sous-menus et les réseaux sociaux sont générés dynamiquement à partir d'un unique fichier de configuration JSON.
 
-Au niveau techique, je souhaite : 
-- Un componant dédié au carrousel, qui prends une liste de string en paramètre (le path des images) et se débrouille avec
-- un component dédié aux "informations"
+---
+
+## ⚙️ Architecture pilotée par le JSON
+
+Pour modifier le contenu du site (ajouter un atelier, changer une image, mettre à jour un partenaire), **vous n'avez pas besoin de toucher au code HTML/TypeScript**. Tout se gère dans le fichier de configuration :
+`src/assets/config/site-config.json` (ou le chemin équivalent dans votre projet).
+
+---
+
+## 🔝 Propriétés Globales
+
+| Propriété | Type | Description | Exemple |
+| --- | --- | --- | --- |
+| **`title`** | Chaîne (`string`) | Le titre principal du site internet (affiché dans l'onglet du navigateur). | `"Les ateliers de Poppy"` |
+| **`footer`** | Objet (`object`) | Regroupe les réseaux sociaux, le contact et les partenaires du bas de page. | *Voir le détail ci-dessous* |
+| **`sections`** | Tableau (`array`) | Liste l'intégralité des pages du site, leur contenu et leur bannière. | *Voir le détail ci-dessous* |
+
+---
+
+## 📑 Structure de l'objet `footer`
+
+| Propriété | Type | Description | Exemple / Rendu |
+| --- | --- | --- | --- |
+| **`instagram`** | Chaîne (`string`) | URL du compte Instagram. *Si laissé vide, l'icône se masque automatiquement.* | `"[https://www.instagram.com/](https://www.instagram.com/)..."` |
+| **`etsy`** | Chaîne (`string`) | URL de la boutique Etsy principale. | `"[https://www.etsy.com/](https://www.etsy.com/)..."` |
+| **`facebook`** | Chaîne (`string`) | URL de la page Facebook. | `"[https://www.facebook.com/](https://www.facebook.com/)..."` |
+| **`linkedin`** | Chaîne (`string`) | URL du profil LinkedIn. | `"[https://www.linkedin.com/](https://www.linkedin.com/)..."` |
+| **`mail`** | Chaîne (`string`) | Adresse e-mail de contact. Génère un lien natif `mailto:`. | `"valerie.martinier@free.fr"` |
+| **`partners`** | Tableau (`object[]`) | Liste des liens vers les sites partenaires affichés dans le footer. | Chaque partenaire requiert un **`title`** (Nom) et une **`url`** (Lien). |
+
+---
+
+## 📄 Structure du tableau `sections` (Les Pages)
+
+Chaque objet à l'intérieur du tableau `sections` représente une page ou une sous-page du site.
+
+| Propriété | Type | Description |
+| --- | --- | --- |
+| **`menu_title`** | Tableau (`string[]`) | **Gestion du menu :** <br>
+
+<br>• Si `1 seule valeur` : Crée une catégorie principale dans le menu (ex: `["Bienvenue"]`).<br>
+
+<br>• Si `2 valeurs` : Le premier élément est le dossier parent, le second est la sous-page (ex: `["Animation enfant...", "Grand coeur bois"]`). |
+| **`path`** | Chaîne (`string`) | L'identifiant de l'URL de la page (ex: `animations-adultes/resine-uv`). Pour la page d'accueil, laissez vide (`""`). |
+| **`banner_image`** | Chaîne (`string`) | Chemin vers l'image de la bannière supérieure (ex: `assets/banners/bienvenue.jpg`). |
+| **`informations`** | Tableau (`object[]`) | Les différents blocs de contenu qui composent le corps de la page. |
+
+---
+
+## 🧩 Structure des blocs imbriqués dans `informations`
+
+À l'intérieur d'une page (`section`), vous pouvez empiler plusieurs blocs dans le tableau `informations`. L'affichage s'adapte dynamiquement selon les propriétés que vous remplissez :
+
+| Propriété | Type | Description / Comportement visuel |
+| --- | --- | --- |
+| **`title`** | Chaîne (`string`) | Le titre du bloc de texte ou de la galerie d'images. |
+| **`description`** | Tableau (`string[]`) | Tableau de paragraphes textuels. **Astuce :** Vous pouvez y injecter des balises HTML comme `<strong>texte</strong>`, des liens `<a href="...">` ou des lignes de tableau `<tr>...</tr>`. |
+| **`images`** | Tableau (`string[]`) | Liste de chemins vers des images fixes (ex: `["assets/images/img1.png"]`). |
+| **`side_images`** | Tableau (`string[]`) | Images destinées à être affichées sur le côté du texte (disposition en colonnes "Texte à gauche / Image à droite"). |
+| **`carrousel`** | Tableau (`string[]`) | Liste d'images qui alimente automatiquement un diaporama défilant (Slider / Carrousel) propre à l'atelier. |
+
+> 💡 **Note de configuration :** Si un composant visuel n'est pas nécessaire pour un bloc (par exemple, pas de carrousel pour la page Bienvenue), vous pouvez simplement omettre la propriété ou lui attribuer la valeur `null`.

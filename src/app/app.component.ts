@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 import { ActivatedRoute, NavigationEnd, Router, RouterModule } from '@angular/router';
 import { filter } from 'rxjs';
 import { FooterComponent } from './components/footer/footer.component';
@@ -7,7 +8,6 @@ import { InformationComponent } from './components/information/information.compo
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MenuItem, SiteConfig, SiteSection } from './models/site.models';
 import { SiteService } from './services/site.service';
-import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -20,6 +20,7 @@ export class AppComponent implements OnInit {
   menuTree: MenuItem[] = [];
   activeSection!: SiteSection;
   isMenuOpen = false;
+  isImageLoading = false;
 
   constructor(
     private siteService: SiteService,
@@ -39,10 +40,17 @@ export class AppComponent implements OnInit {
         this.router.events.pipe(
           filter(event => event instanceof NavigationEnd)
         ).subscribe(() => {
+          this.isImageLoading = true;
           this.handleRouting();
         });
       }
     });
+  }
+
+  onImageLoad() {
+    console.log("avant", this.isImageLoading)
+    this.isImageLoading = false;
+    console.log("après", this.isImageLoading)
   }
 
   /**

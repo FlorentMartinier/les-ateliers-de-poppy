@@ -1,6 +1,6 @@
 @if (config) {
 <div class="min-h-screen flex flex-col bg-[#FAF9F6] font-sans antialiased text-[#2C2A29] relative">
-  
+
   <header
     class="bg-[#FAF9F6]/80 backdrop-blur-md shadow-sm border-b border-stone-200/50 fixed top-0 left-0 right-0 z-40 px-6 h-20 flex items-center justify-between">
     <div class="w-11 hidden md:block"></div>
@@ -30,9 +30,18 @@
   <main class="flex-grow pt-20">
     @if (activeSection) {
     <div>
-      <div class="relative w-full h-56 md:h-72 bg-gray-300 overflow-hidden"
+      <div class="relative w-full h-56 md:h-80 bg-gray-300 overflow-hidden"
         style="clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);">
-        <img [src]="activeSection.banner_image" alt="Bannière" class="w-full h-full object-cover">
+
+        @if (isImageLoading) {
+        <div class="absolute z-10 flex flex-col items-center gap-2">
+          <!-- Petit spinner fluide couleur rouge Poppy -->
+          <div class="w-8 h-8 border-2 border-[#E23D28]/20 border-t-[#E23D28] rounded-full animate-spin"></div>
+        </div>
+        }
+        <img [src]="activeSection.banner_image" (load)="onImageLoad()"
+          class="absolute inset-0 w-full h-full object-cover transition-opacity duration-300"
+          [ngClass]="isImageLoading ? 'opacity-0' : 'opacity-100'" />
         <div class="absolute inset-0 bg-black/10"></div>
       </div>
 
