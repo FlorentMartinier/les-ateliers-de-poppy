@@ -1,2 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import "tailwindcss";
+
+@theme {
+    /* On déclare le nom de la variable précédé de --color- */
+    --color-poppy: #E58B1E;
+    --color-brand-bg: #FAF9F6;
+    --color-text-main: #37312A;
+    --color-text-muted: #6B6155;
+    --color-footer-bg: #26211C;
+    --color-text-footer: #FAF9F6;
+    --color-text-hover-footer: #E58B1E;
+}

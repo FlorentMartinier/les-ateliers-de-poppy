@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
-import { ActivatedRoute, NavigationEnd, Router, RouterModule } from '@angular/router';
+import { NavigationEnd, Router, RouterModule } from '@angular/router';
 import { filter } from 'rxjs';
 import { FooterComponent } from './components/footer/footer.component';
 import { InformationComponent } from './components/information/information.component';
@@ -24,7 +24,6 @@ export class AppComponent implements OnInit {
 
   constructor(
     private siteService: SiteService,
-    private route: ActivatedRoute,
     private router: Router,
     private titleService: Title,
     private metaService: Meta

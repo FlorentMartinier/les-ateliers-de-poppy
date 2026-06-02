@@ -1,16 +1,22 @@
 @if (config) {
-<div class="min-h-screen flex flex-col bg-[#FAF9F6] font-sans antialiased text-[#2C2A29] relative">
+<div class="min-h-screen flex flex-col bg-brand-bg font-sans antialiased text-[#2C2A29] relative">
 
   <header
-    class="bg-[#FAF9F6]/80 backdrop-blur-md shadow-sm border-b border-stone-200/50 fixed top-0 left-0 right-0 z-40 px-6 h-20 flex items-center justify-between">
-    <div class="w-11 hidden md:block"></div>
+    class="bg-brand-bg/80 backdrop-blur-md shadow-sm border-b border-stone-200/50 fixed top-0 left-0 right-0 z-40 px-6 h-24 flex items-center justify-between">
 
-    <h1 class="text-3xl md:text-5xl font-serif font-semibold tracking-wide text-center mx-auto text-[#E23D28]">
-      {{ config.title }}
-    </h1>
+    <div class="w-16 hidden md:block shrink-0"></div>
+
+    <div class="flex items-center gap-4 md:gap-6 mx-auto">
+      <img src="assets/logo.png" alt="Logo Poppy in the sky"
+        class="h-16 w-16 md:h-22 md:w-22 object-contain select-none pointer-events-none drop-shadow-sm" />
+
+      <h1 class="text-3xl md:text-5xl font-serif font-semibold tracking-wide text-poppy">
+        {{ config.title }}
+      </h1>
+    </div>
 
     <button (click)="toggleMenu()"
-      class="text-gray-700 hover:text-[#E23D28] focus:outline-none z-50 p-2 transition-colors">
+      class="text-gray-700 hover:text-poppy focus:outline-none z-50 p-2 transition-colors shrink-0 w-16 flex justify-end">
       @if (!isMenuOpen) {
       <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -27,7 +33,7 @@
     (closeMenu)="toggleMenu()" (sectionSelected)="selectSection($event)">
   </app-sidebar>
 
-  <main class="flex-grow pt-20">
+  <main class="grow pt-20">
     @if (activeSection) {
     <div>
       <div class="relative w-full h-56 md:h-80 bg-gray-300 overflow-hidden"
@@ -35,8 +41,7 @@
 
         @if (isImageLoading) {
         <div class="absolute z-10 flex flex-col items-center gap-2">
-          <!-- Petit spinner fluide couleur rouge Poppy -->
-          <div class="w-8 h-8 border-2 border-[#E23D28]/20 border-t-[#E23D28] rounded-full animate-spin"></div>
+          <div class="w-8 h-8 border-2 border-poppy/20 border-t-poppy rounded-full animate-spin"></div>
         </div>
         }
         <img [src]="activeSection.banner_image" (load)="onImageLoad()"

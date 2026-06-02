@@ -1,99 +1,100 @@
-<footer class="bg-[#1E1B4B] border-t border-stone-800 py-10 mt-auto text-stone-300 font-sans">
-    <div class="max-w-4xl mx-auto px-6 flex flex-col gap-6">
-      
-      <!-- ÉTAGE 1 : Les Partenaires (si présents) -->
-      @if (config?.footer?.partners && config.footer.partners!!.length > 0) {
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 text-sm pb-5 border-b border-stone-800/50">
-          <span class="text-stone-400 font-medium tracking-wider uppercase text-xs shrink-0">Nos partenaires :</span>
-          <div class="flex flex-wrap justify-center gap-x-6 gap-y-2">
-            @for (partner of config.footer.partners; track $index) {
-              <a [href]="partner.url" 
-                 target="_blank" 
-                 rel="noopener" 
-                 class="font-light hover:text-[#E23D28] transition-colors duration-300 underline underline-offset-4 decoration-stone-700 hover:decoration-[#E23D28]">
-                {{ partner.title }}
-              </a>
-            }
-          </div>
-        </div>
-      }
-  
-      <!-- ÉTAGE 2 : Les Réseaux Sociaux (Centrés au milieu) -->
-      @if (config?.footer) {
-        <div class="flex items-center justify-center space-x-8 py-2">
-          
-          <!-- Instagram -->
-          @if (config.footer.instagram) {
-            <a [href]="config.footer.instagram" target="_blank" rel="noopener" aria-label="Instagram"
-               class="hover:text-[#E23D28] transition-colors duration-300">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-              </svg>
-            </a>
-          }
-  
-          <!-- Etsy (Le mot stylisé) -->
-          @if (config.footer.etsy) {
-            <a [href]="config.footer.etsy" target="_blank" rel="noopener" aria-label="Etsy"
-               class="hover:text-[#E23D28] transition-colors duration-300 font-serif text-sm tracking-widest font-bold pt-0.5">
-              ETSY
-            </a>
-          }
-  
-          <!-- Facebook -->
-          @if (config.footer.facebook) {
-            <a [href]="config.footer.facebook" target="_blank" rel="noopener" aria-label="Facebook"
-               class="hover:text-[#E23D28] transition-colors duration-300">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
-              </svg>
-            </a>
-          }
-  
-          <!-- LinkedIn -->
-          @if (config.footer.linkedin) {
-            <a [href]="config.footer.linkedin" target="_blank" rel="noopener" aria-label="LinkedIn"
-               class="hover:text-[#E23D28] transition-colors duration-300">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                <rect x="2" y="9" width="4" height="12"></rect>
-                <circle cx="4" cy="4" r="2"></circle>
-              </svg>
-            </a>
-          }
-  
-          <!-- Mail -->
-          @if (config.footer.mail) {
-            <a [href]="'mailto:' + config.footer.mail" aria-label="Envoyer un e-mail"
-               class="hover:text-[#E23D28] transition-colors duration-300">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                <polyline points="22,6 12,13 2,6"></polyline>
-              </svg>
-            </a>
-          }
-  
-        </div>
-      }
-  
-      <!-- ÉTAGE 3 : Le Copyright (Tout en bas, centré et discret) -->
-      <div class="pt-5 border-t border-stone-800/50 text-center">
-        <p class="text-xs font-light text-stone-500 tracking-wider">
-          © 2026 {{ config?.title }}. Tous droits réservés.
-        </p>
+<footer class="bg-footer-bg py-10 mt-auto text-text-footer font-sans">
+  <div class="max-w-4xl mx-auto px-6 flex flex-col gap-6">
 
-        <p class="text-[11px] font-light text-stone-600 tracking-wide">
-          Conçu &amp; développé avec ♥ par 
-          <a href="https://florent-martinier.netlify.app/" 
-             target="_blank" 
-             rel="noopener" 
-             class="text-stone-500 hover:text-[#E23D28] transition-colors duration-300 underline underline-offset-2 decoration-stone-800 hover:decoration-[#E23D28]">
-            Florent Martinier
-          </a>
-        </p>
+    <!-- ÉTAGE 1 : Les Partenaires (si présents) -->
+    @if (config.footer.partners && config.footer.partners!!.length > 0) {
+    <div
+      class="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-6 text-sm pb-5 border-b border-stone-800/50">
+      <span class="text-stone-400 font-medium tracking-wider uppercase text-xs shrink-0">Nos partenaires :</span>
+      <div class="flex flex-wrap justify-center gap-x-6 gap-y-2">
+        @for (partner of config.footer.partners; track $index) {
+        <a [href]="partner.url" target="_blank" rel="noopener"
+          class="font-light hover:text-poppy transition-colors duration-300 underline underline-offset-4 decoration-stone-700 hover:decoration-poppy">
+          {{ partner.title }}
+        </a>
+        }
       </div>
-  
     </div>
-  </footer>
+    }
+
+    <!-- ÉTAGE 2 : Les Réseaux Sociaux (Centrés au milieu) -->
+    @if (config.footer) {
+    <div class="flex items-center justify-center space-x-8 py-2">
+
+      <!-- Instagram -->
+      @if (config.footer.instagram) {
+      <a [href]="config.footer.instagram" target="_blank" rel="noopener" aria-label="Instagram"
+        class="hover:text-poppy transition-colors duration-300">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" viewBox="0 0 24 24">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+        </svg>
+      </a>
+      }
+
+      <!-- Etsy (Le mot stylisé) -->
+      @if (config.footer.etsy) {
+      <a [href]="config.footer.etsy" target="_blank" rel="noopener" aria-label="Etsy"
+        class="hover:text-poppy transition-colors duration-300 font-serif text-sm tracking-widest font-bold pt-0.5">
+        ETSY
+      </a>
+      }
+
+      <!-- Facebook -->
+      @if (config.footer.facebook) {
+      <a [href]="config.footer.facebook" target="_blank" rel="noopener" aria-label="Facebook"
+        class="hover:text-poppy transition-colors duration-300">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" viewBox="0 0 24 24">
+          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+        </svg>
+      </a>
+      }
+
+      <!-- LinkedIn -->
+      @if (config.footer.linkedin) {
+      <a [href]="config.footer.linkedin" target="_blank" rel="noopener" aria-label="LinkedIn"
+        class="hover:text-poppy transition-colors duration-300">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" viewBox="0 0 24 24">
+          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+          <rect x="2" y="9" width="4" height="12"></rect>
+          <circle cx="4" cy="4" r="2"></circle>
+        </svg>
+      </a>
+      }
+
+      <!-- Mail -->
+      @if (config.footer.mail) {
+      <a [href]="'mailto:' + config.footer.mail" aria-label="Envoyer un e-mail"
+        class="hover:text-poppy transition-colors duration-300">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" viewBox="0 0 24 24">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+          <polyline points="22,6 12,13 2,6"></polyline>
+        </svg>
+      </a>
+      }
+
+    </div>
+    }
+
+    <!-- ÉTAGE 3 : Le Copyright (Tout en bas, centré et discret) -->
+    <div class="pt-5 border-t border-stone-800/50 text-center">
+      <p class="text-xs font-light text-stone-500 tracking-wider">
+        © 2026 {{ config.title }}. Tous droits réservés.
+      </p>
+
+      <p class="text-[11px] font-light text-stone-600 tracking-wide">
+        Conçu &amp; développé avec ♥ par
+        <a href="https://florent-martinier.netlify.app/" target="_blank" rel="noopener"
+          class="text-stone-500 hover:text-poppy transition-colors duration-300 underline underline-offset-2 decoration-stone-800 hover:decoration-poppy">
+          Florent Martinier
+        </a>
+      </p>
+    </div>
+
+  </div>
+</footer>

@@ -1,56 +1,57 @@
-<div class="bg-white/70 backdrop-blur-sm p-6 md:p-10 rounded-2xl shadow-sm border border-stone-200/60 max-w-4xl mx-auto my-8">
-  
-    <h3 class="text-3xl md:text-4xl font-serif font-medium text-indigo-950 mb-6 border-b border-stone-200/40 pb-4 tracking-wide">
-      {{ info.title }}
-    </h3>
-    
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center" 
-         [ngClass]="{'md:grid-cols-3': info.side_images && info.side_images.length > 0, 'grid-cols-1': !info.side_images || info.side_images.length === 0}">
-      
-      @if (info.side_images && info.side_images.length > 0) {
-        <div class="md:col-span-1 flex flex-col space-y-4">
-          @for (img of info.side_images; track $index) {
-            <img 
-              [src]="img" 
-              alt="Illustration latérale" 
-              class="w-full h-auto object-contain rounded-lg shadow-sm border border-stone-200/40 p-1 bg-white mx-auto" />
-          }
-        </div>
+<div
+  class="bg-white/70 backdrop-blur-sm p-6 md:p-10 rounded-2xl shadow-sm border border-stone-200/60 max-w-4xl mx-auto my-8">
+
+  <h3
+    class="text-3xl md:text-4xl font-sans tracking-tight text-text-main font-medium mb-6 border-b border-stone-200/40 pb-4">
+    {{ info.title }}
+  </h3>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center"
+    [ngClass]="{'md:grid-cols-3': info.side_images && info.side_images.length > 0, 'grid-cols-1': !info.side_images || info.side_images.length === 0}">
+
+    @if (info.side_images && info.side_images.length > 0) {
+    <div class="md:col-span-1 flex flex-col space-y-4">
+      @for (img of info.side_images; track $index) {
+      <img [src]="img" alt="Illustration latérale"
+        class="w-full h-auto object-contain rounded-lg shadow-sm border border-stone-200/40 p-1 bg-white mx-auto" />
       }
-  
-      <div class="md:col-span-2 text-[#595350] font-light text-base leading-relaxed tracking-wide">
-        @if (info.description && info.description.length > 0) {
-          
-          <div class="[&_p]:mb-6 [&_p:last-child]:mb-0 [&_a]:text-[#E23D28] [&_a]:font-medium [&_a]:no-underline hover:[&_a]:underline"> 
-            
-            @for (paragraph of info.description; track $index) {
-              @if (isListItem(paragraph)) {
-                <div class="flex items-start pl-2 space-x-2 text-stone-800 font-semibold my-1">
-                  <span class="text-[#E23D28] mt-1.5 flex-shrink-0 text-xs">●</span>
-                  <span [innerHTML]="cleanListItem(paragraph)"></span>
-                </div>
-              } @else {
-                <p [innerHTML]="paragraph"></p> 
-              }
-            }
-      
-          </div>
-        }
-      </div>
-  
     </div>
-  
-    @if (info.images && info.images.length > 0) {
-      <div class="flex flex-col space-y-4 my-6">
-        @for (img of info.images; track $index) {
-          <img [src]="img" alt="Illustration" class="w-full h-auto rounded-lg shadow-sm max-h-[500px] object-cover" />
-        }
-      </div>
     }
-  
-    @if (info.carrousel && info.carrousel.length > 0) {
-      <div class="mt-6">
-        <app-carrousel [images]="info.carrousel"></app-carrousel>
+
+    <div class="md:col-span-2 text-[#595350] font-light text-base leading-relaxed tracking-wide">
+      @if (info.description && info.description.length > 0) {
+
+      <div
+        class="[&_p]:mb-6 [&_p:last-child]:mb-0 [&_a]:text-poppy [&_a]:font-medium [&_a]:no-underline hover:[&_a]:underline">
+
+        @for (paragraph of info.description; track $index) {
+        @if (isListItem(paragraph)) {
+        <div class="flex items-start pl-2 space-x-2 text-text-muted font-semibold my-1">
+          <span class="text-poppy mt-1.5 shrink-0 text-xs">●</span>
+          <span [innerHTML]="cleanListItem(paragraph)"></span>
+        </div>
+        } @else {
+        <p [innerHTML]="paragraph"></p>
+        }
+        }
+
       </div>
+      }
+    </div>
+
+  </div>
+
+  @if (info.images && info.images.length > 0) {
+  <div class="flex flex-col space-y-4 my-6">
+    @for (img of info.images; track $index) {
+    <img [src]="img" alt="Illustration" class="w-full h-auto rounded-lg shadow-sm max-h-125 object-cover" />
     }
   </div>
+  }
+
+  @if (info.carrousel && info.carrousel.length > 0) {
+  <div class="mt-6">
+    <app-carrousel [images]="info.carrousel"></app-carrousel>
+  </div>
+  }
+</div>
