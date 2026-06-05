@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input } from '@angular/core';
-import { InfoBlock } from '../../models/site.models';
+import { Component, inject, Input, OnInit } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { InfoBlock, SafeVideoConfig } from '../../models/site.models';
 import { CarrouselComponent } from '../carrousel/carrousel.component';
 
 @Component({
@@ -8,8 +9,21 @@ import { CarrouselComponent } from '../carrousel/carrousel.component';
   imports: [CommonModule, CarrouselComponent],
   templateUrl: './information.component.html'
 })
-export class InformationComponent {
+export class InformationComponent implements OnInit {
   @Input() info!: InfoBlock;
+
+  private sanitizer = inject(DomSanitizer);
+  safeVideos: SafeVideoConfig[] = [];
+
+  ngOnInit() {
+    // Si le bloc contient des vidéos, on les sécurise toutes une par une
+    if (this.info?.videos && this.info.videos.length > 0) {
+      this.safeVideos = this.info.videos.map(video => ({
+        title: video.title,
+        safeUrl: this.sanitizer.bypassSecurityTrustResourceUrl(video.url)
+      }));
+    }
+  }
 
   /**
    * Détecte si le paragraphe du JSON est configuré comme un élément de liste

@@ -1,3 +1,5 @@
+import { SafeResourceUrl } from "@angular/platform-browser";
+
 export interface Footer {
     instagram?: string;
     etsy?: string;
@@ -12,12 +14,22 @@ export interface PartnerConfig {
     url: string;
 }
 
+export interface VideoConfig {
+    title: string;
+    url: string;
+}
+
+export interface SafeVideoConfig {
+    title: string;
+    safeUrl: SafeResourceUrl;
+}
 export interface InfoBlock {
     title: string;
     images: string[] | null;
     carrousel: string[] | null;
     description: string[] | null;
     side_images: string[] | null;
+    videos?: VideoConfig[];
 }
 
 export interface SiteSection {

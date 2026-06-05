@@ -18,6 +18,31 @@
     </div>
     }
 
+    @if (safeVideos.length > 0) {
+    <div class="grid grid-cols-1 gap-6 my-6">
+
+      @for (video of safeVideos; track video.title) {
+      <div class="flex flex-col items-center gap-2">
+
+        <!-- Conteneur de la vidéo avec ratio 16/9ème -->
+        <div class="aspect-video w-full rounded-2xl overflow-hidden shadow-md border border-stone-200/60 bg-stone-100">
+          <iframe [src]="video.safeUrl" [title]="video.title" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen class="w-full h-full">
+          </iframe>
+        </div>
+
+        <!-- Petit titre sous la vidéo (Optionnel, très propre pour le contexte) -->
+        <p class="text-sm font-medium text-text-muted px-2 italic">
+          {{ video.title }}
+        </p>
+
+      </div>
+      }
+
+    </div>
+    }
+
     <div class="md:col-span-2 text-[#595350] font-light text-base leading-relaxed tracking-wide">
       @if (info.description && info.description.length > 0) {
 

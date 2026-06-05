@@ -30,6 +30,12 @@
             "informations": [
                 {
                     "title": "Bienvenue chez POPPY IN THE SKY !",
+                    "videos": [
+                        {
+                            "title": "Présentation de Poppy",
+                            "url": "https://www.youtube.com/embed/XGVmPAFxwOI?si=747M-zYkRLSXNvgr"
+                        }
+                    ],
                     "description": [
                         "Ce site est dédié au plaisir de la création. Vous y trouverez des propositions d'ateliers créatifs à votre domicile (voir plus haut), des dates d'ateliers créatifs sur Fabrègues (vacances scolaires uniquement), ainsi que les liens vers mes créations personnelles à la vente (un peu plus bas sur cette page). Bonne visite !",
                         "Je vous invite maintenant à naviguer sur mon site pour découvrir toutes les activités que je propose à domicile. A bientôt !"
