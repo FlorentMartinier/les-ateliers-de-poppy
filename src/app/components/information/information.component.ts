@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject, Input, OnInit } from '@angular/core';
+import { Component, inject, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { InfoBlock, SafeVideoConfig } from '../../models/site.models';
 import { CarrouselComponent } from '../carrousel/carrousel.component';
@@ -9,7 +9,7 @@ import { CarrouselComponent } from '../carrousel/carrousel.component';
   imports: [CommonModule, CarrouselComponent],
   templateUrl: './information.component.html'
 })
-export class InformationComponent implements OnInit {
+export class InformationComponent implements OnInit, OnChanges {
   @Input() info!: InfoBlock;
 
   private sanitizer = inject(DomSanitizer);
@@ -22,6 +22,19 @@ export class InformationComponent implements OnInit {
         title: video.title,
         safeUrl: this.sanitizer.bypassSecurityTrustResourceUrl(video.url)
       }));
+    }
+  }
+
+  ngOnChanges(changes: SimpleChanges) {
+    if (changes['info']) {
+      this.safeVideos = [];
+
+      if (this.info?.videos && this.info.videos.length > 0) {
+        this.safeVideos = this.info.videos.map(video => ({
+          title: video.title,
+          safeUrl: this.sanitizer.bypassSecurityTrustResourceUrl(video.url)
+        }));
+      }
     }
   }
 
