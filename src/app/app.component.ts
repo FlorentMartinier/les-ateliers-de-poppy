@@ -79,17 +79,17 @@ export class AppComponent implements OnInit {
     this.config.sections.forEach((section, index) => {
       const titles = section.menu_title;
       if (titles.length === 1) {
-        tree.push({ title: titles[0], sectionIndex: index });
+        tree.push({ title: titles[0], sectionIndex: index, isPromo: section.isPromo });
       } else if (titles.length === 2) {
         const parentTitle = titles[0];
         const subTitle = titles[1];
 
         let parent = tree.find(item => item.title === parentTitle);
         if (!parent) {
-          parent = { title: parentTitle, subItems: [] };
+          parent = { title: parentTitle, subItems: [], isPromo: section.isPromo };
           tree.push(parent);
         }
-        parent.subItems?.push({ title: subTitle, sectionIndex: index });
+        parent.subItems?.push({ title: subTitle, sectionIndex: index, isPromo: section.isPromo });
       }
     });
     this.menuTree = tree;

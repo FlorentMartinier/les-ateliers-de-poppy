@@ -155,6 +155,7 @@
             ],
             "path": "ateliers-sur-fabrègues-vacances-scolaires",
             "banner_image": "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
+            "isPromo": true,
             "informations": [
                 {
                     "title": "Les ateliers sur Fabrègues (adultes ou enfants ou mixtes)",
@@ -207,6 +208,7 @@
             ],
             "path": "les-ateliers-enfants-chez-vous/grand-cœur-bois",
             "banner_image": "assets/banners/coeur_bois.jpg",
+            "isPromo": true,
             "informations": [
                 {
                     "title": "Atelier décoration cœur",

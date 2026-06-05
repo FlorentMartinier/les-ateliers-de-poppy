@@ -33,7 +33,7 @@
     (closeMenu)="toggleMenu()" (sectionSelected)="selectSection($event)">
   </app-sidebar>
 
-  <main class="grow pt-20">
+  <main class="grow pt-24">
     @if (activeSection) {
     <div>
       <div class="relative w-full h-56 md:h-80 bg-gray-300 overflow-hidden"
@@ -48,7 +48,16 @@
           class="absolute inset-0 w-full h-full object-cover transition-opacity duration-300" priority
           [ngClass]="isImageLoading ? 'opacity-0' : 'opacity-100'" />
         <div class="absolute inset-0 bg-black/10"></div>
+        @if (activeSection.isPromo) {
+        <div class="absolute -top-4 -right-4 z-40 pointer-events-none overflow-hidden w-64 h-64 animate-pulse">
+          <div
+            class="absolute top-14 -right-16 w-96 bg-red-600 text-yellow-300 text-center py-4 rotate-45 font-sans font-black text-lg uppercase tracking-widest shadow-2xl border-y-4 border-red-700">
+            🔥 PROMO !
+          </div>
+        </div>
+        }
       </div>
+
 
       <div class="px-4 pb-12">
         @for (info of activeSection.informations; track $index) {

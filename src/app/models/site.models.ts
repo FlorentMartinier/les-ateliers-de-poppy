@@ -37,6 +37,7 @@ export interface SiteSection {
     banner_image: string;
     informations: InfoBlock[];
     path: string;
+    isPromo?: boolean;
 }
 
 export interface SiteConfig {
@@ -49,10 +50,12 @@ export interface SiteConfig {
 export interface SubMenuItem {
     title: string;
     sectionIndex: number;
+    isPromo?: boolean;
 }
 
 export interface MenuItem {
     title: string;
+    isPromo?: boolean;
     sectionIndex?: number; // Présent uniquement si c'est un lien direct (Niveau 1)
     subItems?: SubMenuItem[]; // Présent uniquement s'il y a des sous-menus (Niveau 2)
 }
