@@ -5,6 +5,7 @@ export interface Footer {
     etsy?: string;
     facebook?: string;
     linkedin?: string;
+    youtube?: string;
     mail?: string;
     partners?: PartnerConfig[];
 }
