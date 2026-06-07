@@ -6,7 +6,7 @@ import { filter } from 'rxjs';
 import { FooterComponent } from './components/footer/footer.component';
 import { InformationComponent } from './components/information/information.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { MenuItem, SiteConfig, SiteSection } from './models/site.models';
+import { MenuItem, PromoConfig, SiteConfig, SiteSection } from './models/site.models';
 import { SiteService } from './services/site.service';
 
 @Component({
@@ -21,6 +21,7 @@ export class AppComponent implements OnInit {
   activeSection!: SiteSection;
   isMenuOpen = false;
   isImageLoading = false;
+  isPromoActive = false;
 
   constructor(
     private siteService: SiteService,
@@ -41,6 +42,7 @@ export class AppComponent implements OnInit {
         ).subscribe(() => {
           this.isImageLoading = true;
           this.handleRouting();
+          this.isPromoActive = this.checkIfPromoActive(this.activeSection.promo);
         });
       }
     });
@@ -78,18 +80,19 @@ export class AppComponent implements OnInit {
     const tree: MenuItem[] = [];
     this.config.sections.forEach((section, index) => {
       const titles = section.menu_title;
+      const sectionPromoActive = this.checkIfPromoActive(section.promo);
       if (titles.length === 1) {
-        tree.push({ title: titles[0], sectionIndex: index, isPromo: section.isPromo });
+        tree.push({ title: titles[0], sectionIndex: index, isPromo: sectionPromoActive });
       } else if (titles.length === 2) {
         const parentTitle = titles[0];
         const subTitle = titles[1];
 
         let parent = tree.find(item => item.title === parentTitle);
         if (!parent) {
-          parent = { title: parentTitle, subItems: [], isPromo: section.isPromo };
+          parent = { title: parentTitle, subItems: [], isPromo: sectionPromoActive };
           tree.push(parent);
         }
-        parent.subItems?.push({ title: subTitle, sectionIndex: index, isPromo: section.isPromo });
+        parent.subItems?.push({ title: subTitle, sectionIndex: index, isPromo: sectionPromoActive });
       }
     });
     this.menuTree = tree;
@@ -111,5 +114,24 @@ export class AppComponent implements OnInit {
     this.router.navigate([targetSection.path]);
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  private checkIfPromoActive(promo: PromoConfig | undefined): boolean {
+    if (!promo) return false;
+
+    // On récupère la date du jour (sans l'heure pour une comparaison propre)
+    const today = new Date();
+    today.setHours(0, 0, 0, 0);
+
+    // On transforme les chaînes du JSON en vrais objets Date
+    const start = new Date(promo.startDate);
+    const end = new Date(promo.endDate);
+
+    // On s'assure que les heures soient à zéro pour la comparaison
+    start.setHours(0, 0, 0, 0);
+    end.setHours(0, 0, 0, 0);
+
+    // La promo est active si aujourd'hui est entre le début et la fin (inclus)
+    return today >= start && today <= end;
   }
 }

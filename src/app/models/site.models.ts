@@ -32,12 +32,17 @@ export interface InfoBlock {
     videos?: VideoConfig[];
 }
 
+export interface PromoConfig {
+    startDate: string;  // Format "YYYY-MM-DD"
+    endDate: string;    // Format "YYYY-MM-DD"
+    promoPrice: number;
+}
 export interface SiteSection {
     menu_title: string[];
     banner_image: string;
     informations: InfoBlock[];
     path: string;
-    isPromo?: boolean;
+    promo?: PromoConfig;
 }
 
 export interface SiteConfig {

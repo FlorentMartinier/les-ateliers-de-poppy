@@ -155,7 +155,11 @@
             ],
             "path": "ateliers-sur-fabrègues-vacances-scolaires",
             "banner_image": "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
-            "isPromo": true,
+            "promo": {
+                "startDate": "2026-06-01",
+                "endDate": "2026-06-15",
+                "promoPrice": 35
+            },
             "informations": [
                 {
                     "title": "Les ateliers sur Fabrègues (adultes ou enfants ou mixtes)",
@@ -208,7 +212,11 @@
             ],
             "path": "les-ateliers-enfants-chez-vous/grand-cœur-bois",
             "banner_image": "assets/banners/coeur_bois.jpg",
-            "isPromo": true,
+            "promo": {
+                "startDate": "2026-06-01",
+                "endDate": "2026-06-15",
+                "promoPrice": 35
+            },
             "informations": [
                 {
                     "title": "Atelier décoration cœur",
@@ -267,22 +275,14 @@
             "banner_image": "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
             "informations": [
                 {
-                    "title": "Cadre végétal (toutes saisons)",
+                    "title": "Cadre végétal été",
                     "carrousel": [
-                        "assets/images/cadre_vegetal/cadre_vegetal_1.jpg",
-                        "assets/images/cadre_vegetal/cadre_vegetal_2.png",
-                        "assets/images/cadre_vegetal/cadre_vegetal_3.jpg",
-                        "assets/images/cadre_vegetal/cadre_vegetal_4.jpg",
-                        "assets/images/cadre_vegetal/cadre_vegetal_5.jpg",
-                        "assets/images/cadre_vegetal/cadre_vegetal_6.jpg",
-                        "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
-                        "assets/images/cadre_vegetal/cadre_vegetal_8.jpg",
-                        "assets/images/cadre_vegetal/cadre_vegetal_9.jpg",
-                        "assets/images/cadre_vegetal/cadre_vegetal_10.jpg",
-                        "assets/images/cadre_vegetal/cadre_vegetal_11.jpg",
                         "assets/images/cadre_vegetal/cadre_vegetal_12.jpeg",
                         "assets/images/cadre_vegetal/cadre_vegetal_13.jpeg",
-                        "assets/images/cadre_vegetal/cadre_vegetal_14.jpeg"
+                        "assets/images/cadre_vegetal/cadre_vegetal_14.jpeg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_15.jpeg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_16.jpeg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_17.jpeg"
                     ],
                     "description": [
                         "Cette activité est proposée à partir de 6 ans.",
@@ -290,6 +290,32 @@
                         "Chaque enfant créera son propre jardin végétal, à base de fournitures \"en fonction de la saison\" (à votre convenance) : de la mousse, du bois, des fleurs, des citrouilles, des champignons, des végétaux factices de toutes sortes, des céramiques que je crée moi-même...",
                         "le cadre en bois fait 12cm de côtés.",
                         "<tr>Tarif : 20€/enfant (majoré de 10% le dimanche et les jours fériés)</tr>"
+                    ]
+                },
+                {
+                    "title": "Cadre végétal automne",
+                    "carrousel": [
+                        "assets/images/cadre_vegetal/cadre_vegetal_1.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_8.jpg"
+                    ]
+                },
+                {
+                    "title": "Cadre végétal hiver",
+                    "carrousel": [
+                        "assets/images/cadre_vegetal/cadre_vegetal_9.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_10.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_11.jpg"
+                    ]
+                },
+                {
+                    "title": "Cadre végétal printemps",
+                    "carrousel": [
+                        "assets/images/cadre_vegetal/cadre_vegetal_2.png",
+                        "assets/images/cadre_vegetal/cadre_vegetal_3.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_4.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_5.jpg",
+                        "assets/images/cadre_vegetal/cadre_vegetal_6.jpg"
                     ]
                 }
             ]
