@@ -31,6 +31,7 @@ export interface InfoBlock {
     description: string[] | null;
     side_images: string[] | null;
     videos?: VideoConfig[];
+    googleReviewsUrl?: string;
 }
 
 export interface PromoConfig {

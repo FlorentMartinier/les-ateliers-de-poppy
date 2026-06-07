@@ -56,6 +56,10 @@
                         "Bijoux fantaisie <a href='https://www.etsy.com/shop/poppyintheskyfrance' target='_blank' rel='noopener'>ici</a>",
                         "Peintures sur porcelaine <a href='https://www.etsy.com/fr/shop/Poppyporcelaines' target='_blank' rel='noopener'>ici</a>"
                     ]
+                },
+                {
+                    "title": "Ce que les participants en pensent :",
+                    "googleReviewsUrl": "https://widgets.sociablekit.com/google-reviews/iframe/25687641"
                 }
             ]
         },

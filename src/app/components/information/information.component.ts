@@ -14,6 +14,7 @@ export class InformationComponent implements OnInit, OnChanges {
 
   private sanitizer = inject(DomSanitizer);
   safeVideos: SafeVideoConfig[] = [];
+  safeReviewsUrl: SafeResourceUrl | null = null;
 
   ngOnInit() {
     // Si le bloc contient des vidéos, on les sécurise toutes une par une
@@ -28,12 +29,17 @@ export class InformationComponent implements OnInit, OnChanges {
   ngOnChanges(changes: SimpleChanges) {
     if (changes['info']) {
       this.safeVideos = [];
+      this.safeReviewsUrl = null;
 
       if (this.info?.videos && this.info.videos.length > 0) {
         this.safeVideos = this.info.videos.map(video => ({
           title: video.title,
           safeUrl: this.sanitizer.bypassSecurityTrustResourceUrl(video.url)
         }));
+      }
+
+      if (this.info?.googleReviewsUrl) {
+        this.safeReviewsUrl = this.sanitizer.bypassSecurityTrustResourceUrl(this.info.googleReviewsUrl);
       }
     }
   }
