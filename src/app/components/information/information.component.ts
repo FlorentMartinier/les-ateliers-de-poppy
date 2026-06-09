@@ -1,7 +1,7 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule, DOCUMENT } from '@angular/common';
 import { Component, inject, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
-import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
-import { InfoBlock, SafeVideoConfig } from '../../models/site.models';
+import { DomSanitizer, Meta, SafeResourceUrl, Title } from '@angular/platform-browser';
+import { InfoBlock, SafeVideoConfig, SiteSection } from '../../models/site.models';
 import { CarrouselComponent } from '../carrousel/carrousel.component';
 
 @Component({
@@ -10,9 +10,14 @@ import { CarrouselComponent } from '../carrousel/carrousel.component';
   templateUrl: './information.component.html'
 })
 export class InformationComponent implements OnInit, OnChanges {
+  @Input() section!: SiteSection;
   @Input() info!: InfoBlock;
 
   private sanitizer = inject(DomSanitizer);
+  private titleService = inject(Title);
+  private metaService = inject(Meta);
+  private document = inject(DOCUMENT);
+
   safeVideos: SafeVideoConfig[] = [];
   safeReviewsUrl: SafeResourceUrl | null = null;
 
@@ -28,6 +33,8 @@ export class InformationComponent implements OnInit, OnChanges {
 
   ngOnChanges(changes: SimpleChanges) {
     if (changes['info']) {
+      this.updateSEO();
+      this.injectCourseSchema();
       this.safeVideos = [];
       this.safeReviewsUrl = null;
 
@@ -59,5 +66,63 @@ export class InformationComponent implements OnInit, OnChanges {
     if (!text) return '';
     // Supprime proprement les tags d'ouverture et fermeture configurés dans le JSON
     return text.replace(/<tr>/g, '').replace(/<\/tr>/g, '').trim();
+  }
+
+  private updateSEO() {
+    // 1. Gestion du titre de la page (<title>)
+    const defaultTitle = `${this.section.menu_title} - Poppy in the Sky`;
+    this.titleService.setTitle(this.section.seoTitle || defaultTitle);
+
+    // 2. Gestion de la Meta Description
+    const defaultDesc = `Découvrez l'atelier créatif : ${this.info.title} proposé par Poppy in the Sky.`;
+    this.metaService.updateTag({
+      name: 'description',
+      content: this.section.seoDescription || defaultDesc
+    });
+  }
+
+  // 3. Injecte les données structurées Schema.org pour Google
+  private injectCourseSchema() {
+    // On supprime l'ancien script s'il y en avait un (évite les doublons lors de la navigation)
+    const existingScript = this.document.getElementById('seo-schema');
+    if (existingScript) {
+      existingScript.remove();
+    }
+
+    // On prépare l'objet JSON-LD au format officiel Google
+    const schemaData = {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": this.section.menu_title,
+      "description": this.section.courseDescription || this.section.seoDescription,
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Poppy in the Sky",
+        "areaServed": [
+          {
+            "@type": "AdministrativeArea",
+            "name": "Hérault"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Gard"
+          }
+        ],
+        "description": "Ateliers créatifs itinérants et cours d'arts plastiques à domicile dans l'Hérault et le Gard."
+      },
+      "offers": [{
+        "@type": "Offer",
+        "category": "Paid",
+        //"price": this.info.basePrice, // TODO : mettre en place le prix
+        "priceCurrency": "EUR"
+      }]
+    };
+
+    // On injecte le script dans le <head> de la page
+    const script = this.document.createElement('script');
+    script.id = 'seo-schema';
+    script.type = 'application/ld+json';
+    script.text = JSON.stringify(schemaData);
+    this.document.head.appendChild(script);
   }
 }

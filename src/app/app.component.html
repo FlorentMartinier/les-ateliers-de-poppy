@@ -35,7 +35,7 @@
 
       <div class="px-4 pb-12">
         @for (info of activeSection.informations; track $index) {
-        <app-information [info]="info"></app-information>
+        <app-information [section]="activeSection" [info]="info"></app-information>
         }
       </div>
     </div>

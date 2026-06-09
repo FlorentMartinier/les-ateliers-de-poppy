@@ -43,6 +43,9 @@ export interface SiteSection {
     menu_title: string[];
     banner_image: string;
     informations: InfoBlock[];
+    seoTitle?: string;
+    seoDescription?: string;
+    courseDescription?: string;
     path: string;
     promo?: PromoConfig;
 }

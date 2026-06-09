@@ -1,10 +1,10 @@
 <div
   class="bg-white/70 backdrop-blur-sm p-6 md:p-10 rounded-2xl shadow-sm border border-stone-200/60 max-w-4xl mx-auto my-8">
 
-  <h3
+  <h1
     class="text-3xl md:text-4xl font-sans tracking-tight text-text-main font-medium mb-6 border-b border-stone-200/40 pb-4">
     {{ info.title }}
-  </h3>
+  </h1>
 
   <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center"
     [ngClass]="{'md:grid-cols-3': info.side_images && info.side_images.length > 0, 'grid-cols-1': !info.side_images || info.side_images.length === 0}">
