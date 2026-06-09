@@ -482,6 +482,34 @@
         },
         {
             "menu_title": [
+                "Adult activities",
+                "Watercolor introduction"
+            ],
+            "path": "animations-adultes/initiation-aquarelle",
+            "banner_image": "assets/images/aquarelle/aquarelle_1.jpg",
+            "informations": [
+                {
+                    "title": "Watercolor introduction",
+                    "carrousel": [
+                        "assets/images/aquarelle/aquarelle_1.jpg",
+                        "assets/images/aquarelle/aquarelle_2.jpg",
+                        "assets/images/aquarelle/aquarelle_3.jpg",
+                        "assets/images/aquarelle/aquarelle_4.jpg",
+                        "assets/images/aquarelle/aquarelle_5.jpeg"
+                    ],
+                    "description": [
+                        "This introductory workshop will allow you to discover the \"wet-on-wet\" technique.",
+                        "Two types of models will be offered: cotton-style plants or a landscape.",
+                        "All materials are provided: premium quality paper and a wide variety of watercolors.",
+                        "This workshop is available for adults and can also interest children from 10 years old. Ideal as a parent/child workshop.",
+                        "<tr>Price: €20/person (10% surcharge on Sundays and public holidays).</tr>",
+                        "<tr>Minimum 5 people</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
                 "Adult entertainment",
                 "Decorated bottle"
             ],

@@ -493,6 +493,34 @@
         {
             "menu_title": [
                 "Animation adultes",
+                "Initiation aquarelle"
+            ],
+            "path": "animations-adultes/initiation-aquarelle",
+            "banner_image": "assets/images/aquarelle/aquarelle_1.jpg",
+            "informations": [
+                {
+                    "title": "Initiation aquarelle",
+                    "carrousel": [
+                        "assets/images/aquarelle/aquarelle_1.jpg",
+                        "assets/images/aquarelle/aquarelle_2.jpg",
+                        "assets/images/aquarelle/aquarelle_3.jpg",
+                        "assets/images/aquarelle/aquarelle_4.jpg",
+                        "assets/images/aquarelle/aquarelle_5.jpeg"
+                    ],
+                    "description": [
+                        "Cette initiation vous permettra de découvrir la technique du \"mouillé sur mouillé\" appelée aussi \"humide sur humide\".",
+                        "Deux types de modèles vous seront proposés : des plantes type coton ou un paysage.",
+                        "Tout le matériel est fourni : papier de qualité supérieure et aquarelles variées.",
+                        "Cet atelier peut être proposé aux adultes et peut aussi intéresser les enfants partir de 10ans. Idéal en atelier parent/enfant.",
+                        "<tr>Tarif : 20€/personne (Majoration de 10% les dimanches et jours fériés).</tr>",
+                        "<tr>Minimum 5 personnes</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animation adultes",
                 "Bouteille décorée"
             ],
             "path": "animations-adultes/bouteille-décorée",
