@@ -1,14 +1,17 @@
-import { CommonModule } from '@angular/common';
-import { AfterViewInit, Component, ElementRef, Input, OnChanges, OnDestroy, OnInit, SimpleChanges, ViewChild } from '@angular/core';
+
+import { isPlatformBrowser } from '@angular/common';
+import { AfterViewInit, Component, ElementRef, inject, Input, OnChanges, OnDestroy, OnInit, PLATFORM_ID, SimpleChanges, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-carrousel',
-  imports: [CommonModule],
+  imports: [],
   templateUrl: './carrousel.component.html',
 })
 export class CarrouselComponent implements OnInit, AfterViewInit, OnDestroy, OnChanges {
   @Input() images: string[] = [];
   @ViewChild('scrollContainer') scrollContainer!: ElementRef<HTMLDivElement>;
+
+  private platformId = inject(PLATFORM_ID);
 
   extendedImages: string[] = [];
   zoomedImage: string | null = null;
@@ -49,7 +52,10 @@ export class CarrouselComponent implements OnInit, AfterViewInit, OnDestroy, OnC
   }
 
   startContainerAnimation() {
-    this.isPaused = false; 
+    // 💡 Si on est sur le serveur (Prerender), on ne lance pas l'animation graphique !
+    if (!isPlatformBrowser(this.platformId)) return;
+
+    this.isPaused = false;
 
     const animate = () => {
       if (!this.scrollContainer || this.isPaused) return;

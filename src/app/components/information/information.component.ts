@@ -1,5 +1,5 @@
-import { CommonModule, DOCUMENT } from '@angular/common';
-import { Component, inject, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Component, inject, Input, OnChanges, OnInit, SimpleChanges, DOCUMENT } from '@angular/core';
 import { DomSanitizer, Meta, SafeResourceUrl, Title } from '@angular/platform-browser';
 import { InfoBlock, SafeVideoConfig, SiteSection } from '../../models/site.models';
 import { CarrouselComponent } from '../carrousel/carrousel.component';
@@ -22,6 +22,8 @@ export class InformationComponent implements OnInit, OnChanges {
   safeReviewsUrl: SafeResourceUrl | null = null;
 
   ngOnInit() {
+    this.updateSEO();
+    this.injectCourseSchema();
     // Si le bloc contient des vidéos, on les sécurise toutes une par une
     if (this.info?.videos && this.info.videos.length > 0) {
       this.safeVideos = this.info.videos.map(video => ({

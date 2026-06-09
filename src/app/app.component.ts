@@ -1,14 +1,14 @@
-import { CommonModule } from '@angular/common';
-import { Component, OnInit } from '@angular/core';
+import { CommonModule, isPlatformBrowser } from '@angular/common';
+import { Component, inject, OnInit, PLATFORM_ID } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { NavigationEnd, Router, RouterModule } from '@angular/router';
 import { filter } from 'rxjs';
 import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from "./components/header/header.component";
 import { InformationComponent } from './components/information/information.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MenuItem, PromoConfig, SiteConfig, SiteSection } from './models/site.models';
 import { SiteService } from './services/site.service';
-import { HeaderComponent } from "./components/header/header.component";
 
 @Component({
   selector: 'app-root',
@@ -23,6 +23,9 @@ export class AppComponent implements OnInit {
   isMenuOpen = false;
   isImageLoading = false;
   isPromoActive = false;
+
+  // Utilisation de inject() pour plus de modernité en v20
+  private platformId = inject(PLATFORM_ID);
 
   constructor(
     private siteService: SiteService,
@@ -43,24 +46,21 @@ export class AppComponent implements OnInit {
         ).subscribe(() => {
           this.isImageLoading = true;
           this.handleRouting();
-          this.isPromoActive = this.checkIfPromoActive(this.activeSection.promo);
+          if (this.activeSection) {
+            this.isPromoActive = this.checkIfPromoActive(this.activeSection.promo);
+          }
         });
       }
     });
   }
 
-  onImageLoad() {
-    this.isImageLoading = false;
-  }
-
-  /**
-   * Analyse l'URL capturée par le routeur d'Angular pour charger la bonne section
-   */
   handleRouting() {
+    // Sécurité pour le build : si la config n'est pas chargée, on s'arrête
+    if (!this.config || !this.config.sections) return;
+
     const rawPath = this.router.url.replace(/^\//, '').split('?')[0];
     const currentPath = decodeURIComponent(rawPath);
 
-    // Recherche de la section correspondante dans votre JSON
     const matchedSection = this.config.sections.find(s => s.path === currentPath);
 
     if (matchedSection) {
@@ -69,12 +69,29 @@ export class AppComponent implements OnInit {
       this.titleService.setTitle(`${pageTitle} - Ateliers de Poppy`);
       this.metaService.updateTag({ name: 'description', content: `Découvrez nos ateliers : ${pageTitle}` });
     } else if (this.config.sections.length > 0) {
-      // Si l'URL n'existe pas dans le JSON ou qu'elle est vide (ex: racine du site "/")
-      // On affiche la première page par défaut
       this.activeSection = this.config.sections[0];
-      // On met à jour l'URL de manière transparente pour l'utilisateur
-      this.router.navigate([this.activeSection.path], { replaceUrl: true });
+
+      // 💡 CRUCIAL : On n'autorise la redirection QUE dans le vrai navigateur
+      // Cela empêche le moteur de Prerender de casser son build à cause d'une redirection
+      if (isPlatformBrowser(this.platformId)) {
+        this.router.navigate([this.activeSection.path], { replaceUrl: true });
+      }
     }
+  }
+
+  selectSection(index: number) {
+    const targetSection = this.config.sections[index];
+    this.isMenuOpen = false;
+    this.router.navigate([targetSection.path]);
+
+    // 💡 Sécurité : On protège le scrollTo pour le serveur Node.js
+    if (isPlatformBrowser(this.platformId)) {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+
+  onImageLoad() {
+    this.isImageLoading = false;
   }
 
   buildMenuTree() {
@@ -101,20 +118,6 @@ export class AppComponent implements OnInit {
 
   toggleMenu() {
     this.isMenuOpen = !this.isMenuOpen;
-  }
-
-  /**
-   * Au clic dans le menu, on laisse le routeur officiel changer l'URL
-   */
-  selectSection(index: number) {
-    const targetSection = this.config.sections[index];
-    this.isMenuOpen = false;
-
-    // On demande au routeur de naviguer vers le path défini. 
-    // L'abonnement dans le ngOnInit interceptera ce changement pour mettre à jour l'affichage.
-    this.router.navigate([targetSection.path]);
-
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   private checkIfPromoActive(promo: PromoConfig | undefined): boolean {
