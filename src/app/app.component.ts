@@ -8,11 +8,12 @@ import { InformationComponent } from './components/information/information.compo
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MenuItem, PromoConfig, SiteConfig, SiteSection } from './models/site.models';
 import { SiteService } from './services/site.service';
+import { HeaderComponent } from "./components/header/header.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, InformationComponent, SidebarComponent, FooterComponent, RouterModule],
+  imports: [CommonModule, InformationComponent, SidebarComponent, FooterComponent, RouterModule, HeaderComponent],
   templateUrl: './app.component.html'
 })
 export class AppComponent implements OnInit {

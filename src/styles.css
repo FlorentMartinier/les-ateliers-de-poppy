@@ -10,4 +10,17 @@
     --color-footer-bg: #26211C;
     --color-text-footer: #FAF9F6;
     --color-text-hover-footer: #E58B1E;
+    --color-menu-border: #EFECE6;
+    --color-menu-active-bg: #F5EFEB;
+}
+
+.dark {
+    --color-brand-bg: #1C1814;
+    --color-text-main: #FAF9F6;
+    --color-text-muted: #A39788;
+    --color-card-bg: #26211C;
+    --color-card-border: #383129;
+    --color-poppy: #F0A03F;
+    --color-menu-border: #2D2620;
+    --color-menu-active-bg: #2D241C;
 }

@@ -1,33 +1,7 @@
 @if (config) {
 <div class="min-h-screen flex flex-col bg-brand-bg font-sans antialiased text-[#2C2A29] relative">
 
-  <header
-    class="bg-brand-bg/80 backdrop-blur-md shadow-sm border-b border-stone-200/50 fixed top-0 left-0 right-0 z-40 px-6 h-24 flex items-center justify-between">
-
-    <div class="w-16 hidden md:block shrink-0"></div>
-
-    <div class="flex items-center gap-4 md:gap-6 mx-auto">
-      <img src="assets/logo.png" alt="Logo Poppy in the sky"
-        class="h-16 w-16 md:h-22 md:w-22 object-contain select-none pointer-events-none drop-shadow-sm" />
-
-      <h1 class="text-3xl md:text-5xl font-serif font-semibold tracking-wide text-poppy">
-        {{ config.title }}
-      </h1>
-    </div>
-
-    <button (click)="toggleMenu()"
-      class="text-gray-700 hover:text-poppy focus:outline-none z-50 p-2 transition-colors shrink-0 w-16 flex justify-end">
-      @if (!isMenuOpen) {
-      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-      </svg>
-      } @else {
-      <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-      </svg>
-      }
-    </button>
-  </header>
+  <app-header [config]="config" [isMenuOpen]="isMenuOpen" (toggleMenu)="toggleMenu()"></app-header>
 
   <app-sidebar [isMenuOpen]="isMenuOpen" [menuTree]="menuTree" [activeSection]="activeSection"
     (closeMenu)="toggleMenu()" (sectionSelected)="selectSection($event)">
