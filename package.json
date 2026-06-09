@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build && node -e \"js=require('fs'); if(js.existsSync('dist/poppy-in-the-sky/server')){js.rmSync('dist/poppy-in-the-sky/server', {recursive:true});}\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:poppy-in-the-sky": "node dist/poppy-in-the-sky/server/server.mjs"
