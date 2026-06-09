@@ -2,7 +2,5 @@
   command = "npm run build"
   publish = "dist/poppy-in-the-sky/browser"
 
-[[plugins]]
-  package = "@netlify/angular-runtime"
-  [plugins.inputs]
-    disable_ssr = true
+[build.environment]
+  NETLIFY_SKIP_ANGULAR_RUNTIME = "true"
