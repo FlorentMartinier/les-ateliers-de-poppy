@@ -521,14 +521,14 @@
             "menu_title": [
                 "Collectivités & Institutions"
             ],
-            "path": "collectivités-institutions",
+            "path": "collectivites-institutions",
             "banner_image": "assets/banners/centre_loisir.jpg",
             "seoTitle": "Animations Créatives & Artistiques pour Écoles, ALSH & EHPAD",
             "seoDescription": "Interventions artistiques sur mesure pour structures : écoles, centres de loisirs et EHPAD dans l'Hérault et le Gard. Ateliers adaptés à tous les âges.",
             "courseDescription": "Programmes d'ateliers d'arts plastiques et de stimulation créative adaptés pour les groupes scolaires, les accueils de loisirs et les résidents en EHPAD.",
             "informations": [
                 {
-                    "title": "Ateliers dans les centres de loisirs et les écoles",
+                    "title": "Écoles, Collèges & Accueils de Loisirs (ALSH)",
                     "carrousel": [
                         "assets/images/centre_loisir/centre_loisir_1.jpg",
                         "assets/images/centre_loisir/centre_loisir_2.jpg",
@@ -551,15 +551,20 @@
                         "assets/images/centre_loisir/centre_loisir_19.png"
                     ],
                     "description": [
-                        "Vous êtes représentant d'un centre de loisirs ou d'une école, et vous souhaitez que j'intervienne lors d'un atelier ?",
-                        "Je suis à votre disposition pour vous envoyer un devis.",
-                        "Au choix, je propose des ateliers poterie, bijoux fantaisie, arts plastiques et cuisine.",
-                        "N'hésitez pas à me contacter au 06 60 75 34 38 ou par mail, nous choisirons ensemble une date et un thème.",
-                        "Voici quelques créations réalisées dans les écoles et le centre de loisirs de Pignan, les écoles de Fabrègues (Hérault) et St Siffret (Gard), le collège de Fabrègues, le centre de loisirs de Boirargues (34), le centre de loisirs Les Aiguerelles à Montpellier et la MJC de Mauguio",
-                        "<tr>De la poterie : vaisselle, tableaux portraits de famille, plaques façon \"peintures rupestres\", décorations de jardin (coquelicots multicolores ou hiboux)...</tr>",
-                        "<tr>De l'art plastique : résine UV, peinture sur pots de fleurs, collages sur carnets...</tr>",
-                        "<tr>Du macramé, du cadre végétal, du chant...</tr>",
-                        "N'hésitez à pas demander votre devis personnalisé ! Je suis à votre disposition, que ce soit dans le 34, dans le 30 ou le 81, aux dates et heures qui vous conviennent le mieux !"
+                        "Dynamisez vos projets pédagogiques et vos temps péri ou extrascolaires grâce à des interventions artistiques clés en main adaptées à chaque tranche d'âge.",
+                        "Je conçois des ateliers sur mesure s'inscrivant dans vos thématiques annuelles : poterie et modelage de l'argile (arts de la table, portraits de famille, fresques rupestres, décoration de jardin), arts plastiques modernes (résine UV, customisation, collages), ainsi que des initiations au macramé, à l'art végétal et à l'expression vocale.",
+                        "Une expérience reconnue auprès de nombreuses structures locales : interventions régulières au centre de loisirs et dans les écoles de Pignan, aux écoles et au collège de Fabrègues (34), à l'école de St Siffret (30), au centre de loisirs de Boirargues, aux Aiguerelles à Montpellier ainsi qu'à la MJC de Mauguio.",
+                        "Flexible et mobile, je me déplace avec tout le matériel nécessaire dans l'Hérault (34), le Gard (30) et le Tarn (81), selon vos plannings.",
+                        "Contactez-moi au 06 60 75 34 38 ou par mail pour co-construire votre projet et obtenir un devis personnalisé adapté à votre budget."
+                    ]
+                },
+                {
+                    "title": "EHPAD & Résidences Séniors",
+                    "description": [
+                        "Des ateliers de stimulation sensorielle, cognitive et de valorisation de l'estime de soi spécifiquement adaptés aux résidents en EHPAD et structures d'accueil pour aînés.",
+                        "À travers des activités douces et adaptées comme le modelage de l'argile, la peinture thérapeutique ou les travaux d'artisanat délicats, ces séances favorisent le maintien de la motricité fine, la mémoire et le lien social.",
+                        "Chaque séance est pensée dans la bienveillance pour offrir un moment d'évasion chaleureux, créatif et gratifiant pour les participants.",
+                        "Interventions sur mesure planifiables à l'année ou sous forme de projets ponctuels dans les départements du 34, 30 et 81. Devis gratuit sur demande."
                     ]
                 }
             ]

@@ -519,13 +519,16 @@
         },
         {
             "menu_title": [
-                "Nursing homes, leisure centers, schools"
+                "Communities & Institutions"
             ],
-            "path": "ehpad-centres-de-loisirs-ecoles",
+            "path": "collectivites-institutions",
             "banner_image": "assets/banners/centre_loisir.jpg",
+            "seoTitle": "Creative & Artistic Workshops for Schools, Youth Centers & Care Homes",
+            "seoDescription": "Tailored artistic interventions for institutions: schools, leisure centers, and nursing homes in Hérault and Gard. Age-appropriate workshops.",
+            "courseDescription": "Fine arts and creative stimulation workshop programs adapted for school groups, youth activity centers, and senior residents in nursing homes.",
             "informations": [
                 {
-                    "title": "Workshops in leisure centers and schools",
+                    "title": "Schools, Middle Schools & Youth Activity Centers (ALSH)",
                     "carrousel": [
                         "assets/images/centre_loisir/centre_loisir_1.jpg",
                         "assets/images/centre_loisir/centre_loisir_2.jpg",
@@ -548,15 +551,20 @@
                         "assets/images/centre_loisir/centre_loisir_19.png"
                     ],
                     "description": [
-                        "Are you a representative of a leisure center or a school, and would you like me to host a workshop?",
-                        "I am at your disposal to send you a quote.",
-                        "I offer a choice of pottery, costume jewelry, arts and crafts, and cooking workshops.",
-                        "Feel free to contact me at 06 60 75 34 38 or by email, and we will choose a date and theme together.",
-                        "Here are a few creations made in the schools and leisure center of Pignan, the schools of Fabrègues (Hérault) and St Siffret (Gard), the middle school of Fabrègues, the leisure center of Boirargues (34), Les Aiguerelles leisure center in Montpellier, and the MJC of Mauguio.",
-                        "<tr>Pottery: tableware, family portrait frames, \"cave painting\" style plaques, garden decorations (multicolored poppies or owls)...</tr>",
-                        "<tr>Arts and crafts: UV resin, flower pot painting, collages on notebooks...</tr>",
-                        "<tr>Macramé, botanical frames, singing...</tr>",
-                        "Feel free to ask for your personalized quote! I am at your service in the 34, 30, or 81 regions, at the dates and times that suit you best!"
+                        "Enhance your educational projects, extracurricular programs, and holiday camps with ready-to-run artistic interventions tailored to every age group.",
+                        "I design bespoke workshops that align with your annual themes: pottery and clay sculpting (tableware, family portrait plaques, cave painting styles, garden ornaments), modern arts and crafts (UV resin jewelry, upcycling, journaling), as well as introductions to macramé, botanical art, and vocal expression.",
+                        "A proven track record with multiple local institutions: regular sessions at the leisure center and schools in Pignan, schools and middle school in Fabrègues (34), school in St Siffret (30), leisure center in Boirargues, Les Aiguerelles in Montpellier, and the MJC in Mauguio.",
+                        "Flexible and mobile, I travel with all the necessary professional supplies across the Hérault (34), Gard (30), and Tarn (81) departments, matching your scheduling needs.",
+                        "Contact me at +33 6 60 75 34 38 or via email to co-create your project and receive a personalized quote tailored to your budget."
+                    ]
+                },
+                {
+                    "title": "Nursing Homes & Senior Residences (EHPAD)",
+                    "description": [
+                        "Sensory, cognitive stimulation and self-esteem workshops specifically designed for residents in nursing homes and senior care facilities.",
+                        "Through gentle and adapted creative activities such as clay modeling, therapeutic painting, or delicate handicrafts, these sessions help maintain fine motor skills, stimulate memory, and foster social connections.",
+                        "Each session is built around empathy and care, providing a warm, rewarding, and fulfilling creative escape for the participants.",
+                        "Bespoke interventions available for year-round planning or short-term projects in the 34, 30, and 81 areas. Free quotes provided on request."
                     ]
                 }
             ]
