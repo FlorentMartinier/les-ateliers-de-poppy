@@ -499,6 +499,47 @@
         },
         {
             "menu_title": [
+                "Animation enfant à votre domicile",
+                "Cuisine"
+            ],
+            "path": "les-ateliers-enfants-chez-vous/cuisine",
+            "banner_image": "assets/banners/cuisine.jpg",
+            "seoTitle": "Atelier Cuisine Enfant à Domicile | Les Ateliers de Poppy",
+            "seoDescription": "Offrez à votre enfant un atelier cuisine ludique et clés en main à domicile. Formules anniversaires créatives, produits locaux et bio dans le 34 et 30.",
+            "courseDescription": "Un atelier culinaire immersif et pédagogique à domicile où les enfants apprennent à réaliser de délicieuses recettes de saison, encadrés pas à pas dans une ambiance conviviale.",
+            "informations": [
+                {
+                    "title": "Ateliers cuisine enfants",
+                    "carrousel": [
+                        "assets/images/cuisine/cuisine_1.png",
+                        "assets/images/cuisine/cuisine_2.jpg",
+                        "assets/images/cuisine/cuisine_3.jpg",
+                        "assets/images/cuisine/cuisine_4.jpg"
+                    ],
+                    "description": [
+                        "\"Maman, papa je peux cuisiner avec toi ?\" qui n'a jamais entendu ça ?",
+                        "Chaque enfant doit avoir le droit de s'exprimer et créer par le biais de la cuisine.",
+                        "Cette activité démarre à partir de 5 ans, fille ou garçon.",
+                        "Maximum de 6 participants afin de permettre à chaque enfant d'intervenir dans la préparation des plats.",
+                        "Bien entendu, avant de dater l'atelier, nous verrons ensemble si votre enfant est diabétique, allergique ou intolérant à un des ingrédients que je propose. Un devis \"sur mesure\" vous sera alors proposé.",
+                        "Je donne des idées de recettes simples, efficaces, excellentes et avec le minimum de cuisson (suivant atelier choisi).",
+                        "Les enfants font eux mêmes, je les guide, mais je ne fais pas à leur place.",
+                        "Le matériel et les ingrédients sont fournis, l'atelier est  \"clés en main\". Les produits sont le plus possibles \"locaux\" et \"bios\", car je suis très attentive à la qualité des ingrédients que je propose.",
+                        "Les enfants repartent aussi avec leur \"dossier recettes\" et peuvent refaire les plats à la maison.",
+                        "Plusieurs formules et tarifs vous sont proposés, à voir un peu plus bas.",
+                        "Suivant la formule, prévoir une activité de 1h30 à 3h.",
+                        "<hr/>",
+                        "<strong>Forfait 1 :</strong> A partir de 5 ans. Fabrication de minis donuts et de brochettes de bonbons (photo 4). Ces brochettes seront dégustées entre amis après l'atelier, au moment du goûter (bonbons : fraises, guimauves, chamallows...). Les minis donuts sont fabriqués et décorés sur place par les enfants.",
+                        "<tr>Tarif : 14€/enfant (Majoration de 10% les dimanches et jours fériés).</tr>",
+                        "<hr/>",
+                        "<strong>Forfait 2 :</strong> A partir de 8 ans. Préparation tous ensemble du gâteau d'anniversaire qui sera mangé en commun au goûter (au choix : quatre quarts ou marbré chocolat vanille). Fabrication de minis burgers (viande hachée, salade, keshup, mayonnaise, fromage et minis burgers façon briochettes). 2 par enfant. Fabrication d'une brochette de bonbons. 1 par enfant.",
+                        "<tr>Tarif : 22€/enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
                 "Animation adultes",
                 "Attrape-Soleil Suncatcher"
             ],

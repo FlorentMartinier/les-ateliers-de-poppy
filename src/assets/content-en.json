@@ -456,6 +456,47 @@
         },
         {
             "menu_title": [
+                "Children's entertainment at your home",
+                "Cooking"
+            ],
+            "path": "les-ateliers-enfants-chez-vous/cuisine",
+            "banner_image": "assets/banners/cuisine.jpg",
+            "seoTitle": "Kids' Cooking Workshop at Home | Les Ateliers de Poppy",
+            "seoDescription": "Treat your child to a fun and turnkey cooking workshop at home. Creative birthday packages, local and organic products in the 34 and 30 areas.",
+            "courseDescription": "An immersive and educational culinary workshop at home where children learn to create delicious seasonal recipes, guided step-by-step in a friendly atmosphere.",
+            "informations": [
+                {
+                    "title": "Kids' cooking workshops",
+                    "carrousel": [
+                        "assets/images/cuisine/cuisine_1.png",
+                        "assets/images/cuisine/cuisine_2.jpg",
+                        "assets/images/cuisine/cuisine_3.jpg",
+                        "assets/images/cuisine/cuisine_4.jpg"
+                    ],
+                    "description": [
+                        "\"Mom, Dad, can I cook with you?\" Who hasn't heard that before?",
+                        "Every child should have the right to express themselves and create through cooking.",
+                        "This activity is open to boys and girls starting from 5 years old.",
+                        "Maximum of 6 participants to ensure every child can actively take part in preparing the dishes.",
+                        "Of course, before booking the workshop, we will check together if your child has any diabetes, allergies, or intolerances to the ingredients I provide. A customized quote will then be offered.",
+                        "I share simple, effective, and delicious recipe ideas that require minimal cooking time (depending on the chosen workshop).",
+                        "Children do it themselves; I guide them, but I don't do it for them.",
+                        "All equipment and ingredients are provided—the workshop is fully \"turnkey.\" Products are as local and organic as possible, as I am very mindful of the quality of the ingredients I offer.",
+                        "Children also leave with their own \"recipe booklet\" so they can recreate the dishes at home.",
+                        "Several packages and rates are available, which you can view just below.",
+                        "Depending on the package, please plan for an activity lasting 1.5 to 3 hours.",
+                        "<hr/>",
+                        "<strong>Package 1:</strong> For ages 5 and up. Making mini donuts and candy skewers (photo 4). These skewers will be enjoyed with friends after the workshop during snack time (candies include strawberries, marshmallows...). The mini donuts are baked and decorated on-site by the children.",
+                        "<tr>Price: €14/child (10% extra on Sundays and public holidays).</tr>",
+                        "<hr/>",
+                        "<strong>Package 2:</strong> For ages 8 and up. Preparing the birthday cake all together, to be shared during snack time (choice of pound cake or chocolate-vanilla marble cake). Making mini burgers (ground beef, salad, ketchup, mayonnaise, cheese, and mini brioche-style buns)—2 per child. Making a candy skewer—1 per child.",
+                        "<tr>Price: €22/child (10% extra on Sundays and public holidays).</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
                 "Adult entertainment",
                 "Suncatcher"
             ],

@@ -61,6 +61,12 @@ export class InformationComponent implements OnInit, OnChanges {
     return text.trim().startsWith('<tr>');
   }
 
+  isLineBreak(text: string): boolean {
+    if (!text) return false;
+    return text.trim().startsWith('<hr/>');
+  }
+
+
   /**
    * Retire les balises <tr> et </tr> pour ne garder que le texte propre intérieur
    */

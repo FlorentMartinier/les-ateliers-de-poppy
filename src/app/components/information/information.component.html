@@ -55,6 +55,8 @@
           <span class="text-poppy mt-1.5 shrink-0 text-xs">●</span>
           <span [innerHTML]="cleanListItem(paragraph)"></span>
         </div>
+        } @else if (isListItem(paragraph)) {
+        <hr />
         } @else {
         <!-- TODO : Mettre en place le système de prix dans le contenu -->
         <p [innerHTML]="paragraph"></p>
