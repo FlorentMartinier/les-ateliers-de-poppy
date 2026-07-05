@@ -29,8 +29,8 @@
             "path": "",
             "banner_image": "assets/banners/bienvenue.jpg",
             "seoTitle": "Ateliers Créatifs à Domicile Hérault & Gard | Poppy in the Sky",
-            "seoDescription": "Découvrez des propositions d'ateliers créatifs itinérants à domicile dans l'Hérault et le Gard. Activités manuelles sur mesure pour enfants, adultes et événements.",
-            "courseDescription": "Services d'animation et de cours d'arts plastiques itinérants à domicile, en entreprise ou en structure spécialisée, couvrant les départements du Gard et de l'Hérault.",
+            "seoDescription": "Découvrez l'univers de Valérie et ses ateliers créatifs itinérants à domicile. Activités manuelles et culinaires sur mesure pour enfants et adultes dans le 34 et 30.",
+            "courseDescription": "Animation d'ateliers d'arts plastiques et de loisirs créatifs itinérants à domicile pour particuliers, anniversaires, EVJF et structures professionnelles.",
             "informations": [
                 {
                     "title": "Bienvenue chez POPPY IN THE SKY !",
@@ -41,22 +41,53 @@
                         }
                     ],
                     "description": [
-                        "Ce site est dédié au plaisir de la création. Vous y trouverez des propositions d'ateliers créatifs à votre domicile (voir plus haut), des dates d'ateliers créatifs sur Fabrègues (vacances scolaires uniquement), ainsi que les liens vers mes créations personnelles à la vente (un peu plus bas sur cette page). Bonne visite !",
-                        "Je vous invite maintenant à naviguer sur mon site pour découvrir toutes les activités que je propose à domicile. A bientôt !"
+                        "Je m'appelle Valérie et j’anime depuis 20 ans des <strong>ateliers de loisirs créatifs</strong> pour enfants, adolescents et adultes.",
+                        "Que ce soit à votre domicile, en entreprise, en école ou en association, je me déplace avec tout le matériel nécessaire pour vous offrir une pause créative originale, festive et conviviale ! Vous choisissez l'activité, je m'occupe du reste."
                     ]
                 },
                 {
-                    "title": "Mon actualité :",
+                    "title": "Comment réserver votre atelier ?",
+                    "description": [
+                        "Chaque séance dure environ 2 heures (en intérieur ou au jardin en été) avec une table et une chaise pour chaque participant.",
+                        "<tr><strong>Participants :</strong> Minimum 5 pour les enfants, 4 pour les adultes (maximum 10 personnes). Dès 5 ans.</tr>",
+                        "<tr><strong>Disponibilités :</strong> Du lundi au dimanche, toute l'année.</tr>",
+                        "<tr><strong>Frais de déplacement :</strong> Forfait de 15€ du lundi au samedi / 20€ le dimanche et jours fériés (au-delà de 30km, sur devis).</tr>",
+                        "<tr><strong>Réservation :</strong> Un acompte de 30% est demandé (virement ou Paypal).</tr>",
+                        "<tr><strong>Important :</strong> Une place de parking garantie à proximité immédiate est nécessaire pour le déchargement du matériel.</tr>"
+                    ]
+                },
+                {
+                    "title": "Zones de déplacement",
+                    "side_images": [
+                        "assets/images/presentation_image_map.png"
+                    ],
+                    "description": [
+                        "Je me déplace principalement sur <strong>Montpellier et son agglomération</strong> (Castelnau, Fabrègues, Lattes, St-Jean-de-Védas, Lunel, Mauguio, etc.).",
+                        "Je propose également des ateliers à certaines dates précises autour de <strong>Le Cailar (30)</strong> et de <strong>Castres (81)</strong>.",
+                        "Votre commune n'est pas dans le secteur ? Contactez-moi pour obtenir un devis personnalisé !"
+                    ]
+                },
+                {
+                    "title": "Pourquoi s'accorder une pause créative ?",
+                    "description": [
+                        "Créer en s'amusant est excellent pour le moral et permet d'apaiser les tensions du quotidien. C'est aussi un formidable outil de développement :",
+                        "<tr><strong>Identité & Expression :</strong> Permet d'exprimer ses émotions, ses idées et d'affirmer son originalité.</tr>",
+                        "<tr><strong>Estime de soi :</strong> Valorise petits et grands à travers la fierté de réaliser un objet de ses propres mains.</tr>",
+                        "<tr><strong>Focus & Zénitude :</strong> Développe la concentration, la patience et offre un vrai moment de déconnexion.</tr>"
+                    ]
+                },
+                {
+                    "title": "Mes boutiques en ligne & Actualités",
                     "images": [
                         "assets/images/atelier_attrape_soleil.png"
-                    ]
-                },
-                {
-                    "title": "Mes boutiques en ligne :",
+                    ],
                     "description": [
-                        "Fournitures créatives <a href='https://www.etsy.com/shop/poppybis' target='_blank' rel='noopener'>ici</a>",
-                        "Bijoux fantaisie <a href='https://www.etsy.com/shop/poppyintheskyfrance' target='_blank' rel='noopener'>ici</a>",
-                        "Peintures sur porcelaine <a href='https://www.etsy.com/fr/shop/Poppyporcelaines' target='_blank' rel='noopener'>ici</a>"
+                        "En dehors des ateliers, je crée et vends mes propres pièces. Retrouvez mon univers sur mes boutiques Etsy :",
+                        "• Fournitures créatives <a href='https://www.etsy.com/shop/poppybis' target='_blank' rel='noopener'>cliquez ici</a>",
+                        "• Bijoux fantaisie <a href='https://www.etsy.com/shop/poppyintheskyfrance' target='_blank' rel='noopener'>cliquez ici</a>",
+                        "• Peintures sur porcelaine <a href='https://www.etsy.com/fr/shop/Poppyporcelaines' target='_blank' rel='noopener'>cliquez ici</a>",
+                        "<hr/>",
+                        "🎁 <strong>Offre Parrainage :</strong> Un atelier daté grâce à vous = une remise de 10% sur votre prochain atelier !"
                     ]
                 },
                 {
@@ -67,175 +98,17 @@
         },
         {
             "menu_title": [
-                "Présentation"
+                "Animations enfants",
+                "Nature & Décors en Bois"
             ],
-            "path": "présentation",
-            "banner_image": "assets/banners/presentation.jpg",
-            "seoTitle": "Qui cache derrière Poppy in the Sky ? - Ateliers d'Art Hérault/Gard",
-            "seoDescription": "Découvrez l'univers créatif de Poppy in the Sky. Passionnée d'artisanat et d'arts plastiques, je transmets mon savoir-faire à travers des ateliers conviviaux.",
-            "courseDescription": "Présentation de l'animatrice d'ateliers d'arts plastiques et créateurs de moments de partage artistique à domicile pour particuliers et structures professionnelles.",
-            "informations": [
-                {
-                    "title": "Ateliers loisirs créatifs à domicile sur  Montpellier et Agglomération - adultes et enfants",
-                    "side_images": [
-                        "assets/images/presentation_image.jpg"
-                    ],
-                    "description": [
-                        "Bienvenue sur mon site pour une pause créative et festive !",
-                        "Je m'appelle Valérie et j’organise et anime depuis 20  ans des <strong>ateliers de loisirs créatifs</strong> pour enfants, adolescents et adultes, à domicile, en écoles, sur votre lieu de travail, en CE, en associations et MJC, sur les régions de Montpellier (34), Puylaurens (81) et ses environs, et Le Cailar (30) et ses environs.",
-                        "Je vous propose mes compétences, ma bonne humeur, mon enthousiasme et mon expérience pour des animations originales à la maison !",
-                        "Vous recherchez une animation pour :",
-                        "<tr>un anniversaire d'enfants,</tr>",
-                        "<tr>une activité adultes/enfants pendant les vacances scolaires,</tr>",
-                        "<tr>un enterrement de vie de jeune fille (EVJF),</tr>",
-                        "<tr>une animation en magasin ou dans un café,</tr>",
-                        "<tr>un atelier chez vous, création de décorations de Noël, de Pâques, de printemps,</tr>",
-                        "<tr>une animation en club  (maison de retraite, association...), </tr>",
-                        "<tr>une animation en scolaire (écoles, collèges, foyers, CE, hôpitaux...).</tr>",
-                        "Je suis là pour vous aider, alors faites le choix de votre activité et je m'occupe du reste !",
-                        "Mes ateliers durent en moyenne 2 heures et doivent se dérouler en intérieur (ou au jardin en été) avec table et chaise pour chaque participant.",
-                        "Le déplacement à domicile se fait à partir de 5 participants pour les ateliers enfants et 4 participants pour les ateliers adultes, avec un maximum de 10 personnes (dans un rayon de 30km de Montpellier, de Nîmes ou de Castres).",
-                        "Les ateliers sont possibles du lundi au dimanche.",
-                        "Ils sont ouverts aux adultes et aux enfants à partir de 5ans.",
-                        "Pour les moins de 5 ans un devis personnalisé peut être fait. Je vous demanderai pour cela : de me donner l'âge des participants et de m'indiquer s'ils sont habitués à créer avec leurs mains.",
-                        "Un forfait déplacement sera facturé en plus de prix de l'activité (15€ du lundi au samedi / 20€ le dimanche et les jours fériés), toutefois, si vous habitez à plus de 30km de Montpellier, je peux aussi me déplacer et je recalcule le forfait déplacement. Sur Castres et Le Cailar, le forfait de base reste valable.",
-                        "Sachez aussi que vous pouvez parrainer des ami(e)s : 1 parrainage avec atelier daté = une remise de 10% sur un prochain atelier.",
-                        "Une avance de 30% sera réclamée à la réservation : paiement soit par virement, soit par Paypal.",
-                        "ATTENTION information importante !!! afin de me permettre de déballer le matériel nécessaire à l'atelier, j'ai besoin d'avoir une place de parking garantie à proximité. "
-                    ]
-                },
-                {
-                    "title": "Une créative qui vient à vous !",
-                    "side_images": [
-                        "assets/images/presentation_image_map.png"
-                    ],
-                    "description": [
-                        "Je me déplace sur les communes suivantes du 34 : ",
-                        "<tr>Montpellier,</tr>",
-                        "<tr>Castelnau le lez,</tr>",
-                        "<tr>Fabrègues,</tr>",
-                        "<tr>St-Jean-De-Védas,</tr>",
-                        "<tr>Saussan,</tr>",
-                        "<tr>La-Grande-Motte,</tr>",
-                        "<tr>Pérols,</tr>",
-                        "<tr>Pézenas,</tr>",
-                        "<tr>Le Crès,</tr>",
-                        "<tr>Juvignac,</tr>",
-                        "<tr>Jacou,</tr>",
-                        "<tr>Lunel,</tr>",
-                        "<tr>Pignan,</tr>",
-                        "<tr>Lavérune,</tr>",
-                        "<tr>Castries,</tr>",
-                        "<tr>Gigean,</tr>",
-                        "<tr>Mauguio,</tr>",
-                        "<tr>Cournonterral,</tr>",
-                        "<tr>St Georges d'Orques,</tr>",
-                        "<tr>St Clément de Rivière,</tr>",
-                        "<tr>Lattes,</tr>",
-                        "<tr>Palavas les Flots,</tr>",
-                        "<tr>Montbazin,</tr>",
-                        "<tr>Villeneuve-lès-Maguelone,</tr>",
-                        "<tr>Murles</tr>",
-                        "La Commune de Castres (81) et ses environs (à certaines dates précises).",
-                        "La commune de Le Cailar (30) et ses environs (à certaines dates précises).",
-                        "Si votre ville n'apparait pas dans cette liste, contactez-moi afin d'avoir un devis personnalisé"
-                    ]
-                },
-                {
-                    "title": "Pensez à parrainer vos ami(e)s car des cadeaux vous attendent !"
-                },
-                {
-                    "title": "Pourquoi développer sa créativité ?",
-                    "description": [
-                        "La créativité favorise le développement de l'individu de plusieurs façons :",
-                        "<tr>Tout d'abord, disons le clairement, créer en s'amusant ou s'amuser en créant, c'est bon pour le moral, ça fait du bien, ça aide à apaiser les tensions du quotidien et ça permet de s'accorder une petit pause de zénitude ! Mais si on pousse un peu plus loin, on s'aperçoit que créer est plus profond que ça :</tr>",
-                        "<tr>Identité : la créativité permet à l’enfant de renforcer son identité quand il fait preuve d’originalité dans ses jeux ou dans son quotidien.</tr>",
-                        "<tr>Ouverture : la créativité apprend à l’enfant à percevoir les choses sous différents angles et favorise ainsi son ouverture aux autres et à son environnement.</tr>",
-                        "<tr>Estime de soi : adulte ou enfant, créer a des effets sur l'estime de soi lorsqu’on réalise des activités à caractère ludique ou artistique.</tr>",
-                        "<tr>Expression : elle facilite l’expression d’émotions et d’idées, elle permet aussi aux plus timides de s'exprimer.</tr>",
-                        "<tr>Concentration : elle contribue au développement de la concentration, de l’autodiscipline et de la pensée critique.</tr>",
-                        "Bref, c'est excellent pour la santé !!! ;-) Qu'on soit grand ou petit !"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Ateliers sur Fabrègues/vacances scolaires"
-            ],
-            "path": "ateliers-sur-fabrègues-vacances-scolaires",
-            "banner_image": "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
-            "seoTitle": "Stages & Ateliers Créatifs Vacances Scolaires - Fabrègues (34)",
-            "seoDescription": "Inscrivez vos enfants aux ateliers créatifs organisés à Fabrègues pendant les vacances scolaires. Activités manuelles ludiques, artistiques et originales.",
-            "courseDescription": "Ateliers de loisirs créatifs thématiques dispensés à dates fixes pendant les vacances scolaires à Fabrègues pour les enfants et adolescents de la région.",
-            "promo": {
-                "startDate": "2026-06-01",
-                "endDate": "2026-06-15",
-                "promoPrice": 35
-            },
-            "informations": [
-                {
-                    "title": "Les ateliers sur Fabrègues (adultes ou enfants ou mixtes)",
-                    "images": null,
-                    "carrousel": [
-                        "assets/images/atelier_fabregues/atelier_fabregues_1.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_2.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_3.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_4.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_5.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_6.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_7.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_8.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_9.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_10.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_11.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_12.jpg"
-                    ],
-                    "description": [
-                        "Voici quelques exemples des précédents ateliers.",
-                        "<tr>tarif de 35€/enfant pour 3h d'activités (goûter maison offert)</tr>"
-                    ]
-                },
-                {
-                    "title": "Ateliers enfants",
-                    "carrousel": [
-                        "assets/images/atelier_enfant/atelier_enfant_1.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_2.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_3.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_4.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_5.png",
-                        "assets/images/atelier_enfant/atelier_enfant_6.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_7.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_8.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_9.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_10.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_11.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_12.jpg"
-                    ],
-                    "description": [
-                        "Et voici des exemples de réalisations d'élèves (4 ans à 12 ans) lors de précédents ateliers, poterie, bijoux et arts plastiques :"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation enfant à votre domicile",
-                "Grand coeur bois"
-            ],
-            "path": "les-ateliers-enfants-chez-vous/grand-cœur-bois",
+            "path": "les-ateliers-enfants-chez-vous/nature-et-decors-en-bois",
             "banner_image": "assets/banners/coeur_bois.jpg",
-            "seoTitle": "Atelier Enfant DIY Grand Cœur en Bois - À Domicile (34/30)",
-            "seoDescription": "Activité manuelle enfant : customisation d'un grand cœur en bois avec décors originaux. Parfait pour un anniversaire à domicile dans l'Hérault et le Gard.",
-            "courseDescription": "Atelier de modelage et décoration sur support en bois pour enfants, développant la motricité fine et l'association des textures.",
-            "promo": {
-                "startDate": "2026-06-01",
-                "endDate": "2026-06-15",
-                "promoPrice": 35
-            },
+            "seoTitle": "Ateliers Nature & Décors en Bois pour Enfants (34/30)",
+            "seoDescription": "Ateliers créatifs enfants à domicile : customisation de grands cœurs en bois ou création de cadres végétaux au fil des saisons dans l'Hérault et le Gard.",
+            "courseDescription": "Ateliers de modelage, peinture et art végétal développant la motricité fine, la créativité et l'exploration des textures naturelles.",
             "informations": [
                 {
-                    "title": "Atelier décoration cœur",
+                    "title": "Le Grand Cœur en Bois",
                     "carrousel": [
                         "assets/images/decoration_coeur/decoration_coeur_1.jpg",
                         "assets/images/decoration_coeur/decoration_coeur_2.jpg",
@@ -244,60 +117,15 @@
                         "assets/images/decoration_coeur/decoration_coeur_5.jpg"
                     ],
                     "description": [
-                        "Superbe grande décoration murale (cuisine, chambre, etc) de 29cm d'envergure. Pièce en bois hyper légère.",
-                        "A garder pour soi ou à offrir à papa, maman, papi, mami...",
-                        "Base en bois, sur laquelle nous allons apprendre à peindre de beaux dégradés à l'éponge, puis travail d'écriture avec une pâte spéciale (molding paste) et enfin un travail de moulage avec de la pâte auto durcissante. ",
-                        "Bien entendu, comme dans chacun des ateliers proposés, les couleurs, les décorations sont à volonté et aux goûts de chacun, ce qui garantit une pièce créative unique.",
-                        "Je fournis : la base, les peintures, la pâte à modeler, les moules, la pate auto durcissante et les éventuelles décorations type strass et fleurs.",
-                        "<tr>Tarif : 25€/personne (Majoration de 10% les dimanches et jours fériés).</tr>"
+                        "Une superbe décoration murale en bois léger de 29 cm à personnaliser selon ses envies.",
+                        "Les enfants apprendront à peindre des dégradés à l'éponge, à utiliser de la pâte de moulage (molding paste) et à réaliser des moulages en pâte autodurcissante.",
+                        "Chaque enfant choisit ses couleurs et ses ornements pour une pièce unique.",
+                        "Je fournis tout le matériel nécessaire : support, peintures, pâtes, moules et éléments décoratifs (strass, fleurs).",
+                        "<tr>Tarif : 25€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
                     ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation enfant à votre domicile",
-                "Porte clé initiale en résine"
-            ],
-            "path": "les-ateliers-enfants-chez-vous/porte-clé-initiale-en-résine",
-            "banner_image": "assets/banners/porte_cle_resine.jpg",
-            "seoTitle": "Atelier Création Porte-Clé Initiale en Résine pour Enfants",
-            "seoDescription": "Les enfants adorent la résine ! Un atelier ludique à domicile pour concevoir son propre porte-clé personnalisé avec paillettes. A partir de 7 ans.",
-            "courseDescription": "Initiation sécurisée pour enfants à la création d'objets en résine UV, incluant l'apprentissage des dosages et des inclusions décoratives.",
-            "informations": [
+                },
                 {
-                    "title": "Porte clé initiale en résine UV",
-                    "carrousel": [
-                        "assets/images/porte_cle/porte_cle_1.jpg",
-                        "assets/images/porte_cle/porte_cle_2.jpg",
-                        "assets/images/porte_cle/porte_cle_3.jpg"
-                    ],
-                    "description": [
-                        "Cette activité est conseillée à partir de 7 ans.",
-                        "Elle s'adresse aussi bien aux filles qu'aux garçons.",
-                        "Chaque élève aura à disposition un moule en silicone à son initiale et va pouvoir créer son propre porte-clé personnalisé grâce à la technique de la résine UV.",
-                        "Couleurs et décorations seront au choix de chacun.",
-                        "Cette initiale sera ensuite montée sur chaîne et sur fermoir porte-clés, avec un ruban et un pompon.",
-                        "Les gestes de bijoutiers sont importants pour cette activité.",
-                        "Il faut compter 1h30 de création.",
-                        "<tr>Tarif : 18€/enfant.</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation enfant à votre domicile",
-                "Cadre végétal"
-            ],
-            "path": "les-ateliers-enfants-chez-vous/cadre-végétal",
-            "banner_image": "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
-            "seoTitle": "Atelier Cadre Végétal Enfant - Activité Nature & Création à Domicile",
-            "seoDescription": "Sensibilisez vos enfants à la nature avec l'atelier cadre végétal. Composition artistique avec éléments naturels, disponible dans le Gard et l'Hérault.",
-            "courseDescription": "Atelier éco-créatif d'art végétal invitant les enfants à composer un tableau texturé en utilisant des végétaux et éléments de la nature.",
-            "informations": [
-                {
-                    "title": "Cadre végétal été",
+                    "title": "Le Cadre Végétal au fil des Saisons",
                     "carrousel": [
                         "assets/images/cadre_vegetal/cadre_vegetal_12.jpeg",
                         "assets/images/cadre_vegetal/cadre_vegetal_13.jpeg",
@@ -305,11 +133,10 @@
                         "assets/images/cadre_vegetal/cadre_vegetal_17.jpeg"
                     ],
                     "description": [
-                        "Cette activité est proposée à partir de 6 ans.",
-                        "Toutefois si votre enfant et ses amis sont créatifs et font preuve de dextérité, cette activité peut être proposée dès 5 ans.",
-                        "Chaque enfant créera son propre jardin végétal, à base de fournitures \"en fonction de la saison\" (à votre convenance) : de la mousse, du bois, des fleurs, des citrouilles, des champignons, des végétaux factices de toutes sortes, des céramiques que je crée moi-même...",
-                        "le cadre en bois fait 12cm de côtés.",
-                        "<tr>Tarif : 20€/enfant (majoré de 10% le dimanche et les jours fériés)</tr>"
+                        "Conseillé dès 6 ans (possible dès 5 ans pour les enfants habitués aux activités manuelles).",
+                        "Sur un cadre en bois de 12 cm, chaque enfant compose son mini-jardin avec des éléments adaptés à la saison : mousse, bois, fleurs, éléments en céramique faits main, champignons ou citrouilles miniatures.",
+                        "Un atelier ludique idéal pour connecter les enfants avec la nature tout en s'amusant.",
+                        "<tr>Tarif : 20€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
                     ]
                 },
                 {
@@ -342,17 +169,74 @@
         },
         {
             "menu_title": [
-                "Animation enfant à votre domicile",
-                "Carnet de voyage ou photos (art journal)"
+                "Animations enfants",
+                "Bijoux & Accessoires"
             ],
-            "path": "les-ateliers-enfants-chez-vous/carnet-de-voyage-ou-photos-art-journal",
-            "banner_image": "assets/banners/art_journal_enfant.png",
-            "seoTitle": "Atelier Enfant Art Journal & Carnet de Voyage Créatif (34/30)",
-            "seoDescription": "Initiation au scrapbooking et à l'art journal pour enfants. Création d'un carnet de souvenirs ou de photos unique à décorer à domicile.",
-            "courseDescription": "Cours de techniques mixtes (collage, tampons, peinture) appliqué à la création et à l'illustration d'un carnet de voyage ou d'un journal créatif.",
+            "path": "les-ateliers-enfants-chez-vous/bijoux-et-accessoires",
+            "banner_image": "assets/images/porte_cle/porte_cle_1.jpg",
+            "seoTitle": "Atelier Création de Bijoux et Accessoires Enfant à Domicile",
+            "seoDescription": "Des ateliers ludiques de bijouterie fantaisie à domicile : porte-clés en résine UV, bar à charms et bijoux de sac personnalisés pour un anniversaire réussi.",
+            "courseDescription": "Initiation à la bijouterie fantaisie et à l'assemblage de précision : manipulation des pinces, résine UV, harmonie des couleurs et création d'accessoires uniques.",
             "informations": [
                 {
-                    "title": "Art journal : carnet de voyage/de photos/ cahier de recettes / de scores de matchs...",
+                    "title": "Porte-clé Initiale en Résine UV",
+                    "carrousel": [
+                        "assets/images/porte_cle/porte_cle_1.jpg",
+                        "assets/images/porte_cle/porte_cle_2.jpg",
+                        "assets/images/porte_cle/porte_cle_3.jpg"
+                    ],
+                    "description": [
+                        "Conseillé à partir de 7 ans. Durée : environ 1h30.",
+                        "À l'aide d'un moule en silicone à leur initiale, les enfants découvrent la technique magique de la résine UV pour inclure paillettes, couleurs et décors de leur choix.",
+                        "L'initiale est ensuite montée sur une chaîne avec fermoir, ruban et pompon. Idéal pour s'initier aux premiers gestes de bijoutier !",
+                        "<tr>Tarif : 18€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
+                    ]
+                },
+                {
+                    "title": "Le Bar à Charms",
+                    "carrousel": [
+                        "assets/images/bracelet_boucle/bracelet_boucle_1.jpg",
+                        "assets/images/bracelet_boucle/bracelet_boucle_2.jpg",
+                        "assets/images/bracelet_boucle/bracelet_boucle_3.jpg"
+                    ],
+                    "description": [
+                        "Conseillé à partir de 9 ans (demande une bonne dextérité).",
+                        "Les enfants piochent parmi une grande variété de breloques thématiques de haute qualité pour composer, au choix : un ensemble bracelet + boucles d'oreilles assorties, ou un ensemble collier + boucles d'oreilles.",
+                        "Adaptable toute l'année selon vos thèmes préférés (Noël, été, fête...).",
+                        "<tr>Tarif : 13€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
+                    ]
+                },
+                {
+                    "title": "Bijoux de Sac & Porte-Clés Grigri",
+                    "carrousel": [
+                        "assets/images/bijou_sac/bijou_sac_1.jpg",
+                        "assets/images/bijou_sac/bijou_sac_2.jpg",
+                        "assets/images/bijou_sac/bijou_sac_3.jpg",
+                        "assets/images/bijou_sac/bijou_sac_4.jpg"
+                    ],
+                    "description": [
+                        "Conseillé à partir de 6 ans.",
+                        "Création d'un accessoire tendance pour décorer un cartable ou un trousseau de clés grâce à du matériel professionnel varié.",
+                        "Je fournis : fils d'acier et coton, perles diverses, rubans, perles en céramique faites maison, pompons et mousquetons.",
+                        "Un résultat professionnel garanti avec des combinaisons infinies.",
+                        "<tr>Tarif : 14€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animations enfants",
+                "Carnets Créatifs & Secrets"
+            ],
+            "path": "les-ateliers-enfants-chez-vous/carnets-creatifs-et-secrets",
+            "banner_image": "assets/banners/art_journal_enfant.png",
+            "seoTitle": "Atelier Papeterie Créative et Carnets pour Enfants (34/30)",
+            "seoDescription": "Atelier scrapbooking et customisation de carnets secrets ou d'art journal à domicile. Une activité manuelle captivante pour les anniversaires d'enfants.",
+            "courseDescription": "Atelier d'expression par le papier utilisant des techniques mixtes (collage, peinture, tampons) pour personnaliser des journaux intimes ou carnets de souvenirs.",
+            "informations": [
+                {
+                    "title": "Art Journal & Carnet de Souvenirs",
                     "carrousel": [
                         "assets/images/art_journal/art_journal_2.jpg",
                         "assets/images/art_journal/art_journal_3.png",
@@ -364,31 +248,15 @@
                         "assets/images/art_journal/art_journal_enfant_3.jpg"
                     ],
                     "description": [
-                        "Cette activité convient aussi bien aux filles qu'aux garçons ! Je la conseille à partir de 5ans.",
-                        "Quel est le travail à faire et à quoi va bien pouvoir servir ce carnet ?",
-                        "Nous ne décorerons que la 1ère de couverture (compter à peu près 2h de travail) et chaque enfant décidera de la couleur principale et du thème de son carnet. Il y a du collage et de la peinture.",
-                        "Les enfants pourront s'en servir d'album photos, de carnet de recettes ou de poésies, d'herbier... Ils y marqueront leurs scores de match, leur classement en sport, les numéros de téléphones et les adresses des copains...",
-                        "Chaque enfant en trouvera une utilisation personnelle, soyez-en certains !",
-                        "Voici en photos quelques réalisations d'enfants, allant de 5 ans à 12ans.",
-                        "Je fournis : le journal, toutes les décorations (papiers anciens et neufs, pompons, fleurs, insectes, strass...), les peintures, la colle.",
+                        "Conseillé à partir de 5 ans. Durée : environ 2h.",
+                        "Focus sur la personnalisation complète de la couverture. Les enfants explorent le collage et la peinture pour donner une âme à leur carnet selon leur thème favori.",
+                        "Idéal comme album photo, carnet de voyage, herbier, recueil de poésies ou cahier de scores sportifs.",
+                        "Je fournis : le journal de qualité, les peintures, la colle et de superbes éléments décoratifs (papiers vintage, pompons, strass).",
                         "<tr>Tarif : 24€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
                     ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation enfant à votre domicile",
-                "Carnet secret"
-            ],
-            "path": "les-ateliers-enfants-chez-vous/carnet-secret",
-            "banner_image": "assets/banners/carnet_secret.jpg",
-            "seoTitle": "Atelier Customisation de Carnet Secret pour Enfants à Domicile",
-            "seoDescription": "Une super idée pour un anniversaire d'enfants ! Création et décoration d'un carnet secret personnalisé avec cadenas, rubans et paillettes.",
-            "courseDescription": "Atelier de papeterie créative et de reliure simplifiée pour enfants, axé sur l'ornementation d'un journal intime ou carnet secret.",
-            "informations": [
+                },
                 {
-                    "title": "Atelier carnet secret décoré",
+                    "title": "Le Carnet Secret Décoré",
                     "carrousel": [
                         "assets/images/carnet_secret/carnet_secret_1.jpg",
                         "assets/images/carnet_secret/carnet_secret_2.jpg",
@@ -398,184 +266,25 @@
                         "assets/images/carnet_secret/carnet_secret_6.jpg"
                     ],
                     "description": [
-                        "Cette activité convient aussi bien aux filles qu'aux garçons ! Je la conseille à partir de 4ans.",
-                        "A quoi va bien pouvoir servir ce carnet ?",
-                        "Un carnet type Bristol de 20 cm de hauteur, qui pourra servir aussi bien de carnet secret, de répertoire de points de matchs, de carnet de notes, de carnet de poésies, de carnet de croquis, d'herbier...",
-                        "Chaque enfant en trouvera une utilisation personnelle, soyez-en certains !",
-                        "Le prix indiqué est valable du lundi au samedi. Majoration de 10% les dimanches et jours fériés.",
-                        "Je fournis : le carnet, les tissus, les décorations diverses (mosaïques en céramique faites main, fleurs, verre, bois, etc) ainsi que les peintures en relief qui donneront la touche finale à la création.",
-                        "Je ne fournis pas le stylo visible sur les photos.",
-                        "chacun trouvera des décorations adaptées à son goût et son style (les décorations sont à volonté !).",
-                        "<tr>Tarif : 12€/enfant</tr>"
+                        "Conseillé dès 4 ans.",
+                        "Ornementation d'un carnet type Bristol (hauteur 20 cm) qui accueillera les secrets, dessins ou pensées des enfants.",
+                        "Utilisation de textures uniques : tissus, mosaïques en céramique faites main, bois, éléments de verre et peintures en relief pour la touche finale.",
+                        "Chaque création est personnalisée à volonté selon les goûts de l'enfant (stylo non fourni).",
+                        "<tr>Tarif : 12€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
                     ]
                 }
             ]
         },
         {
             "menu_title": [
-                "Animation enfant à votre domicile",
-                "Bijoux bracelet/boucles"
+                "Animations adultes",
+                "Peinture & Aquarelle"
             ],
-            "path": "les-ateliers-enfants-chez-vous/bijoux-bracelet-boucles",
-            "banner_image": "assets/images/bracelet_boucle/bracelet_boucle_1.jpg",
-            "seoTitle": "Atelier Création de Bijoux Fantaisie Enfant - À Domicile Hérault/Gard",
-            "seoDescription": "Activité anniversaire originale : création de bracelets et boucles d'oreilles uniques avec des perles variées. Tout le matériel est fourni à domicile.",
-            "courseDescription": "Atelier d'initiation à la bijouterie fantaisie pour enfants, enseignant l'assemblage, l'harmonie des couleurs et le maniement de pinces adaptées.",
-            "informations": [
-                {
-                    "title": "Atelier bracelet/boucles (noël ou autre)",
-                    "carrousel": [
-                        "assets/images/bracelet_boucle/bracelet_boucle_1.jpg",
-                        "assets/images/bracelet_boucle/bracelet_boucle_2.jpg",
-                        "assets/images/bracelet_boucle/bracelet_boucle_3.jpg"
-                    ],
-                    "description": [
-                        "L'atelier est proposé aux enfants à partir de 9ans. Il demande un peu de dextérité.",
-                        "Les élèves auront le choix des breloques (très très diverses et de très belle qualité) et pourront composer :",
-                        "- Soit un bracelet avec boucles assorties,",
-                        "- Soit un collier avec boucles assorties.",
-                        "Nous ne sommes pas en période de noël ? Qu'importe  ;-) le même style de bijou est possible, mais sur d'autres thèmes ! J'ai de belles breloques de qualité à proposer.",
-                        "<tr>Tarif : 13€/personne</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation enfant à votre domicile",
-                "Bijoux de sac/porte clés"
-            ],
-            "path": "les-ateliers-enfants-chez-vous/bijou-de-sac-porte-clés",
-            "banner_image": "assets/images/bijou_sac/bijou_sac_1.jpg",
-            "seoTitle": "Atelier Enfant Customisation Bijou de Sac & Porte-Clés à Domicile",
-            "seoDescription": "Les enfants créent leur propre accessoire de mode ou grigri de cartable ! Atelier créatif ludique disponible dans tout l'Hérault et le Gard.",
-            "courseDescription": "Atelier d'artisanat ludique axé sur l'assemblage de breloques, pompons et perles pour façonner un bijou de sac ou un porte-clés unique.",
-            "informations": [
-                {
-                    "title": "L'atelier bijou de sac / porte-clés",
-                    "carrousel": [
-                        "assets/images/bijou_sac/bijou_sac_1.jpg",
-                        "assets/images/bijou_sac/bijou_sac_2.jpg",
-                        "assets/images/bijou_sac/bijou_sac_3.jpg",
-                        "assets/images/bijou_sac/bijou_sac_4.jpg"
-                    ],
-                    "description": [
-                        "Un porte clé (pour les garçons)... Un bijou de sac (pour les filles)... Cette activité est mixte et je la conseille à partir de 6ans.",
-                        "Mon matériel professionnel sera à disposition des enfants. Du matériel hyper varié et de grande qualité.",
-                        "Chaque bijou est unique, les photos mises en exposition sur ce site sont là uniquement pour vous donner une idée de ce qui est réalisable.",
-                        "Un résultat pro garanti !",
-                        "Je fournis : fils coton et fil d'acier, perles diverses et variées, rubans et breloques, perles céramique faites main, laine pour pompons si vous avez choisi le porte clé version 2, strass, paillettes, mousqueton, etc.",
-                        "<tr>Tarif : 14€/personne (Majoration de 10% les dimanches et jours fériés).</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation enfant à votre domicile",
-                "Activité spéciale pour grands groupes"
-            ],
-            "path": "les-ateliers-enfants-chez-vous/activité-spéciale-pour-grand-groupes",
-            "banner_image": "assets/banners/grand_groupe.jpg",
-            "seoTitle": "Ateliers Créatifs Grands Groupes Enfants - Centres, Écoles, Fêtes",
-            "seoDescription": "Des solutions d'ateliers manuels optimisées pour les grands groupes d'enfants. Animations fluides et projets artistiques valorisants dans le 34 et 30.",
-            "courseDescription": "Ingénierie et animation d'ateliers artistiques simultanés pour effectifs importants, adaptés aux contraintes des centres de loisirs et écoles.",
-            "informations": [
-                {
-                    "title": "Chasse au trésor et quilles finlandaises (pour + de 10 enfants) :",
-                    "side_images": [
-                        "assets/images/grand_groupe/grand_groupe_1.jpg"
-                    ],
-                    "description": [
-                        "Cette activité est réservée pour les groupes de + de 10 enfants.",
-                        "Chasse au trésor comprenant plusieurs activités : sport, culture, quizz, motricité...",
-                        "Suivie d'un jeu commun de quilles finlandaises !",
-                        "Animation assurée !!!",
-                        "<tr>Tarif : 14€/personne.</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation enfant à votre domicile",
-                "Cuisine"
-            ],
-            "path": "les-ateliers-enfants-chez-vous/cuisine",
-            "banner_image": "assets/banners/cuisine.jpg",
-            "seoTitle": "Atelier Cuisine Enfant à Domicile | Les Ateliers de Poppy",
-            "seoDescription": "Offrez à votre enfant un atelier cuisine ludique et clés en main à domicile. Formules anniversaires créatives, produits locaux et bio dans le 34 et 30.",
-            "courseDescription": "Un atelier culinaire immersif et pédagogique à domicile où les enfants apprennent à réaliser de délicieuses recettes de saison, encadrés pas à pas dans une ambiance conviviale.",
-            "informations": [
-                {
-                    "title": "Ateliers cuisine enfants",
-                    "carrousel": [
-                        "assets/images/cuisine/cuisine_1.png",
-                        "assets/images/cuisine/cuisine_2.jpg",
-                        "assets/images/cuisine/cuisine_3.jpg",
-                        "assets/images/cuisine/cuisine_4.jpg"
-                    ],
-                    "description": [
-                        "\"Maman, papa je peux cuisiner avec toi ?\" qui n'a jamais entendu ça ?",
-                        "Chaque enfant doit avoir le droit de s'exprimer et créer par le biais de la cuisine.",
-                        "Cette activité démarre à partir de 5 ans, fille ou garçon.",
-                        "Maximum de 6 participants afin de permettre à chaque enfant d'intervenir dans la préparation des plats.",
-                        "Bien entendu, avant de dater l'atelier, nous verrons ensemble si votre enfant est diabétique, allergique ou intolérant à un des ingrédients que je propose. Un devis \"sur mesure\" vous sera alors proposé.",
-                        "Je donne des idées de recettes simples, efficaces, excellentes et avec le minimum de cuisson (suivant atelier choisi).",
-                        "Les enfants font eux mêmes, je les guide, mais je ne fais pas à leur place.",
-                        "Le matériel et les ingrédients sont fournis, l'atelier est  \"clés en main\". Les produits sont le plus possibles \"locaux\" et \"bios\", car je suis très attentive à la qualité des ingrédients que je propose.",
-                        "Les enfants repartent aussi avec leur \"dossier recettes\" et peuvent refaire les plats à la maison.",
-                        "Plusieurs formules et tarifs vous sont proposés, à voir un peu plus bas.",
-                        "Suivant la formule, prévoir une activité de 1h30 à 3h.",
-                        "<hr/>",
-                        "<strong>Forfait 1 :</strong> A partir de 5 ans. Fabrication de minis donuts et de brochettes de bonbons (photo 4). Ces brochettes seront dégustées entre amis après l'atelier, au moment du goûter (bonbons : fraises, guimauves, chamallows...). Les minis donuts sont fabriqués et décorés sur place par les enfants.",
-                        "<tr>Tarif : 14€/enfant (Majoration de 10% les dimanches et jours fériés).</tr>",
-                        "<hr/>",
-                        "<strong>Forfait 2 :</strong> A partir de 8 ans. Préparation tous ensemble du gâteau d'anniversaire qui sera mangé en commun au goûter (au choix : quatre quarts ou marbré chocolat vanille). Fabrication de minis burgers (viande hachée, salade, keshup, mayonnaise, fromage et minis burgers façon briochettes). 2 par enfant. Fabrication d'une brochette de bonbons. 1 par enfant.",
-                        "<tr>Tarif : 22€/enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation adultes",
-                "Attrape-Soleil Suncatcher"
-            ],
-            "path": "animations-adultes/attrape-soleil-suncatcher",
-            "banner_image": "assets/banners/suncatcher.jpg",
-            "seoTitle": "Atelier Création Attrape-Soleil Cristal (Suncatcher) - Hérault & Gard",
-            "seoDescription": "Créez votre attrape-soleil en cristaux et perles pour illuminer votre intérieur. Atelier DIY chaleureux à domicile ou pour événements (EVJF, amies).",
-            "courseDescription": "Atelier de création d'objets verriers suspendus, apprenant à assembler des prismes de cristal pour capturer et réfracter la lumière naturelle.",
-            "informations": [
-                {
-                    "title": "Suncatcher attrape-soleil",
-                    "carrousel": [
-                        "assets/images/suncatcher/suncatcher_1.jpg",
-                        "assets/images/suncatcher/suncatcher_2.jpg",
-                        "assets/images/suncatcher/suncatcher_3.jpg"
-                    ],
-                    "description": [
-                        "A la fois décoration et source d'énergie et de vibrations, l'attrape-soleil vous permettra de créer un objet à votre image et d'apprendre la technique de montage de bijoux.",
-                        "Tout le matériel est fourni et de formes très diverses.",
-                        "Métal doré ou métal argenté, pièces irisées en verre, chaînes, crochets, papillons, lunes, lotus, gouttes, soleils...",
-                        "Cet atelier peut être proposé à partir de 10ans. Idéal en atelier parent/enfant.",
-                        "<tr>Tarif : 30€/personne (Majoration de 10% les dimanches et jours fériés).</tr>",
-                        "<tr>Minimum 5 personnes</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation adultes",
-                "Initiation aquarelle"
-            ],
-            "path": "animations-adultes/initiation-aquarelle",
-            "banner_image": "assets/images/aquarelle/aquarelle_1.jpg",
-            "seoTitle": "Atelier Initiation Aquarelle Humide sur Humide - Hérault & Gard",
-            "seoDescription": "Découvrez la magie de l'aquarelle avec la technique 'mouillé sur mouillé'. Cours à domicile accessible aux débutants, adultes et ados autour de Montpellier.",
-            "courseDescription": "Cours technique d'arts plastiques dédié à la fusion des pigments sur papier pur coton humidifié, idéal pour paysages et motifs végétaux.",
+            "path": "animations-adultes/peinture-aquarelle",
+            "banner_image": "assets/banners/peinture_relief.jpg",
+            "seoTitle": "Ateliers Peinture & Initiation Aquarelle - Hérault & Gard",
+            "seoDescription": "Découvrez nos ateliers de peinture sur l'Hérault et le Gard. De l'initiation à l'aquarelle traditionnelle aux techniques de peinture en relief et d'upcycling.",
+            "courseDescription": "Ateliers artistiques complets autour du travail des pigments, de la couleur et de la matière, mêlant techniques fluides traditionnelles et textures modernes.",
             "informations": [
                 {
                     "title": "Initiation aquarelle",
@@ -587,60 +296,15 @@
                         "assets/images/aquarelle/aquarelle_5.jpeg"
                     ],
                     "description": [
-                        "Cette initiation vous permettra de découvrir la technique du \"mouillé sur mouillé\" appelée aussi \"humide sur humide\".",
-                        "Deux types de modèles vous seront proposés : des plantes type coton ou un paysage.",
-                        "Tout le matériel est fourni : papier de qualité supérieure et aquarelles variées.",
-                        "Cet atelier peut être proposé aux adultes et peut aussi intéresser les enfants partir de 10ans. Idéal en atelier parent/enfant.",
-                        "<tr>Tarif : 20€/personne (Majoration de 10% les dimanches et jours fériés).</tr>",
-                        "<tr>Minimum 5 personnes</tr>"
+                        "Cours technique dédié à la fusion des pigments sur papier pur coton humidifié, idéal pour paysages et motifs végétaux.",
+                        "Apprenez à maîtriser les fusions grâce à l'apprentissage de la technique traditionnelle du « mouillé sur mouillé » (ou humide sur humide).",
+                        "Deux thématiques d'étude guidées sont proposées au choix : les motifs végétaux (fleurs de coton) ou la composition de paysages.",
+                        "Tout le matériel haut de gamme est inclus : papier aquarelle de qualité supérieure (pur coton) et palettes de pigments variés.",
+                        "Atelier ouvert aux adultes et accessible aux adolescents dès 10 ans, parfait pour les sessions intergénérationnelles.",
+                        "<tr>Tarif : 20€ / personne (Majoration de 10% les dimanches et jours fériés).</tr>",
+                        "<tr>Minimum 5 personnes.</tr>"
                     ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation adultes",
-                "Bouteille décorée"
-            ],
-            "path": "animations-adultes/bouteille-décorée",
-            "banner_image": "assets/banners/bouteille.jpg",
-            "seoTitle": "Atelier Upcycling : Décoration de Bouteille en Verre à Domicile",
-            "seoDescription": "Transformez une simple bouteille en un superbe objet déco vintage ou bohème. Technique de peinture et customisation éco-responsable dans le 34/30.",
-            "courseDescription": "Atelier créatif de recyclage artistique (upcycling) enseignant l'application de peintures spéciales et d'ornements sur des contenants en verre.",
-            "informations": [
-                {
-                    "title": "Bouteille décorée : 2 séances sont nécessaires !",
-                    "carrousel": [
-                        "assets/images/bouteilles/bouteille_1.jpg",
-                        "assets/images/bouteilles/bouteille_2.jpg",
-                        "assets/images/bouteilles/bouteille_3.jpg",
-                        "assets/images/bouteilles/bouteille_4.jpg",
-                        "assets/images/bouteilles/bouteille_5.jpg"
-                    ],
-                    "description": [
-                        "Ou l'art de recycler, de valoriser et d'embellir une banale bouteille.",
-                        "Les techniques employées : peinture, modeling paste, collage d'images, pate structurante, petites décorations diverses.",
-                        "Cet atelier doit se prendre en deux séances de 3h en fonction de la grandeur de la bouteille choisie.",
-                        "Je peux fournir la bouteille, mais vous pouvez aussi fournir votre propre bouteille si elle est originale.",
-                        "Cet atelier est proposé à partir de 14ans.",
-                        "Tout le matériel est fourni.",
-                        "<tr>Tarif : 35€ / personne X 2, soit 70€ pour avoir une pièce complètement terminée (cela signifie 2 séances à dater).</tr>",
-                        "<tr>Minimum 5 personnes</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation adultes",
-                "Peinture en relief"
-            ],
-            "path": "animations-adultes/peinture-en-relief",
-            "banner_image": "assets/banners/peinture_relief.jpg",
-            "seoTitle": "Atelier Peinture en Relief & Textures - Cours à Domicile (34/30)",
-            "seoDescription": "Expérimentez la matière ! Apprenez à utiliser les mortiers de structure et les gels pour donner du relief tridimensionnel à vos toiles décoratives.",
-            "courseDescription": "Cours d'arts visuels axé sur l'utilisation de médiums de structure, pâtes à relief et couteaux à peindre pour créer des œuvres texturées.",
-            "informations": [
+                },
                 {
                     "title": "Peinture sculpture en relief : modeling paste",
                     "carrousel": [
@@ -652,92 +316,14 @@
                         "assets/images/peinture_relief/peinture_relief_6.jpg"
                     ],
                     "description": [
-                        "Que vous soyez novice ou habituée, cette activité va vous inspirer pour de futures créations !",
-                        "Nous allons travailler sur une petite toile de 12cm de côtés.",
-                        "Les techniques employées : peinture acrylique, pochoirs, travail au couteau, modeling paste...",
-                        "Les photos visibles ici sont des exemples de créations possibles. Toutefois chaque élève travaillera dans son style.",
-                        "Coquelicot ou magnolia seront les 2 modèles de fleurs proposés.",
-                        "Les peinture, les pochoirs, la toile, la modeling paste, tout le matériel nécessaire : en libre service et à volonté.",
-                        "Cet atelier va durer en moyenne 3 heures.",
-                        "<tr>Tarif : 40€.</tr>",
-                        "<tr>Minimum 5 personnes</tr>"
+                        "Explorez le travail de la matière sur une toile carrée de 12 cm pour donner une dimension tridimensionnelle à vos œuvres.",
+                        "Techniques abordées : application de la pâte de structure (modeling paste), maniement des couteaux à peindre, utilisation de pochoirs artistiques et superposition d'acryliques.",
+                        "Deux modèles floraux guident l'apprentissage (le coquelicot ou le magnolia), tout en laissant chacun exprimer son propre style graphique.",
+                        "Durée moyenne : 3h. L'ensemble des fournitures nécessaires est mis à disposition.",
+                        "<tr>Tarif : 40€ / personne.</tr>",
+                        "<tr>Minimum 5 personnes.</tr>"
                     ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation adultes",
-                "Tableau mix média rétro"
-            ],
-            "path": "animations-adultes/tableau-mix-média-rétro",
-            "banner_image": "assets/banners/tableau_retro.jpg",
-            "seoTitle": "Atelier Tableau Mix-Media Rétro & Vintage - Hérault & Gard",
-            "seoDescription": "Combinez peinture, collages d'images anciennes, textures et objets pour créer un superbe tableau Mix-Media au charme d'autrefois.",
-            "courseDescription": "Atelier d'arts plastiques explorant le 'Mixed Media', consistant à superposer différentes techniques (collage, acrylique, encres) sur un même châssis.",
-            "informations": [
-                {
-                    "title": "Atelier tableau mix média rétro",
-                    "side_images": [
-                        "assets/images/tableau_retro/tableau_retro_1.jpg",
-                        "assets/images/tableau_retro/tableau_retro_2.jpg"
-                    ],
-                    "description": [
-                        "2 séances sont nécessaires !",
-                        "Un magnifique atelier, à faire entre copines, entre amis, en associations...",
-                        "Comme tous mes ateliers, tout le matériel est inclus. il est à volonté : images, bijoux vintage, tissus, dentelles, strass, feuille d'or, fleurs artificielles, etc.",
-                        "Toutefois, vous pouvez aussi fournir du matériel personnel qui vous permettra de créer un tableau à votre image (un bijou de famille, un voile de mariée, une image).",
-                        "Photo de famille ? Photo d'un animal ? N'hésitez pas à l'apporter. Sinon des images seront mises à votre disposition.",
-                        "Deux séances seront nécessaires afin de repartir avec une création (presque) complètement terminée :-)",
-                        "<tr>Tarif : 40€ / personne x 2, soit 80€ en tout (Cela signifie 2 séances à dater).</tr>",
-                        "<tr>Minimum 5 personnes</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation adultes",
-                "Résine UV"
-            ],
-            "path": "animations-adultes/résine-uv",
-            "banner_image": "assets/banners/resine_uv.jpg",
-            "seoTitle": "Atelier Création d'Objets & Bijoux en Résine UV - À Domicile (34/30)",
-            "seoDescription": "Maîtrisez la résine UV ! Inclusion de fleurs séchées, paillettes ou pigments pour façonner des bijoux et accessoires uniques lors d'un atelier DIY.",
-            "courseDescription": "Formation pratique à l'utilisation de la résine synthétique à prise rapide (UV), axée sur les techniques de coulée, de coloration et d'inclusion.",
-            "informations": [
-                {
-                    "title": "Résine UV adultes",
-                    "carrousel": [
-                        "assets/images/resine_uv/resine_uv_1.png",
-                        "assets/images/resine_uv/resine_uv_2.png",
-                        "assets/images/resine_uv/resine_uv_3.jpg",
-                        "assets/images/resine_uv/resine_uv_4.png",
-                        "assets/images/resine_uv/resine_uv_5.jpg"
-                    ],
-                    "description": [
-                        "Je vous propose de venir créer votre propre bijou en résine UV.",
-                        "AU CHOIX : une paire de boucles d'oreilles OU un collier (pendentif + chaine).",
-                        "Une activité d'1h30, où vous apprendrez la technique et où vous pourrez faire vos propres inclusions : fleurs séchées, fleurs papier, feuilles d'or et d'argent, micro billes de verre, etc.",
-                        "Un pendentif ou des boucles à votre goût, dans votre style, et un bon moment entre copines !",
-                        "Tout le matériel est fourni.",
-                        "<tr>Tarif : 30€ / personne (Majoration de 10% les dimanches et jours fériés).</tr>",
-                        "<tr>Minimum 5 personnes</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation adultes",
-                "Pot de fleur peint"
-            ],
-            "path": "animations-adultes/pot-de-fleur-peint",
-            "banner_image": "assets/banners/pot_fleur.jpg",
-            "seoTitle": "Atelier Customisation & Peinture sur Pot en Terre Cuite - DIY",
-            "seoDescription": "Donnez du peps à vos plantes ! Atelier peinture sur pot en terre cuite avec motifs graphiques, bohèmes ou floraux à domicile dans l'Hérault et le Gard.",
-            "courseDescription": "Atelier d'illustration sur volume argileux, abordant la préparation du support poreux, l'application d'acryliques et le vernissage protecteur.",
-            "informations": [
+                },
                 {
                     "title": "Pot de fleur peint",
                     "carrousel": [
@@ -749,62 +335,45 @@
                         "assets/images/pot_fleur/pot_fleur_6.jpg"
                     ],
                     "description": [
-                        "Peinture sur pot de fleur, avec utilisation de plusieurs techniques.",
-                        "Résultat pro !",
-                        "pot de 15cm de hauteur approx.",
-                        "Plusieurs décorations possibles, au choix de l'élève.",
-                        "Travail facilité par ma technique ouverte autant aux pros qu'aux novices ;-)",
-                        "Il faut compter 3 heures de travail.",
+                        "Sublimez un pot en terre cuite traditionnel de 15 cm de hauteur en appliquant des techniques professionnelles d'illustration sur volume poreux.",
+                        "Une méthodologie pas-à-pas adaptée permet de réaliser facilement des motifs précis (graphiques, bohèmes ou botaniques) avec une finition impeccable.",
+                        "Le support en argile, les peintures acryliques spécifiques et les vernis de protection extérieure (durabilité optimale) sont entièrement fournis.",
+                        "Durée : environ 3h.",
                         "<tr>Tarif : 30€ / personne.</tr>",
-                        "<tr>Minimum 5 personnes</tr>"
+                        "<tr>Minimum 5 personnes.</tr>"
                     ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation adultes",
-                "Coquille St Jacques vide poche"
-            ],
-            "path": "animations-adultes/coquille-st-jacques-vide-poche",
-            "banner_image": "assets/banners/coquille.jpg",
-            "seoTitle": "Atelier Déco Coquille Saint-Jacques en Vide-Poche Élégant",
-            "seoDescription": "Technique de dorure et décopatch/peinture pour transformer des coquilles Saint-Jacques en magnifiques vide-poches ou coupelles à bijoux tendance.",
-            "courseDescription": "Atelier d'artisanat décoratif axé sur l'ennoblissement de supports naturels marins via l'application de feuilles d'or ou de motifs collés.",
-            "informations": [
+                },
                 {
-                    "title": "Vide poche coquille St Jacques",
+                    "title": "Peinture sur tuile ancienne",
                     "carrousel": [
-                        "assets/images/coquille/coquille_1.jpg",
-                        "assets/images/coquille/coquille_2.jpg",
-                        "assets/images/coquille/coquille_3.jpg"
+                        "assets/images/peinture_tuile/peinture_tuile_1.jpg",
+                        "assets/images/peinture_tuile/peinture_tuile_2.jpg",
+                        "assets/images/peinture_tuile/peinture_tuile_3.png"
                     ],
                     "description": [
-                        "Dans cet atelier je vous propose de décorer une grande coquille St Jacques de 10 à 12cm d'envergure approx.",
-                        "Vous pourrez choisir l'illustration dans plusieurs propositions de tous styles.",
-                        "Afin de vitrifier votre travail, je vous apprendrai la technique de la résine UV.",
-                        "Puis nous décorerons à volonté.",
-                        "Cette coquille se trouve sur un trépied en laiton qui est compris dans le prix de l'atelier.",
-                        "Tout le matériel est inclus.",
-                        "<tr>Tarif : 25€ / personne.</tr>",
-                        "<tr>Minimum 5 personnes</tr>"
+                        "Une immersion artisanale typiquement provençale pour réinventer de véritables tuiles anciennes en objets d’art mural ou en numéros de maison élégants.",
+                        "L'apprentissage is facilité par des méthodes accessibles de transfert de motifs et de composition verticale pour garantir un rendu irréprochable.",
+                        "Je fournis une grande tuile authentique en terre cuite par participant ainsi que toutes les peintures adaptées au support extérieur.",
+                        "Durée moyenne : 3h.",
+                        "<tr>Tarif : 50€ / personne.</tr>",
+                        "<tr>Minimum 5 personnes.</tr>"
                     ]
                 }
             ]
         },
         {
             "menu_title": [
-                "Animation adultes",
-                "Art journal"
+                "Animations adultes",
+                "Art Journal & Objets Déco"
             ],
-            "path": "animations-adultes/art-journal",
-            "banner_image": "assets/images/art_journal/art_journal_1.jpg",
-            "seoTitle": "Atelier Art Journal Adulte : Lâcher-prise et Créativité à Domicile",
-            "seoDescription": "Explorez l'expression de soi à travers l'Art Journaling. Un atelier mix-media relaxant mêlant écriture, peinture et collage dans le 34 et 30.",
-            "courseDescription": "Atelier d'expression plastique et d'art-thérapie légère sur carnet, mêlant techniques d'illustration libres et libération créative.",
+            "path": "animations-adultes/art-journal-objets-deco",
+            "banner_image": "assets/banners/art_journal_enfant.png",
+            "seoTitle": "Ateliers Art Journaling & Objets Déco - Créations Uniques",
+            "seoDescription": "Exprimez votre créativité : ateliers d'Art Journal intimistes mix-media et revalorisation de coquilles Saint-Jacques en précieux vide-poches.",
+            "courseDescription": "Ateliers d'expression plastique et de création d'objets souvenirs, mêlant collage, écriture visuelle, dorure et glaçage pour façonner des pièces uniques.",
             "informations": [
                 {
-                    "title": "Art journal : carnet de voyage/d'émotions / de photos/ de recettes / de notes...",
+                    "title": "Art journal : carnet de voyage/d'émotions",
                     "carrousel": [
                         "assets/images/art_journal/art_journal_1.jpg",
                         "assets/images/art_journal/art_journal_2.jpg",
@@ -815,88 +384,42 @@
                         "assets/images/art_journal/art_journal_7.png"
                     ],
                     "description": [
-                        "Cette activité convient aussi bien aux adultes qu'aux enfants. Il est donc possible de faire un atelier inter-générationnel !",
-                        "Quel est le travail à faire et à quoi va bien pouvoir servir ce carnet ?",
-                        "Nous ne décorerons que la 1ère de couverture (compter à peu près 2h de travail) et chaque élève décidera de la couleur principale et du thème de son carnet. Il y a du collage et de la peinture.",
-                        "On peut utiliser ce carnet pour plein d'occasions : album photos, carnet de recettes ou de poésies, carnet d'émotions, herbier... ",
-                        "Tout le matériel est inclus : carnet de 20cm x 20cm, papiers, peintures, pochoirs, petites décorations telles que strass, rubans et dentelles..",
-                        "Voici en photos quelques exemples de réalisations.",
+                        "Atelier d'expression plastique et d'art-thérapie légère sur carnet, mêlant techniques d'illustration libres et libération créative.",
+                        "Durée de l'atelier : environ 2h axées sur la création de la première de couverture.",
+                        "Un atelier mix-media axé sur le lâcher-prise où se mêlent harmonieusement techniques de collage artistique et de peinture pour façonner un carnet unique (20 cm x 20 cm).",
+                        "Chaque participant définit sa thématique selon la vocation future de l'objet : carnet de voyage, album photos souvenir, herbier, recueil de recettes ou journal intime.",
+                        "Matériel inclus de qualité professionnelle : carnet rigide, papiers thématiques, textures, peintures, pochoirs et petits ornements raffinés (strass, rubans, dentelles).",
                         "<tr>Tarif : 30€ / personne (Majoration de 10% les dimanches et jours fériés).</tr>",
-                        "<tr>Minimum 5 personnes</tr>"
+                        "<tr>Minimum 5 personnes.</tr>"
                     ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation adultes",
-                "Peinture sur tuile"
-            ],
-            "path": "animations-adultes/peinture-sur-tuile",
-            "banner_image": "assets/images/peinture_tuile/peinture_tuile_1.jpg",
-            "seoTitle": "Atelier Peinture sur Tuile Provençale - Décoration Tradition & DIY",
-            "seoDescription": "Redonnez vie aux anciennes tuiles ! Un atelier de peinture créative pour concevoir une décoration murale authentique ou un numéro de maison.",
-            "courseDescription": "Technique de peinture sur terre cuite de toiture ancienne, traitant la composition verticale, le choix des motifs régionaux et la résistance extérieure.",
-            "informations": [
+                },
                 {
-                    "title": "Peinture sur tuile",
+                    "title": "Vide poche coquille St Jacques",
                     "carrousel": [
-                        "assets/images/peinture_tuile/peinture_tuile_1.jpg",
-                        "assets/images/peinture_tuile/peinture_tuile_2.jpg",
-                        "assets/images/peinture_tuile/peinture_tuile_3.png"
+                        "assets/images/coquille/coquille_1.jpg",
+                        "assets/images/coquille/coquille_2.jpg",
+                        "assets/images/coquille/coquille_3.jpg"
                     ],
                     "description": [
-                        "Cet atelier est très provençal ! Il plaira autant aux ados qu'aux adultes !",
-                        "Pas besoin d'être un peintre chevronné pour participer, j'ai plein de techniques très simples pour arriver à un résultat parfait.",
-                        "Véritable tuile, elle vous servira de décoration intérieure ou extérieure.",
-                        "Plusieurs modèles sont fournis afin de vous aider à obtenir une création qui vous plaira et vous surprendra.",
-                        "Cet atelier dure en moyenne 3 heures.",
-                        "Je fournis : 1 grande tuile par élève + tout le matériel de peinture.",
-                        "<tr>Tarif : 50€ / personne.</tr>",
-                        "<tr>Minimum 5 personnes</tr>"
+                        "Transformez une authentique coquille Saint-Jacques de grande taille (10 à 12 cm) en un objet de décoration raffiné ou une coupelle à bijoux élégante.",
+                        "Apprentissage technique complet : application de motifs décoratifs fins, dorure à la feuille et maîtrise du glaçage à la résine UV pour vitrifier et protéger l'œuvre.",
+                        "Le prix de l'atelier inclut la coquille, le matériel de décoration ainsi qu'un élégant trépied en laiton pour la mise en valeur du vide-poche.",
+                        "<tr>Tarif : 25€ / personne.</tr>",
+                        "<tr>Minimum 5 personnes.</tr>"
                     ]
                 }
             ]
         },
         {
             "menu_title": [
-                "Animation adultes",
-                "Peinture sur toile (sardines)"
+                "Animations adultes",
+                "Bijoux Fantaisie & Résine UV"
             ],
-            "path": "animations-adultes/peinture-sur-toile-sardines",
-            "banner_image": "assets/banners/peinture_toile.png",
-            "seoTitle": "Atelier Peinture sur Toile Thème 'Sardines' - Style Bord de Mer",
-            "seoDescription": "Un atelier très graphique et convivial ! Apprenez à peindre une toile rythmée de petites sardines argentées ou colorées, esprit déco de vacances.",
-            "courseDescription": "Cours de peinture acrylique thématique, guidant les participants dans le travail du rythme, de la superposition de motifs et des reflets métalliques.",
-            "informations": [
-                {
-                    "title": "Adultes peinture sur toile",
-                    "carrousel": [
-                        "assets/images/peinture_toile/peinture_toile_1.jpg",
-                        "assets/images/peinture_toile/peinture_toile_2.jpg",
-                        "assets/images/peinture_toile/peinture_toile_3.png"
-                    ],
-                    "description": [
-                        "Cet atelier s'adresse aux adultes et adolescents.",
-                        "Il faut compter 3h de travail.",
-                        "Toile et peintures sont fournies, y compris pour ceux qui le souhaitent, des petits éléments à coller tels que sequins ou paillettes ou autre.",
-                        "Plusieurs modèles seront fournis, afin d'aider les élèves à trouver plus facilement des idées.",
-                        "<tr>Tarif : 50€ / personne (Majoration de 10% les dimanches et jours fériés).</tr>",
-                        "<tr>Minimum 5 personnes, maximum 6</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation adultes",
-                "Bijoux fantaisie"
-            ],
-            "path": "animations-adultes/bijoux-fantaisie",
+            "path": "animations-adultes/bijoux-fantaisie-resine-uv",
             "banner_image": "assets/banners/bijoux_fantaisie.jpg",
-            "seoTitle": "Atelier Bijoux Fantaisie Adultes à Domicile - Hérault & Gard",
-            "seoDescription": "Créez vos propres parures de bijoux (boucles, colliers, pinces). Apprentissage des techniques de montage pro avec un choix immense de perles.",
-            "courseDescription": "Cours technique d'assemblage et de design de bijoux, enseignant le maniement des apprêts, fermoirs, tiges et la création de compositions équilibrées.",
+            "seoTitle": "Ateliers Création Bijoux, Résine UV & Suncatchers - DIY",
+            "seoDescription": "Créez vos parures de bijoux personnalisées, manipulez la résine UV ou assemblez un attrape-soleil en cristal lors de nos ateliers créatifs techniques.",
+            "courseDescription": "Formations techniques axées sur l'assemblage de précision, le maniement des apprêts métalliques et l'utilisation des résines de synthèse à polymérisation rapide.",
             "informations": [
                 {
                     "title": "Atelier bijoux pour adultes",
@@ -915,51 +438,90 @@
                         "assets/images/bijoux_fantaisie/bijoux_fantaisie_12.jpg"
                     ],
                     "description": [
-                        "Je vous propose de créer le bijou de vos rêves ! celui que vous ne trouverez jamais en magasin !",
-                        "Collier, broche, bague, bracelet, boucles d'oreilles...",
-                        "Des milliers de perles, de pompons, de plumes, de supports, de chaînes et de crochets seront mis à votre disposition.",
-                        "Je serai là pour vous aider pas à pas, que vous soyez novice ou confirmé(e).",
-                        "Tous les styles et toutes les couleurs sont autorisés, que vous aimiez les bijoux sobres et discrets... ou les bijoux XXL...",
-                        "A la fin de l'atelier, qui durera en moyenne 2h30, vous pourrez porter un bijou unique que vous aurez plaisir et fierté à montrer.",
-                        "La totalité du matériel est fourni. Chaque élève repartira avec une parure : collier/bague OU collier/boucles OU bracelet/bague OU bracelet/boucles... broche/bague OU broche/boucles.",
-                        "vous pouvez aussi faire une demande personnalisée.",
+                        "Concevez une parure de bijoux sur mesure et apprenez les gestes professionnels de la bijouterie fantaisie (maniement des pinces, choix des apprêts, fixations des fermoirs et montage de tiges).",
+                        "Chaque participant repart avec une parure complète au choix : collier/bague, collier/boucles d'oreilles, bracelet/bague ou bracelet/boucles d’oreilles.",
+                        "Un bar à matières exceptionnel est mis à disposition : des milliers de perles sélectionnées, pompons, chaînes et supports de styles variés.",
+                        "Durée moyenne : 2h30.",
                         "<tr>Tarif : 40€ / personne.</tr>",
-                        "<tr>Minimum 5 personnes, maximum 10</tr>"
+                        "<tr>Minimum 5 personnes, maximum 10 personnes.</tr>"
                     ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation adultes",
-                "Cœur sacré en argile auto-durcissante"
-            ],
-            "path": "animations-adultes/cœur-sacré-en-argile-auto-durcissante",
-            "banner_image": "assets/images/coeur_sacre/coeur_sacre_1.jpg",
-            "seoTitle": "Atelier Cœur Sacré en Argile Auto-Durcissante - Déco Ex-Voto",
-            "seoDescription": "Façonnez et peignez un magnifique cœur sacré de style ex-voto mexicain ou baroque. Atelier modelage à domicile dans le Gard et l'Hérault.",
-            "courseDescription": "Initiation au modelage de l'argile sans cuisson, incluant les techniques d'estampage, d'assemblage des éléments en relief et de patine dorée.",
-            "informations": [
+                },
                 {
-                    "title": "Cœur sacré en argile auto-durcissante",
-                    "side_images": [
-                        "assets/images/coeur_sacre/coeur_sacre_2.jpg"
+                    "title": "Résine UV",
+                    "carrousel": [
+                        "assets/images/resine_uv/resine_uv_1.png",
+                        "assets/images/resine_uv/resine_uv_2.png",
+                        "assets/images/resine_uv/resine_uv_3.jpg",
+                        "assets/images/resine_uv/resine_uv_4.png",
+                        "assets/images/resine_uv/resine_uv_5.jpg"
                     ],
                     "description": [
-                        "En cours de création...",
-                        "Cet atelier sera bientôt proposé aux adultes.",
-                        "2h d'activité.",
-                        "<tr>Tarif : 30€ / personne.</tr>",
-                        "<tr>Minimum 5 personnes</tr>"
+                        "Initiez-vous à la manipulation de la résine de synthèse à prise rapide pour concevoir, au choix : une paire de boucles d'oreilles raffinées ou un collier complet (pendentif et chaîne).",
+                        "Apprentissage technique des méthodes de coulée et d'inclusion minutieuse de matières délicates : fleurs séchées naturelles, feuilles d'or et d'argent, micro-billes de verre.",
+                        "Repartez avec un bijou unique, durable et parfaitement polymérisé sous lampe UV.",
+                        "Durée : 1h30. Tout le matériel technique et les apprêts sont inclus.",
+                        "<tr>Tarif : 30€ / personne (Majoration de 10% les dimanches et jours fériés).</tr>",
+                        "<tr>Minimum 5 personnes.</tr>"
+                    ]
+                },
+                {
+                    "title": "Attrape-Soleil Suncatcher",
+                    "carrousel": [
+                        "assets/images/suncatcher/suncatcher_1.jpg",
+                        "assets/images/suncatcher/suncatcher_2.jpg",
+                        "assets/images/suncatcher/suncatcher_3.jpg"
+                    ],
+                    "description": [
+                        "Atelier de création d'objets verriers suspendus, apprenant à assembler des prismes de cristal pour capturer et réfracter la lumière naturelle.",
+                        "Créez un objet lumineux personnalisé tout en vous initiant aux techniques professionnelles d'assemblage et de montage.",
+                        "Un très large choix de fournitures de qualité est mis à disposition : métal doré ou argenté, pièces irisées en verre, chaînes, ainsi que de nombreuses breloques thématiques (lunes, soleils, lotus).",
+                        "Cet atelier est accessible dès 10 ans. Idéal également pour partager un moment créatif en duo parent/enfant.",
+                        "<tr>Tarif : 30€ / personne (Majoration de 10% les dimanches et jours fériés).</tr>",
+                        "<tr>Minimum 5 personnes.</tr>"
                     ]
                 }
             ]
         },
         {
             "menu_title": [
-                "Ehpad, centres de loisirs, écoles"
+                "Animations adultes",
+                "Formule Événements & EVJF"
             ],
-            "path": "ehpad-centres-de-loisirs-ecoles",
+            "path": "animations-adultes/evenements-evjf",
+            "banner_image": "assets/banners/evjf.png",
+            "seoTitle": "Atelier Créatif EVJF & Événements Privés - Hérault & Gard",
+            "seoDescription": "Célébrez vos moments forts entre ami(e)s ! Organisation d'ateliers créatifs festifs et sur-mesure pour EVJF, anniversaires et événements privatifs à domicile.",
+            "courseDescription": "Prestations événementielles et animations d'ateliers créatifs privatifs haut de gamme combinant artisanat DIY, détente et partage.",
+            "informations": [
+                {
+                    "title": "Un événement créatif, unique et festif !",
+                    "carrousel": [
+                        "assets/images/evjf/evjf_1.jpg",
+                        "assets/images/evjf/evjf_2.jpg",
+                        "assets/images/evjf/evjf_3.jpg",
+                        "assets/images/evjf/evjf_4.jpg",
+                        "assets/images/evjf/evjf_5.jpg",
+                        "assets/images/evjf/evjf_6.jpg",
+                        "assets/images/evjf/evjf_7.jpg",
+                        "assets/images/evjf/evjf_8.png",
+                        "assets/images/evjf/evjf_9.jpg"
+                    ],
+                    "description": [
+                        "En étroite collaboration avec Maguelonne (Maison Magalona), nous concevons des parenthèses festives et artistiques inoubliables pour célébrer la future mariée ou vos événements privés.",
+                        "Composez votre journée idéale en combinant nos univers : ateliers d'artisanat d'art et DIY premium (poterie, bar à bijoux de créateur, customisation personnalisée de vestes en jean, tableaux en mosaïque contemporaine, carnets d'art mix-media) agrémentés de séances spa, massages relaxants ou ateliers de cuisine fine.",
+                        "Chaque groupe a son histoire : nous façonnons un programme entièrement sur-mesure adapté à vos envies, votre timing et vos inspirations.",
+                        "Une organisation flexible pour vous simplifier la vie : nous intervenons directement sur le lieu de vos festivités (domicile, gîte, Airbnb), dans nos ateliers privatifs dédiés ou au sein de notre institut partenaire.",
+                        "Rejoignez-nous pour partager un moment suspendu, rire, créer ensemble et repartir avec un souvenir précieux fait main.",
+                        "<tr>Forfaits sur-mesure disponibles sur devis, s'étendant généralement de 60€ à 150€ par personne selon les options et ateliers sélectionnés.</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Collectivités & Institutions"
+            ],
+            "path": "collectivités-institutions",
             "banner_image": "assets/banners/centre_loisir.jpg",
             "seoTitle": "Animations Créatives & Artistiques pour Écoles, ALSH & EHPAD",
             "seoDescription": "Interventions artistiques sur mesure pour structures : écoles, centres de loisirs et EHPAD dans l'Hérault et le Gard. Ateliers adaptés à tous les âges.",
@@ -998,153 +560,6 @@
                         "<tr>De l'art plastique : résine UV, peinture sur pots de fleurs, collages sur carnets...</tr>",
                         "<tr>Du macramé, du cadre végétal, du chant...</tr>",
                         "N'hésitez à pas demander votre devis personnalisé ! Je suis à votre disposition, que ce soit dans le 34, dans le 30 ou le 81, aux dates et heures qui vous conviennent le mieux !"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Cours particuliers"
-            ],
-            "path": "cours-particulier",
-            "banner_image": "assets/banners/cours_particulier.jpg",
-            "seoTitle": "Cours Particuliers d'Arts Plastiques & Dessin - Hérault & Gard",
-            "seoDescription": "Progressez à votre rythme avec un cours particulier d'art et loisirs créatifs à domicile. Accompagnement personnalisé pour enfants, ados et adultes.",
-            "courseDescription": "Cours d'art individuels et personnalisés à domicile, axés sur l'apprentissage de techniques artistiques spécifiques et l'expression plastique libre.",
-            "informations": [
-                {
-                    "title": "Cours particulier (adulte enfant)",
-                    "carrousel": [
-                        "assets/images/cours_particulier/cours_particulier_1.jpg",
-                        "assets/images/cours_particulier/cours_particulier_2.jpg",
-                        "assets/images/cours_particulier/cours_particulier_3.jpg",
-                        "assets/images/cours_particulier/cours_particulier_4.png",
-                        "assets/images/cours_particulier/cours_particulier_5.jpg",
-                        "assets/images/cours_particulier/cours_particulier_6.jpg",
-                        "assets/images/cours_particulier/cours_particulier_7.jpg",
-                        "assets/images/cours_particulier/cours_particulier_8.jpg",
-                        "assets/images/cours_particulier/cours_particulier_9.jpg",
-                        "assets/images/cours_particulier/cours_particulier_10.jpg",
-                        "assets/images/cours_particulier/cours_particulier_11.jpg",
-                        "assets/images/cours_particulier/cours_particulier_12.jpg",
-                        "assets/images/cours_particulier/cours_particulier_13.jpg",
-                        "assets/images/cours_particulier/cours_particulier_14.jpg",
-                        "assets/images/cours_particulier/cours_particulier_15.jpg",
-                        "assets/images/cours_particulier/cours_particulier_16.jpg",
-                        "assets/images/cours_particulier/cours_particulier_17.png",
-                        "assets/images/cours_particulier/cours_particulier_18.png",
-                        "assets/images/cours_particulier/cours_particulier_19.png",
-                        "assets/images/cours_particulier/cours_particulier_20.jpg",
-                        "assets/images/cours_particulier/cours_particulier_21.jpg",
-                        "assets/images/cours_particulier/cours_particulier_22.jpg",
-                        "assets/images/cours_particulier/cours_particulier_23.jpg"
-                    ],
-                    "description": [
-                        "Vous préférez apprendre en cours particulier et ne pas participer à un cours collectif .",
-                        "Que ce soit en bijoux fantaisie, en customisation d'un blouson, en peinture sur porcelaine, en peinture sur tuile ou en poterie, en décoration maison ou sur pots de fleurs... Je suis à votre disposition pour vous recevoir à mon atelier ou bien me déplacer à votre domicile.",
-                        "Mon intervention sera de 2h30.",
-                        "Je rajouterai un forfait déplacement qui sera calculé en fonction de la distance à parcourir.",
-                        "Les frais de déplacement sont offerts sur Fabrègues.",
-                        "Les photos ci-dessous sont là pour vous aider à trouver votre idée, mais je suis ouverte à vos propositions créatives aussi !",
-                        "<tr>Tarif : 100€, quelle que soit votre activité choisie.</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Enterrement Vie de Jeune Fille"
-            ],
-            "path": "enterrement-vie-de-jeune-fille",
-            "banner_image": "assets/banners/evjf.png",
-            "seoTitle": "Atelier Créatif EVJF à Domicile - Montpellier, Nîmes, Hérault, Gard",
-            "seoDescription": "Organisez une activité DIY et mémorable pour un EVJF ! Ateliers bijoux, attrape-soleil ou résine à domicile entre amies autour de Montpellier et Nîmes.",
-            "courseDescription": "Animation d'ateliers créatifs privatifs et festifs pour les enterrements de vie de jeune fille (EVJF), incluant la création d'un souvenir personnalisé.",
-            "informations": [
-                {
-                    "title": "Enterrement Vie de Jeune Fille",
-                    "carrousel": [
-                        "assets/images/evjf/evjf_1.jpg",
-                        "assets/images/evjf/evjf_2.jpg",
-                        "assets/images/evjf/evjf_3.jpg",
-                        "assets/images/evjf/evjf_4.jpg",
-                        "assets/images/evjf/evjf_5.jpg",
-                        "assets/images/evjf/evjf_6.jpg",
-                        "assets/images/evjf/evjf_7.jpg",
-                        "assets/images/evjf/evjf_8.png",
-                        "assets/images/evjf/evjf_9.jpg"
-                    ],
-                    "description": [
-                        "Je travaille en collaboration étroite avec Maguelonne (<a href='https://www.maisonmagalona.fr/' target='_blank' rel='noopener'>le plaisir des 5 sens</a>) afin de vous proposer un après midi ou une soirée inoubliable avec vos ami(e)s !",
-                        "Massages, séances SPA, loisirs créatifs (poterie, mix média, carnets de voyage, bijoux...), ateliers cuisine, piscine : nous mettrons tout en œuvre pour que cet événement vous laisse un souvenir agréable de plénitude, de zénitude et d'amitié !",
-                        "Chaque futur(e) marié(e) étant unique, nous vous proposons une étude personnalisée de votre demande.",
-                        "Plusieurs forfaits sont possibles, ils vont de 60€/personne à 150€/personne.",
-                        "Nous pouvons nous déplacer à votre domicile ou bien vous recevoir à l'institut ou à mon atelier.",
-                        "n'hésitez pas à nous contacter pour plus d'informations (en photos, quelques idées de réalisations possibles, customisation de votre blouson en jean, tableau mosaïque souvenir, collier, boucles, bracelets...).",
-                        "à bientôt !"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Les stages sur 2 jours"
-            ],
-            "path": "les-stages-sur-2-jours",
-            "banner_image": "assets/banners/stage_2_j.jpg",
-            "seoTitle": "Stages Artistiques Intensifs sur 2 Jours - Hérault & Gard",
-            "seoDescription": "Approfondissez une technique plastique lors de nos stages créatifs sur deux jours. Idéal pour explorer l'art journal, la peinture ou la résine en détail.",
-            "courseDescription": "Formations artistiques immersives réparties sur deux journées pour maîtriser un projet créatif complexe, ouvert aux amateurs de loisirs créatifs.",
-            "informations": [
-                {
-                    "title": "Les stages : sur 2 jours (sans couchage)",
-                    "carrousel": [
-                        "assets/images/stage_2_j/stage_2_j_1.jpg",
-                        "assets/images/stage_2_j/stage_2_j_2.jpg",
-                        "assets/images/stage_2_j/stage_2_j_3.jpg",
-                        "assets/images/stage_2_j/stage_2_j_4.jpg",
-                        "assets/images/stage_2_j/stage_2_j_5.jpg",
-                        "assets/images/stage_2_j/stage_2_j_6.jpg",
-                        "assets/images/stage_2_j/stage_2_j_7.jpg",
-                        "assets/images/stage_2_j/stage_2_j_8.jpg",
-                        "assets/images/stage_2_j/stage_2_j_9.jpg"
-                    ],
-                    "description": [
-                        "Je propose des stages d'arts plastiques, de poterie, de bijouterie fantaisie, sur 2 jours - couchage à votre charge",
-                        "Sous réserve de la participation d'un minimum de 6 personnes, et dans le cadre de l'association THAADAM, je propose à dates fixes, des stages, des séminaires bien-être, qui vous permettent de vous ressourcer et de vous retrouver, par le biais de l'art.",
-                        "De la poterie, du bijou fantaisie, du chant, de l'art plastique, jalonnent les deux jours que nous passerons ensemble.",
-                        "Le couchage n'est pas inclus dans le prix, il est à votre charge.",
-                        "Toutefois le repas du midi peut être pris en commun (repas tiré du sac ou repas préparé par mes soins - tarif de 15€).",
-                        "Les cours démarrent à 10h jusqu'à 12h30, puis reprennent à 14h jusqu'à 17h30.",
-                        "Le tarif dépend des activités qui seront définies à l'avance, mais en général il tourne autour de 400€ par personne.",
-                        "Ce stage a lieu vers Cournonterral (34) dans un lieu dédié à l'art.",
-                        "Prochaine date aux alentours de juin."
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Animation chantée"
-            ],
-            "path": "animation-chantée",
-            "banner_image": "assets/banners/chant.jpg",
-            "seoTitle": "Animations Chantées & Ateliers Musicaux à Domicile ou Structure",
-            "seoDescription": "Partagez un moment chaleureux avec nos animations chantées. Idéal pour les EHPAD, fêtes de famille, anniversaires dans l'Hérault et le Gard.",
-            "courseDescription": "Prestations d'animation musicale et d'ateliers de chant interactifs destinés aux événements de groupe, aux aînés ou aux fêtes associatives.",
-            "informations": [
-                {
-                    "title": "Animation chantée ou Karaoké",
-                    "description": [
-                        "EHPAD, entreprises, associations, particuliers.",
-                        "Je vous propose de venir animer votre soirée ou votre après-midi en chansons !",
-                        "Que vous soyez un particulier, une entreprise ou une association, je propose des animations chantées, façon thé dansant ou des karaokés.",
-                        "Tarif dégressif :",
-                        "<tr>1h : 150€</tr>",
-                        "<tr>2h : 280€</tr>",
-                        "<tr>3h : 400€</tr>",
-                        "Tous les styles de musiques et de chansons sont possibles : disco, tango, paso, slow, valses, rock...  N'hésitez pas à me faire part de vos goûts, je m'adapte à la demande !",
-                        "Nous pouvons aussi chanter à plusieurs : tarif personnalisé, devis rapide."
                     ]
                 }
             ]

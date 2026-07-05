@@ -28,192 +28,87 @@
             ],
             "path": "",
             "banner_image": "assets/banners/bienvenue.jpg",
+            "seoTitle": "Kids & Adults Creative Workshops at Home | Poppy in the Sky",
+            "seoDescription": "Discover Valérie's world and her mobile creative workshops at home. Customized arts, crafts, and cooking activities for children and adults in Hérault and Gard.",
+            "courseDescription": "Mobile arts, crafts, and creative leisure workshops at home for individuals, birthdays, bachelorette parties (EVJF), and professional organizations.",
             "informations": [
                 {
-                    "title": "Welcome to POPPY IN THE SKY!",
+                    "title": "Welcome to POPPY IN THE SKY !",
                     "videos": [
                         {
-                            "title": "Poppy In The Sky Introduction",
+                            "title": "Présentation de Poppy In The Sky",
                             "url": "https://www.youtube.com/embed/4_2f43nJocQ?si=QaWeNGQeas5dTfCc"
                         }
                     ],
                     "description": [
-                        "This site is dedicated to the joy of creation. Here you will find proposals for creative workshops at your home (see above), dates for creative workshops in Fabrègues (school holidays only), as well as links to my personal creations for sale (a little further down this page). Enjoy your visit!",
-                        "I now invite you to browse my site to discover all the activities I offer at home. See you soon!"
+                        "My name is Valérie, and for 20 years, I have been organizing and running <strong>creative leisure workshops</strong> for children, teenagers, and adults.",
+                        "Whether at your home, in a company, school, or association, I travel with all the necessary material to offer you an original, festive, and friendly creative break! You choose the activity, and I take care of the rest."
                     ]
                 },
                 {
-                    "title": "My news:",
+                    "title": "How to book your workshop?",
+                    "description": [
+                        "Each session lasts approximately 2 hours (indoors, or in the garden during summer) with a table and a chair for each participant.",
+                        "<tr><strong>Participants:</strong> Minimum of 5 for children, 4 for adults (maximum 10 people). From 5 years old and up.</tr>",
+                        "<tr><strong>Availability:</strong> From Monday to Sunday, all year round.</tr>",
+                        "<tr><strong>Travel Fees:</strong> Flat rate of €15 from Monday to Saturday / €20 on Sundays and public holidays (beyond 30km, upon request).</tr>",
+                        "<tr><strong>Booking:</strong> A 30% deposit is required (via bank transfer or Paypal).</tr>",
+                        "<tr><strong>Important:</strong> A guaranteed parking space nearby is necessary to unload the equipment.</tr>"
+                    ]
+                },
+                {
+                    "title": "Travel Zones",
+                    "side_images": [
+                        "assets/images/presentation_image_map.png"
+                    ],
+                    "description": [
+                        "I mainly travel within <strong>Montpellier and its metropolitan area</strong> (Castelnau, Fabrègues, Lattes, St-Jean-de-Védas, Lunel, Mauguio, etc.).",
+                        "I also offer workshops on specific dates around <strong>Le Cailar (30)</strong> and <strong>Castres (81)</strong>.",
+                        "Your town is not on the list? Contact me to get a customized quote!"
+                    ]
+                },
+                {
+                    "title": "Why take a creative break?",
+                    "description": [
+                        "Creating while having fun is excellent for morale and helps soothe daily stress. It is also a wonderful tool for personal development:",
+                        "<tr><strong>Identity & Expression:</strong> Allows you to express emotions, ideas, and assert your originality.</tr>",
+                        "<tr><strong>Self-esteem:</strong> Empowers both children and adults through the pride of making an object with their own hands.</tr>",
+                        "<tr><strong>Focus & Mindfulness:</strong> Develops concentration, patience, and offers a true moment of disconnection.</tr>"
+                    ]
+                },
+                {
+                    "title": "My Online Shops & News",
                     "images": [
                         "assets/images/atelier_attrape_soleil.png"
-                    ]
-                },
-                {
-                    "title": "My online shops:",
+                    ],
                     "description": [
-                        "Creative supplies <a href='https://www.etsy.com/shop/poppybis' target='_blank' rel='noopener'>here</a>",
-                        "Costume jewelry <a href='https://www.etsy.com/shop/poppyintheskyfrance' target='_blank' rel='noopener'>here</a>",
-                        "Porcelain paintings <a href='https://www.etsy.com/fr/shop/Poppyporcelaines' target='_blank' rel='noopener'>here</a>"
+                        "Apart from the workshops, I create and sell my own pieces. Discover my universe on my Etsy shops:",
+                        "• Creative supplies <a href='https://www.etsy.com/shop/poppybis' target='_blank' rel='noopener'>click here</a>",
+                        "• Fashion jewelry <a href='https://www.etsy.com/shop/poppyintheskyfrance' target='_blank' rel='noopener'>click here</a>",
+                        "• Porcelain paintings <a href='https://www.etsy.com/fr/shop/Poppyporcelaines' target='_blank' rel='noopener'>click here</a>",
+                        "<hr/>",
+                        "🎁 <strong>Referral Program:</strong> A booked workshop thanks to you = a 10% discount on your next workshop!"
                     ]
                 },
                 {
-                    "title": "What people thinking:",
+                    "title": "What participants think about it:",
                     "googleReviewsUrl": "https://widgets.sociablekit.com/google-reviews/iframe/25687641"
                 }
             ]
         },
         {
             "menu_title": [
-                "Introduction"
+                "Children Entertainment",
+                "Nature & Wooden Crafts"
             ],
-            "path": "présentation",
-            "banner_image": "assets/banners/presentation.jpg",
-            "informations": [
-                {
-                    "title": "Creative leisure workshops at home in Montpellier and its surroundings - adults and children",
-                    "side_images": [
-                        "assets/images/presentation_image.jpg"
-                    ],
-                    "description": [
-                        "Welcome to my site for a creative and festive break!",
-                        "My name is Valérie, and for 20 years I have been organizing and leading <strong>creative leisure workshops</strong> for children, teenagers, and adults, at home, in schools, at your workplace, in companies, in associations and community centers, in the Montpellier (34), Puylaurens (81), and Le Cailar (30) regions and their surroundings.",
-                        "I offer you my skills, good humor, enthusiasm, and experience for original activities at home!",
-                        "Are you looking for an activity for:",
-                        "<tr>a children's birthday party,</tr>",
-                        "<tr>an adult/child activity during school holidays,</tr>",
-                        "<tr>a bachelorette party,</tr>",
-                        "<tr>an animation in a store or café,</tr>",
-                        "<tr>a workshop at your place, creating Christmas, Easter, or spring decorations,</tr>",
-                        "<tr>an animation in a club (retirement home, association...),</tr>",
-                        "<tr>an animation in schools (schools, colleges, youth centers, companies, hospitals...).</tr>",
-                        "I am here to help, so choose your activity, and I will take care of the rest!",
-                        "My workshops last an average of 2 hours and must take place indoors (or in the garden in summer) with a table and chair for each participant.",
-                        "Home travel is available for a minimum of 5 participants for children's workshops and 4 participants for adult workshops, with a maximum of 10 people (within a 30km radius of Montpellier, Nîmes, or Castres).",
-                        "Workshops are available from Monday to Sunday.",
-                        "They are open to adults and children from 5 years old.",
-                        "For children under 5, a personalized quote can be made. I will need you to provide the age of the participants and indicate if they are used to creating with their hands.",
-                        "A travel fee will be charged in addition to the activity price (€15 from Monday to Saturday / €20 on Sundays and public holidays). However, if you live more than 30km from Montpellier, I can also travel, and I will recalculate the travel fee. In Castres and Le Cailar, the base fee remains valid.",
-                        "Also, you can sponsor friends: 1 sponsorship with a dated workshop = a 10% discount on a future workshop.",
-                        "A 30% deposit will be required upon booking: payment either by bank transfer or PayPal.",
-                        "IMPORTANT information!!! To allow me to unpack the necessary materials for the workshop, I need a guaranteed parking space nearby."
-                    ]
-                },
-                {
-                    "title": "A creative person who comes to you!",
-                    "side_images": [
-                        "assets/images/presentation_image_map.png"
-                    ],
-                    "description": [
-                        "I travel to the following towns in the 34 region:",
-                        "<tr>Montpellier,</tr>",
-                        "<tr>Castelnau le Lez,</tr>",
-                        "<tr>Fabrègues,</tr>",
-                        "<tr>St-Jean-De-Védas,</tr>",
-                        "<tr>Saussan,</tr>",
-                        "<tr>La-Grande-Motte,</tr>",
-                        "<tr>Pérols,</tr>",
-                        "<tr>Pézenas,</tr>",
-                        "<tr>Le Crès,</tr>",
-                        "<tr>Juvignac,</tr>",
-                        "<tr>Jacou,</tr>",
-                        "<tr>Lunel,</tr>",
-                        "<tr>Pignan,</tr>",
-                        "<tr>Lavérune,</tr>",
-                        "<tr>Castries,</tr>",
-                        "<tr>Gigean,</tr>",
-                        "<tr>Mauguio,</tr>",
-                        "<tr>Cournonterral,</tr>",
-                        "<tr>St Georges d'Orques,</tr>",
-                        "<tr>St Clément de Rivière,</tr>",
-                        "<tr>Lattes,</tr>",
-                        "<tr>Palavas les Flots,</tr>",
-                        "<tr>Montbazin,</tr>",
-                        "<tr>Villeneuve-lès-Maguelone,</tr>",
-                        "<tr>Murles</tr>",
-                        "The town of Castres (81) and its surroundings (on specific dates).",
-                        "The town of Le Cailar (30) and its surroundings (on specific dates).",
-                        "If your city does not appear on this list, contact me for a personalized quote."
-                    ]
-                },
-                {
-                    "title": "Think about sponsoring your friends because gifts await you!"
-                },
-                {
-                    "title": "Why develop creativity?",
-                    "description": [
-                        "Creativity promotes individual development in several ways:",
-                        "<tr>First of all, let's be clear, creating while having fun or having fun while creating is good for morale, it feels good, it helps to ease daily tensions, and it allows for a little zen break! But if we go a little further, we realize that creating is deeper than that:</tr>",
-                        "<tr>Identity: creativity allows the child to strengthen their identity when they show originality in their games or daily life.</tr>",
-                        "<tr>Openness: creativity teaches the child to perceive things from different angles and thus promotes their openness to others and their environment.</tr>",
-                        "<tr>Self-esteem: for adults or children, creating has effects on self-esteem when engaging in playful or artistic activities.</tr>",
-                        "<tr>Expression: it facilitates the expression of emotions and ideas, and it also allows the shyest to express themselves.</tr>",
-                        "<tr>Concentration: it contributes to the development of concentration, self-discipline, and critical thinking.</tr>",
-                        "In short, it's excellent for health!!! ;-) Whether you're big or small!"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Workshops in Fabrègues/school holidays"
-            ],
-            "path": "ateliers-sur-fabrègues-vacances-scolaires",
-            "banner_image": "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
-            "informations": [
-                {
-                    "title": "Workshops in Fabrègues (adults, children, or mixed)",
-                    "images": null,
-                    "carrousel": [
-                        "assets/images/atelier_fabregues/atelier_fabregues_1.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_2.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_3.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_4.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_5.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_6.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_7.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_8.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_9.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_10.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_11.jpg",
-                        "assets/images/atelier_fabregues/atelier_fabregues_12.jpg"
-                    ],
-                    "description": [
-                        "Here are a few examples of previous workshops.",
-                        "<tr>Price: €35/child for 3 hours of activities (complimentary homemade snack included)</tr>"
-                    ]
-                },
-                {
-                    "title": "Children's workshops",
-                    "carrousel": [
-                        "assets/images/atelier_enfant/atelier_enfant_1.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_2.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_3.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_4.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_5.png",
-                        "assets/images/atelier_enfant/atelier_enfant_6.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_7.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_8.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_9.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_10.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_11.jpg",
-                        "assets/images/atelier_enfant/atelier_enfant_12.jpg"
-                    ],
-                    "description": [
-                        "And here are examples of creations made by students (ages 4 to 12) during previous workshops, including pottery, jewelry, and visual arts:"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Children's entertainment at your home",
-                "Large wooden heart"
-            ],
-            "path": "les-ateliers-enfants-chez-vous/grand-cœur-bois",
+            "path": "les-ateliers-enfants-chez-vous/nature-et-decors-en-bois",
             "banner_image": "assets/banners/coeur_bois.jpg",
+            "seoTitle": "Nature & Wooden Crafts Workshops for Kids (34/30)",
+            "seoDescription": "Creative workshops for kids at home: customize large wooden hearts or create seasonal botanical frames in Hérault and Gard.",
+            "courseDescription": "Workshops focusing on clay molding, painting, and botanical art to develop fine motor skills, creativity, and the exploration of natural textures.",
             "informations": [
                 {
-                    "title": "Heart decoration workshop",
+                    "title": "The Large Wooden Heart",
                     "carrousel": [
                         "assets/images/decoration_coeur/decoration_coeur_1.jpg",
                         "assets/images/decoration_coeur/decoration_coeur_2.jpg",
@@ -222,54 +117,15 @@
                         "assets/images/decoration_coeur/decoration_coeur_5.jpg"
                     ],
                     "description": [
-                        "A stunning large wall decoration (for kitchen, bedroom, etc.) with a 29cm wingspan. Lightweight wooden piece.",
-                        "Keep it for yourself or give it as a gift to Mom, Dad, Grandma, Grandpa...",
-                        "Using a wooden base, we will learn how to paint beautiful gradients with a sponge, then do lettering work with a special molding paste, and finally, create moldings with self-hardening clay.",
-                        "Of course, as in all of our workshops, colors and decorations are unlimited and tailored to each person's taste, guaranteeing a unique, creative piece.",
-                        "I provide: the base, paints, modeling clay, molds, self-hardening clay, and any decorations like rhinestones and flowers.",
-                        "<tr>Price: €25/person (10% extra on Sundays and public holidays).</tr>"
+                        "A beautiful 29 cm wall decoration made of lightweight wood, ready to be fully customized.",
+                        "Children will learn sponge gradient painting, how to use molding paste, and how to cast air-dry clay ornaments.",
+                        "Each child selects their own colors and embellishments for a truly unique piece.",
+                        "I provide all necessary supplies: the wooden base, paints, modeling pastes, molds, and decorative details (rhinestones, flowers).",
+                        "<tr>Price: €25 / child (10% extra on Sundays and public holidays).</tr>"
                     ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Children's entertainment at your home",
-                "Resin initial keychain"
-            ],
-            "path": "les-ateliers-enfants-chez-vous/porte-clé-initiale-en-résine",
-            "banner_image": "assets/banners/porte_cle_resine.jpg",
-            "informations": [
+                },
                 {
-                    "title": "UV resin initial keychain",
-                    "carrousel": [
-                        "assets/images/porte_cle/porte_cle_1.jpg",
-                        "assets/images/porte_cle/porte_cle_2.jpg",
-                        "assets/images/porte_cle/porte_cle_3.jpg"
-                    ],
-                    "description": [
-                        "This activity is recommended for ages 7 and up.",
-                        "It is suitable for both girls and boys.",
-                        "Each student will use a silicone mold of their initial to create their own personalized keychain using the UV resin technique.",
-                        "Colors and decorations will be up to each individual.",
-                        "The initial will then be mounted on a chain and keychain clasp, complete with a ribbon and a tassel.",
-                        "Jewelry-making precision is key for this activity.",
-                        "Allow about 1 hour and 30 minutes for crafting.",
-                        "<tr>Price: €18/child.</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Children's entertainment at your home",
-                "Botanical frame"
-            ],
-            "path": "les-ateliers-enfants-chez-vous/cadre-végétal",
-            "banner_image": "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
-            "informations": [
-                {
-                    "title": "Summer botanical frame",
+                    "title": "Seasonal Botanical Frame",
                     "carrousel": [
                         "assets/images/cadre_vegetal/cadre_vegetal_12.jpeg",
                         "assets/images/cadre_vegetal/cadre_vegetal_13.jpeg",
@@ -277,15 +133,14 @@
                         "assets/images/cadre_vegetal/cadre_vegetal_17.jpeg"
                     ],
                     "description": [
-                        "This activity is available for ages 6 and up.",
-                        "However, if your child and their friends are creative and dexterous, this activity can be offered from age 5.",
-                        "Each child will create their own botanical garden using supplies adapted to the season (or at your convenience): moss, wood, flowers, pumpkins, mushrooms, various faux plants, and ceramics handcrafted by myself...",
-                        "The wooden frame measures 12cm on each side.",
-                        "<tr>Price: €20/child (10% extra on Sundays and public holidays).</tr>"
+                        "Recommended for ages 6 and up (possible from age 5 for children used to crafting).",
+                        "On a 12 cm wooden frame, each child creates their own mini-garden using seasonal items: moss, wood, flowers, handmade ceramics, or miniature mushrooms and pumpkins.",
+                        "A playful and ideal workshop to connect children with nature while having fun.",
+                        "<tr>Price: €20 / child (10% extra on Sundays and public holidays).</tr>"
                     ]
                 },
                 {
-                    "title": "Autumn botanical frame",
+                    "title": "Autumn Botanical Frame",
                     "carrousel": [
                         "assets/images/cadre_vegetal/cadre_vegetal_1.jpg",
                         "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
@@ -293,7 +148,7 @@
                     ]
                 },
                 {
-                    "title": "Winter botanical frame",
+                    "title": "Winter Botanical Frame",
                     "carrousel": [
                         "assets/images/cadre_vegetal/cadre_vegetal_9.jpg",
                         "assets/images/cadre_vegetal/cadre_vegetal_10.jpg",
@@ -301,7 +156,7 @@
                     ]
                 },
                 {
-                    "title": "Spring botanical frame",
+                    "title": "Spring Botanical Frame",
                     "carrousel": [
                         "assets/images/cadre_vegetal/cadre_vegetal_2.png",
                         "assets/images/cadre_vegetal/cadre_vegetal_3.jpg",
@@ -314,14 +169,74 @@
         },
         {
             "menu_title": [
-                "Children's entertainment at your home",
-                "Travel journal or photo album (art journal)"
+                "Children Entertainment",
+                "Jewelry & Accessories"
             ],
-            "path": "les-ateliers-enfants-chez-vous/carnet-de-voyage-ou-photos-art-journal",
-            "banner_image": "assets/banners/art_journal_enfant.png",
+            "path": "les-ateliers-enfants-chez-vous/bijoux-et-accessoires",
+            "banner_image": "assets/images/porte_cle/porte_cle_1.jpg",
+            "seoTitle": "Jewelry & Accessories Making Workshop for Kids at Home",
+            "seoDescription": "Fun DIY jewelry workshops at home: UV resin keychains, charm bars, and custom bag charms for a perfect birthday party.",
+            "courseDescription": "An introduction to fashion jewelry making and precision assembly: handling specialized pliers, UV resin work, color harmony, and creating unique accessories.",
             "informations": [
                 {
-                    "title": "Art journal: travel/photo journal, recipe book, match scorebook...",
+                    "title": "UV Resin Initial Keychain",
+                    "carrousel": [
+                        "assets/images/porte_cle/porte_cle_1.jpg",
+                        "assets/images/porte_cle/porte_cle_2.jpg",
+                        "assets/images/porte_cle/porte_cle_3.jpg"
+                    ],
+                    "description": [
+                        "Recommended for ages 7 and up. Duration: approx. 1.5 hours.",
+                        "Using a silicone mold of their initial, children discover the magic of UV resin to embed glitter, colors, and decorations of their choice.",
+                        "The initial is then mounted on a chain with a clasp, ribbon, and tassel. Perfect for learning basic jewelry-making techniques!",
+                        "<tr>Price: €18 / child (10% extra on Sundays and public holidays).</tr>"
+                    ]
+                },
+                {
+                    "title": "The Charm Bar",
+                    "carrousel": [
+                        "assets/images/bracelet_boucle/bracelet_boucle_1.jpg",
+                        "assets/images/bracelet_boucle/bracelet_boucle_2.jpg",
+                        "assets/images/bracelet_boucle/bracelet_boucle_3.jpg"
+                    ],
+                    "description": [
+                        "Recommended for ages 9 and up (requires good dexterity).",
+                        "Children choose from a wide variety of high-quality themed charms to design either a matching bracelet and earrings set, or a necklace and earrings set.",
+                        "Adaptable all year round according to your preferred theme (Christmas, summer, celebration...).",
+                        "<tr>Price: €13 / child (10% extra on Sundays and public holidays).</tr>"
+                    ]
+                },
+                {
+                    "title": "Bag Charms & Tassel Keychains",
+                    "carrousel": [
+                        "assets/images/bijou_sac/bijou_sac_1.jpg",
+                        "assets/images/bijou_sac/bijou_sac_2.jpg",
+                        "assets/images/bijou_sac/bijou_sac_3.jpg",
+                        "assets/images/bijou_sac/bijou_sac_4.jpg"
+                    ],
+                    "description": [
+                        "Recommended for ages 6 and up.",
+                        "Create a trendy accessory to decorate a schoolbag or a key ring using a wide variety of professional supplies.",
+                        "I provide: steel and cotton threads, diverse beads, ribbons, handmade ceramic charms, tassels, and carabiners.",
+                        "A guaranteed professional result with endless combinations.",
+                        "<tr>Price: €14 / child (10% extra on Sundays and public holidays).</tr>"
+                    ]
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Children Entertainment",
+                "Creative & Secret Notebooks"
+            ],
+            "path": "les-ateliers-enfants-chez-vous/carnets-creatifs-et-secrets",
+            "banner_image": "assets/banners/art_journal_enfant.png",
+            "seoTitle": "Creative Stationery & Notebook Workshops for Kids (34/30)",
+            "seoDescription": "Scrapbooking and custom diary or art journal workshops at home. An engaging manual activity for kids' birthday parties.",
+            "courseDescription": "Paper craft and self-expression workshop using mixed media techniques (collage, painting, stamping) to customize diaries or memory books.",
+            "informations": [
+                {
+                    "title": "Art Journal & Memory Book",
                     "carrousel": [
                         "assets/images/art_journal/art_journal_2.jpg",
                         "assets/images/art_journal/art_journal_3.png",
@@ -333,28 +248,15 @@
                         "assets/images/art_journal/art_journal_enfant_3.jpg"
                     ],
                     "description": [
-                        "This activity is perfect for both girls and boys! I recommend it for ages 5 and up.",
-                        "What will we be doing, and what can this journal be used for?",
-                        "We will only decorate the front cover (allow about 2 hours of work), and each child will choose the main color and theme for their journal. This involves gluing and painting.",
-                        "Children can use it as a photo album, a recipe or poetry book, an herbarium... They can track their match scores, sports rankings, or write down friends' phone numbers and addresses...",
-                        "Rest assured, every child will find a personal use for it!",
-                        "Here are photos of some creations made by children aged 5 to 12.",
-                        "I provide: the journal, all decorations (vintage and new papers, tassels, flowers, insects, rhinestones...), paints, and glue.",
-                        "<tr>Price: €24/child (10% extra on Sundays and public holidays).</tr>"
+                        "Recommended for ages 5 and up. Duration: approx. 2 hours.",
+                        "Focuses on the complete customization of the front cover. Children explore collage and painting to bring their notebook to life based on their favorite theme.",
+                        "Perfect as a photo album, travel journal, herbarium, poetry book, or sports score tracker.",
+                        "I provide: the high-quality journal, paints, glue, and beautiful decorative embellishments (vintage papers, tassels, rhinestones).",
+                        "<tr>Price: €24 / child (10% extra on Sundays and public holidays).</tr>"
                     ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Children's entertainment at your home",
-                "Secret diary"
-            ],
-            "path": "les-ateliers-enfants-chez-vous/carnet-secret",
-            "banner_image": "assets/banners/carnet_secret.jpg",
-            "informations": [
+                },
                 {
-                    "title": "Decorated secret diary workshop",
+                    "title": "Decorated Secret Diary",
                     "carrousel": [
                         "assets/images/carnet_secret/carnet_secret_1.jpg",
                         "assets/images/carnet_secret/carnet_secret_2.jpg",
@@ -364,172 +266,28 @@
                         "assets/images/carnet_secret/carnet_secret_6.jpg"
                     ],
                     "description": [
-                        "This activity is perfect for both girls and boys! I recommend it for ages 4 and up.",
-                        "What can this diary be used for?",
-                        "A 20cm tall Bristol-type notebook that can serve as a secret diary, a game scorebook, a notepad, a poetry book, a sketchbook, an herbarium...",
-                        "Rest assured, every child will find a personal use for it!",
-                        "The listed price applies from Monday to Saturday. A 10% extra charge applies on Sundays and public holidays.",
-                        "I provide: the notebook, fabrics, various decorations (handmade ceramic mosaics, flowers, glass, wood, etc.), as well as 3D relief paints to add the finishing touch to the creation.",
-                        "I do not provide the pen shown in the photos.",
-                        "Everyone will find decorations to match their taste and style (decorations are unlimited!).",
-                        "<tr>Price: €12/child.</tr>"
+                        "Recommended for ages 4 and up.",
+                        "Ornameting a Bristol-type notebook (20 cm high) that will hold children's secrets, drawings, or thoughts.",
+                        "Using unique textures: fabrics, handmade ceramic mosaics, wood, glass elements, and dimensional relief paints for the final touch.",
+                        "Each creation is personalized to match the child's style (pen not included).",
+                        "<tr>Price: €12 / child (10% extra on Sundays and public holidays).</tr>"
                     ]
                 }
             ]
         },
         {
             "menu_title": [
-                "Children's entertainment at your home",
-                "Bracelet and earrings jewelry"
+                "Adult Entertainment",
+                "Painting & Watercolor"
             ],
-            "path": "les-ateliers-enfants-chez-vous/bijoux-bracelet-boucles",
-            "banner_image": "assets/images/bracelet_boucle/bracelet_boucle_1.jpg",
+            "path": "animations-adultes/peinture-aquarelle",
+            "banner_image": "assets/banners/peinture_relief.jpg",
+            "seoTitle": "Painting & Watercolor Introduction Workshops - Hérault & Gard",
+            "seoDescription": "Discover our painting workshops in Hérault and Gard. From traditional watercolor introduction to 3D textured painting and outdoor decor upcycling.",
+            "courseDescription": "Comprehensive art workshops centered on pigment blending, color harmonies, and textures, combining fluid traditional media with modern heavy body styles.",
             "informations": [
                 {
-                    "title": "Bracelet/earrings workshop (Christmas or other themes)",
-                    "carrousel": [
-                        "assets/images/bracelet_boucle/bracelet_boucle_1.jpg",
-                        "assets/images/bracelet_boucle/bracelet_boucle_2.jpg",
-                        "assets/images/bracelet_boucle/bracelet_boucle_3.jpg"
-                    ],
-                    "description": [
-                        "This workshop is available for children aged 9 and up. It requires a bit of dexterity.",
-                        "Students will have a wide choice of charms (highly diverse and excellent quality) and can create either:",
-                        "- A bracelet with matching earrings,",
-                        "- Or a necklace with matching earrings.",
-                        "Not around Christmas time? No problem! ;-) The same style of jewelry is possible with other themes! I have beautiful, high-quality charms to choose from.",
-                        "<tr>Price: €13/person.</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Children's entertainment at your home",
-                "Bag charms / keychains"
-            ],
-            "path": "les-ateliers-enfants-chez-vous/bijou-de-sac-porte-clés",
-            "banner_image": "assets/images/bijou_sac/bijou_sac_1.jpg",
-            "informations": [
-                {
-                    "title": "Bag charm / keychain workshop",
-                    "carrousel": [
-                        "assets/images/bijou_sac/bijou_sac_1.jpg",
-                        "assets/images/bijou_sac/bijou_sac_2.jpg",
-                        "assets/images/bijou_sac/bijou_sac_3.jpg",
-                        "assets/images/bijou_sac/bijou_sac_4.jpg"
-                    ],
-                    "description": [
-                        "A keychain (for boys)... A bag charm (for girls)... This is a co-ed activity and I recommend it for ages 6 and up.",
-                        "My professional tools and materials will be available to the children. A wide variety of high-quality supplies.",
-                        "Each piece of jewelry is unique; the photos displayed on this site are only meant to give you an idea of what can be created.",
-                        "A professional result guaranteed!",
-                        "I provide: cotton and steel wire, a wide variety of beads, ribbons and charms, handmade ceramic beads, yarn for tassels if you choose keychain version 2, rhinestones, glitter, snap hooks, etc.",
-                        "<tr>Price: €14/person (10% extra on Sundays and public holidays).</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Children's entertainment at your home",
-                "Special activity for large groups"
-            ],
-            "path": "les-ateliers-enfants-chez-vous/activité-spéciale-pour-grand-groupes",
-            "banner_image": "assets/banners/grand_groupe.jpg",
-            "informations": [
-                {
-                    "title": "Treasure hunt and Finnish skittles (for 10+ children):",
-                    "side_images": [
-                        "assets/images/grand_groupe/grand_groupe_1.jpg"
-                    ],
-                    "description": [
-                        "This activity is exclusively for groups of more than 10 children.",
-                        "A treasure hunt featuring multiple activities: sports, culture, quizzes, motor skills...",
-                        "Followed by a group game of Finnish skittles (Mölkky)!",
-                        "Fun and entertainment guaranteed!!!",
-                        "<tr>Price: €14/person.</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Children's entertainment at your home",
-                "Cooking"
-            ],
-            "path": "les-ateliers-enfants-chez-vous/cuisine",
-            "banner_image": "assets/banners/cuisine.jpg",
-            "seoTitle": "Kids' Cooking Workshop at Home | Les Ateliers de Poppy",
-            "seoDescription": "Treat your child to a fun and turnkey cooking workshop at home. Creative birthday packages, local and organic products in the 34 and 30 areas.",
-            "courseDescription": "An immersive and educational culinary workshop at home where children learn to create delicious seasonal recipes, guided step-by-step in a friendly atmosphere.",
-            "informations": [
-                {
-                    "title": "Kids' cooking workshops",
-                    "carrousel": [
-                        "assets/images/cuisine/cuisine_1.png",
-                        "assets/images/cuisine/cuisine_2.jpg",
-                        "assets/images/cuisine/cuisine_3.jpg",
-                        "assets/images/cuisine/cuisine_4.jpg"
-                    ],
-                    "description": [
-                        "\"Mom, Dad, can I cook with you?\" Who hasn't heard that before?",
-                        "Every child should have the right to express themselves and create through cooking.",
-                        "This activity is open to boys and girls starting from 5 years old.",
-                        "Maximum of 6 participants to ensure every child can actively take part in preparing the dishes.",
-                        "Of course, before booking the workshop, we will check together if your child has any diabetes, allergies, or intolerances to the ingredients I provide. A customized quote will then be offered.",
-                        "I share simple, effective, and delicious recipe ideas that require minimal cooking time (depending on the chosen workshop).",
-                        "Children do it themselves; I guide them, but I don't do it for them.",
-                        "All equipment and ingredients are provided—the workshop is fully \"turnkey.\" Products are as local and organic as possible, as I am very mindful of the quality of the ingredients I offer.",
-                        "Children also leave with their own \"recipe booklet\" so they can recreate the dishes at home.",
-                        "Several packages and rates are available, which you can view just below.",
-                        "Depending on the package, please plan for an activity lasting 1.5 to 3 hours.",
-                        "<hr/>",
-                        "<strong>Package 1:</strong> For ages 5 and up. Making mini donuts and candy skewers (photo 4). These skewers will be enjoyed with friends after the workshop during snack time (candies include strawberries, marshmallows...). The mini donuts are baked and decorated on-site by the children.",
-                        "<tr>Price: €14/child (10% extra on Sundays and public holidays).</tr>",
-                        "<hr/>",
-                        "<strong>Package 2:</strong> For ages 8 and up. Preparing the birthday cake all together, to be shared during snack time (choice of pound cake or chocolate-vanilla marble cake). Making mini burgers (ground beef, salad, ketchup, mayonnaise, cheese, and mini brioche-style buns)—2 per child. Making a candy skewer—1 per child.",
-                        "<tr>Price: €22/child (10% extra on Sundays and public holidays).</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Adult entertainment",
-                "Suncatcher"
-            ],
-            "path": "animations-adultes/attrape-soleil-suncatcher",
-            "banner_image": "assets/banners/suncatcher.jpg",
-            "informations": [
-                {
-                    "title": "Suncatcher",
-                    "carrousel": [
-                        "assets/images/suncatcher/suncatcher_1.jpg",
-                        "assets/images/suncatcher/suncatcher_2.jpg",
-                        "assets/images/suncatcher/suncatcher_3.jpg"
-                    ],
-                    "description": [
-                        "Both a decoration and a source of energy and vibrations, the suncatcher workshop allows you to create an object that reflects your style while learning jewelry assembly techniques.",
-                        "All materials are provided and come in many different shapes.",
-                        "Gold or silver metal, iridescent glass pieces, chains, hooks, butterflies, moons, lotuses, teardrops, suns...",
-                        "This workshop can be offered from age 10 and up. Ideal as a parent/child workshop.",
-                        "<tr>Price: €30/person (10% extra on Sundays and public holidays).</tr>",
-                        "<tr>Minimum 5 people</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Adult activities",
-                "Watercolor introduction"
-            ],
-            "path": "animations-adultes/initiation-aquarelle",
-            "banner_image": "assets/images/aquarelle/aquarelle_1.jpg",
-            "informations": [
-                {
-                    "title": "Watercolor introduction",
+                    "title": "Introduction to Watercolor",
                     "carrousel": [
                         "assets/images/aquarelle/aquarelle_1.jpg",
                         "assets/images/aquarelle/aquarelle_2.jpg",
@@ -538,56 +296,17 @@
                         "assets/images/aquarelle/aquarelle_5.jpeg"
                     ],
                     "description": [
-                        "This introductory workshop will allow you to discover the \"wet-on-wet\" technique.",
-                        "Two types of models will be offered: cotton-style plants or a landscape.",
-                        "All materials are provided: premium quality paper and a wide variety of watercolors.",
-                        "This workshop is available for adults and can also interest children from 10 years old. Ideal as a parent/child workshop.",
-                        "<tr>Price: €20/person (10% surcharge on Sundays and public holidays).</tr>",
-                        "<tr>Minimum 5 people</tr>"
+                        "Technical class focused on blending pigments on dampened pure cotton paper, ideal for landscapes and botanical patterns.",
+                        "Learn to master blending by exploring the traditional 'wet-on-wet' (or wet-in-wet) technique.",
+                        "Two guided study themes are available: botanical patterns (cotton flowers) or landscape composition.",
+                        "All premium supplies are included: high-quality pure cotton watercolor paper and varied pigment palettes.",
+                        "Workshop open to adults and accessible to teenagers from 10 years old, perfect for intergenerational sessions.",
+                        "<tr>Price: €20 / person (10% extra on Sundays and public holidays).</tr>",
+                        "<tr>Minimum 5 people.</tr>"
                     ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Adult entertainment",
-                "Decorated bottle"
-            ],
-            "path": "animations-adultes/bouteille-décorée",
-            "banner_image": "assets/banners/bouteille.jpg",
-            "informations": [
+                },
                 {
-                    "title": "Decorated bottle: 2 sessions are required!",
-                    "carrousel": [
-                        "assets/images/bouteilles/bouteille_1.jpg",
-                        "assets/images/bouteilles/bouteille_2.jpg",
-                        "assets/images/bouteilles/bouteille_3.jpg",
-                        "assets/images/bouteilles/bouteille_4.jpg",
-                        "assets/images/bouteilles/bouteille_5.jpg"
-                    ],
-                    "description": [
-                        "The art of recycling, upcycling, and beautifying an ordinary bottle.",
-                        "Techniques used: painting, modeling paste, image collage, texture paste, and various small decorations.",
-                        "This workshop must be taken over two 3-hour sessions, depending on the size of the chosen bottle.",
-                        "I can provide the bottle, but you can also bring your own if it has an original shape.",
-                        "This workshop is open to ages 14 and up.",
-                        "All materials are provided.",
-                        "<tr>Price: €35 / person x 2, making it €70 to have a completely finished piece (this means 2 sessions to be scheduled).</tr>",
-                        "<tr>Minimum 5 people</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Adult entertainment",
-                "3D Relief painting"
-            ],
-            "path": "animations-adultes/peinture-en-relief",
-            "banner_image": "assets/banners/peinture_relief.jpg",
-            "informations": [
-                {
-                    "title": "3D Relief painting & sculpture: modeling paste",
+                    "title": "Textured Painting: Modeling Paste",
                     "carrousel": [
                         "assets/images/peinture_relief/peinture_relief_1.jpg",
                         "assets/images/peinture_relief/peinture_relief_2.jpg",
@@ -597,85 +316,16 @@
                         "assets/images/peinture_relief/peinture_relief_6.jpg"
                     ],
                     "description": [
-                        "Whether you are a novice or experienced, this activity will inspire you for future creations!",
-                        "We will work on a small 12cm square canvas.",
-                        "Techniques used: acrylic paint, stencils, palette knife work, modeling paste...",
-                        "The photos visible here are examples of possible designs. However, each student will work in their own style.",
-                        "Poppy or magnolia will be the 2 flower models offered.",
-                        "Paints, stencils, canvas, modeling paste, and all necessary equipment: open bar and unlimited use.",
-                        "This workshop lasts an average of 3 hours.",
-                        "<tr>Price: €40.</tr>",
-                        "<tr>Minimum 5 people</tr>"
+                        "Explore texture-building on a 12x12 cm square canvas to add a three-dimensional dimension to your artwork.",
+                        "Techniques covered: application of structure paste (modeling paste), handling palette knives, using artistic stencils, and acrylic layering.",
+                        "Two floral designs guide the learning process (poppy or magnolia), while allowing everyone to express their own graphic style.",
+                        "Average duration: 3 hours. All necessary supplies are fully provided.",
+                        "<tr>Price: €40 / person.</tr>",
+                        "<tr>Minimum 5 people.</tr>"
                     ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Adult entertainment",
-                "Retro mixed media canvas"
-            ],
-            "path": "animations-adultes/tableau-mix-média-rétro",
-            "banner_image": "assets/banners/tableau_retro.jpg",
-            "informations": [
+                },
                 {
-                    "title": "Retro mixed media canvas workshop",
-                    "side_images": [
-                        "assets/images/tableau_retro/tableau_retro_1.jpg",
-                        "assets/images/tableau_retro/tableau_retro_2.jpg"
-                    ],
-                    "description": [
-                        "2 sessions are required!",
-                        "A wonderful workshop to do with friends, groups, or associations...",
-                        "Like all my workshops, all materials are included and unlimited: images, vintage jewelry, fabrics, lace, rhinestones, gold leaf, artificial flowers, etc.",
-                        "However, you can also bring personal items to create a piece that truly reflects you (a family heirloom, a wedding veil, a specific image).",
-                        "Family photo? Pet photo? Feel free to bring it. Otherwise, images will be provided for you.",
-                        "Two sessions will be necessary to leave with a (nearly) completely finished creation :-)",
-                        "<tr>Price: €40 / person x 2, making it €80 in total (This means 2 sessions to be scheduled).</tr>",
-                        "<tr>Minimum 5 people</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Adult entertainment",
-                "UV Resin"
-            ],
-            "path": "animations-adultes/résine-uv",
-            "banner_image": "assets/banners/resine_uv.jpg",
-            "informations": [
-                {
-                    "title": "Adult UV resin",
-                    "carrousel": [
-                        "assets/images/resine_uv/resine_uv_1.png",
-                        "assets/images/resine_uv/resine_uv_2.png",
-                        "assets/images/resine_uv/resine_uv_3.jpg",
-                        "assets/images/resine_uv/resine_uv_4.png",
-                        "assets/images/resine_uv/resine_uv_5.jpg"
-                    ],
-                    "description": [
-                        "I invite you to come and create your very own UV resin jewelry.",
-                        "YOUR CHOICE: a pair of earrings OR a necklace (pendant + chain).",
-                        "A 1.5-hour activity where you will learn the technique and incorporate your own inclusions: dried flowers, paper flowers, gold and silver leaf, glass micro-beads, etc.",
-                        "A pendant or earrings to match your taste and style, and a great time spent with friends!",
-                        "All materials are provided.",
-                        "<tr>Price: €30 / person (10% extra on Sundays and public holidays).</tr>",
-                        "<tr>Minimum 5 people</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Adult entertainment",
-                "Painted flower pot"
-            ],
-            "path": "animations-adultes/pot-de-fleur-peint",
-            "banner_image": "assets/banners/pot_fleur.jpg",
-            "informations": [
-                {
-                    "title": "Painted flower pot",
+                    "title": "Painted Flower Pot",
                     "carrousel": [
                         "assets/images/pot_fleur/pot_fleur_1.jpg",
                         "assets/images/pot_fleur/pot_fleur_2.jpg",
@@ -685,56 +335,45 @@
                         "assets/images/pot_fleur/pot_fleur_6.jpg"
                     ],
                     "description": [
-                        "Flower pot painting using several techniques.",
-                        "Professional results!",
-                        "Pot is approximately 15cm tall.",
-                        "Multiple decoration options available, based on the student's preference.",
-                        "The process is made easy thanks to my technique, which is open to both pros and beginners ;-)",
-                        "Expect about 3 hours of work.",
+                        "Elevate a traditional terracotta pot (approx. 15 cm high) using professional illustration techniques for porous objects.",
+                        "A step-by-step method makes it easy to paint precise patterns (graphic, bohemian, or botanical) with an impeccable finish.",
+                        "The clay pot, specific acrylic paints, and outdoor protective varnishes (ensuring high durability) are fully provided.",
+                        "Duration: approx. 3 hours.",
                         "<tr>Price: €30 / person.</tr>",
-                        "<tr>Minimum 5 people</tr>"
+                        "<tr>Minimum 5 people.</tr>"
                     ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Adult entertainment",
-                "Scallop shell trinket dish"
-            ],
-            "path": "animations-adultes/coquille-st-jacques-vide-poche",
-            "banner_image": "assets/banners/coquille.jpg",
-            "informations": [
+                },
                 {
-                    "title": "Scallop shell trinket dish",
+                    "title": "Hand-Painted Roof Tile",
                     "carrousel": [
-                        "assets/images/coquille/coquille_1.jpg",
-                        "assets/images/coquille/coquille_2.jpg",
-                        "assets/images/coquille/coquille_3.jpg"
+                        "assets/images/peinture_tuile/peinture_tuile_1.jpg",
+                        "assets/images/peinture_tuile/peinture_tuile_2.jpg",
+                        "assets/images/peinture_tuile/peinture_tuile_3.png"
                     ],
                     "description": [
-                        "In this workshop, I invite you to decorate a large scallop shell, approximately 10 to 12cm wide.",
-                        "You can select your artwork from several design options across all styles.",
-                        "To seal and gloss your work, I will teach you the UV resin technique.",
-                        "Then, we will decorate as much as you like.",
-                        "The shell sits on a brass tripod stand, which is included in the workshop price.",
-                        "All materials are included.",
-                        "<tr>Price: €25 / person.</tr>",
-                        "<tr>Minimum 5 people</tr>"
+                        "A traditional Provençal craft experience to reinvent authentic antique terracotta tiles into unique wall art or elegant house numbers.",
+                        "The learning process is simplified with easy pattern transfer methods and vertical composition tips to ensure a flawless result.",
+                        "I provide one large authentic terracotta tile per participant as well as all suitable outdoor painting supplies.",
+                        "Average duration: 3 hours.",
+                        "<tr>Price: €50 / person.</tr>",
+                        "<tr>Minimum 5 people.</tr>"
                     ]
                 }
             ]
         },
         {
             "menu_title": [
-                "Adult entertainment",
-                "Art journal"
+                "Adult Entertainment",
+                "Art Journal & Keepsake Decor"
             ],
-            "path": "animations-adultes/art-journal",
-            "banner_image": "assets/images/art_journal/art_journal_1.jpg",
+            "path": "animations-adultes/art-journal-objets-deco",
+            "banner_image": "assets/banners/art_journal_enfant.png",
+            "seoTitle": "Art Journaling & Handmade Decor Workshops - Unique Crafts",
+            "seoDescription": "Express your inner self: cozy mixed-media Art Journal workshops and upcycling genuine scallop shells into golden jewelry dishes.",
+            "courseDescription": "Craft and self-expression workshops centered around custom books and souvenir objects, using collage, visual journaling, gilding, and clear glossy finishes.",
             "informations": [
                 {
-                    "title": "Art journal: travel/emotion/photo/recipe/notebook...",
+                    "title": "Art Journal: Memory or Travel Book",
                     "carrousel": [
                         "assets/images/art_journal/art_journal_1.jpg",
                         "assets/images/art_journal/art_journal_2.jpg",
@@ -745,82 +384,45 @@
                         "assets/images/art_journal/art_journal_7.png"
                     ],
                     "description": [
-                        "This activity is suitable for both adults and children. It is therefore possible to run an intergenerational workshop!",
-                        "What is the actual process and what will this journal be used for?",
-                        "We will only decorate the front cover (allow about 2 hours of work) and each student will decide on the main color and theme of their notebook. This involves collage and painting.",
-                        "This journal can be used for many occasions: photo album, recipe or poetry book, emotion journal, herbarium...",
-                        "All materials are included: 20cm x 20cm notebook, papers, paints, stencils, small decorations such as rhinestones, ribbons, and lace...",
-                        "Here are a few photos of example creations.",
+                        "Fine arts and light art-therapy journal workshop, blending free illustration techniques and creative relaxation.",
+                        "Workshop duration: approx. 2 hours focused on creating the front cover.",
+                        "A mixed-media workshop centered on relaxation, blending artistic collage and painting techniques to customize a high-quality journal (20 x 20 cm).",
+                        "Each participant selects their own theme depending on the book's purpose: travel log, photo memory book, herbarium, recipe book, or personal diary.",
+                        "Professional-grade supplies included: hardcover journal, themed papers, textures, paints, stencils, and refined details (rhinestones, ribbons, lace).",
                         "<tr>Price: €30 / person (10% extra on Sundays and public holidays).</tr>",
-                        "<tr>Minimum 5 people</tr>"
+                        "<tr>Minimum 5 people.</tr>"
                     ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Adult entertainment",
-                "Tile painting"
-            ],
-            "path": "animations-adultes/peinture-sur-tuile",
-            "banner_image": "assets/images/peinture_tuile/peinture_tuile_1.jpg",
-            "informations": [
+                },
                 {
-                    "title": "Tile painting",
+                    "title": "Scallop Shell Trinket Dish",
                     "carrousel": [
-                        "assets/images/peinture_tuile/peinture_tuile_1.jpg",
-                        "assets/images/peinture_tuile/peinture_tuile_2.jpg",
-                        "assets/images/peinture_tuile/peinture_tuile_3.png"
+                        "assets/images/coquille/coquille_1.jpg",
+                        "assets/images/coquille/coquille_2.jpg",
+                        "assets/images/coquille/coquille_3.jpg"
                     ],
                     "description": [
-                        "This workshop has a very Provençal feel! Teenagers and adults alike will love it!",
-                        "No need to be an experienced painter to join in, I have plenty of simple techniques to help you reach a perfect result.",
-                        "An authentic roof tile, it will serve as an indoor or outdoor decoration.",
-                        "Several templates are provided to help you create something you'll love and surprise yourself with.",
-                        "This workshop lasts an average of 3 hours.",
-                        "I provide: 1 large tile per student + all painting materials.",
-                        "<tr>Price: €50 / person.</tr>",
-                        "<tr>Minimum 5 people</tr>"
+                        "Transform an authentic, large scallop shell (10 to 12 cm) into a refined decorative object or an elegant jewelry bowl.",
+                        "Complete technical training: applying delicate decorative patterns, gold leaf gilding, and mastering the UV resin glazing process to vitrify and protect the piece.",
+                        "The workshop price includes the shell, all decorative supplies, and an elegant brass tripod to showcase your finished trinket dish.",
+                        "<tr>Price: €25 / person.</tr>",
+                        "<tr>Minimum 5 people.</tr>"
                     ]
                 }
             ]
         },
         {
             "menu_title": [
-                "Adult entertainment",
-                "Canvas painting (sardines)"
+                "Adult Entertainment",
+                "Fashion Jewelry & UV Resin"
             ],
-            "path": "animations-adultes/peinture-sur-toile-sardines",
-            "banner_image": "assets/banners/peinture_toile.png",
-            "informations": [
-                {
-                    "title": "Adult canvas painting",
-                    "carrousel": [
-                        "assets/images/peinture_toile/peinture_toile_1.jpg",
-                        "assets/images/peinture_toile/peinture_toile_2.jpg",
-                        "assets/images/peinture_toile/peinture_toile_3.png"
-                    ],
-                    "description": [
-                        "This workshop is open to adults and teenagers.",
-                        "Expect about 3 hours of work.",
-                        "Canvas and paints are provided, including small elements to glue on such as sequins, glitter, or other embellishments for those who want them.",
-                        "Several models will be available to help students find inspiration more easily.",
-                        "<tr>Price: €50 / person (10% extra on Sundays and public holidays).</tr>",
-                        "<tr>Minimum 5 people, maximum 6</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Adult entertainment",
-                "Costume jewelry"
-            ],
-            "path": "animations-adultes/bijoux-fantaisie",
+            "path": "animations-adultes/bijoux-fantaisie-resine-uv",
             "banner_image": "assets/banners/bijoux_fantaisie.jpg",
+            "seoTitle": "Fashion Jewelry Making, UV Resin & Suncatchers Workshops - DIY",
+            "seoDescription": "Design your custom jewelry sets, learn the craft of UV resin casting, or assemble a crystal suncatcher during our specialized technical workshops.",
+            "courseDescription": "Technical training focusing on precision assembly, handling specialized findings, and working with fast-curing synthetic resins.",
             "informations": [
                 {
-                    "title": "Jewelry workshop for adults",
+                    "title": "Adult Jewelry Workshop",
                     "carrousel": [
                         "assets/images/bijoux_fantaisie/bijoux_fantaisie_1.jpg",
                         "assets/images/bijoux_fantaisie/bijoux_fantaisie_2.jpg",
@@ -836,39 +438,81 @@
                         "assets/images/bijoux_fantaisie/bijoux_fantaisie_12.jpg"
                     ],
                     "description": [
-                        "I invite you to create the jewelry of your dreams! The kind you will never find in stores!",
-                        "Necklace, brooch, ring, bracelet, earrings...",
-                        "Thousands of beads, tassels, feathers, backings, chains, and hooks will be available for you to use.",
-                        "I will be there to guide you step-by-step, whether you are a beginner or experienced.",
-                        "All styles and colors are welcome, whether you like simple, understated jewelry... or oversized XXL pieces...",
-                        "At the end of the workshop, which lasts about 2.5 hours on average, you will be able to wear a unique piece of jewelry that you will be happy and proud to show off.",
-                        "All materials are provided. Each student will leave with a matching set: necklace/ring OR necklace/earrings OR bracelet/ring OR bracelet/earrings... brooch/ring OR brooch/earrings.",
-                        "Custom requests are also welcome.",
+                        "Design a custom jewelry set and learn professional fashion jewelry assembly techniques (using specific pliers, choosing findings, securing clasps, and eye-pin looping).",
+                        "Each participant leaves with a full matching set of choice: necklace/ring, necklace/earrings, bracelet/ring, or bracelet/earrings.",
+                        "An exceptional supply bar is provided: thousands of selected beads, tassels, chains, and bases in various styles.",
+                        "Average duration: 2.5 hours.",
                         "<tr>Price: €40 / person.</tr>",
-                        "<tr>Minimum 5 people, maximum 10</tr>"
+                        "<tr>Minimum 5 people, maximum 10 people.</tr>"
+                    ]
+                },
+                {
+                    "title": "UV Resin Workshop",
+                    "carrousel": [
+                        "assets/images/resine_uv/resine_uv_1.png",
+                        "assets/images/resine_uv/resine_uv_2.png",
+                        "assets/images/resine_uv/resine_uv_3.jpg",
+                        "assets/images/resine_uv/resine_uv_4.png",
+                        "assets/images/resine_uv/resine_uv_5.jpg"
+                    ],
+                    "description": [
+                        "Learn to handle fast-curing synthetic resin to design either a refined pair of earrings or a complete necklace (pendant and chain).",
+                        "Technical training on pouring and meticulously embedding delicate elements: natural dried flowers, gold/silver leaves, and glass micro-beads.",
+                        "Leave with a unique, durable, and perfectly cured piece of jewelry under UV lamps.",
+                        "Duration: 1.5 hours. All technical tools and jewelry findings are included.",
+                        "<tr>Price: €30 / person (10% extra on Sundays and public holidays).</tr>",
+                        "<tr>Minimum 5 people.</tr>"
+                    ]
+                },
+                {
+                    "title": "Crystal Suncatcher",
+                    "carrousel": [
+                        "assets/images/suncatcher/suncatcher_1.jpg",
+                        "assets/images/suncatcher/suncatcher_2.jpg",
+                        "assets/images/suncatcher/suncatcher_3.jpg"
+                    ],
+                    "description": [
+                        "Hanging glassware design workshop, teaching how to assemble crystal prisms to capture and refract natural light.",
+                        "Create a customized light-catching object while learning professional jewelry assembly and mounting techniques.",
+                        "A wide selection of high-quality supplies is provided: gold or silver metal, iridescent glass pieces, chains, and various themed charms (moons, suns, lotus).",
+                        "This workshop is open to participants aged 10 and up. Ideal for a shared creative moment as a parent/child duo.",
+                        "<tr>Price: €30 / person (10% extra on Sundays and public holidays).</tr>",
+                        "<tr>Minimum 5 people.</tr>"
                     ]
                 }
             ]
         },
         {
             "menu_title": [
-                "Adult entertainment",
-                "Sacred heart in air-dry clay"
+                "Adult Entertainment",
+                "Events & Bachelorette Parties (EVJF)"
             ],
-            "path": "animations-adultes/cœur-sacré-en-argile-auto-durcissante",
-            "banner_image": "assets/images/coeur_sacre/coeur_sacre_1.jpg",
+            "path": "animations-adultes/evenements-evjf",
+            "banner_image": "assets/banners/evjf.png",
+            "seoTitle": "Creative Bachelorette Party (EVJF) & Private Events - Hérault & Gard",
+            "seoDescription": "Celebrate your milestone moments with friends! Organization of festive, customized creative workshops for bachelorette parties, birthdays, and private events.",
+            "courseDescription": "Event services and private, high-end creative workshop hosting, blending premium DIY craft, relaxation, and shared fun.",
             "informations": [
                 {
-                    "title": "Sacred heart in air-dry clay",
-                    "side_images": [
-                        "assets/images/coeur_sacre/coeur_sacre_2.jpg"
+                    "title": "A Unique, Festive & Creative Gathering!",
+                    "carrousel": [
+                        "assets/images/evjf/evjf_1.jpg",
+                        "assets/images/evjf/evjf_2.jpg",
+                        "assets/images/evjf/evjf_3.jpg",
+                        "assets/images/evjf/evjf_4.jpg",
+                        "assets/images/evjf/evjf_5.jpg",
+                        "assets/images/evjf/evjf_6.jpg",
+                        "assets/images/evjf/evjf_7.jpg",
+                        "assets/images/evjf/evjf_8.png",
+                        "assets/images/evjf/evjf_9.jpg"
                     ],
                     "description": [
-                        "Coming soon...",
-                        "This workshop will soon be offered to adults.",
-                        "2 hours of activity.",
-                        "<tr>Price: €30 / person.</tr>",
-                        "<tr>Minimum 5 people</tr>"
+                        "In close partnership with Maguelonne (Maison Magalona), we craft unforgettable festive and artistic brackets to celebrate the bride-to-be or your milestones.",
+                        "Mix and match your dream schedule by combining our services: premium art crafts and DIY workshops (pottery, designer jewelry bar, denim jacket customization, contemporary mosaic frames, mixed-media journals) paired with spa sessions, relaxing massages, or fine cooking classes.",
+                        "Every group has its own story: we shape a completely customized program aligned with your desires, timing, and inspirations.",
+                        "Flexible hosting for absolute peace of mind: we travel directly to your venue (home, cottage, Airbnb), welcome your group at our private workshops, or host you at our partner institute.",
+                        "Join us to enjoy a suspended moment, laugh, create together, and take home a beautiful handcrafted keepsake.",
+                        "<tr>Custom packages available on quote, typically ranging from €60 to €150 per person depending on the selected options and workshops.</tr>"
                     ]
                 }
             ]
@@ -913,141 +557,6 @@
                         "<tr>Arts and crafts: UV resin, flower pot painting, collages on notebooks...</tr>",
                         "<tr>Macramé, botanical frames, singing...</tr>",
                         "Feel free to ask for your personalized quote! I am at your service in the 34, 30, or 81 regions, at the dates and times that suit you best!"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Private lessons"
-            ],
-            "path": "cours-particulier",
-            "banner_image": "assets/banners/cours_particulier.jpg",
-            "informations": [
-                {
-                    "title": "Private lessons (adult/child)",
-                    "carrousel": [
-                        "assets/images/cours_particulier/cours_particulier_1.jpg",
-                        "assets/images/cours_particulier/cours_particulier_2.jpg",
-                        "assets/images/cours_particulier/cours_particulier_3.jpg",
-                        "assets/images/cours_particulier/cours_particulier_4.png",
-                        "assets/images/cours_particulier/cours_particulier_5.jpg",
-                        "assets/images/cours_particulier/cours_particulier_6.jpg",
-                        "assets/images/cours_particulier/cours_particulier_7.jpg",
-                        "assets/images/cours_particulier/cours_particulier_8.jpg",
-                        "assets/images/cours_particulier/cours_particulier_9.jpg",
-                        "assets/images/cours_particulier/cours_particulier_10.jpg",
-                        "assets/images/cours_particulier/cours_particulier_11.jpg",
-                        "assets/images/cours_particulier/cours_particulier_12.jpg",
-                        "assets/images/cours_particulier/cours_particulier_13.jpg",
-                        "assets/images/cours_particulier/cours_particulier_14.jpg",
-                        "assets/images/cours_particulier/cours_particulier_15.jpg",
-                        "assets/images/cours_particulier/cours_particulier_16.jpg",
-                        "assets/images/cours_particulier/cours_particulier_17.png",
-                        "assets/images/cours_particulier/cours_particulier_18.png",
-                        "assets/images/cours_particulier/cours_particulier_19.png",
-                        "assets/images/cours_particulier/cours_particulier_20.jpg",
-                        "assets/images/cours_particulier/cours_particulier_21.jpg",
-                        "assets/images/cours_particulier/cours_particulier_22.jpg",
-                        "assets/images/cours_particulier/cours_particulier_23.jpg"
-                    ],
-                    "description": [
-                        "You prefer learning through private lessons rather than participating in a group class.",
-                        "Whether it is for costume jewelry, customizing a jacket, porcelain painting, tile painting, pottery, home decor, or flower pot painting... I am available to welcome you to my workshop or travel to your home.",
-                        "My session will last 2.5 hours.",
-                        "I will add a travel fee calculated based on the distance to be covered.",
-                        "Travel expenses are free within Fabrègues.",
-                        "The photos below are there to help you find an idea, but I am open to your creative suggestions too!",
-                        "<tr>Price: €100, regardless of your chosen activity.</tr>"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Bachelorette party"
-            ],
-            "path": "enterrement-vie-de-jeune-fille",
-            "banner_image": "assets/banners/evjf.png",
-            "informations": [
-                {
-                    "title": "Bachelorette party",
-                    "carrousel": [
-                        "assets/images/evjf/evjf_1.jpg",
-                        "assets/images/evjf/evjf_2.jpg",
-                        "assets/images/evjf/evjf_3.jpg",
-                        "assets/images/evjf/evjf_4.jpg",
-                        "assets/images/evjf/evjf_5.jpg",
-                        "assets/images/evjf/evjf_6.jpg",
-                        "assets/images/evjf/evjf_7.jpg",
-                        "assets/images/evjf/evjf_8.png",
-                        "assets/images/evjf/evjf_9.jpg"
-                    ],
-                    "description": [
-                        "I work in close collaboration with Maguelonne (<a href='https://www.maisonmagalona.fr/' target='_blank' rel='noopener'>le plaisir des 5 sens</a>) to offer you an unforgettable afternoon or evening with your friends!",
-                        "Massages, SPA sessions, creative crafts (pottery, mixed media, travel journals, jewelry...), cooking workshops, swimming pool: we will do everything possible to ensure this event leaves you with wonderful memories of relaxation, mindfulness, and friendship!",
-                        "Since every bride-to-be is unique, we offer a customized review of your request.",
-                        "Several packages are available, ranging from €60/person to €150/person.",
-                        "We can travel to your home or welcome you to the beauty institute or my workshop.",
-                        "Feel free to contact us for more information (pictured are a few ideas of possible projects: customizing your denim jacket, memory mosaic artwork, necklace, earrings, bracelets...).",
-                        "See you soon!"
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "2-day workshops"
-            ],
-            "path": "les-stages-sur-2-jours",
-            "banner_image": "assets/banners/stage_2_j.jpg",
-            "informations": [
-                {
-                    "title": "Workshops: over 2 days (without accommodation)",
-                    "carrousel": [
-                        "assets/images/stage_2_j/stage_2_j_1.jpg",
-                        "assets/images/stage_2_j/stage_2_j_2.jpg",
-                        "assets/images/stage_2_j/stage_2_j_3.jpg",
-                        "assets/images/stage_2_j/stage_2_j_4.jpg",
-                        "assets/images/stage_2_j/stage_2_j_5.jpg",
-                        "assets/images/stage_2_j/stage_2_j_6.jpg",
-                        "assets/images/stage_2_j/stage_2_j_7.jpg",
-                        "assets/images/stage_2_j/stage_2_j_8.jpg",
-                        "assets/images/stage_2_j/stage_2_j_9.jpg"
-                    ],
-                    "description": [
-                        "I offer arts and crafts, pottery, and costume jewelry workshops over 2 days - accommodation is at your own expense.",
-                        "Subject to a minimum participation of 6 people, and under the framework of the THAADAM association, I offer workshops and well-being seminars on fixed dates, allowing you to recharge and reconnect through art.",
-                        "Pottery, costume jewelry, singing, and arts and crafts will fill the two days we spend together.",
-                        "Accommodation is not included in the price and is your responsibility.",
-                        "However, lunch can be shared together (either a packed lunch brought by you or a meal prepared by me - price of €15).",
-                        "Classes start at 10:00 AM until 12:30 PM, then resume at 2:00 PM until 5:30 PM.",
-                        "The price depends on the activities defined in advance, but it generally runs around €400 per person.",
-                        "This workshop takes place near Cournonterral (34) in a space dedicated to art.",
-                        "Next date around June."
-                    ]
-                }
-            ]
-        },
-        {
-            "menu_title": [
-                "Singing entertainment"
-            ],
-            "path": "animation-chantée",
-            "banner_image": "assets/banners/chant.jpg",
-            "informations": [
-                {
-                    "title": "Singing entertainment or Karaoke",
-                    "description": [
-                        "Nursing homes, businesses, associations, individuals.",
-                        "I invite you to let me liven up your evening or afternoon with songs!",
-                        "Whether you are an individual, a company, or an association, I offer singing entertainment, tea dance style events, or karaokes.",
-                        "Sliding scale pricing:",
-                        "<tr>1h: €150</tr>",
-                        "<tr>2h: €280</tr>",
-                        "<tr>3h: €400</tr>",
-                        "All music and song styles are available: disco, tango, paso doble, slow jams, waltzes, rock... Feel free to share your tastes, I adapt to your needs!",
-                        "We can also sing as a group: custom pricing, fast quote."
                     ]
                 }
             ]
