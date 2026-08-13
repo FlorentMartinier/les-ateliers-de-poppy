@@ -9,6 +9,7 @@ import { InformationComponent } from './components/information/information.compo
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MenuItem, PromoConfig, SiteConfig, SiteSection } from './models/site.models';
 import { SiteService } from './services/site.service';
+declare var goatcounter: any; // Permet à TypeScript de reconnaître l'objet global GoatCounter
 
 @Component({
   selector: 'app-root',
@@ -43,11 +44,16 @@ export class AppComponent implements OnInit {
         this.handleRouting();
         this.router.events.pipe(
           filter(event => event instanceof NavigationEnd)
-        ).subscribe(() => {
+        ).subscribe((event: NavigationEnd) => {
           this.isImageLoading = true;
           this.handleRouting();
           if (this.activeSection) {
             this.isPromoActive = this.checkIfPromoActive(this.activeSection.promo);
+          }
+          if (typeof goatcounter !== 'undefined' && goatcounter.count) {
+            goatcounter.count({
+              path: event.urlAfterRedirects,
+            });
           }
         });
       }
