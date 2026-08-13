@@ -31,7 +31,7 @@ Pour modifier le contenu du site (ajouter un atelier, changer une image, mettre 
 | **`etsy`** | Chaîne (`string`) | URL de la boutique Etsy principale. | `"[https://www.etsy.com/](https://www.etsy.com/)..."` |
 | **`facebook`** | Chaîne (`string`) | URL de la page Facebook. | `"[https://www.facebook.com/](https://www.facebook.com/)..."` |
 | **`linkedin`** | Chaîne (`string`) | URL du profil LinkedIn. | `"[https://www.linkedin.com/](https://www.linkedin.com/)..."` |
-| **`mail`** | Chaîne (`string`) | Adresse e-mail de contact. Génère un lien natif `mailto:`. | `"valerie.martinier@free.fr"` |
+| **`mail`** | Chaîne (`string`) | Adresse e-mail de contact. Génère un lien natif `mailto:`. | `"poppyinthesky@free.fr"` |
 | **`partners`** | Tableau (`object[]`) | Liste des liens vers les sites partenaires affichés dans le footer. | Chaque partenaire requiert un **`title`** (Nom) et une **`url`** (Lien). |
 
 ---
