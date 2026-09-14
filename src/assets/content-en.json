@@ -39,16 +39,16 @@
             "courseDescription": "Mobile arts, crafts, and creative leisure workshops at home for individuals, birthdays, bachelorette parties (EVJF), and professional organizations.",
             "informations": [
                 {
-                    "title": "Welcome to POPPY IN THE SKY !",
+                    "title": "At-home creative workshops in Montpellier and surrounding areas.",
                     "videos": [
                         {
-                            "title": "Présentation de Poppy In The Sky",
+                            "title": "Poppy In The Sky Presentation",
                             "url": "https://www.youtube.com/embed/4_2f43nJocQ?si=QaWeNGQeas5dTfCc"
                         }
                     ],
                     "description": [
-                        "My name is Valérie, and for 20 years, I have been organising and running <strong>creative leisure workshops</strong> for children, teenagers, and adults.",
-                        "Whether at your home, in a company, school, or association, I travel with all the necessary material to offer you an original, festive, and friendly creative break! You choose the activity, and I take care of the rest."
+                        "Kids • Adults • Birthdays • Bachelorette Parties • Corporate Events",
+                        "Valérie comes directly to your location with all the materials to provide a warm, friendly, and personalized artistic workshop."
                     ]
                 },
                 {
@@ -99,6 +99,41 @@
                 {
                     "title": "What participants think about it:",
                     "googleReviewsUrl": "https://widgets.sociablekit.com/google-reviews/iframe/25687641"
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Children Entertainment",
+                "Painting"
+            ],
+            "path": "les-ateliers-enfants-chez-vous/peinture",
+            "banner_image": "assets/images/peinture_enfant/peinture_enfant_1.jpeg",
+            "seoTitle": "Kids' Painting Workshops (34/30)",
+            "seoDescription": "At-home creative workshops for children: painting in Hérault and Gard.",
+            "courseDescription": "Painting workshops developing fine motor skills, creativity, and the exploration of natural textures.",
+            "informations": [
+                {
+                    "title": "Painting & Modeling Paste Canvas",
+                    "images": [
+                        "assets/images/peinture_enfant/peinture_enfant_1.jpeg"
+                    ],
+                    "description": [
+                        "Painting & Modeling Paste Canvas",
+                        "A fun and complete creative workshop where children explore textures, colors, and volume!",
+                        "Using modeling paste and paint, each child creates their own personalized canvas artwork. A sensory and artistic experience ideal for expressing creativity while developing focus.",
+                        "What the children will create:",
+                        "<tr>Creating 3D effects: Working with the paste to design patterns, textures, or raised lettering.</tr>",
+                        "<tr>Adding color: Choosing shades and painting the canvas according to their imagination and wishes.</tr>",
+                        "<tr>Guaranteed pride: Each child leaves with their unique 20 cm artwork, ready to hang and decorate their room!</tr>",
+                        "",
+                        "Practical information:",
+                        "<tr>Age: From 5 years old</tr>",
+                        "<tr>Canvas size: 20 cm</tr>",
+                        "<tr>Included: All materials provided (canvas, modeling paste, paints, tools)</tr>",
+                        "<tr>Location: At home (or the location of your choice) for a friendly, creative time!</tr>"
+                    ],
+                    "price": 17
                 }
             ]
         },
@@ -287,7 +322,7 @@
                 "Painting & Watercolor"
             ],
             "path": "animations-adultes/peinture-aquarelle",
-            "banner_image": "assets/banners/peinture_relief.jpg",
+            "banner_image": "assets/banners/peinture_adulte.png",
             "seoTitle": "Painting & Watercolor Introduction Workshops - Hérault & Gard",
             "seoDescription": "Discover our painting workshops in Hérault and Gard. From traditional watercolor introduction to 3D textured painting and outdoor decor upcycling.",
             "courseDescription": "Comprehensive art workshops centered on pigment blending, color harmonies, and textures, combining fluid traditional media with modern heavy body styles.",

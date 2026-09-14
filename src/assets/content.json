@@ -39,7 +39,7 @@
             "courseDescription": "Animation d'ateliers d'arts plastiques et de loisirs créatifs itinérants à domicile pour particuliers, anniversaires, EVJF et structures professionnelles.",
             "informations": [
                 {
-                    "title": "Bienvenue chez POPPY IN THE SKY !",
+                    "title": "Ateliers créatifs à domicile à Montpellier et alentours.",
                     "videos": [
                         {
                             "title": "Présentation de Poppy In The Sky",
@@ -47,8 +47,8 @@
                         }
                     ],
                     "description": [
-                        "Je m'appelle Valérie et j’anime depuis 20 ans des <strong>ateliers de loisirs créatifs</strong> pour enfants, adolescents et adultes.",
-                        "Que ce soit à votre domicile, en entreprise, en école ou en association, je me déplace avec tout le matériel nécessaire pour vous offrir une pause créative originale, festive et conviviale ! Vous choisissez l'activité, je m'occupe du reste."
+                        "Enfants • Adultes • Anniversaires • EVJF • Entreprises",
+                        "Valérie se déplace chez vous avec tout le matériel pour vous faire vivre un atelier artistique convivial et personnalisé."
                     ]
                 },
                 {
@@ -99,6 +99,41 @@
                 {
                     "title": "Ce que les participants en pensent :",
                     "googleReviewsUrl": "https://widgets.sociablekit.com/google-reviews/iframe/25687641"
+                }
+            ]
+        },
+        {
+            "menu_title": [
+                "Animations enfants",
+                "Peinture"
+            ],
+            "path": "les-ateliers-enfants-chez-vous/peinture",
+            "banner_image": "assets/images/peinture_enfant/peinture_enfant_1.jpeg",
+            "seoTitle": "Peinture pour Enfants (34/30)",
+            "seoDescription": "Ateliers créatifs enfants à domicile : peinture dans l'Hérault et le Gard.",
+            "courseDescription": "Ateliers peinture développant la motricité fine, la créativité et l'exploration des textures naturelles.",
+            "informations": [
+                {
+                    "title": "Tableau peinture et modeling paste",
+                    "images": [
+                        "assets/images/peinture_enfant/peinture_enfant_1.jpeg"
+                    ],
+                    "description": [
+                        "Tableau Peinture & Modeling Paste",
+                        "Un atelier créatif complet et ludique où les enfants explorent les textures, la couleur et le volume !",
+                        "À l'aide d'une pâte de structure (modeling paste) et de peinture, chaque enfant réalise son propre tableau personnalisé sur toile. Une expérience sensorielle et artistique idéale pour exprimer toute sa créativité tout en développant sa concentration.",
+                        "Ce que les enfants vont réaliser :",
+                        "<tr>Création de reliefs : Manipulation de la pâte pour créer des motifs, des textures ou plusieurs inscriptions en relief.</tr>",
+                        "<tr>Mise en couleur : Choix des teintes et peinture du tableau selon leurs envies et leur imagination.</tr>",
+                        "<tr>Fierté garantie : Chaque enfant repart avec son œuvre unique de 20 cm, prête à être accrochée pour décorer sa chambre !</tr>",
+                        "",
+                        "Informations pratiques :",
+                        "<tr>Âge : À partir de 5 ans</tr>",
+                        "<tr>Format du tableau : 20 cm</tr>",
+                        "<tr>Inclus : Tout le matériel est fourni (toile, modeling paste, peintures, outils)</tr>",
+                        "<tr>Déroulement : À domicile (ou dans le lieu de votre choix) pour un moment convivial et créatif !</tr>"
+                    ],
+                    "price": 17
                 }
             ]
         },
@@ -287,7 +322,7 @@
                 "Peinture & Aquarelle"
             ],
             "path": "animations-adultes/peinture-aquarelle",
-            "banner_image": "assets/banners/peinture_relief.jpg",
+            "banner_image": "assets/banners/peinture_adulte.png",
             "seoTitle": "Ateliers Peinture & Initiation Aquarelle - Hérault & Gard",
             "seoDescription": "Découvrez nos ateliers de peinture sur l'Hérault et le Gard. De l'initiation à l'aquarelle traditionnelle aux techniques de peinture en relief et d'upcycling.",
             "courseDescription": "Ateliers artistiques complets autour du travail des pigments, de la couleur et de la matière, mêlant techniques fluides traditionnelles et textures modernes.",
