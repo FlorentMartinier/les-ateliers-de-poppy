@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject, Input, OnChanges, OnInit, SimpleChanges, DOCUMENT } from '@angular/core';
 import { DomSanitizer, Meta, SafeResourceUrl, Title } from '@angular/platform-browser';
-import { InfoBlock, SafeVideoConfig, SiteSection } from '../../models/site.models';
+import { InfoBlock, SafeVideoConfig, SharedConfig, SiteSection } from '../../models/site.models';
 import { CarrouselComponent } from '../carrousel/carrousel.component';
 
 @Component({
@@ -12,6 +12,7 @@ import { CarrouselComponent } from '../carrousel/carrousel.component';
 export class InformationComponent implements OnInit, OnChanges {
   @Input() section!: SiteSection;
   @Input() info!: InfoBlock;
+  @Input() shared!: SharedConfig
 
   private sanitizer = inject(DomSanitizer);
   private titleService = inject(Title);

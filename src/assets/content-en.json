@@ -1,5 +1,11 @@
 {
     "title": "Poppy's Workshops",
+    "shared": {
+        "increase": "10% surcharge on Sundays and public holidays",
+        "people": "person",
+        "minimum": "Minimum",
+        "peop": "people"
+    },
     "footer": {
         "instagram": "https://www.instagram.com/poppyinthesky_les_ateliers/",
         "facebook": "https://www.facebook.com/poppyin.thesky.1",
@@ -120,9 +126,9 @@
                         "A beautiful 29 cm wall decoration made of lightweight wood, ready to be fully customized.",
                         "Children will learn sponge gradient painting, how to use molding paste, and how to cast air-dry clay ornaments.",
                         "Each child selects their own colors and embellishments for a truly unique piece.",
-                        "I provide all necessary supplies: the wooden base, paints, modeling pastes, molds, and decorative details (rhinestones, flowers).",
-                        "<tr>Price: €25 / child (10% extra on Sundays and public holidays).</tr>"
-                    ]
+                        "I provide all necessary supplies: the wooden base, paints, modeling pastes, molds, and decorative details (rhinestones, flowers)."
+                    ],
+                    "price": 25
                 },
                 {
                     "title": "Seasonal Botanical Frame",
@@ -135,9 +141,9 @@
                     "description": [
                         "Recommended for ages 6 and up (possible from age 5 for children used to crafting).",
                         "On a 12 cm wooden frame, each child creates their own mini-garden using seasonal items: moss, wood, flowers, handmade ceramics, or miniature mushrooms and pumpkins.",
-                        "A playful and ideal workshop to connect children with nature while having fun.",
-                        "<tr>Price: €20 / child (10% extra on Sundays and public holidays).</tr>"
-                    ]
+                        "A playful and ideal workshop to connect children with nature while having fun."
+                    ],
+                    "price": 20
                 },
                 {
                     "title": "Autumn Botanical Frame",
@@ -188,9 +194,9 @@
                     "description": [
                         "Recommended for ages 7 and up. Duration: approx. 1.5 hours.",
                         "Using a silicone mold of their initial, children discover the magic of UV resin to embed glitter, colors, and decorations of their choice.",
-                        "The initial is then mounted on a chain with a clasp, ribbon, and tassel. Perfect for learning basic jewelry-making techniques!",
-                        "<tr>Price: €18 / child (10% extra on Sundays and public holidays).</tr>"
-                    ]
+                        "The initial is then mounted on a chain with a clasp, ribbon, and tassel. Perfect for learning basic jewelry-making techniques!"
+                    ],
+                    "price": 18
                 },
                 {
                     "title": "The Charm Bar",
@@ -202,9 +208,9 @@
                     "description": [
                         "Recommended for ages 9 and up (requires good dexterity).",
                         "Children choose from a wide variety of high-quality themed charms to design either a matching bracelet and earrings set, or a necklace and earrings set.",
-                        "Adaptable all year round according to your preferred theme (Christmas, summer, celebration...).",
-                        "<tr>Price: €13 / child (10% extra on Sundays and public holidays).</tr>"
-                    ]
+                        "Adaptable all year round according to your preferred theme (Christmas, summer, celebration...)."
+                    ],
+                    "price": 13
                 },
                 {
                     "title": "Bag Charms & Tassel Keychains",
@@ -218,9 +224,9 @@
                         "Recommended for ages 6 and up.",
                         "Create a trendy accessory to decorate a schoolbag or a key ring using a wide variety of professional supplies.",
                         "I provide: steel and cotton threads, diverse beads, ribbons, handmade ceramic charms, tassels, and carabiners.",
-                        "A guaranteed professional result with endless combinations.",
-                        "<tr>Price: €14 / child (10% extra on Sundays and public holidays).</tr>"
-                    ]
+                        "A guaranteed professional result with endless combinations."
+                    ],
+                    "price": 14
                 }
             ]
         },
@@ -251,9 +257,9 @@
                         "Recommended for ages 5 and up. Duration: approx. 2 hours.",
                         "Focuses on the complete customization of the front cover. Children explore collage and painting to bring their notebook to life based on their favorite theme.",
                         "Perfect as a photo album, travel journal, herbarium, poetry book, or sports score tracker.",
-                        "I provide: the high-quality journal, paints, glue, and beautiful decorative embellishments (vintage papers, tassels, rhinestones).",
-                        "<tr>Price: €24 / child (10% extra on Sundays and public holidays).</tr>"
-                    ]
+                        "I provide: the high-quality journal, paints, glue, and beautiful decorative embellishments (vintage papers, tassels, rhinestones)."
+                    ],
+                    "price": 24
                 },
                 {
                     "title": "Decorated Secret Diary",
@@ -269,9 +275,9 @@
                         "Recommended for ages 4 and up.",
                         "Ornameting a Bristol-type notebook (20 cm high) that will hold children's secrets, drawings, or thoughts.",
                         "Using unique textures: fabrics, handmade ceramic mosaics, wood, glass elements, and dimensional relief paints for the final touch.",
-                        "Each creation is personalized to match the child's style (pen not included).",
-                        "<tr>Price: €12 / child (10% extra on Sundays and public holidays).</tr>"
-                    ]
+                        "Each creation is personalized to match the child's style (pen not included)."
+                    ],
+                    "price": 12
                 }
             ]
         },
@@ -300,10 +306,10 @@
                         "Learn to master blending by exploring the traditional 'wet-on-wet' (or wet-in-wet) technique.",
                         "Two guided study themes are available: botanical patterns (cotton flowers) or landscape composition.",
                         "All premium supplies are included: high-quality pure cotton watercolor paper and varied pigment palettes.",
-                        "Workshop open to adults and accessible to teenagers from 10 years old, perfect for intergenerational sessions.",
-                        "<tr>Price: €20 / person (10% extra on Sundays and public holidays).</tr>",
-                        "<tr>Minimum 5 people.</tr>"
-                    ]
+                        "Workshop open to adults and accessible to teenagers from 10 years old, perfect for intergenerational sessions."
+                    ],
+                    "price": 20,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Textured Painting: Modeling Paste",
@@ -319,10 +325,10 @@
                         "Explore texture-building on a 12x12 cm square canvas to add a three-dimensional dimension to your artwork.",
                         "Techniques covered: application of structure paste (modeling paste), handling palette knives, using artistic stencils, and acrylic layering.",
                         "Two floral designs guide the learning process (poppy or magnolia), while allowing everyone to express their own graphic style.",
-                        "Average duration: 3 hours. All necessary supplies are fully provided.",
-                        "<tr>Price: €40 / person.</tr>",
-                        "<tr>Minimum 5 people.</tr>"
-                    ]
+                        "Average duration: 3 hours. All necessary supplies are fully provided."
+                    ],
+                    "price": 40,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Painted Flower Pot",
@@ -338,10 +344,10 @@
                         "Elevate a traditional terracotta pot (approx. 15 cm high) using professional illustration techniques for porous objects.",
                         "A step-by-step method makes it easy to paint precise patterns (graphic, bohemian, or botanical) with an impeccable finish.",
                         "The clay pot, specific acrylic paints, and outdoor protective varnishes (ensuring high durability) are fully provided.",
-                        "Duration: approx. 3 hours.",
-                        "<tr>Price: €30 / person.</tr>",
-                        "<tr>Minimum 5 people.</tr>"
-                    ]
+                        "Duration: approx. 3 hours."
+                    ],
+                    "price": 30,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Hand-Painted Roof Tile",
@@ -354,10 +360,10 @@
                         "A traditional Provençal craft experience to reinvent authentic antique terracotta tiles into unique wall art or elegant house numbers.",
                         "The learning process is simplified with easy pattern transfer methods and vertical composition tips to ensure a flawless result.",
                         "I provide one large authentic terracotta tile per participant as well as all suitable outdoor painting supplies.",
-                        "Average duration: 3 hours.",
-                        "<tr>Price: €50 / person.</tr>",
-                        "<tr>Minimum 5 people.</tr>"
-                    ]
+                        "Average duration: 3 hours."
+                    ],
+                    "price": 50,
+                    "minimum_person_number": 5
                 }
             ]
         },
@@ -388,10 +394,10 @@
                         "Workshop duration: approx. 2 hours focused on creating the front cover.",
                         "A mixed-media workshop centered on relaxation, blending artistic collage and painting techniques to customize a high-quality journal (20 x 20 cm).",
                         "Each participant selects their own theme depending on the book's purpose: travel log, photo memory book, herbarium, recipe book, or personal diary.",
-                        "Professional-grade supplies included: hardcover journal, themed papers, textures, paints, stencils, and refined details (rhinestones, ribbons, lace).",
-                        "<tr>Price: €30 / person (10% extra on Sundays and public holidays).</tr>",
-                        "<tr>Minimum 5 people.</tr>"
-                    ]
+                        "Professional-grade supplies included: hardcover journal, themed papers, textures, paints, stencils, and refined details (rhinestones, ribbons, lace)."
+                    ],
+                    "price": 30,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Scallop Shell Trinket Dish",
@@ -403,10 +409,10 @@
                     "description": [
                         "Transform an authentic, large scallop shell (10 to 12 cm) into a refined decorative object or an elegant jewelry bowl.",
                         "Complete technical training: applying delicate decorative patterns, gold leaf gilding, and mastering the UV resin glazing process to vitrify and protect the piece.",
-                        "The workshop price includes the shell, all decorative supplies, and an elegant brass tripod to showcase your finished trinket dish.",
-                        "<tr>Price: €25 / person.</tr>",
-                        "<tr>Minimum 5 people.</tr>"
-                    ]
+                        "The workshop price includes the shell, all decorative supplies, and an elegant brass tripod to showcase your finished trinket dish."
+                    ],
+                    "price": 25,
+                    "minimum_person_number": 5
                 }
             ]
         },
@@ -441,10 +447,10 @@
                         "Design a custom jewelry set and learn professional fashion jewelry assembly techniques (using specific pliers, choosing findings, securing clasps, and eye-pin looping).",
                         "Each participant leaves with a full matching set of choice: necklace/ring, necklace/earrings, bracelet/ring, or bracelet/earrings.",
                         "An exceptional supply bar is provided: thousands of selected beads, tassels, chains, and bases in various styles.",
-                        "Average duration: 2.5 hours.",
-                        "<tr>Price: €40 / person.</tr>",
-                        "<tr>Minimum 5 people, maximum 10 people.</tr>"
-                    ]
+                        "Average duration: 2.5 hours."
+                    ],
+                    "price": 40,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "UV Resin Workshop",
@@ -459,10 +465,10 @@
                         "Learn to handle fast-curing synthetic resin to design either a refined pair of earrings or a complete necklace (pendant and chain).",
                         "Technical training on pouring and meticulously embedding delicate elements: natural dried flowers, gold/silver leaves, and glass micro-beads.",
                         "Leave with a unique, durable, and perfectly cured piece of jewelry under UV lamps.",
-                        "Duration: 1.5 hours. All technical tools and jewelry findings are included.",
-                        "<tr>Price: €30 / person (10% extra on Sundays and public holidays).</tr>",
-                        "<tr>Minimum 5 people.</tr>"
-                    ]
+                        "Duration: 1.5 hours. All technical tools and jewelry findings are included."
+                    ],
+                    "price": 30,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Crystal Suncatcher",
@@ -475,10 +481,10 @@
                         "Hanging glassware design workshop, teaching how to assemble crystal prisms to capture and refract natural light.",
                         "Create a customized light-catching object while learning professional jewelry assembly and mounting techniques.",
                         "A wide selection of high-quality supplies is provided: gold or silver metal, iridescent glass pieces, chains, and various themed charms (moons, suns, lotus).",
-                        "This workshop is open to participants aged 10 and up. Ideal for a shared creative moment as a parent/child duo.",
-                        "<tr>Price: €30 / person (10% extra on Sundays and public holidays).</tr>",
-                        "<tr>Minimum 5 people.</tr>"
-                    ]
+                        "This workshop is open to participants aged 10 and up. Ideal for a shared creative moment as a parent/child duo."
+                    ],
+                    "price": 30,
+                    "minimum_person_number": 5
                 }
             ]
         },

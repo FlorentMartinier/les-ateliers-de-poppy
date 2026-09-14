@@ -58,9 +58,63 @@
         } @else if (isListItem(paragraph)) {
         <hr />
         } @else {
-        <!-- TODO : Mettre en place le système de prix dans le contenu -->
         <p [innerHTML]="paragraph"></p>
         }
+        }
+
+      </div>
+      }
+
+      <!-- Bloc d'informations clés (Prix & Nb de personnes) -->
+      @if (info.price || info.minimum_person_number) {
+      <div
+        class="mt-8 pt-6 border-t border-stone-200/60 flex flex-wrap items-center gap-4 text-sm font-medium justify-center">
+
+        @if (info.price && info.price !== 0) {
+        <!-- Conteneur relatif avec group pour détecter le hover -->
+        <div class="group relative inline-block">
+
+          <!-- Badge Prix -->
+          <div
+            class="flex items-center space-x-2 bg-stone-100/80 text-text-main px-4 py-2 rounded-xl border border-stone-200/50 shadow-sm cursor-pointer transition-colors hover:bg-stone-200/60">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-poppy shrink-0" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            <span>
+              <strong class="font-semibold text-text-main">{{ info.price }} €</strong>
+              <span class="text-text-muted font-normal text-xs ml-1">/ {{shared.people}}</span>
+            </span>
+          </div>
+
+          <!-- Tooltip -->
+          <div
+            class="pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:flex flex-col items-center w-max max-w-xs z-30">
+            <span
+              class="bg-stone-800 text-white text-xs rounded-lg py-1.5 px-3 shadow-lg whitespace-nowrap font-normal">
+              {{shared.increase}}
+            </span>
+            <!-- Petite flèche sous le tooltip -->
+            <div class="w-2 h-2 -mt-1 rotate-45 bg-stone-800"></div>
+          </div>
+
+        </div>
+        }
+
+        @if (info.minimum_person_number && info.minimum_person_number !== 0) {
+        <div
+          class="flex items-center space-x-2 bg-stone-100/80 text-text-main px-4 py-2 rounded-xl border border-stone-200/50 shadow-sm">
+          <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 text-poppy shrink-0" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+          </svg>
+          <span>
+            <span class="text-text-muted font-normal text-xs mr-1">{{shared.minimum}} :</span>
+            <strong class="font-semibold text-text-main">{{ info.minimum_person_number }} {{shared.peop}}</strong>
+          </span>
+        </div>
         }
 
       </div>

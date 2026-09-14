@@ -29,6 +29,8 @@ export interface InfoBlock {
     images: string[] | null;
     carrousel: string[] | null;
     description: string[] | null;
+    price: number | null;
+    minimum_person_number: number | null;
     side_images: string[] | null;
     videos?: VideoConfig[];
     googleReviewsUrl?: string;
@@ -52,8 +54,16 @@ export interface SiteSection {
 
 export interface SiteConfig {
     title: string;
+    shared: SharedConfig;
     footer: Footer;
     sections: SiteSection[];
+}
+
+export interface SharedConfig {
+    increase: string;
+    people: string;
+    minimum: string;
+    peop: string;
 }
 
 // Interface utile pour la gestion du menu burger hiérarchique

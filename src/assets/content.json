@@ -1,5 +1,11 @@
 {
     "title": "Les ateliers de Poppy",
+    "shared": {
+        "increase": "Majoration de 10% les dimanches et jours fériés",
+        "people": "personne",
+        "minimum": "Minimum",
+        "peop": "pers."
+    },
     "footer": {
         "instagram": "https://www.instagram.com/poppyinthesky_les_ateliers/",
         "facebook": "https://www.facebook.com/poppyin.thesky.1",
@@ -120,9 +126,9 @@
                         "Une superbe décoration murale en bois léger de 29 cm à personnaliser selon ses envies.",
                         "Les enfants apprendront à peindre des dégradés à l'éponge, à utiliser de la pâte de moulage (molding paste) et à réaliser des moulages en pâte autodurcissante.",
                         "Chaque enfant choisit ses couleurs et ses ornements pour une pièce unique.",
-                        "Je fournis tout le matériel nécessaire : support, peintures, pâtes, moules et éléments décoratifs (strass, fleurs).",
-                        "<tr>Tarif : 25€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
-                    ]
+                        "Je fournis tout le matériel nécessaire : support, peintures, pâtes, moules et éléments décoratifs (strass, fleurs)."
+                    ],
+                    "price": 25
                 },
                 {
                     "title": "Le Cadre Végétal au fil des Saisons",
@@ -135,9 +141,9 @@
                     "description": [
                         "Conseillé dès 6 ans (possible dès 5 ans pour les enfants habitués aux activités manuelles).",
                         "Sur un cadre en bois de 12 cm, chaque enfant compose son mini-jardin avec des éléments adaptés à la saison : mousse, bois, fleurs, éléments en céramique faits main, champignons ou citrouilles miniatures.",
-                        "Un atelier ludique idéal pour connecter les enfants avec la nature tout en s'amusant.",
-                        "<tr>Tarif : 20€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
-                    ]
+                        "Un atelier ludique idéal pour connecter les enfants avec la nature tout en s'amusant."
+                    ],
+                    "price": 20
                 },
                 {
                     "title": "Cadre végétal automne",
@@ -188,9 +194,9 @@
                     "description": [
                         "Conseillé à partir de 7 ans. Durée : environ 1h30.",
                         "À l'aide d'un moule en silicone à leur initiale, les enfants découvrent la technique magique de la résine UV pour inclure paillettes, couleurs et décors de leur choix.",
-                        "L'initiale est ensuite montée sur une chaîne avec fermoir, ruban et pompon. Idéal pour s'initier aux premiers gestes de bijoutier !",
-                        "<tr>Tarif : 18€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
-                    ]
+                        "L'initiale est ensuite montée sur une chaîne avec fermoir, ruban et pompon. Idéal pour s'initier aux premiers gestes de bijoutier !"
+                    ],
+                    "price": 18
                 },
                 {
                     "title": "Le Bar à Charms",
@@ -202,9 +208,9 @@
                     "description": [
                         "Conseillé à partir de 9 ans (demande une bonne dextérité).",
                         "Les enfants piochent parmi une grande variété de breloques thématiques de haute qualité pour composer, au choix : un ensemble bracelet + boucles d'oreilles assorties, ou un ensemble collier + boucles d'oreilles.",
-                        "Adaptable toute l'année selon vos thèmes préférés (Noël, été, fête...).",
-                        "<tr>Tarif : 13€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
-                    ]
+                        "Adaptable toute l'année selon vos thèmes préférés (Noël, été, fête...)."
+                    ],
+                    "price": 13
                 },
                 {
                     "title": "Bijoux de Sac & Porte-Clés Grigri",
@@ -218,9 +224,9 @@
                         "Conseillé à partir de 6 ans.",
                         "Création d'un accessoire tendance pour décorer un cartable ou un trousseau de clés grâce à du matériel professionnel varié.",
                         "Je fournis : fils d'acier et coton, perles diverses, rubans, perles en céramique faites maison, pompons et mousquetons.",
-                        "Un résultat professionnel garanti avec des combinaisons infinies.",
-                        "<tr>Tarif : 14€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
-                    ]
+                        "Un résultat professionnel garanti avec des combinaisons infinies."
+                    ],
+                    "price": 14
                 }
             ]
         },
@@ -251,9 +257,9 @@
                         "Conseillé à partir de 5 ans. Durée : environ 2h.",
                         "Focus sur la personnalisation complète de la couverture. Les enfants explorent le collage et la peinture pour donner une âme à leur carnet selon leur thème favori.",
                         "Idéal comme album photo, carnet de voyage, herbier, recueil de poésies ou cahier de scores sportifs.",
-                        "Je fournis : le journal de qualité, les peintures, la colle et de superbes éléments décoratifs (papiers vintage, pompons, strass).",
-                        "<tr>Tarif : 24€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
-                    ]
+                        "Je fournis : le journal de qualité, les peintures, la colle et de superbes éléments décoratifs (papiers vintage, pompons, strass)."
+                    ],
+                    "price": 24
                 },
                 {
                     "title": "Le Carnet Secret Décoré",
@@ -269,9 +275,9 @@
                         "Conseillé dès 4 ans.",
                         "Ornementation d'un carnet type Bristol (hauteur 20 cm) qui accueillera les secrets, dessins ou pensées des enfants.",
                         "Utilisation de textures uniques : tissus, mosaïques en céramique faites main, bois, éléments de verre et peintures en relief pour la touche finale.",
-                        "Chaque création est personnalisée à volonté selon les goûts de l'enfant (stylo non fourni).",
-                        "<tr>Tarif : 12€ / enfant (Majoration de 10% les dimanches et jours fériés).</tr>"
-                    ]
+                        "Chaque création est personnalisée à volonté selon les goûts de l'enfant (stylo non fourni)."
+                    ],
+                    "price": 12
                 }
             ]
         },
@@ -300,10 +306,10 @@
                         "Apprenez à maîtriser les fusions grâce à l'apprentissage de la technique traditionnelle du « mouillé sur mouillé » (ou humide sur humide).",
                         "Deux thématiques d'étude guidées sont proposées au choix : les motifs végétaux (fleurs de coton) ou la composition de paysages.",
                         "Tout le matériel haut de gamme est inclus : papier aquarelle de qualité supérieure (pur coton) et palettes de pigments variés.",
-                        "Atelier ouvert aux adultes et accessible aux adolescents dès 10 ans, parfait pour les sessions intergénérationnelles.",
-                        "<tr>Tarif : 20€ / personne (Majoration de 10% les dimanches et jours fériés).</tr>",
-                        "<tr>Minimum 5 personnes.</tr>"
-                    ]
+                        "Atelier ouvert aux adultes et accessible aux adolescents dès 10 ans, parfait pour les sessions intergénérationnelles."
+                    ],
+                    "price": 20,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Peinture sculpture en relief : modeling paste",
@@ -319,10 +325,10 @@
                         "Explorez le travail de la matière sur une toile carrée de 12 cm pour donner une dimension tridimensionnelle à vos œuvres.",
                         "Techniques abordées : application de la pâte de structure (modeling paste), maniement des couteaux à peindre, utilisation de pochoirs artistiques et superposition d'acryliques.",
                         "Deux modèles floraux guident l'apprentissage (le coquelicot ou le magnolia), tout en laissant chacun exprimer son propre style graphique.",
-                        "Durée moyenne : 3h. L'ensemble des fournitures nécessaires est mis à disposition.",
-                        "<tr>Tarif : 40€ / personne.</tr>",
-                        "<tr>Minimum 5 personnes.</tr>"
-                    ]
+                        "Durée moyenne : 3h. L'ensemble des fournitures nécessaires est mis à disposition."
+                    ],
+                    "price": 40,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Pot de fleur peint",
@@ -338,10 +344,10 @@
                         "Sublimez un pot en terre cuite traditionnel de 15 cm de hauteur en appliquant des techniques professionnelles d'illustration sur volume poreux.",
                         "Une méthodologie pas-à-pas adaptée permet de réaliser facilement des motifs précis (graphiques, bohèmes ou botaniques) avec une finition impeccable.",
                         "Le support en argile, les peintures acryliques spécifiques et les vernis de protection extérieure (durabilité optimale) sont entièrement fournis.",
-                        "Durée : environ 3h.",
-                        "<tr>Tarif : 30€ / personne.</tr>",
-                        "<tr>Minimum 5 personnes.</tr>"
-                    ]
+                        "Durée : environ 3h."
+                    ],
+                    "price": 30,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Peinture sur tuile ancienne",
@@ -354,10 +360,10 @@
                         "Une immersion artisanale typiquement provençale pour réinventer de véritables tuiles anciennes en objets d’art mural ou en numéros de maison élégants.",
                         "L'apprentissage is facilité par des méthodes accessibles de transfert de motifs et de composition verticale pour garantir un rendu irréprochable.",
                         "Je fournis une grande tuile authentique en terre cuite par participant ainsi que toutes les peintures adaptées au support extérieur.",
-                        "Durée moyenne : 3h.",
-                        "<tr>Tarif : 50€ / personne.</tr>",
-                        "<tr>Minimum 5 personnes.</tr>"
-                    ]
+                        "Durée moyenne : 3h."
+                    ],
+                    "price": 50,
+                    "minimum_person_number": 5
                 }
             ]
         },
@@ -388,10 +394,10 @@
                         "Durée de l'atelier : environ 2h axées sur la création de la première de couverture.",
                         "Un atelier mix-media axé sur le lâcher-prise où se mêlent harmonieusement techniques de collage artistique et de peinture pour façonner un carnet unique (20 cm x 20 cm).",
                         "Chaque participant définit sa thématique selon la vocation future de l'objet : carnet de voyage, album photos souvenir, herbier, recueil de recettes ou journal intime.",
-                        "Matériel inclus de qualité professionnelle : carnet rigide, papiers thématiques, textures, peintures, pochoirs et petits ornements raffinés (strass, rubans, dentelles).",
-                        "<tr>Tarif : 30€ / personne (Majoration de 10% les dimanches et jours fériés).</tr>",
-                        "<tr>Minimum 5 personnes.</tr>"
-                    ]
+                        "Matériel inclus de qualité professionnelle : carnet rigide, papiers thématiques, textures, peintures, pochoirs et petits ornements raffinés (strass, rubans, dentelles)."
+                    ],
+                    "price": 30,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Vide poche coquille St Jacques",
@@ -403,10 +409,10 @@
                     "description": [
                         "Transformez une authentique coquille Saint-Jacques de grande taille (10 à 12 cm) en un objet de décoration raffiné ou une coupelle à bijoux élégante.",
                         "Apprentissage technique complet : application de motifs décoratifs fins, dorure à la feuille et maîtrise du glaçage à la résine UV pour vitrifier et protéger l'œuvre.",
-                        "Le prix de l'atelier inclut la coquille, le matériel de décoration ainsi qu'un élégant trépied en laiton pour la mise en valeur du vide-poche.",
-                        "<tr>Tarif : 25€ / personne.</tr>",
-                        "<tr>Minimum 5 personnes.</tr>"
-                    ]
+                        "Le prix de l'atelier inclut la coquille, le matériel de décoration ainsi qu'un élégant trépied en laiton pour la mise en valeur du vide-poche."
+                    ],
+                    "price": 30,
+                    "minimum_person_number": 5
                 }
             ]
         },
@@ -441,10 +447,10 @@
                         "Concevez une parure de bijoux sur mesure et apprenez les gestes professionnels de la bijouterie fantaisie (maniement des pinces, choix des apprêts, fixations des fermoirs et montage de tiges).",
                         "Chaque participant repart avec une parure complète au choix : collier/bague, collier/boucles d'oreilles, bracelet/bague ou bracelet/boucles d’oreilles.",
                         "Un bar à matières exceptionnel est mis à disposition : des milliers de perles sélectionnées, pompons, chaînes et supports de styles variés.",
-                        "Durée moyenne : 2h30.",
-                        "<tr>Tarif : 40€ / personne.</tr>",
-                        "<tr>Minimum 5 personnes, maximum 10 personnes.</tr>"
-                    ]
+                        "Durée moyenne : 2h30."
+                    ],
+                    "price": 40,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Résine UV",
@@ -459,10 +465,10 @@
                         "Initiez-vous à la manipulation de la résine de synthèse à prise rapide pour concevoir, au choix : une paire de boucles d'oreilles raffinées ou un collier complet (pendentif et chaîne).",
                         "Apprentissage technique des méthodes de coulée et d'inclusion minutieuse de matières délicates : fleurs séchées naturelles, feuilles d'or et d'argent, micro-billes de verre.",
                         "Repartez avec un bijou unique, durable et parfaitement polymérisé sous lampe UV.",
-                        "Durée : 1h30. Tout le matériel technique et les apprêts sont inclus.",
-                        "<tr>Tarif : 30€ / personne (Majoration de 10% les dimanches et jours fériés).</tr>",
-                        "<tr>Minimum 5 personnes.</tr>"
-                    ]
+                        "Durée : 1h30. Tout le matériel technique et les apprêts sont inclus."
+                    ],
+                    "price": 30,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Attrape-Soleil Suncatcher",
@@ -475,10 +481,10 @@
                         "Atelier de création d'objets verriers suspendus, apprenant à assembler des prismes de cristal pour capturer et réfracter la lumière naturelle.",
                         "Créez un objet lumineux personnalisé tout en vous initiant aux techniques professionnelles d'assemblage et de montage.",
                         "Un très large choix de fournitures de qualité est mis à disposition : métal doré ou argenté, pièces irisées en verre, chaînes, ainsi que de nombreuses breloques thématiques (lunes, soleils, lotus).",
-                        "Cet atelier est accessible dès 10 ans. Idéal également pour partager un moment créatif en duo parent/enfant.",
-                        "<tr>Tarif : 30€ / personne (Majoration de 10% les dimanches et jours fériés).</tr>",
-                        "<tr>Minimum 5 personnes.</tr>"
-                    ]
+                        "Cet atelier est accessible dès 10 ans. Idéal également pour partager un moment créatif en duo parent/enfant."
+                    ],
+                    "price": 30,
+                    "minimum_person_number": 5
                 }
             ]
         },
