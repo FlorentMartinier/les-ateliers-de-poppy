@@ -84,9 +84,6 @@
                 },
                 {
                     "title": "My Online Shops & News",
-                    "images": [
-                        "assets/images/atelier_attrape_soleil.png"
-                    ],
                     "description": [
                         "Apart from the workshops, I create and sell my own pieces. Discover my universe on my Etsy shops:",
                         "• Creative supplies <a href='https://www.etsy.com/shop/poppybis' target='_blank' rel='noopener'>click here</a>",
@@ -231,7 +228,7 @@
                         "Using a silicone mold of their initial, children discover the magic of UV resin to embed glitter, colors, and decorations of their choice.",
                         "The initial is then mounted on a chain with a clasp, ribbon, and tassel. Perfect for learning basic jewelry-making techniques!"
                     ],
-                    "price": 18
+                    "price": 20
                 },
                 {
                     "title": "The Charm Bar",
@@ -245,7 +242,7 @@
                         "Children choose from a wide variety of high-quality themed charms to design either a matching bracelet and earrings set, or a necklace and earrings set.",
                         "Adaptable all year round according to your preferred theme (Christmas, summer, celebration...)."
                     ],
-                    "price": 13
+                    "price": 18
                 },
                 {
                     "title": "Bag Charms & Tassel Keychains",
@@ -431,7 +428,7 @@
                         "Each participant selects their own theme depending on the book's purpose: travel log, photo memory book, herbarium, recipe book, or personal diary.",
                         "Professional-grade supplies included: hardcover journal, themed papers, textures, paints, stencils, and refined details (rhinestones, ribbons, lace)."
                     ],
-                    "price": 30,
+                    "price": 35,
                     "minimum_person_number": 5
                 },
                 {
@@ -541,15 +538,15 @@
                         "assets/images/evjf/evjf_2.jpg",
                         "assets/images/evjf/evjf_3.jpg",
                         "assets/images/evjf/evjf_4.jpg",
-                        "assets/images/evjf/evjf_5.jpg",
-                        "assets/images/evjf/evjf_6.jpg",
                         "assets/images/evjf/evjf_7.jpg",
                         "assets/images/evjf/evjf_8.png",
-                        "assets/images/evjf/evjf_9.jpg"
+                        "assets/images/evjf/evjf_10.jpeg",
+                        "assets/images/evjf/evjf_11.jpeg",
+                        "assets/images/evjf/evjf_12.avif"
                     ],
                     "description": [
                         "In close partnership with Maguelonne (Maison Magalona), we craft unforgettable festive and artistic brackets to celebrate the bride-to-be or your milestones.",
-                        "Mix and match your dream schedule by combining our services: premium art crafts and DIY workshops (pottery, designer jewelry bar, denim jacket customization, contemporary mosaic frames, mixed-media journals) paired with spa sessions, relaxing massages, or fine cooking classes.",
+                        "Mix and match your dream schedule by combining our services: premium art crafts and DIY workshops (pottery, designer jewelry, bar charms, denim jacket customization, contemporary mosaic frames, mixed-media journals) paired with spa sessions, relaxing massages, or beauty treatments.",
                         "Every group has its own story: we shape a completely customized program aligned with your desires, timing, and inspirations.",
                         "Flexible hosting for absolute peace of mind: we travel directly to your venue (home, cottage, Airbnb), welcome your group at our private workshops, or host you at our partner institute.",
                         "Join us to enjoy a suspended moment, laugh, create together, and take home a beautiful handcrafted keepsake.",

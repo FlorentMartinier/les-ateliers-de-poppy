@@ -84,9 +84,6 @@
                 },
                 {
                     "title": "Mes boutiques en ligne & Actualités",
-                    "images": [
-                        "assets/images/atelier_attrape_soleil.png"
-                    ],
                     "description": [
                         "En dehors des ateliers, je crée et vends mes propres pièces. Retrouvez mon univers sur mes boutiques Etsy :",
                         "• Fournitures créatives <a href='https://www.etsy.com/shop/poppybis' target='_blank' rel='noopener'>cliquez ici</a>",
@@ -231,7 +228,7 @@
                         "À l'aide d'un moule en silicone à leur initiale, les enfants découvrent la technique magique de la résine UV pour inclure paillettes, couleurs et décors de leur choix.",
                         "L'initiale est ensuite montée sur une chaîne avec fermoir, ruban et pompon. Idéal pour s'initier aux premiers gestes de bijoutier !"
                     ],
-                    "price": 18
+                    "price": 20
                 },
                 {
                     "title": "Le Bar à Charms",
@@ -245,7 +242,7 @@
                         "Les enfants piochent parmi une grande variété de breloques thématiques de haute qualité pour composer, au choix : un ensemble bracelet + boucles d'oreilles assorties, ou un ensemble collier + boucles d'oreilles.",
                         "Adaptable toute l'année selon vos thèmes préférés (Noël, été, fête...)."
                     ],
-                    "price": 13
+                    "price": 18
                 },
                 {
                     "title": "Bijoux de Sac & Porte-Clés Grigri",
@@ -431,7 +428,7 @@
                         "Chaque participant définit sa thématique selon la vocation future de l'objet : carnet de voyage, album photos souvenir, herbier, recueil de recettes ou journal intime.",
                         "Matériel inclus de qualité professionnelle : carnet rigide, papiers thématiques, textures, peintures, pochoirs et petits ornements raffinés (strass, rubans, dentelles)."
                     ],
-                    "price": 30,
+                    "price": 35,
                     "minimum_person_number": 5
                 },
                 {
@@ -541,15 +538,15 @@
                         "assets/images/evjf/evjf_2.jpg",
                         "assets/images/evjf/evjf_3.jpg",
                         "assets/images/evjf/evjf_4.jpg",
-                        "assets/images/evjf/evjf_5.jpg",
-                        "assets/images/evjf/evjf_6.jpg",
                         "assets/images/evjf/evjf_7.jpg",
                         "assets/images/evjf/evjf_8.png",
-                        "assets/images/evjf/evjf_9.jpg"
+                        "assets/images/evjf/evjf_10.jpeg",
+                        "assets/images/evjf/evjf_11.jpeg",
+                        "assets/images/evjf/evjf_12.avif"
                     ],
                     "description": [
                         "En étroite collaboration avec Maguelonne (Maison Magalona), nous concevons des parenthèses festives et artistiques inoubliables pour célébrer la future mariée ou vos événements privés.",
-                        "Composez votre journée idéale en combinant nos univers : ateliers d'artisanat d'art et DIY premium (poterie, bar à bijoux de créateur, customisation personnalisée de vestes en jean, tableaux en mosaïque contemporaine, carnets d'art mix-media) agrémentés de séances spa, massages relaxants ou ateliers de cuisine fine.",
+                        "Composez votre journée idéale en combinant nos univers : ateliers d'artisanat d'art et DIY premium (poterie, bar à charms, bijoux de créateur, customisation personnalisée de vestes en jean, tableaux en mosaïque contemporaine, carnets d'art mix-media) agrémentés de séances spa, massages relaxants ou soins esthétiques.",
                         "Chaque groupe a son histoire : nous façonnons un programme entièrement sur-mesure adapté à vos envies, votre timing et vos inspirations.",
                         "Une organisation flexible pour vous simplifier la vie : nous intervenons directement sur le lieu de vos festivités (domicile, gîte, Airbnb), dans nos ateliers privatifs dédiés ou au sein de notre institut partenaire.",
                         "Rejoignez-nous pour partager un moment suspendu, rire, créer ensemble et repartir avec un souvenir précieux fait main.",
