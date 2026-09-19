@@ -20,6 +20,8 @@
     "@angular/platform-server": "^20.3.24",
     "@angular/router": "^20.3.24",
     "@angular/ssr": "^20.3.27",
+    "@ngx-translate/core": "^18.0.0",
+    "@ngx-translate/http-loader": "^18.0.0",
     "@tailwindcss/postcss": "^4.3.0",
     "express": "^5.1.0",
     "ngx-google-analytics": "^14.0.1",

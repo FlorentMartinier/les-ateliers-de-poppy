@@ -1,0 +1,28 @@
+{
+    "PRICE_CALCULATOR": {
+        "TITLE": "Demande de réservation",
+        "WORKSHOP": "Atelier",
+        "PRICE_PER_PERS": "{{price}} € / pers.",
+        "PARTICIPANTS": "Nombre de participants",
+        "MINIMUM_REQUIRED": "Minimum requis : {{min}} pers.",
+        "MINIMUM_ERROR": "Le nombre minimum de participants pour cet atelier est de {{min}} personne(s).",
+        "DATE_LABEL": "Date de souhaitée",
+        "WEEKEND_SURCHARGE_NOTICE": "Créneau week-end détecté (majoration +10%)",
+        "WEEKDAY_NOTICE": "Créneau en semaine",
+        "CITY_LABEL": "Ville de destination (uniquement Occitanie)",
+        "CITY_PLACEHOLDER": "Entrez votre commune (ex: Nîmes, Mauguio...)",
+        "DISTANCE_INFO": "Distance estimée : {{distance}} km depuis Fabrègues",
+        "SUBTOTAL_WORKSHOP": "Atelier ({{count}} pers.)",
+        "TRAVEL_FEE": "Frais de déplacement",
+        "TOTAL_ESTIMATED": "Total estimé",
+        "PLUS_TRAVEL": "frais de déplacement inclus",
+        "TRAVEL_NOTE_OVER_30KM": "Comprend {{fee}} € de déplacement (30 km inclus + {{extraKm}} km x 1 €)",
+        "TRAVEL_NOTE_UNDER_30KM": "Comprend {{fee}} € de déplacement forfaitaire",
+        "SUBMIT_BUTTON": "Valider la demande de réservation",
+        "WHATSAPP_MESSAGE": "Bonjour, je souhaite effectuer une demande de réservation pour l'atelier \"{{workshopName}}\".\n\n• Date souhaitée : {{date}} ({{dayType}})\n• Nombre de participants : {{count}}\n• Lieu de l'atelier : {{city}} (~{{distance}} km de Montpellier)\n• Total estimé : {{total}} €\n\nPourriez-vous me transmettre vos disponibilités ? Je reste à votre disposition pour toute information complémentaire.",
+        "DAY_WEEKEND": "Week-end",
+        "DAY_WEEKDAY": "Semaine",
+        "CHILD_WORKSHOP": "Ateliers Enfants",
+        "ADULT_WORKSHOP": "Ateliers Adultes"
+    }
+}

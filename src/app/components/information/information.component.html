@@ -32,7 +32,6 @@
           </iframe>
         </div>
 
-        <!-- Petit titre sous la vidéo (Optionnel, très propre pour le contexte) -->
         <p class="text-sm font-medium text-text-muted px-2 italic">
           {{ video.title }}
         </p>
@@ -95,7 +94,6 @@
               class="bg-stone-800 text-white text-xs rounded-lg py-1.5 px-3 shadow-lg whitespace-nowrap font-normal">
               {{shared.increase}}
             </span>
-            <!-- Petite flèche sous le tooltip -->
             <div class="w-2 h-2 -mt-1 rotate-45 bg-stone-800"></div>
           </div>
 
@@ -141,5 +139,12 @@
   <iframe [src]="safeReviewsUrl" frameborder="0" width="100%" height="1000px" title="Avis Google" loading="lazy"
     class="w-full rounded-xl">
   </iframe>
+  }
+
+  <!-- Calculateur de tarif (Affiché uniquement si "has_price_calculation" est à true dans le JSON) -->
+  @if (info.has_price_calculation && pricedWorkshops.length > 0) {
+  <div class="mt-10 pt-8 border-t border-stone-200/60">
+    <app-price-calculator [workshops]="pricedWorkshops"></app-price-calculator>
+  </div>
   }
 </div>

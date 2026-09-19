@@ -52,7 +52,7 @@
                     ]
                 },
                 {
-                    "title": "Comment réserver votre atelier ?",
+                    "title": "Infos pratiques",
                     "description": [
                         "Chaque séance dure environ 2 heures (en intérieur ou au jardin en été) avec une table et une chaise pour chaque participant.",
                         "<tr><strong>Participants :</strong> Minimum 5 pour les enfants, 4 pour les adultes (maximum 10 personnes). Dès 5 ans.</tr>",
@@ -112,6 +112,7 @@
             "informations": [
                 {
                     "title": "Tableau peinture et modeling paste",
+                    "category": "CHILD",
                     "images": [
                         "assets/images/peinture_enfant/peinture_enfant_1.jpeg"
                     ],
@@ -130,7 +131,8 @@
                         "<tr>Inclus : Tout le matériel est fourni (toile, modeling paste, peintures, outils)</tr>",
                         "<tr>Déroulement : À domicile (ou dans le lieu de votre choix) pour un moment convivial et créatif !</tr>"
                     ],
-                    "price": 17
+                    "price": 17,
+                    "minimum_person_number": 5
                 }
             ]
         },
@@ -147,6 +149,7 @@
             "informations": [
                 {
                     "title": "Le Grand Cœur en Bois",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/decoration_coeur/decoration_coeur_1.jpg",
                         "assets/images/decoration_coeur/decoration_coeur_2.jpg",
@@ -160,10 +163,12 @@
                         "Chaque enfant choisit ses couleurs et ses ornements pour une pièce unique.",
                         "Je fournis tout le matériel nécessaire : support, peintures, pâtes, moules et éléments décoratifs (strass, fleurs)."
                     ],
-                    "price": 25
+                    "price": 25,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Le Cadre Végétal au fil des Saisons",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/cadre_vegetal/cadre_vegetal_12.jpeg",
                         "assets/images/cadre_vegetal/cadre_vegetal_13.jpeg",
@@ -175,10 +180,12 @@
                         "Sur un cadre en bois de 12 cm, chaque enfant compose son mini-jardin avec des éléments adaptés à la saison : mousse, bois, fleurs, éléments en céramique faits main, champignons ou citrouilles miniatures.",
                         "Un atelier ludique idéal pour connecter les enfants avec la nature tout en s'amusant."
                     ],
-                    "price": 20
+                    "price": 20,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Cadre végétal automne",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/cadre_vegetal/cadre_vegetal_1.jpg",
                         "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
@@ -187,6 +194,7 @@
                 },
                 {
                     "title": "Cadre végétal hiver",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/cadre_vegetal/cadre_vegetal_9.jpg",
                         "assets/images/cadre_vegetal/cadre_vegetal_10.jpg",
@@ -195,6 +203,7 @@
                 },
                 {
                     "title": "Cadre végétal printemps",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/cadre_vegetal/cadre_vegetal_2.png",
                         "assets/images/cadre_vegetal/cadre_vegetal_3.jpg",
@@ -218,6 +227,7 @@
             "informations": [
                 {
                     "title": "Porte-clé Initiale en Résine UV",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/porte_cle/porte_cle_1.jpg",
                         "assets/images/porte_cle/porte_cle_2.jpg",
@@ -228,10 +238,12 @@
                         "À l'aide d'un moule en silicone à leur initiale, les enfants découvrent la technique magique de la résine UV pour inclure paillettes, couleurs et décors de leur choix.",
                         "L'initiale est ensuite montée sur une chaîne avec fermoir, ruban et pompon. Idéal pour s'initier aux premiers gestes de bijoutier !"
                     ],
-                    "price": 20
+                    "price": 20,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Le Bar à Charms",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/bracelet_boucle/bracelet_boucle_1.jpg",
                         "assets/images/bracelet_boucle/bracelet_boucle_2.jpg",
@@ -242,10 +254,12 @@
                         "Les enfants piochent parmi une grande variété de breloques thématiques de haute qualité pour composer, au choix : un ensemble bracelet + boucles d'oreilles assorties, ou un ensemble collier + boucles d'oreilles.",
                         "Adaptable toute l'année selon vos thèmes préférés (Noël, été, fête...)."
                     ],
-                    "price": 18
+                    "price": 18,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Bijoux de Sac & Porte-Clés Grigri",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/bijou_sac/bijou_sac_1.jpg",
                         "assets/images/bijou_sac/bijou_sac_2.jpg",
@@ -258,7 +272,8 @@
                         "Je fournis : fils d'acier et coton, perles diverses, rubans, perles en céramique faites maison, pompons et mousquetons.",
                         "Un résultat professionnel garanti avec des combinaisons infinies."
                     ],
-                    "price": 14
+                    "price": 14,
+                    "minimum_person_number": 5
                 }
             ]
         },
@@ -275,6 +290,7 @@
             "informations": [
                 {
                     "title": "Art Journal & Carnet de Souvenirs",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/art_journal/art_journal_2.jpg",
                         "assets/images/art_journal/art_journal_3.png",
@@ -291,10 +307,12 @@
                         "Idéal comme album photo, carnet de voyage, herbier, recueil de poésies ou cahier de scores sportifs.",
                         "Je fournis : le journal de qualité, les peintures, la colle et de superbes éléments décoratifs (papiers vintage, pompons, strass)."
                     ],
-                    "price": 24
+                    "price": 24,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Le Carnet Secret Décoré",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/carnet_secret/carnet_secret_1.jpg",
                         "assets/images/carnet_secret/carnet_secret_2.jpg",
@@ -309,7 +327,8 @@
                         "Utilisation de textures uniques : tissus, mosaïques en céramique faites main, bois, éléments de verre et peintures en relief pour la touche finale.",
                         "Chaque création est personnalisée à volonté selon les goûts de l'enfant (stylo non fourni)."
                     ],
-                    "price": 12
+                    "price": 12,
+                    "minimum_person_number": 5
                 }
             ]
         },
@@ -326,6 +345,7 @@
             "informations": [
                 {
                     "title": "Initiation aquarelle",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/aquarelle/aquarelle_1.jpg",
                         "assets/images/aquarelle/aquarelle_2.jpg",
@@ -341,10 +361,11 @@
                         "Atelier ouvert aux adultes et accessible aux adolescents dès 10 ans, parfait pour les sessions intergénérationnelles."
                     ],
                     "price": 20,
-                    "minimum_person_number": 5
+                    "minimum_person_number": 4
                 },
                 {
                     "title": "Peinture sculpture en relief : modeling paste",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/peinture_relief/peinture_relief_1.jpg",
                         "assets/images/peinture_relief/peinture_relief_2.jpg",
@@ -360,10 +381,11 @@
                         "Durée moyenne : 3h. L'ensemble des fournitures nécessaires est mis à disposition."
                     ],
                     "price": 40,
-                    "minimum_person_number": 5
+                    "minimum_person_number": 4
                 },
                 {
                     "title": "Pot de fleur peint",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/pot_fleur/pot_fleur_1.jpg",
                         "assets/images/pot_fleur/pot_fleur_2.jpg",
@@ -379,10 +401,11 @@
                         "Durée : environ 3h."
                     ],
                     "price": 30,
-                    "minimum_person_number": 5
+                    "minimum_person_number": 4
                 },
                 {
                     "title": "Peinture sur tuile ancienne",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/peinture_tuile/peinture_tuile_1.jpg",
                         "assets/images/peinture_tuile/peinture_tuile_2.jpg",
@@ -395,7 +418,7 @@
                         "Durée moyenne : 3h."
                     ],
                     "price": 50,
-                    "minimum_person_number": 5
+                    "minimum_person_number": 4
                 }
             ]
         },
@@ -412,6 +435,7 @@
             "informations": [
                 {
                     "title": "Art journal : carnet de voyage/d'émotions",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/art_journal/art_journal_1.jpg",
                         "assets/images/art_journal/art_journal_2.jpg",
@@ -429,10 +453,11 @@
                         "Matériel inclus de qualité professionnelle : carnet rigide, papiers thématiques, textures, peintures, pochoirs et petits ornements raffinés (strass, rubans, dentelles)."
                     ],
                     "price": 35,
-                    "minimum_person_number": 5
+                    "minimum_person_number": 4
                 },
                 {
                     "title": "Vide poche coquille St Jacques",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/coquille/coquille_1.jpg",
                         "assets/images/coquille/coquille_2.jpg",
@@ -444,7 +469,7 @@
                         "Le prix de l'atelier inclut la coquille, le matériel de décoration ainsi qu'un élégant trépied en laiton pour la mise en valeur du vide-poche."
                     ],
                     "price": 30,
-                    "minimum_person_number": 5
+                    "minimum_person_number": 4
                 }
             ]
         },
@@ -461,6 +486,7 @@
             "informations": [
                 {
                     "title": "Atelier bijoux pour adultes",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/bijoux_fantaisie/bijoux_fantaisie_1.jpg",
                         "assets/images/bijoux_fantaisie/bijoux_fantaisie_2.jpg",
@@ -482,10 +508,11 @@
                         "Durée moyenne : 2h30."
                     ],
                     "price": 40,
-                    "minimum_person_number": 5
+                    "minimum_person_number": 4
                 },
                 {
                     "title": "Résine UV",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/resine_uv/resine_uv_1.png",
                         "assets/images/resine_uv/resine_uv_2.png",
@@ -500,10 +527,11 @@
                         "Durée : 1h30. Tout le matériel technique et les apprêts sont inclus."
                     ],
                     "price": 30,
-                    "minimum_person_number": 5
+                    "minimum_person_number": 4
                 },
                 {
                     "title": "Attrape-Soleil Suncatcher",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/suncatcher/suncatcher_1.jpg",
                         "assets/images/suncatcher/suncatcher_2.jpg",
@@ -516,7 +544,7 @@
                         "Cet atelier est accessible dès 10 ans. Idéal également pour partager un moment créatif en duo parent/enfant."
                     ],
                     "price": 30,
-                    "minimum_person_number": 5
+                    "minimum_person_number": 4
                 }
             ]
         },
@@ -533,6 +561,7 @@
             "informations": [
                 {
                     "title": "Un événement créatif, unique et festif !",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/evjf/evjf_1.jpg",
                         "assets/images/evjf/evjf_2.jpg",
@@ -634,7 +663,7 @@
         },
         {
             "menu_title": [
-                "Contact"
+                "Contact & Réservation"
             ],
             "path": "contact",
             "banner_image": "assets/banners/contact.jpg",
@@ -643,12 +672,13 @@
             "courseDescription": "Formulaire de contact et de demande de devis personnalisé pour l'organisation d'ateliers artistiques itinérants dans les départements du Gard et de l'Hérault.",
             "informations": [
                 {
-                    "title": "Contact",
+                    "has_price_calculation": true,
+                    "title": "Contact & Réservation",
                     "description": [
-                        "Vous souhaitez vous inscrire sur un atelier lors d'un salon ? Vous souhaitez une une animation à votre domicile ?",
-                        "Merci de bien vouloir me contacter par mail : <a href='mailto:poppyinthesky@free.fr'>poppyinthesky@free.fr</a>, afin de m'indiquer la date, le lieu, et l'animation souhaitée.",
-                        "Vous pouvez aussi me contacter par téléphone ou par <a href='https://wa.me/33660753438?text=Bonjour,%20je%20souhaite%20en%20savoir%20plus%20sur'>WhatsApp</a> au 06.60.75.34.38.",
-                        "A bientôt !",
+                        "Une envie d'atelier à domicile ou pour un événement ?",
+                        "Calculez votre tarif en quelques clics ci-dessous et envoyez-moi directement votre demande de réservation.",
+                        "Pour toute demande spécifique (salons, animations sur-mesure, entreprise) ou si vous préférez échanger de vive voix, contactez-moi par e-mail à <a href='mailto:poppyinthesky@free.fr'>poppyinthesky@free.fr</a>, par <a href='https://wa.me/33660753438?text=Bonjour,%20je%20souhaite%20en%20savoir%20plus%20sur'>WhatsApp</a> ou au 06.60.75.34.38.",
+                        "À très bientôt !",
                         "Valérie"
                     ]
                 }

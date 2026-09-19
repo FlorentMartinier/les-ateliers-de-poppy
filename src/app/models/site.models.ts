@@ -26,6 +26,7 @@ export interface SafeVideoConfig {
 }
 export interface InfoBlock {
     title: string;
+    category: string;
     images: string[] | null;
     carrousel: string[] | null;
     description: string[] | null;
@@ -34,6 +35,7 @@ export interface InfoBlock {
     side_images: string[] | null;
     videos?: VideoConfig[];
     googleReviewsUrl?: string;
+    has_price_calculation?: boolean;
 }
 
 export interface PromoConfig {
@@ -78,4 +80,11 @@ export interface MenuItem {
     isPromo?: boolean;
     sectionIndex?: number; // Présent uniquement si c'est un lien direct (Niveau 1)
     subItems?: SubMenuItem[]; // Présent uniquement s'il y a des sous-menus (Niveau 2)
+}
+
+export interface WorkshopPriceItem {
+    title: string;
+    price: number;
+    minimumPersonNumber: number | null;
+    category: string;
 }

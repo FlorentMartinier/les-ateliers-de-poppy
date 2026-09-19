@@ -1,0 +1,26 @@
+{
+    "PRICE_CALCULATOR": {
+        "TITLE": "Booking Request",
+        "WORKSHOP": "Workshop",
+        "PRICE_PER_PERS": "{{price}} € / pers.",
+        "PARTICIPANTS": "Number of participants",
+        "MINIMUM_REQUIRED": "Minimum required: {{min}} pers.",
+        "MINIMUM_ERROR": "The minimum number of participants for this workshop is {{min}} person(s).",
+        "DATE_LABEL": "Preferred date",
+        "WEEKEND_SURCHARGE_NOTICE": "Weekend slot detected (+10% surcharge)",
+        "WEEKDAY_NOTICE": "Weekday slot",
+        "CITY_LABEL": "Destination city (Occitanie region only)",
+        "CITY_PLACEHOLDER": "Enter your town (e.g., Nîmes, Mauguio...)",
+        "DISTANCE_INFO": "Estimated distance: {{distance}} km from Fabrègues",
+        "SUBTOTAL_WORKSHOP": "Workshop ({{count}} pers.)",
+        "TRAVEL_FEE": "Travel fee",
+        "TOTAL_ESTIMATED": "Estimated total",
+        "PLUS_TRAVEL": "travel fee included",
+        "TRAVEL_NOTE_OVER_30KM": "Includes {{fee}} € travel fee (30 km included + {{extraKm}} km x 1 €)",
+        "TRAVEL_NOTE_UNDER_30KM": "Includes {{fee}} € flat travel fee",
+        "SUBMIT_BUTTON": "Confirm booking request",
+        "WHATSAPP_MESSAGE": "Hello, I would like to submit a booking request for the workshop \"{{workshopName}}\".\n\n• Preferred date: {{date}} ({{dayType}})\n• Number of participants: {{count}}\n• Location: {{city}} (~{{distance}} km from Montpellier)\n• Estimated total: {{total}} €\n\nCould you please let me know your availability? I remain at your disposal for any further information.",
+        "DAY_WEEKEND": "Weekend",
+        "DAY_WEEKDAY": "Weekday"
+    }
+}

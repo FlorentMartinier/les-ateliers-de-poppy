@@ -9,6 +9,7 @@ import { InformationComponent } from './components/information/information.compo
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MenuItem, PromoConfig, SiteConfig, SiteSection } from './models/site.models';
 import { SiteService } from './services/site.service';
+import { TranslateService } from '@ngx-translate/core';
 declare var goatcounter: any; // Permet à TypeScript de reconnaître l'objet global GoatCounter
 
 @Component({
@@ -27,6 +28,7 @@ export class AppComponent implements OnInit {
 
   // Utilisation de inject() pour plus de modernité en v20
   private platformId = inject(PLATFORM_ID);
+  private translate = inject(TranslateService);
 
   constructor(
     private siteService: SiteService,
@@ -36,6 +38,8 @@ export class AppComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    const browserLang = this.translate.getBrowserLang();
+    this.translate.use(browserLang && browserLang.match(/fr|en/) ? browserLang : 'fr');
     this.siteService.getSiteConfig().subscribe({
       next: (data) => {
         this.config = data;

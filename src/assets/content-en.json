@@ -112,6 +112,7 @@
             "informations": [
                 {
                     "title": "Painting & Modeling Paste Canvas",
+                    "category": "CHILD",
                     "images": [
                         "assets/images/peinture_enfant/peinture_enfant_1.jpeg"
                     ],
@@ -147,6 +148,7 @@
             "informations": [
                 {
                     "title": "The Large Wooden Heart",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/decoration_coeur/decoration_coeur_1.jpg",
                         "assets/images/decoration_coeur/decoration_coeur_2.jpg",
@@ -164,6 +166,7 @@
                 },
                 {
                     "title": "Seasonal Botanical Frame",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/cadre_vegetal/cadre_vegetal_12.jpeg",
                         "assets/images/cadre_vegetal/cadre_vegetal_13.jpeg",
@@ -179,6 +182,7 @@
                 },
                 {
                     "title": "Autumn Botanical Frame",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/cadre_vegetal/cadre_vegetal_1.jpg",
                         "assets/images/cadre_vegetal/cadre_vegetal_7.jpg",
@@ -187,6 +191,7 @@
                 },
                 {
                     "title": "Winter Botanical Frame",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/cadre_vegetal/cadre_vegetal_9.jpg",
                         "assets/images/cadre_vegetal/cadre_vegetal_10.jpg",
@@ -195,6 +200,7 @@
                 },
                 {
                     "title": "Spring Botanical Frame",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/cadre_vegetal/cadre_vegetal_2.png",
                         "assets/images/cadre_vegetal/cadre_vegetal_3.jpg",
@@ -218,6 +224,7 @@
             "informations": [
                 {
                     "title": "UV Resin Initial Keychain",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/porte_cle/porte_cle_1.jpg",
                         "assets/images/porte_cle/porte_cle_2.jpg",
@@ -232,6 +239,7 @@
                 },
                 {
                     "title": "The Charm Bar",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/bracelet_boucle/bracelet_boucle_1.jpg",
                         "assets/images/bracelet_boucle/bracelet_boucle_2.jpg",
@@ -246,6 +254,7 @@
                 },
                 {
                     "title": "Bag Charms & Tassel Keychains",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/bijou_sac/bijou_sac_1.jpg",
                         "assets/images/bijou_sac/bijou_sac_2.jpg",
@@ -275,6 +284,7 @@
             "informations": [
                 {
                     "title": "Art Journal & Memory Book",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/art_journal/art_journal_2.jpg",
                         "assets/images/art_journal/art_journal_3.png",
@@ -295,6 +305,7 @@
                 },
                 {
                     "title": "Decorated Secret Diary",
+                    "category": "CHILD",
                     "carrousel": [
                         "assets/images/carnet_secret/carnet_secret_1.jpg",
                         "assets/images/carnet_secret/carnet_secret_2.jpg",
@@ -326,6 +337,7 @@
             "informations": [
                 {
                     "title": "Introduction to Watercolor",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/aquarelle/aquarelle_1.jpg",
                         "assets/images/aquarelle/aquarelle_2.jpg",
@@ -345,6 +357,7 @@
                 },
                 {
                     "title": "Textured Painting: Modeling Paste",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/peinture_relief/peinture_relief_1.jpg",
                         "assets/images/peinture_relief/peinture_relief_2.jpg",
@@ -364,6 +377,7 @@
                 },
                 {
                     "title": "Painted Flower Pot",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/pot_fleur/pot_fleur_1.jpg",
                         "assets/images/pot_fleur/pot_fleur_2.jpg",
@@ -383,6 +397,7 @@
                 },
                 {
                     "title": "Hand-Painted Roof Tile",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/peinture_tuile/peinture_tuile_1.jpg",
                         "assets/images/peinture_tuile/peinture_tuile_2.jpg",
@@ -412,6 +427,7 @@
             "informations": [
                 {
                     "title": "Art Journal: Memory or Travel Book",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/art_journal/art_journal_1.jpg",
                         "assets/images/art_journal/art_journal_2.jpg",
@@ -433,6 +449,7 @@
                 },
                 {
                     "title": "Scallop Shell Trinket Dish",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/coquille/coquille_1.jpg",
                         "assets/images/coquille/coquille_2.jpg",
@@ -461,6 +478,7 @@
             "informations": [
                 {
                     "title": "Adult Jewelry Workshop",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/bijoux_fantaisie/bijoux_fantaisie_1.jpg",
                         "assets/images/bijoux_fantaisie/bijoux_fantaisie_2.jpg",
@@ -486,6 +504,7 @@
                 },
                 {
                     "title": "UV Resin Workshop",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/resine_uv/resine_uv_1.png",
                         "assets/images/resine_uv/resine_uv_2.png",
@@ -504,6 +523,7 @@
                 },
                 {
                     "title": "Crystal Suncatcher",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/suncatcher/suncatcher_1.jpg",
                         "assets/images/suncatcher/suncatcher_2.jpg",
@@ -533,6 +553,7 @@
             "informations": [
                 {
                     "title": "A Unique, Festive & Creative Gathering!",
+                    "category": "ADULT",
                     "carrousel": [
                         "assets/images/evjf/evjf_1.jpg",
                         "assets/images/evjf/evjf_2.jpg",
@@ -631,17 +652,21 @@
         },
         {
             "menu_title": [
-                "Contact"
+                "Contact & Booking"
             ],
             "path": "contact",
             "banner_image": "assets/banners/contact.jpg",
+            "seoTitle": "Book a Creative Workshop - Contact Poppy in the Sky",
+            "seoDescription": "Have a question or need a quote for a birthday, bachelorette party, or group event? Contact us to plan your workshop in Hérault or Gard.",
+            "courseDescription": "Contact form and custom quote request for organizing mobile art workshops in the Gard and Hérault departments.",
             "informations": [
                 {
-                    "title": "Contact",
+                    "has_price_calculation": true,
+                    "title": "Contact & Booking",
                     "description": [
-                        "Would you like to sign up for a workshop during a fair? Would you like an activity at your home?",
-                        "Please contact me by email: <a href='mailto:poppyinthesky@free.fr'>poppyinthesky@free.fr</a>, to let me know the date, location, and the desired activity.",
-                        "You can also contact me by phone or <a href='https://wa.me/33660753438?text=Bonjour,%20je%20souhaite%20en%20savoir%20plus%20sur'>WhatsApp</a> at 06.60.75.34.38.",
+                        "Looking for a home workshop or an event animation?",
+                        "Calculate your price in a few clicks below and send me your booking request directly.",
+                        "For any specific request (trade shows, custom workshops, corporate events) or if you prefer to chat directly, contact me by email at <a href='mailto:poppyinthesky@free.fr'>poppyinthesky@free.fr</a>, via <a href='https://wa.me/33660753438?text=Hello,%20I%20would%20like%20to%20know%20more%20about'>WhatsApp</a> or at +33 6 60 75 34 38.",
                         "See you soon!",
                         "Valérie"
                     ]

@@ -1,18 +1,20 @@
-import { CommonModule } from '@angular/common';
-import { Component, inject, Input, OnChanges, OnInit, SimpleChanges, DOCUMENT } from '@angular/core';
+import { CommonModule, DOCUMENT } from '@angular/common';
+import { Component, inject, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 import { DomSanitizer, Meta, SafeResourceUrl, Title } from '@angular/platform-browser';
-import { InfoBlock, SafeVideoConfig, SharedConfig, SiteSection } from '../../models/site.models';
+import { InfoBlock, SafeVideoConfig, SharedConfig, SiteSection, WorkshopPriceItem } from '../../models/site.models';
 import { CarrouselComponent } from '../carrousel/carrousel.component';
+import { PriceCalculatorComponent } from '../price-calculator/price-calculator.component';
 
 @Component({
   selector: 'app-information',
-  imports: [CommonModule, CarrouselComponent],
+  imports: [CommonModule, CarrouselComponent, PriceCalculatorComponent],
   templateUrl: './information.component.html'
 })
 export class InformationComponent implements OnInit, OnChanges {
   @Input() section!: SiteSection;
+  @Input() allSections!: SiteSection[];
   @Input() info!: InfoBlock;
-  @Input() shared!: SharedConfig
+  @Input() shared!: SharedConfig;
 
   private sanitizer = inject(DomSanitizer);
   private titleService = inject(Title);
@@ -21,11 +23,13 @@ export class InformationComponent implements OnInit, OnChanges {
 
   safeVideos: SafeVideoConfig[] = [];
   safeReviewsUrl: SafeResourceUrl | null = null;
+  pricedWorkshops: WorkshopPriceItem[] = [];
 
   ngOnInit() {
     this.updateSEO();
     this.injectCourseSchema();
-    // Si le bloc contient des vidéos, on les sécurise toutes une par une
+    this.extractPricedWorkshops();
+
     if (this.info?.videos && this.info.videos.length > 0) {
       this.safeVideos = this.info.videos.map(video => ({
         title: video.title,
@@ -35,9 +39,10 @@ export class InformationComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    if (changes['info']) {
+    if (changes['info'] || changes['section']) {
       this.updateSEO();
       this.injectCourseSchema();
+      this.extractPricedWorkshops();
       this.safeVideos = [];
       this.safeReviewsUrl = null;
 
@@ -55,8 +60,26 @@ export class InformationComponent implements OnInit, OnChanges {
   }
 
   /**
-   * Détecte si le paragraphe du JSON est configuré comme un élément de liste
+   * Filtre les ateliers de la section pour ne garder que ceux ayant un prix > 0
    */
+  private extractPricedWorkshops() {
+    if (!this.allSections || this.allSections.length === 0) {
+      this.pricedWorkshops = [];
+      return;
+    }
+
+    // On parcourt chaque section, puis chaque infoBlock contenu dedans
+    this.pricedWorkshops = this.allSections
+      .flatMap(section => section.informations || [])
+      .filter(item => item.price && item.price > 0)
+      .map(item => ({
+        title: item.title,
+        price: item.price!,
+        minimumPersonNumber: item.minimum_person_number,
+        category: item.category,
+      }));
+  }
+
   isListItem(text: string): boolean {
     if (!text) return false;
     return text.trim().startsWith('<tr>');
@@ -67,67 +90,49 @@ export class InformationComponent implements OnInit, OnChanges {
     return text.trim().startsWith('<hr/>');
   }
 
-
-  /**
-   * Retire les balises <tr> et </tr> pour ne garder que le texte propre intérieur
-   */
   cleanListItem(text: string): string {
     if (!text) return '';
-    // Supprime proprement les tags d'ouverture et fermeture configurés dans le JSON
     return text.replace(/<tr>/g, '').replace(/<\/tr>/g, '').trim();
   }
 
   private updateSEO() {
-    // 1. Gestion du titre de la page (<title>)
-    const defaultTitle = `${this.section.menu_title} - Poppy in the Sky`;
-    this.titleService.setTitle(this.section.seoTitle || defaultTitle);
+    const defaultTitle = `${this.section?.menu_title || 'Atelier'} - Poppy in the Sky`;
+    this.titleService.setTitle(this.section?.seoTitle || defaultTitle);
 
-    // 2. Gestion de la Meta Description
-    const defaultDesc = `Découvrez l'atelier créatif : ${this.info.title} proposé par Poppy in the Sky.`;
+    const defaultDesc = `Découvrez l'atelier créatif : ${this.info?.title} proposé par Poppy in the Sky.`;
     this.metaService.updateTag({
       name: 'description',
-      content: this.section.seoDescription || defaultDesc
+      content: this.section?.seoDescription || defaultDesc
     });
   }
 
-  // 3. Injecte les données structurées Schema.org pour Google
   private injectCourseSchema() {
-    // On supprime l'ancien script s'il y en avait un (évite les doublons lors de la navigation)
     const existingScript = this.document.getElementById('seo-schema');
     if (existingScript) {
       existingScript.remove();
     }
 
-    // On prépare l'objet JSON-LD au format officiel Google
     const schemaData = {
       "@context": "https://schema.org",
       "@type": "Course",
-      "name": this.section.menu_title,
-      "description": this.section.courseDescription || this.section.seoDescription,
+      "name": this.section?.menu_title,
+      "description": this.section?.courseDescription || this.section?.seoDescription,
       "provider": {
         "@type": "LocalBusiness",
         "name": "Poppy in the Sky",
         "areaServed": [
-          {
-            "@type": "AdministrativeArea",
-            "name": "Hérault"
-          },
-          {
-            "@type": "AdministrativeArea",
-            "name": "Gard"
-          }
+          { "@type": "AdministrativeArea", "name": "Hérault" },
+          { "@type": "AdministrativeArea", "name": "Gard" }
         ],
         "description": "Ateliers créatifs itinérants et cours d'arts plastiques à domicile dans l'Hérault et le Gard."
       },
       "offers": [{
         "@type": "Offer",
         "category": "Paid",
-        //"price": this.info.basePrice, // TODO : mettre en place le prix
         "priceCurrency": "EUR"
       }]
     };
 
-    // On injecte le script dans le <head> de la page
     const script = this.document.createElement('script');
     script.id = 'seo-schema';
     script.type = 'application/ld+json';
