@@ -27,6 +27,12 @@ export class PriceCalculatorComponent implements OnInit {
     participantsCount: number = 1;
     selectedDate: string = new Date().toISOString().split('T')[0];
 
+    // Propriétés ajoutées pour la gestion de la disponibilité des créneaux
+    selectedSlot: 'morning' | 'afternoon' = 'morning';
+    isMorningAvailable: boolean = true;
+    isAfternoonAvailable: boolean = true;
+    isLoadingAvailability: boolean = false;
+
     selectedCity: string = 'Montpellier';
     calculatedDistanceKm: number = 0;
     isDropdownOpen: boolean = false;
@@ -51,6 +57,9 @@ export class PriceCalculatorComponent implements OnInit {
             },
             error: (err) => console.error('Erreur lors du chargement des villes', err)
         });
+
+        // Appel initial pour vérifier la date du jour
+        this.checkAvailability();
     }
 
     t(key: string, params?: Record<string, any>): string {
@@ -66,6 +75,46 @@ export class PriceCalculatorComponent implements OnInit {
         const date = new Date(this.selectedDate);
         const day = date.getDay();
         return day === 0 || day === 6;
+    }
+
+    onDateChange() {
+        this.checkAvailability();
+    }
+
+    /**
+     * Interroge la Netlify Function pour récupérer la disponibilité des créneaux
+     */
+    checkAvailability() {
+        if (!this.selectedDate) return;
+
+        this.isLoadingAvailability = true;
+
+        this.http
+            .get<{ morningAvailable: boolean; afternoonAvailable: boolean }>(
+                `/.netlify/functions/check-availability?date=${this.selectedDate}`
+            )
+            .subscribe({
+                next: (res) => {
+                    this.isMorningAvailable = res.morningAvailable;
+                    this.isAfternoonAvailable = res.afternoonAvailable;
+                    this.isLoadingAvailability = false;
+
+                    // Auto-sélectionne le premier créneau disponible si celui sélectionné est occupé
+                    if (!this.isMorningAvailable && this.isAfternoonAvailable) {
+                        this.selectedSlot = 'afternoon';
+                    } else if (this.isMorningAvailable) {
+                        this.selectedSlot = 'morning';
+                    }
+                },
+                error: (err) => {
+                    console.error('Erreur lors du contrôle des disponibilités', err);
+                    this.isLoadingAvailability = false;
+                }
+            });
+    }
+
+    selectSlot(slot: 'morning' | 'afternoon') {
+        this.selectedSlot = slot;
     }
 
     onWorkshopChange() {
@@ -85,39 +134,32 @@ export class PriceCalculatorComponent implements OnInit {
         return this.participantsCount < this.currentWorkshop.minimumPersonNumber;
     }
 
+    get isNoSlotAvailable(): boolean {
+        return !this.isMorningAvailable && !this.isAfternoonAvailable;
+    }
+
     get workshopSubtotal(): number {
         const unitPrice = this.currentWorkshop?.price || 0;
         const base = unitPrice * (this.participantsCount || 0);
         return this.isWeekend ? base * 1.1 : base;
     }
 
-    /**
-     * Gestion du focus et du blur sur l'input de recherche de ville
-     */
     onInputFocus() {
         this.isDropdownOpen = true;
     }
 
     onInputBlur() {
-        // Un délai est nécessaire pour que l'événement (mousedown) sur un item de la liste
-        // ait le temps de s'exécuter avant que le menu ne se ferme.
         setTimeout(() => {
             this.isDropdownOpen = false;
         }, 200);
     }
 
-    /**
-     * Sélectionne une ville dans la liste déroulante
-     */
     selectCity(city: CityCoord) {
         this.selectedCity = city.name;
         this.isDropdownOpen = false;
         this.recalculateDistance();
     }
 
-    /**
-     * Recalcule la distance (en km) en cherchant la ville saisie dans le fichier local
-     */
     recalculateDistance() {
         if (!this.selectedCity || this.citiesList.length === 0) {
             this.calculatedDistanceKm = 0;
@@ -126,7 +168,6 @@ export class PriceCalculatorComponent implements OnInit {
 
         const searchNormalized = this.normalizeString(this.selectedCity.trim());
 
-        // Recherche insensible à la casse et aux accents
         const city = this.citiesList.find(c => {
             return this.normalizeString(c.name) === searchNormalized;
         });
@@ -155,10 +196,6 @@ export class PriceCalculatorComponent implements OnInit {
         return this.workshopSubtotal + this.travelFee;
     }
 
-    /**
-     * Retourne les 8 premières suggestions correspondant à la saisie, 
-     * sans tenir compte de la casse ni des accents
-     */
     get filteredCities(): CityCoord[] {
         if (!this.selectedCity || this.selectedCity.trim().length < 2) {
             return [];
@@ -168,11 +205,11 @@ export class PriceCalculatorComponent implements OnInit {
 
         return this.citiesList
             .filter(c => this.normalizeString(c.name).includes(search))
-            .slice(0, 8); // Limité aux 8 premières correspondances pour rester lisible
+            .slice(0, 8);
     }
 
     private haversineDistance(coords1: CityCoord, coords2: CityCoord): number {
-        const R = 6371; // Rayon de la Terre en km
+        const R = 6371;
         const dLat = this.toRadians(coords2.lat - coords1.lat);
         const dLng = this.toRadians(coords2.lng - coords1.lng);
         const a =
@@ -189,15 +226,17 @@ export class PriceCalculatorComponent implements OnInit {
     }
 
     sendDevisWhatsApp() {
-        if (this.isMinimumNotReached || !this.currentWorkshop) return;
+        if (this.isMinimumNotReached || this.isNoSlotAvailable || !this.currentWorkshop) return;
 
         const dayType = this.translate.instant(
             this.isWeekend ? 'PRICE_CALCULATOR.DAY_WEEKEND' : 'PRICE_CALCULATOR.DAY_WEEKDAY'
         );
 
+        const slotLabel = this.selectedSlot === 'morning' ? 'PRICE_CALCULATOR.MORNING_AVAILABILITY' : 'PRICE_CALCULATOR.AFETERNOON_AVAILABILITY';
+
         const message = this.translate.instant('PRICE_CALCULATOR.WHATSAPP_MESSAGE', {
             workshopName: this.currentWorkshop.title,
-            date: this.selectedDate,
+            date: `${this.selectedDate} (${slotLabel})`,
             dayType: dayType,
             count: this.participantsCount,
             city: this.selectedCity,
@@ -211,10 +250,6 @@ export class PriceCalculatorComponent implements OnInit {
         window.open(whatsappUrl, '_blank');
     }
 
-    /**
-     * Supprime les accents et met en minuscules
-     * Exemple : "Nîmes" -> "nimes"
-     */
     private normalizeString(str: string): string {
         return str
             .toLowerCase()

@@ -21,6 +21,17 @@
         "SUBMIT_BUTTON": "Confirm booking request",
         "WHATSAPP_MESSAGE": "Hello, I would like to submit a booking request for the workshop \"{{workshopName}}\".\n\n• Preferred date: {{date}} ({{dayType}})\n• Number of participants: {{count}}\n• Location: {{city}} (~{{distance}} km from Montpellier)\n• Estimated total: {{total}} €\n\nCould you please let me know your availability? I remain at your disposal for any further information.",
         "DAY_WEEKEND": "Weekend",
-        "DAY_WEEKDAY": "Weekday"
+        "DAY_WEEKDAY": "Weekday",
+        "ADULT_WORKSHOP": "Adult Workshops",
+        "MORNING_AVAILABILITY": "Morning (8:00 AM - 12:00 PM)",
+        "AFETERNOON_AVAILABILITY": "Afternoon (2:00 PM - 6:00 PM)",
+        "NO_SLOT_AVAILABLE": "No slots available on this date",
+        "MORNING": "🌅 Morning",
+        "AFERNOON": "☀️ Afternoon",
+        "BUSY": "Unavailable",
+        "AVAILABILITY_CHEKING": "Checking availability...",
+        "WANTED_SLOT": "Preferred time slot",
+        "MORNING_HOURS": "8:00 AM - 12:00 PM",
+        "AFTERNOON_HOURS": "2:00 PM - 6:00 PM"
     }
 }
