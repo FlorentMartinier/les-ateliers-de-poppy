@@ -46,8 +46,6 @@ export const handler: Handler = async (event) => {
         });
 
         const busySlots = response.data.calendars?.[calendarId]?.busy || [];
-        console.log('response : ', response);
-
         console.log('Créneaux occupés:', busySlots);
 
         // Créneaux horaires (fuseau Europe/Paris +02:00 / +01:00 selon la saison)
