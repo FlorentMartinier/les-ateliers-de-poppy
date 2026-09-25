@@ -13,7 +13,7 @@ export const handler: Handler = async (event) => {
     }
 
     const dateStr = event.queryStringParameters?.['date'];
-    const calendarId = "process.env['GOOGLE_CALENDAR_ID']";
+    const calendarId = process.env['GOOGLE_CALENDAR_ID'];
     const credentialsJson = process.env['GOOGLE_SERVICE_ACCOUNT_CREDENTIALS'];
 
     if (!dateStr || !calendarId || !credentialsJson) {
