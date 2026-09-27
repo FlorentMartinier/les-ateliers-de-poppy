@@ -232,7 +232,9 @@ export class PriceCalculatorComponent implements OnInit {
             this.isWeekend ? 'PRICE_CALCULATOR.DAY_WEEKEND' : 'PRICE_CALCULATOR.DAY_WEEKDAY'
         );
 
-        const slotLabel = this.selectedSlot === 'morning' ? 'PRICE_CALCULATOR.MORNING_AVAILABILITY' : 'PRICE_CALCULATOR.AFETERNOON_AVAILABILITY';
+        const slotLabel = this.translate.instant(
+            this.selectedSlot === 'morning' ? 'PRICE_CALCULATOR.MORNING_AVAILABILITY' : 'PRICE_CALCULATOR.AFETERNOON_AVAILABILITY'
+        );
 
         const message = this.translate.instant('PRICE_CALCULATOR.WHATSAPP_MESSAGE', {
             workshopName: this.currentWorkshop.title,
