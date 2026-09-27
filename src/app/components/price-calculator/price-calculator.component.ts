@@ -236,8 +236,13 @@ export class PriceCalculatorComponent implements OnInit {
             this.selectedSlot === 'morning' ? 'PRICE_CALCULATOR.MORNING_AVAILABILITY' : 'PRICE_CALCULATOR.AFETERNOON_AVAILABILITY'
         );
 
+        const workshopCategory = this.translate.instant(
+            this.currentWorkshop.category === 'CHILD' ? 'PRICE_CALCULATOR.CHILD' : 'PRICE_CALCULATOR.ADULT'
+        );
+
         const message = this.translate.instant('PRICE_CALCULATOR.WHATSAPP_MESSAGE', {
             workshopName: this.currentWorkshop.title,
+            workshopCategory: workshopCategory,
             date: `${this.selectedDate} (${slotLabel})`,
             dayType: dayType,
             count: this.participantsCount,
