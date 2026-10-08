@@ -28,9 +28,10 @@ export class PriceCalculatorComponent implements OnInit {
     selectedDate: string = new Date().toISOString().split('T')[0];
 
     // Propriétés ajoutées pour la gestion de la disponibilité des créneaux
-    selectedSlot: 'morning' | 'afternoon' = 'morning';
+    selectedSlot: 'morning' | 'afternoon' | 'evening' = 'morning';
     isMorningAvailable: boolean = true;
     isAfternoonAvailable: boolean = true;
+    isEveningAvailable: boolean = true;
     isLoadingAvailability: boolean = false;
 
     selectedCity: string = 'Montpellier';
@@ -90,20 +91,23 @@ export class PriceCalculatorComponent implements OnInit {
         this.isLoadingAvailability = true;
 
         this.http
-            .get<{ morningAvailable: boolean; afternoonAvailable: boolean }>(
+            .get<{ morningAvailable: boolean; afternoonAvailable: boolean; eveningAvailable: boolean }>(
                 `/.netlify/functions/check-availability?date=${this.selectedDate}`
             )
             .subscribe({
                 next: (res) => {
                     this.isMorningAvailable = res.morningAvailable;
                     this.isAfternoonAvailable = res.afternoonAvailable;
+                    this.isEveningAvailable = res.eveningAvailable;
                     this.isLoadingAvailability = false;
 
                     // Auto-sélectionne le premier créneau disponible si celui sélectionné est occupé
-                    if (!this.isMorningAvailable && this.isAfternoonAvailable) {
-                        this.selectedSlot = 'afternoon';
-                    } else if (this.isMorningAvailable) {
+                    if (this.isMorningAvailable) {
                         this.selectedSlot = 'morning';
+                    } else if (this.isAfternoonAvailable) {
+                        this.selectedSlot = 'afternoon';
+                    } else if (this.isEveningAvailable) {
+                        this.selectedSlot = 'evening';
                     }
                 },
                 error: (err) => {
@@ -113,7 +117,7 @@ export class PriceCalculatorComponent implements OnInit {
             });
     }
 
-    selectSlot(slot: 'morning' | 'afternoon') {
+    selectSlot(slot: 'morning' | 'afternoon' | 'evening') {
         this.selectedSlot = slot;
     }
 
@@ -135,7 +139,7 @@ export class PriceCalculatorComponent implements OnInit {
     }
 
     get isNoSlotAvailable(): boolean {
-        return !this.isMorningAvailable && !this.isAfternoonAvailable;
+        return !this.isMorningAvailable && !this.isAfternoonAvailable && !this.isEveningAvailable;
     }
 
     get workshopSubtotal(): number {
@@ -232,9 +236,13 @@ export class PriceCalculatorComponent implements OnInit {
             this.isWeekend ? 'PRICE_CALCULATOR.DAY_WEEKEND' : 'PRICE_CALCULATOR.DAY_WEEKDAY'
         );
 
-        const slotLabel = this.translate.instant(
-            this.selectedSlot === 'morning' ? 'PRICE_CALCULATOR.MORNING_AVAILABILITY' : 'PRICE_CALCULATOR.AFETERNOON_AVAILABILITY'
-        );
+        let slotLabelKey = 'PRICE_CALCULATOR.MORNING_AVAILABILITY'
+        if (this.selectedSlot === 'afternoon') {
+            slotLabelKey = 'PRICE_CALCULATOR.AFTERNOON_AVAILABILITY'
+        } else if (this.selectedSlot === 'evening') {
+            slotLabelKey = 'PRICE_CALCULATOR.EVENING_AVAILABILITY'
+        }
+        const slotLabel = this.translate.instant(slotLabelKey);
 
         const workshopCategory = this.translate.instant(
             this.currentWorkshop.category === 'CHILD' ? 'PRICE_CALCULATOR.CHILD' : 'PRICE_CALCULATOR.ADULT'

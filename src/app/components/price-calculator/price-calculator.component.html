@@ -100,31 +100,45 @@
                     <span class="animate-spin">⏳</span> {{t('PRICE_CALCULATOR.AVAILABILITY_CHEKING')}}
                 </div>
                 } @else {
-                <div class="grid grid-cols-2 gap-3">
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
                     <!-- Matin -->
                     <button type="button" (click)="selectSlot('morning')" [disabled]="!isMorningAvailable" [ngClass]="{
-                  'border-poppy bg-poppy/10 text-poppy font-semibold': selectedSlot === 'morning' && isMorningAvailable,
-                  'border-stone-200 bg-stone-50 text-text-muted': selectedSlot !== 'morning' && isMorningAvailable,
-                  'opacity-40 cursor-not-allowed bg-stone-100 border-stone-200': !isMorningAvailable
-                }" class="flex flex-col items-center justify-center rounded-xl border p-3 transition-all">
+                      'border-poppy bg-poppy/10 text-poppy font-semibold': selectedSlot === 'morning' && isMorningAvailable,
+                      'border-stone-200 bg-stone-50 text-text-muted': selectedSlot !== 'morning' && isMorningAvailable,
+                      'opacity-40 cursor-not-allowed bg-stone-100 border-stone-200': !isMorningAvailable
+                    }" class="flex flex-col items-center justify-center rounded-xl border p-3 transition-all">
                         <span class="text-sm font-bold">{{ t('PRICE_CALCULATOR.MORNING') }}</span>
                         <span class="text-xs opacity-75">{{ t('PRICE_CALCULATOR.MORNING_HOURS') }}</span>
                         @if (!isMorningAvailable) {
-                        <span
-                            class="mt-1 text-[10px] font-bold text-red-500 uppercase">{{t('PRICE_CALCULATOR.BUSY')}}</span>
+                        <span class="mt-1 text-[10px] font-bold text-red-500 uppercase">{{ t('PRICE_CALCULATOR.BUSY')
+                            }}</span>
                         }
                     </button>
 
                     <!-- Après-midi -->
                     <button type="button" (click)="selectSlot('afternoon')" [disabled]="!isAfternoonAvailable"
                         [ngClass]="{
-                  'border-poppy bg-poppy/10 text-poppy font-semibold': selectedSlot === 'afternoon' && isAfternoonAvailable,
-                  'border-stone-200 bg-stone-50 text-text-muted': selectedSlot !== 'afternoon' && isAfternoonAvailable,
-                  'opacity-40 cursor-not-allowed bg-stone-100 border-stone-200': !isAfternoonAvailable
-                }" class="flex flex-col items-center justify-center rounded-xl border p-3 transition-all">
+                      'border-poppy bg-poppy/10 text-poppy font-semibold': selectedSlot === 'afternoon' && isAfternoonAvailable,
+                      'border-stone-200 bg-stone-50 text-text-muted': selectedSlot !== 'afternoon' && isAfternoonAvailable,
+                      'opacity-40 cursor-not-allowed bg-stone-100 border-stone-200': !isAfternoonAvailable
+                    }" class="flex flex-col items-center justify-center rounded-xl border p-3 transition-all">
                         <span class="text-sm font-bold">{{ t('PRICE_CALCULATOR.AFERNOON') }}</span>
                         <span class="text-xs opacity-75">{{ t('PRICE_CALCULATOR.AFTERNOON_HOURS') }}</span>
                         @if (!isAfternoonAvailable) {
+                        <span class="mt-1 text-[10px] font-bold text-red-500 uppercase">{{ t('PRICE_CALCULATOR.BUSY')
+                            }}</span>
+                        }
+                    </button>
+
+                    <!-- Soir -->
+                    <button type="button" (click)="selectSlot('evening')" [disabled]="!isEveningAvailable" [ngClass]="{
+                      'border-poppy bg-poppy/10 text-poppy font-semibold': selectedSlot === 'evening' && isEveningAvailable,
+                      'border-stone-200 bg-stone-50 text-text-muted': selectedSlot !== 'evening' && isEveningAvailable,
+                      'opacity-40 cursor-not-allowed bg-stone-100 border-stone-200': !isEveningAvailable
+                    }" class="flex flex-col items-center justify-center rounded-xl border p-3 transition-all">
+                        <span class="text-sm font-bold">{{ t('PRICE_CALCULATOR.EVENING') }}</span>
+                        <span class="text-xs opacity-75">{{ t('PRICE_CALCULATOR.EVENING_HOURS') }}</span>
+                        @if (!isEveningAvailable) {
                         <span class="mt-1 text-[10px] font-bold text-red-500 uppercase">{{ t('PRICE_CALCULATOR.BUSY')
                             }}</span>
                         }

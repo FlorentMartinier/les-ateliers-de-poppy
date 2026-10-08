@@ -33,7 +33,7 @@ export const handler: Handler = async (event) => {
 
         const calendar = google.calendar({ version: 'v3', auth });
 
-        // Recherche sur toute la journée
+        // Recherche sur la plage de la journée complète en UTC
         const timeMin = new Date(`${dateStr}T00:00:00Z`).toISOString();
         const timeMax = new Date(`${dateStr}T23:59:59Z`).toISOString();
 
@@ -48,14 +48,35 @@ export const handler: Handler = async (event) => {
         const busySlots = response.data.calendars?.[calendarId]?.busy || [];
         console.log('Créneaux occupés:', busySlots);
 
-        // Créneaux horaires (fuseau Europe/Paris +02:00 / +01:00 selon la saison)
-        const morningStart = new Date(`${dateStr}T08:00:00+02:00`).getTime();
-        const morningEnd = new Date(`${dateStr}T13:00:00+02:00`).getTime();
-        const afternoonStart = new Date(`${dateStr}T14:00:00+02:00`).getTime();
-        const afternoonEnd = new Date(`${dateStr}T18:00:00+02:00`).getTime();
+
+        // Helper pour générer un timestamp exact au fuseau Europe/Paris (gère heure d'été/hiver automatiquement)
+        const getParisTimestamp = (date: string, time: string): number => {
+            // Détermine l'offset dynamique de Paris pour la date ciblée
+            const sample = new Date(`${date}T12:00:00Z`);
+            const tzString = new Intl.DateTimeFormat('en-US', {
+                timeZone: 'Europe/Paris',
+                timeZoneName: 'shortOffset',
+            }).format(sample);
+
+            const match = tzString.match(/GMT([+-]\d+)/);
+            const offset = match ? (parseInt(match[1], 10) >= 0 ? `+${String(match[1]).padStart(2, '0')}:00` : `${match[1]}:00`) : '+01:00';
+
+            return new Date(`${date}T${time}${offset}`).getTime();
+        };
+
+        // Bornes des trois créneaux horaires
+        const morningStart = getParisTimestamp(dateStr, '08:00:00');
+        const morningEnd = getParisTimestamp(dateStr, '12:00:00');
+
+        const afternoonStart = getParisTimestamp(dateStr, '14:00:00');
+        const afternoonEnd = getParisTimestamp(dateStr, '17:00:00');
+
+        const eveningStart = getParisTimestamp(dateStr, '18:00:00');
+        const eveningEnd = getParisTimestamp(dateStr, '21:00:00');
 
         let isMorningFree = true;
         let isAfternoonFree = true;
+        let isEveningFree = true;
 
         for (const slot of busySlots) {
             if (!slot.start || !slot.end) continue;
@@ -63,11 +84,17 @@ export const handler: Handler = async (event) => {
             const start = new Date(slot.start).getTime();
             const end = new Date(slot.end).getTime();
 
+            // Chevauchement Matin (8h - 12h)
             if (start < morningEnd && end > morningStart) {
                 isMorningFree = false;
             }
+            // Chevauchement Après-midi (14h - 17h)
             if (start < afternoonEnd && end > afternoonStart) {
                 isAfternoonFree = false;
+            }
+            // Chevauchement Soir (18h - 21h)
+            if (start < eveningEnd && end > eveningStart) {
+                isEveningFree = false;
             }
         }
 
@@ -77,6 +104,7 @@ export const handler: Handler = async (event) => {
             body: JSON.stringify({
                 morningAvailable: isMorningFree,
                 afternoonAvailable: isAfternoonFree,
+                eveningAvailable: isEveningFree,
             }),
         };
     } catch (error) {

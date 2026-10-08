@@ -27,14 +27,17 @@
         "CHILD": "Child",
         "ADULT": "Adult",
         "MORNING_AVAILABILITY": "Morning (8:00 AM - 12:00 PM)",
-        "AFTERNOON_AVAILABILITY": "Afternoon (2:00 PM - 6:00 PM)",
+        "AFTERNOON_AVAILABILITY": "Afternoon (2:00 PM - 5:00 PM)",
+        "EVENING_AVAILABILITY": "Evening (6:00 PM - 9:00 PM)",
         "NO_SLOT_AVAILABLE": "No slots available on this date",
         "MORNING": "🌅 Morning",
         "AFERNOON": "☀️ Afternoon",
+        "EVENING": "🌙 Evening",
         "BUSY": "Unavailable",
         "AVAILABILITY_CHEKING": "Checking availability...",
         "WANTED_SLOT": "Preferred time slot",
         "MORNING_HOURS": "8:00 AM - 12:00 PM",
-        "AFTERNOON_HOURS": "2:00 PM - 6:00 PM"
+        "AFTERNOON_HOURS": "2:00 PM - 5:00 PM",
+        "EVENING_HOURS": "6:00 PM - 9:00 PM"
     }
 }

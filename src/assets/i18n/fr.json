@@ -26,15 +26,18 @@
         "ADULT_WORKSHOP": "Ateliers Adultes",
         "CHILD": "Enfant",
         "ADULT": "Adulte",
-        "MORNING_AVAILABILITY": "Matin (08h-12h)",
-        "AFTERNOON_AVAILABILITY": "Après-midi (14h-18h)",
+        "MORNING_AVAILABILITY": "Matin (8h - 12h)",
+        "AFTERNOON_AVAILABILITY": "Après-midi (14h - 17h)",
+        "EVENING_AVAILABILITY": "Soir (18h00 — 21h00)",
         "NO_SLOT_AVAILABLE": "Aucun créneau disponible ce jour",
         "MORNING": "🌅 Matin",
         "AFERNOON": "☀️ Après-midi",
+        "EVENING": "🌙 Soir",
         "BUSY": "Occupé",
         "AVAILABILITY_CHEKING": "Vérification des disponibilités...",
         "WANTED_SLOT": "Créneau souhaité",
         "MORNING_HOURS": "8h00 — 12h00",
-        "AFTERNOON_HOURS": "14h00 — 18h00"
+        "AFTERNOON_HOURS": "14h00 — 17h00",
+        "EVENING_HOURS": "18h00 — 21h00"
     }
 }
