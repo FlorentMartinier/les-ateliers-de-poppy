@@ -48,31 +48,15 @@ export const handler: Handler = async (event) => {
         const busySlots = response.data.calendars?.[calendarId]?.busy || [];
         console.log('Créneaux occupés:', busySlots);
 
-
-        // Helper pour générer un timestamp exact au fuseau Europe/Paris (gère heure d'été/hiver automatiquement)
-        const getParisTimestamp = (date: string, time: string): number => {
-            // Détermine l'offset dynamique de Paris pour la date ciblée
-            const sample = new Date(`${date}T12:00:00Z`);
-            const tzString = new Intl.DateTimeFormat('en-US', {
-                timeZone: 'Europe/Paris',
-                timeZoneName: 'shortOffset',
-            }).format(sample);
-
-            const match = tzString.match(/GMT([+-]\d+)/);
-            const offset = match ? (parseInt(match[1], 10) >= 0 ? `+${String(match[1]).padStart(2, '0')}:00` : `${match[1]}:00`) : '+01:00';
-
-            return new Date(`${date}T${time}${offset}`).getTime();
-        };
-
         // Bornes des trois créneaux horaires
-        const morningStart = getParisTimestamp(dateStr, '08:00:00');
-        const morningEnd = getParisTimestamp(dateStr, '12:00:00');
+        const morningStart = new Date(`${dateStr}T08:00:00+02:00`).getTime();
+        const morningEnd = new Date(`${dateStr}T12:00:00+02:00`).getTime();
 
-        const afternoonStart = getParisTimestamp(dateStr, '14:00:00');
-        const afternoonEnd = getParisTimestamp(dateStr, '17:00:00');
+        const afternoonStart = new Date(`${dateStr}T14:00:00+02:00`).getTime();
+        const afternoonEnd = new Date(`${dateStr}T17:00:00+02:00`).getTime();
 
-        const eveningStart = getParisTimestamp(dateStr, '18:00:00');
-        const eveningEnd = getParisTimestamp(dateStr, '21:00:00');
+        const eveningStart = new Date(`${dateStr}T18:00:00+02:00`).getTime();
+        const eveningEnd = new Date(`${dateStr}T21:00:00+02:00`).getTime();
 
         let isMorningFree = true;
         let isAfternoonFree = true;
