@@ -54,7 +54,7 @@
                 {
                     "title": "How to book your workshop?",
                     "description": [
-                        "Each session lasts approximately 2 hours (indoors, or in the garden during summer) with a table and a chair for each participant.",
+                        "Each session lasts between 1.5 and 2 hours (indoors, or in the garden during summer) with a table and a chair for each participant.",
                         "<tr><strong>Participants:</strong> Minimum of 5 for children, 4 for adults (maximum 10 people). From 5 years old and up.</tr>",
                         "<tr><strong>Availability:</strong> From Monday to Sunday, all year round.</tr>",
                         "<tr><strong>Travel Fees:</strong> Flat rate of €15 from Monday to Saturday / €20 on Sundays and public holidays (beyond 30km, upon request).</tr>",
@@ -138,7 +138,7 @@
         {
             "menu_title": [
                 "Children Entertainment",
-                "Nature & Wooden Crafts"
+                "Decoration"
             ],
             "path": "les-ateliers-enfants-chez-vous/nature-et-decors-en-bois",
             "banner_image": "assets/banners/coeur_bois.jpg",
@@ -163,6 +163,34 @@
                         "I provide all necessary supplies: the wooden base, paints, modeling pastes, molds, and decorative details (rhinestones, flowers)."
                     ],
                     "price": 25
+                },
+                {
+                    "title": "Foam Clay Modeling",
+                    "category": "CHILD",
+                    "carrousel": [
+                        "assets/images/pate_mousse/pate_mousse_1.jpeg",
+                        "assets/images/pate_mousse/pate_mousse_2.jpeg",
+                        "assets/images/pate_mousse/pate_mousse_3.jpeg",
+                        "assets/images/pate_mousse/pate_mousse_4.jpeg"
+                    ],
+                    "description": [
+                        "Age: Ages 3 and up",
+                        "Activity type: Hands-on, sensory, and creative activity",
+                        "Duration: 40 mins to 1 hour, depending on the children's age and interest.",
+                        "Activity description:",
+                        "Foam clay is a light, soft, and pleasant material to handle, allowing children to discover new sensations while unleashing their imagination.",
+                        "Children can knead, stretch, roll, flatten, and shape the clay to create various forms: animals, flowers, characters, fruits, or imaginary objects. They can also use small, suitable tools to cut, model, and decorate their creations.",
+                        "This activity offers a moment of sensory discovery and creativity, letting each child express their ideas at their own pace. Children can also share and discuss their creations with one another.",
+                        "🎯 Educational goals:",
+                        "<tr>Develop fine motor skills and hand-eye coordination.</tr>",
+                        "<tr>Stimulate imagination and creativity.</tr>",
+                        "<tr>Explore tactile textures and sensations.</tr>",
+                        "<tr>Foster concentration and patience.</tr>",
+                        "<tr>Learn to handle different tools safely.</tr>",
+                        "<tr>Encourage independence and self-expression.</tr>"
+                    ],
+                    "price": 25,
+                    "minimum_person_number": 5
                 },
                 {
                     "title": "Seasonal Botanical Frame",
@@ -462,6 +490,29 @@
                     ],
                     "price": 25,
                     "minimum_person_number": 5
+                },
+                {
+                    "title": "Embossed Metal Artwork",
+                    "category": "ADULT",
+                    "carrousel": [
+                        "assets/images/tableau_metal/tableau_metal_1.jpeg",
+                        "assets/images/tableau_metal/tableau_metal_2.jpeg"
+                    ],
+                    "description": [
+                        "The art of detail, between baroque elegance and romanticism",
+                        "Immerse yourself in the refined world of embossed metal crafting and unleash your creativity during a 2-hour workshop!",
+                        "Using specialized tools, you will learn how to engrave and emboss a thin metal sheet to bring delicate raised patterns to life. Inspired by baroque and romantic aesthetics, this technique lets you create magnificent ornaments with exquisite details for a charming and characterful decoration.",
+                        "Delicate flowers, elegant arabesques, decorative motifs… Imagine and craft your own design, then highlight it in a lovely 13 × 18 cm frame, included in the price.",
+                        "Whether you are a craft enthusiast or simply curious to discover a new technique, this workshop invites you to slow down, explore your creativity, and leave with a unique decorative piece made entirely by you.",
+                        "A creative and inspiring experience, ideal for stepping away from the daily routine and crafting an object tailored to your style!",
+                        "✨ Practical information:",
+                        "<tr>Duration: 2 hours</tr>",
+                        "<tr>Age: Adult workshop, accessible from age 10 and up</tr>",
+                        "<tr>Materials: Provided</tr>",
+                        "<tr>Included in the price: One metal sheet for embossing and a 13 × 18 cm frame to showcase your artwork.</tr>"
+                    ],
+                    "price": 35,
+                    "minimum_person_number": 4
                 }
             ]
         },

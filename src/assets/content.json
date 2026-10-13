@@ -54,7 +54,7 @@
                 {
                     "title": "Infos pratiques",
                     "description": [
-                        "Chaque séance dure environ 2 heures (en intérieur ou au jardin en été) avec une table et une chaise pour chaque participant.",
+                        "Chaque séance dure entre 1h30 et 2h (en intérieur ou au jardin en été) avec une table et une chaise pour chaque participant.",
                         "<tr><strong>Participants :</strong> Minimum 5 pour les enfants, 4 pour les adultes (maximum 10 personnes). Dès 5 ans.</tr>",
                         "<tr><strong>Disponibilités :</strong> Du lundi au dimanche, toute l'année.</tr>",
                         "<tr><strong>Frais de déplacement :</strong> Forfait de 15€ du lundi au samedi / 20€ le dimanche et jours fériés (au-delà de 30km, sur devis).</tr>",
@@ -139,7 +139,7 @@
         {
             "menu_title": [
                 "Animations enfants",
-                "Nature & Décors en Bois"
+                "Décorations"
             ],
             "path": "les-ateliers-enfants-chez-vous/nature-et-decors-en-bois",
             "banner_image": "assets/banners/coeur_bois.jpg",
@@ -162,6 +162,34 @@
                         "Les enfants apprendront à peindre des dégradés à l'éponge, à utiliser de la pâte de moulage (molding paste) et à réaliser des moulages en pâte autodurcissante.",
                         "Chaque enfant choisit ses couleurs et ses ornements pour une pièce unique.",
                         "Je fournis tout le matériel nécessaire : support, peintures, pâtes, moules et éléments décoratifs (strass, fleurs)."
+                    ],
+                    "price": 25,
+                    "minimum_person_number": 5
+                },
+                {
+                    "title": "La pâte mousse à modeler",
+                    "category": "CHILD",
+                    "carrousel": [
+                        "assets/images/pate_mousse/pate_mousse_1.jpeg",
+                        "assets/images/pate_mousse/pate_mousse_2.jpeg",
+                        "assets/images/pate_mousse/pate_mousse_3.jpeg",
+                        "assets/images/pate_mousse/pate_mousse_4.jpeg"
+                    ],
+                    "description": [
+                        "Âge : À partir de 3 ans",
+                        "Type d’activité : Activité manuelle, sensorielle et créative",
+                        "Durée : 40mn à 1h d'activité, selon l’âge et l’intérêt des enfants.",
+                        "Description de l’activité :",
+                        "La pâte mousse est une matière légère, douce et agréable à manipuler, qui permet aux enfants de découvrir de nouvelles sensations tout en laissant libre cours à leur imagination.",
+                        "L’enfant peut malaxer, étirer, rouler, aplatir et façonner la pâte pour créer différentes formes : des animaux, des fleurs, des personnages, des fruits ou encore des objets imaginaires. Il peut également utiliser des petits outils adaptés pour découper, modeler et décorer ses créations.",
+                        "Cette activité offre un moment de découverte sensorielle et de créativité, tout en permettant à chaque enfant d’exprimer ses idées à son rythme. Les enfants peuvent aussi partager leurs réalisations et échanger autour de leurs créations.",
+                        "🎯 Objectifs pédagogiques :",
+                        "<tr>Développer la motricité fine et la coordination œil-main.</tr>",
+                        "<tr>Stimuler l'imagination et la créativité.</tr>",
+                        "<tr>Explorer les textures et les sensations tactiles.</tr>",
+                        "<tr>Favoriser la concentration et la patience.</tr>",
+                        "<tr>Apprendre à manipuler différents outils en toute sécurité.</tr>",
+                        "<tr>Encourager l’autonomie et l’expression personnelle.</tr>"
                     ],
                     "price": 25,
                     "minimum_person_number": 5
@@ -469,6 +497,29 @@
                         "Le prix de l'atelier inclut la coquille, le matériel de décoration ainsi qu'un élégant trépied en laiton pour la mise en valeur du vide-poche."
                     ],
                     "price": 30,
+                    "minimum_person_number": 4
+                },
+                {
+                    "title": "Tableau métal repoussé",
+                    "category": "ADULT",
+                    "carrousel": [
+                        "assets/images/tableau_metal/tableau_metal_1.jpeg",
+                        "assets/images/tableau_metal/tableau_metal_2.jpeg"
+                    ],
+                    "description": [
+                        "L'art du détail, entre élégance baroque et romantisme",
+                        "Plongez dans l'univers raffiné du métal repoussé et laissez libre cours à votre créativité le temps d'un atelier créatif de 2 heures !",
+                        "À l'aide d'outils adaptés, vous apprendrez à graver et à repousser une fine feuille de métal pour donner vie à de délicats motifs en relief. Inspirée de l'univers baroque et romantique, cette technique permet de créer de magnifiques ornements aux détails précieux, pour une décoration pleine de charme et de caractère.",
+                        "Fleurs délicates, arabesques élégantes, motifs ornementaux… Imaginez et réalisez votre propre création, puis mettez là en valeur dans un joli cadre de 13 × 18 cm, inclus dans le prix.",
+                        "Que vous soyez amateur de loisirs créatifs ou simplement curieux de découvrir une nouvelle technique, cet atelier est une invitation à prendre le temps, à explorer votre créativité et à repartir avec une pièce décorative unique, entièrement réalisée par vos soins.",
+                        "Un moment créatif et inspirant, idéal pour s'offrir une parenthèse hors du quotidien et créer un objet à son image !",
+                        "✨ Informations pratiques :",
+                        "<tr>Durée : 2 heures</tr>",
+                        "<tr>Âge : atelier proposé aux adultes, accessible dès 10 ans</tr>",
+                        "<tr>Matériel : fourni</tr>",
+                        "<tr>Inclus dans le tarif : une feuille de métal à graver et un cadre de 13 × 18 cm pour mettre en valeur votre création.</tr>"
+                    ],
+                    "price": 35,
                     "minimum_person_number": 4
                 }
             ]
