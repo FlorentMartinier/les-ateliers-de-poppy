@@ -85,11 +85,6 @@ export class InformationComponent implements OnInit, OnChanges {
     return text.trim().startsWith('<tr>');
   }
 
-  isLineBreak(text: string): boolean {
-    if (!text) return false;
-    return text.trim().startsWith('<hr/>');
-  }
-
   cleanListItem(text: string): string {
     if (!text) return '';
     return text.replace(/<tr>/g, '').replace(/<\/tr>/g, '').trim();
